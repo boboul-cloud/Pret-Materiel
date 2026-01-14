@@ -1,0 +1,277 @@
+{
+  "identifier" : "com.materiel.storekit",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : true,
+      "internalID" : "premium_unlock_001",
+      "localizations" : [
+        {
+          "description" : "Débloquez toutes les fonctionnalités Premium à vie",
+          "displayName" : "Premium à vie",
+          "locale" : "fr"
+        },
+        {
+          "description" : "Unlock all Premium features forever",
+          "displayName" : "Lifetime Premium",
+          "locale" : "en"
+        },
+        {
+          "description" : "Desbloquea todas las funciones Premium de por vida",
+          "displayName" : "Premium de por vida",
+          "locale" : "es"
+        },
+        {
+          "description" : "Schalten Sie alle Premium-Funktionen für immer frei",
+          "displayName" : "Lebenslanges Premium",
+          "locale" : "de"
+        }
+      ],
+      "productID" : "com.materiel.premium.unlock",
+      "referenceName" : "Premium Unlock",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "tip_small_001",
+      "localizations" : [
+        {
+          "description" : "Un café pour le développeur",
+          "displayName" : "Petit pourboire",
+          "locale" : "fr"
+        },
+        {
+          "description" : "A coffee for the developer",
+          "displayName" : "Small Tip",
+          "locale" : "en"
+        }
+      ],
+      "productID" : "com.materiel.tip.small",
+      "referenceName" : "Small Tip",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "tip_medium_001",
+      "localizations" : [
+        {
+          "description" : "Une pizza pour le développeur",
+          "displayName" : "Pourboire moyen",
+          "locale" : "fr"
+        },
+        {
+          "description" : "A pizza for the developer",
+          "displayName" : "Medium Tip",
+          "locale" : "en"
+        }
+      ],
+      "productID" : "com.materiel.tip.medium",
+      "referenceName" : "Medium Tip",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "tip_large_001",
+      "localizations" : [
+        {
+          "description" : "Un cadeau généreux pour le développeur",
+          "displayName" : "Grand pourboire",
+          "locale" : "fr"
+        },
+        {
+          "description" : "A generous gift for the developer",
+          "displayName" : "Large Tip",
+          "locale" : "en"
+        }
+      ],
+      "productID" : "com.materiel.tip.large",
+      "referenceName" : "Large Tip",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "materiel_app_001",
+    "_developerTeamID" : "XXXXXXXXXX",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 755078400,
+    "_locale" : "fr",
+    "_storefront" : "FRA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "materiel_premium_group",
+      "localizations" : [
+        {
+          "description" : "Accès à toutes les fonctionnalités Premium",
+          "displayName" : "Matériel Premium",
+          "locale" : "fr"
+        },
+        {
+          "description" : "Access to all Premium features",
+          "displayName" : "Equipment Premium",
+          "locale" : "en"
+        },
+        {
+          "description" : "Acceso a todas las funciones Premium",
+          "displayName" : "Equipo Premium",
+          "locale" : "es"
+        },
+        {
+          "description" : "Zugang zu allen Premium-Funktionen",
+          "displayName" : "Ausrüstung Premium",
+          "locale" : "de"
+        }
+      ],
+      "name" : "Matériel Premium",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "sub_monthly_001",
+          "introductoryOffer" : {
+            "internalID" : "intro_monthly_001",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "Accès mensuel à toutes les fonctionnalités",
+              "displayName" : "Abonnement mensuel",
+              "locale" : "fr"
+            },
+            {
+              "description" : "Monthly access to all features",
+              "displayName" : "Monthly Subscription",
+              "locale" : "en"
+            },
+            {
+              "description" : "Acceso mensual a todas las funciones",
+              "displayName" : "Suscripción mensual",
+              "locale" : "es"
+            },
+            {
+              "description" : "Monatlicher Zugang zu allen Funktionen",
+              "displayName" : "Monatsabonnement",
+              "locale" : "de"
+            }
+          ],
+          "productID" : "com.materiel.subscription.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly Subscription",
+          "subscriptionGroupID" : "materiel_premium_group",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "7.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "sub_yearly_001",
+          "introductoryOffer" : {
+            "internalID" : "intro_yearly_001",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1M"
+          },
+          "localizations" : [
+            {
+              "description" : "Accès annuel à toutes les fonctionnalités (économisez 33%)",
+              "displayName" : "Abonnement annuel",
+              "locale" : "fr"
+            },
+            {
+              "description" : "Yearly access to all features (save 33%)",
+              "displayName" : "Yearly Subscription",
+              "locale" : "en"
+            },
+            {
+              "description" : "Acceso anual a todas las funciones (ahorre 33%)",
+              "displayName" : "Suscripción anual",
+              "locale" : "es"
+            },
+            {
+              "description" : "Jährlicher Zugang zu allen Funktionen (33% sparen)",
+              "displayName" : "Jahresabonnement",
+              "locale" : "de"
+            }
+          ],
+          "productID" : "com.materiel.subscription.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Yearly Subscription",
+          "subscriptionGroupID" : "materiel_premium_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

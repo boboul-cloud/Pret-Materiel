@@ -1,0 +1,4 @@
+/* Permissions - Español */
+"NSCameraUsageDescription" = "La aplicación necesita acceso a la cámara para tomar fotos del material prestado.";
+"NSPhotoLibraryUsageDescription" = "La aplicación necesita acceso a sus fotos para seleccionar una imagen del material.";
+"NSContactsUsageDescription" = "La aplicación necesita acceso a sus contactos para importar personas fácilmente.";

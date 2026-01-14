@@ -1,0 +1,1243 @@
+/* Français (référence) */
+
+/* Navigation et onglets */
+"Matériel" = "Matériel";
+"Prêts" = "Prêts";
+"Emprunts" = "Emprunts";
+"Locations" = "Locations";
+"Personnes" = "Personnes";
+"Lieux" = "Lieux";
+"Lieux de stockage" = "Lieux de stockage";
+"Réglages" = "Réglages";
+"Autre" = "Autre";
+"Accueil" = "Accueil";
+
+/* Paramètres */
+"Langue" = "Langue";
+"Choisir la langue" = "Choisir la langue";
+"À propos" = "À propos";
+"Version" = "Version";
+"Langue, sauvegarde..." = "Langue, sauvegarde...";
+"Sauvegarde locale" = "Sauvegarde locale";
+"Sauvegarder maintenant" = "Sauvegarder maintenant";
+"Données sauvegardées" = "Données sauvegardées";
+"Exporter les données" = "Exporter les données";
+"Choisissez les données à exporter" = "Choisissez les données à exporter";
+"Partager l'export PDF" = "Partager l'export PDF";
+"Email, Fichiers, AirDrop..." = "Email, Fichiers, AirDrop...";
+"Exclure les retournés" = "Exclure les retournés";
+"Statistiques" = "Statistiques";
+
+/* Types d'export */
+"Tout" = "Tout";
+"Matériels" = "Matériels";
+
+/* Compression des images */
+"Image compression" = "Compression des images";
+"Optimise la taille des exports" = "Optimise la taille des exports";
+"Original" = "Original";
+"Haute" = "Haute";
+"Moyenne" = "Moyenne";
+"Basse" = "Basse";
+"Originale (iPhone)" = "Originale (iPhone)";
+"Haute (2000px)" = "Haute (2000px)";
+"Moyenne (1200px)" = "Moyenne (1200px)";
+"Basse (800px)" = "Basse (800px)";
+"Qualité maximale, fichiers volumineux" = "Qualité maximale, fichiers volumineux";
+"Excellente qualité, taille réduite" = "Excellente qualité, taille réduite";
+"Bonne qualité, fichiers légers" = "Bonne qualité, fichiers légers";
+"Qualité acceptable, très léger" = "Qualité acceptable, très léger";
+
+/* Boutons d'ajout */
+"Ajouter une personne" = "Ajouter une personne";
+"Ajouter un prêt" = "Ajouter un prêt";
+"Ajouter un emprunt" = "Ajouter un emprunt";
+"Ajouter un matériel" = "Ajouter un matériel";
+"Ajouter un lieu" = "Ajouter un lieu";
+"Créer un nouveau lieu" = "Créer un nouveau lieu";
+
+/* Recherche */
+"Rechercher une personne" = "Rechercher une personne";
+"Rechercher un prêt" = "Rechercher un prêt";
+"Rechercher un emprunt" = "Rechercher un emprunt";
+"Rechercher du matériel" = "Rechercher du matériel";
+"Rechercher un lieu" = "Rechercher un lieu";
+
+/* Filtres - Catégories et Lieux */
+"Catégorie" = "Catégorie";
+"Toutes catégories" = "Toutes catégories";
+"Lieu" = "Lieu";
+"Tous les lieux" = "Tous les lieux";
+
+/* Filtres - Statuts (bandeau segmenté) */
+"Statut" = "Statut";
+"Tous" = "Tous";
+"En cours" = "En cours";
+"En retard" = "En retard";
+"Retournés" = "Retournés";
+"Bientôt" = "Bientôt";
+"Filtre" = "Filtre";
+
+/* Actions sur prêts/emprunts */
+"Valider le retour" = "Valider le retour";
+"Confirmer le retour" = "Confirmer le retour";
+"Voulez-vous valider le retour de ce matériel ?" = "Voulez-vous valider le retour de ce matériel ?";
+"Voulez-vous valider le retour de cet objet emprunté ?" = "Voulez-vous valider le retour de cet objet emprunté ?";
+"Effacer ce prêt" = "Effacer ce prêt";
+"Effacer cet emprunt" = "Effacer cet emprunt";
+"Annuler" = "Annuler";
+
+/* Informations de dates */
+"Début:" = "Début:";
+"Fin:" = "Fin:";
+"Retourné le" = "Retourné le";
+"%d jour(s) de retard" = "%d jour(s) de retard";
+
+/* Formulaires - Titres */
+"Nouveau prêt" = "Nouveau prêt";
+"Nouvel emprunt" = "Nouvel emprunt";
+"Nouveau matériel" = "Nouveau matériel";
+"Nouveau lieu" = "Nouveau lieu";
+"Nouvelle personne" = "Nouvelle personne";
+"Modifier le lieu" = "Modifier le lieu";
+"Modifier" = "Modifier";
+"Enregistrer" = "Enregistrer";
+"Détails" = "Détails";
+
+/* Formulaires - Sections */
+"Objet" = "Objet";
+"Nom de l'objet" = "Nom de l'objet";
+"Prêteur" = "Prêteur";
+"Emprunteur" = "Emprunteur";
+"Sélectionner la personne" = "Sélectionner la personne";
+"Sélectionner le matériel" = "Sélectionner le matériel";
+"Choisir..." = "Choisir...";
+"Aucune personne enregistrée" = "Aucune personne enregistrée";
+"Aucun matériel disponible" = "Aucun matériel disponible";
+"Dates" = "Dates";
+"Date de début" = "Date de début";
+"Date de fin prévue" = "Date de fin prévue";
+"Notes" = "Notes";
+"Créer" = "Créer";
+"Ajouter" = "Ajouter";
+
+/* Formulaires - Photo */
+"Photo" = "Photo";
+"Ajouter une photo" = "Ajouter une photo";
+"Changer la photo" = "Changer la photo";
+"Choisir une photo" = "Choisir une photo";
+"Retirer la photo" = "Retirer la photo";
+"Aucune photo" = "Aucune photo";
+
+/* Formulaires - Lieu */
+"Identification" = "Identification";
+"Nom du lieu" = "Nom du lieu";
+"Adresse" = "Adresse";
+"Localisation" = "Localisation";
+"Décrivez librement la localisation (ex: Bâtiment A, Étage 2, Salle 203)" = "Décrivez librement la localisation (ex: Bâtiment A, Étage 2, Salle 203)";
+"Bâtiment" = "Bâtiment";
+"Étage" = "Étage";
+"Salle" = "Salle";
+
+/* Formulaires - Emplacement matériel */
+"Emplacement précis" = "Emplacement précis";
+"Emplacement" = "Emplacement";
+"Ex: Placard cuisine, Étagère du haut, Tiroir 3..." = "Ex: Placard cuisine, Étagère du haut, Tiroir 3...";
+"Ex: Garage, Cave, Grenier, Bureau..." = "Ex: Garage, Cave, Grenier, Bureau...";
+
+/* Formulaires - Personne */
+"Identité" = "Identité";
+"Prénom" = "Prénom";
+"Nom" = "Nom";
+"Contact" = "Contact";
+"Email" = "Email";
+"Téléphone" = "Téléphone";
+"Organisation" = "Organisation";
+"Nom complet" = "Nom complet";
+
+/* Formulaires - Matériel */
+"Informations générales" = "Informations générales";
+"Description" = "Description";
+"Valeur (€)" = "Valeur (€)";
+"Date d'acquisition" = "Date d'acquisition";
+"Lieu de stockage" = "Lieu de stockage";
+"Aucun" = "Aucun";
+"Aucune" = "Aucune";
+"+ Nouvelle catégorie" = "+ Nouvelle catégorie";
+"Nom de la nouvelle catégorie" = "Nom de la nouvelle catégorie";
+
+/* Statuts matériel */
+"Disponible" = "Disponible";
+"Prêté" = "Prêté";
+"Loué" = "Loué";
+"Tous les matériels" = "Tous les matériels";
+
+/* Détails lieu */
+"Informations" = "Informations";
+"Matériel stocké" = "Matériel stocké";
+"Aucun matériel stocké ici" = "Aucun matériel stocké ici";
+"%d matériel(s)" = "%d matériel(s)";
+
+/* Détails personne */
+"Pas d'email" = "Pas d'email";
+"Pas de téléphone" = "Pas de téléphone";
+"Prêts actifs:" = "Prêts actifs:";
+"Emprunts actifs:" = "Emprunts actifs:";
+"Copier l'adresse" = "Copier l'adresse";
+"Copier le téléphone" = "Copier le téléphone";
+"Impossible d'ouvrir Mail" = "Impossible d'ouvrir Mail";
+"Aucun compte Mail configuré." = "Aucun compte Mail configuré.";
+
+/* Contacts compteurs */
+"contact(s)" = "contact(s)";
+"lieu(x)" = "lieu(x)";
+"jour(s) de retard" = "jour(s) de retard";
+"matériel(s)" = "matériel(s)";
+
+/* Page d'accueil */
+"Gestion de prêts simplifiée" = "Gestion de prêts simplifiée";
+"Créer un prêt rapide" = "Créer un prêt rapide";
+"Créer un prêt" = "Créer un prêt";
+"Je prête quelque chose" = "Je prête quelque chose";
+"Créer un emprunt rapide" = "Créer un emprunt rapide";
+"On me prête quelque chose" = "On me prête quelque chose";
+
+/* Statistiques */
+"Prêts actifs" = "Prêts actifs";
+"Emprunts actifs" = "Emprunts actifs";
+"Locations actives" = "Locations actives";
+"Locations actives:" = "Locations actives:";
+"Réparations en cours:" = "Réparations en cours:";
+"Locations Matériels en cours:" = "Locations Matériels en cours:";
+"Total prêts" = "Total prêts";
+"Total locations" = "Total locations";
+
+/* Locations - Emails */
+"Aucune location en cours." = "Aucune location en cours.";
+"Voici le récapitulatif des locations en cours:" = "Voici le récapitulatif des locations en cours:";
+"Rappel location" = "Rappel location";
+"Rappel prêts et locations" = "Rappel prêts et locations";
+"Aucun matériel emprunté ou loué en cours." = "Aucun matériel emprunté ou loué en cours.";
+"Paiement en attente" = "Paiement en attente";
+"Caution:" = "Caution:";
+"Locations en cours" = "Locations en cours";
+"Aucune location en cours" = "Aucune location en cours";
+"Payé" = "Payé";
+"Envoyer un rappel" = "Envoyer un rappel";
+
+/* Historique des prêts */
+"Historique des prêts" = "Historique des prêts";
+"Du" = "Du";
+"au" = "au";
+"Retourné" = "Retourné";
+"Aucun prêt enregistré" = "Aucun prêt enregistré";
+
+/* Historique des réparations */
+"Historique des réparations" = "Historique des réparations";
+"Aucune réparation enregistrée" = "Aucune réparation enregistrée";
+"Détail réparation" = "Détail réparation";
+"Fin prévue:" = "Fin prévue:";
+"Description du problème" = "Description du problème";
+"Coûts" = "Coûts";
+"Estimé" = "Estimé";
+"Final" = "Final";
+
+/* Erreurs */
+"Erreur" = "Erreur";
+"OK" = "OK";
+"Veuillez remplir tous les champs obligatoires" = "Veuillez remplir tous les champs obligatoires";
+"La date de fin doit être après la date de début" = "La date de fin doit être après la date de début";
+
+/* Toolbar */
+"Réinitialiser" = "Réinitialiser";
+
+/* Mode d'emploi */
+"Mode d'emploi" = "Mode d'emploi";
+"Guide d'utilisation" = "Guide d'utilisation";
+
+/* Catégories du guide */
+"guide_cat_start" = "Démarrage";
+"guide_cat_management" = "Gestion";
+"guide_cat_rental" = "Location & Commerce";
+"guide_cat_organization" = "Organisation";
+"guide_cat_security" = "Sécurité";
+"guide_cat_tips" = "Conseils";
+
+/* Guide - Introduction */
+"guide_intro_title" = "Bienvenue dans Matériel";
+"guide_intro_content" = "Matériel est votre assistant complet pour gérer tout ce que vous prêtez, empruntez, louez ou vendez.\n\n📦 Inventaire : Cataloguez votre matériel avec photos et factures\n🔄 Prêts/Emprunts : Suivez qui a quoi et jusqu'à quand\n💰 Locations : Louez votre matériel et gérez les paiements\n🛒 Commerce : Gérez vos achats et ventes avec TVA\n🔐 Coffre-fort : Protégez vos documents importants\n📊 Comptabilité : Suivez vos revenus et dépenses\n\nNaviguez entre les onglets en bas de l'écran pour accéder aux différentes fonctions.";
+
+/* Guide - Page d'accueil */
+"guide_home_title" = "Page d'accueil";
+"guide_home_content" = "La page d'accueil vous donne un accès rapide aux actions principales :\n\n📸 Créer un prêt rapide : Photographiez un objet que vous prêtez, ajoutez les infos et c'est parti !\n\n📸 Créer un emprunt rapide : Quelqu'un vous prête quelque chose ? Notez-le en quelques secondes.\n\n👑 Passer à Premium : En version gratuite, le nombre d'éléments est limité. Premium débloque tout en illimité.\n\nLes boutons rapides créent automatiquement le matériel et la personne si nécessaire.";
+
+/* Guide - Création rapide */
+"guide_quick_create_title" = "Création rapide avec photo";
+"guide_quick_create_content" = "La création rapide est le moyen le plus simple de commencer :\n\n1️⃣ Appuyez sur 'Créer un prêt rapide' ou 'Créer un emprunt rapide'\n2️⃣ Prenez une photo de l'objet (optionnel mais recommandé)\n3️⃣ Entrez le nom de l'objet\n4️⃣ Ajoutez le nom de la personne concernée\n5️⃣ Définissez la date de retour prévue\n6️⃣ Validez !\n\nL'application crée automatiquement :\n• La fiche matériel avec la photo\n• Le contact si nouveau\n• Le prêt ou l'emprunt avec les dates\n\nVous pouvez ensuite modifier ces éléments à tout moment.";
+
+/* Guide - Navigation */
+"guide_navigation_title" = "Naviguer dans l'application";
+"guide_navigation_content" = "L'application s'organise en 5 onglets principaux :\n\n🏠 Accueil : Actions rapides et vue d'ensemble\n\n📦 Matériel : Tout votre inventaire avec filtres par catégorie, lieu et statut\n\n↗️ Prêts : Ce que vous prêtez aux autres (filtrable par statut : En cours, En retard, Retournés)\n\n↙️ Emprunts : Ce qu'on vous prête (mêmes filtres disponibles)\n\n⚙️ Autre : Personnes, Lieux, Chantiers, Locations, Réparations, Commerce, Comptabilité, Coffre-fort et Réglages\n\nChaque liste est recherchable et triable.";
+
+/* Guide - Langue */
+"guide_language_title" = "Changer de langue";
+"guide_language_content" = "L'application est disponible en 7 langues :\n🇫🇷 Français\n🇬🇧 English\n🇩🇪 Deutsch\n🇪🇸 Español\n🇮🇹 Italiano\n🇵🇹 Português\n🇳🇱 Nederlands\n\nPour changer de langue :\n1. Allez dans Autre > Réglages\n2. Sélectionnez le drapeau de votre langue\n\nLa langue est appliquée instantanément à toute l'application.";
+
+/* Guide - Matériel */
+"guide_equipment_title" = "Gérer votre matériel";
+"guide_equipment_content" = "L'onglet Matériel est votre inventaire central :\n\n➕ Ajouter un matériel :\n• Nom et description détaillée\n• Catégorie (créez les vôtres)\n• Valeur estimée en €\n• Date d'acquisition\n• Lieu de stockage (optionnel)\n• Emplacement précis (ex: étagère du haut)\n• Photo de l'objet\n• Photo de la facture avec n° et vendeur\n\n🔍 Filtrer votre inventaire :\n• Par catégorie (Outillage, Sport, Cuisine...)\n• Par lieu de stockage\n• Par statut (Disponible, Prêté, Loué)\n• Par recherche textuelle\n\n📊 Voir le détail :\n• Historique des prêts\n• Historique des locations\n• Historique des réparations";
+
+/* Guide - Photos */
+"guide_photos_title" = "Photos et factures";
+"guide_photos_content" = "Les photos enrichissent vos fiches :\n\n📷 Photo du matériel :\n• Permet d'identifier visuellement l'objet\n• Visible dans les listes et les exports PDF\n• Peut être prise directement ou choisie dans la galerie\n\n🧾 Photo de la facture :\n• Preuve d'achat importante\n• Numéro de facture et vendeur (optionnels)\n• Utile pour l'assurance ou la garantie\n• Exportable en PDF\n\n💡 Astuce qualité :\nDans Réglages > Qualité des images, choisissez :\n• Original : Qualité max, fichiers lourds\n• Haute : Bon compromis\n• Moyenne : Recommandé (léger et suffisant)\n• Basse : Pour économiser l'espace";
+
+/* Guide - Prêts */
+"guide_loans_title" = "Créer et gérer les prêts";
+"guide_loans_content" = "Un prêt = du matériel que vous confiez à quelqu'un.\n\n➕ Créer un prêt :\n1. Sélectionnez le matériel à prêter\n2. Choisissez l'emprunteur (ou créez-le)\n3. Définissez les dates (début et fin prévue)\n4. Ajoutez des notes si besoin\n\n📋 Statuts des prêts :\n🟢 En cours : Prêt actif, pas de retard\n🟡 Bientôt : Échéance dans moins de 3 jours\n🔴 En retard : Date de fin dépassée\n✅ Retourné : Matériel rendu\n\n✔️ Valider un retour :\nAppuyez sur 'Valider le retour' sur la fiche du prêt. La date de retour effective est enregistrée.\n\n📧 Relancer un emprunteur :\nDepuis la fiche personne, envoyez un email récapitulatif des objets en cours.";
+
+/* Guide - Emprunts */
+"guide_borrows_title" = "Suivre vos emprunts";
+"guide_borrows_content" = "Un emprunt = quelque chose qu'on vous prête.\n\n➕ Créer un emprunt :\n1. Donnez un nom à l'objet emprunté\n2. Sélectionnez le prêteur (la personne qui vous prête)\n3. Définissez les dates de début et de retour prévu\n4. Prenez une photo de l'objet\n5. Ajoutez des notes (état, conditions...)\n\n🔄 Actions sur un emprunt :\n• Le prêter à quelqu'un d'autre\n• Le louer (sous-location)\n• L'envoyer en réparation\n• Le rendre au prêteur\n\n📦 Créer dans Matériels :\nCochez cette option pour ajouter l'objet emprunté à votre inventaire. Il sera automatiquement retiré quand vous le rendrez.\n\n⚠️ Blocage :\nVous ne pouvez pas rendre un emprunt s'il est actuellement prêté, loué ou en réparation.";
+
+/* Guide - Prêter un emprunt */
+"guide_lend_borrow_title" = "Prêter un objet emprunté";
+"guide_lend_borrow_content" = "Vous avez emprunté un objet et souhaitez le prêter temporairement ?\n\n📤 Comment faire :\n1. Allez sur la fiche de l'emprunt\n2. Appuyez sur 'Prêter'\n3. Sélectionnez la personne à qui vous prêtez\n4. Définissez la date de retour prévue\n\n⚠️ Règles de blocage :\n• L'emprunt ne peut plus être rendu tant que le prêt est actif\n• Vous devez d'abord récupérer l'objet du prêt\n• Puis vous pourrez rendre l'emprunt\n\n🔄 Même logique pour :\n• Louer un emprunt (sous-location)\n• Envoyer un emprunt en réparation\n\nCela permet un suivi complet de la chaîne de possession.";
+
+/* Guide - Réparations */
+"guide_repairs_title" = "Gérer les réparations";
+"guide_repairs_content" = "Envoyez votre matériel en réparation et suivez les coûts.\n\n🔧 Créer une réparation :\n1. Sélectionnez le matériel à réparer\n2. Choisissez un réparateur (type 'Réparateur' requis)\n3. Décrivez le problème\n4. Indiquez le coût estimé\n5. Définissez la date de retour prévue\n\n📊 Suivi :\n• Statut : En cours / Terminée\n• Coût estimé vs coût final\n• Indicateur de retard si dépassement\n\n✅ Terminer une réparation :\n1. Validez le retour\n2. Renseignez le coût final\n3. Marquez comme 'Payé' quand réglé\n\n💰 Comptabilité :\nLes réparations sont automatiquement comptabilisées comme dépenses.";
+
+/* Guide - Retours */
+"guide_return_title" = "Valider les retours";
+"guide_return_content" = "Quand un objet est rendu, validez le retour :\n\n✅ Pour un prêt :\nAppuyez sur 'Valider le retour'. Le matériel redevient disponible.\n\n✅ Pour un emprunt :\nAppuyez sur 'Valider le retour'. L'emprunt est marqué comme rendu.\n\n✅ Pour une location :\nAppuyez sur 'Terminer la location'. Vous devrez ensuite :\n• Marquer le paiement comme reçu\n• Gérer la caution (rendre ou garder)\n\n✅ Pour une réparation :\nAppuyez sur 'Valider le retour de réparation'. Renseignez le coût final.\n\n💡 Astuce :\nLes retours sont horodatés. Vous retrouvez l'historique complet dans chaque fiche.";
+
+/* Guide - Locations */
+"guide_rentals_title" = "Louer votre matériel";
+"guide_rentals_content" = "Les locations vous permettent de louer votre matériel contre rémunération.\n\n➕ Créer une location :\n1. Sélectionnez le matériel à louer\n2. Choisissez le locataire\n3. Définissez le type de tarif :\n   • Jour (prix × nombre de jours)\n   • Semaine (prix × nombre de semaines)\n   • Mois (prix × nombre de mois)\n   • Forfait (prix fixe)\n4. Indiquez le montant de la caution\n5. Définissez les dates\n\n📊 Tableau de bord :\n• Revenus perçus (paiements confirmés)\n• En attente (non encore payés)\n\n✅ Fin de location :\n1. Terminez la location quand l'objet est rendu\n2. Confirmez la réception du paiement\n3. Gérez la caution (rendre ou garder)";
+
+/* Guide - Cautions */
+"guide_caution_title" = "Gérer les cautions";
+"guide_caution_content" = "La caution est une garantie récupérée en fin de location.\n\n💵 Types d'actions :\n\n🔙 Rendre la caution :\nSi tout est en ordre, rendez la caution au locataire. Elle ne compte pas comme revenu.\n\n⚠️ Garder la caution :\nEn cas de dégât ou litige, gardez tout ou partie. Le montant gardé s'ajoute à vos revenus.\n\n📋 Suivi dans 'Autre' :\nLa section 'Cautions à rendre' liste toutes les locations terminées avec caution en attente de traitement.\n\n💰 Comptabilité :\nSeules les cautions gardées apparaissent dans la comptabilité comme revenus exceptionnels.";
+
+/* Guide - Sous-locations */
+"guide_sublet_title" = "Sous-louer du matériel";
+"guide_sublet_content" = "Vous pouvez sous-louer un matériel que vous louez vous-même.\n\n📤 Comment faire :\n1. Allez sur la fiche de votre location active\n2. Appuyez sur 'Sous-louer'\n3. Sélectionnez le sous-locataire\n4. Définissez vos propres tarifs et conditions\n\n⚠️ Règles :\n• La location principale ne peut pas être terminée tant que la sous-location est active\n• Récupérez d'abord le matériel de la sous-location\n• Puis terminez la location principale\n\n💰 Revenus :\nLes revenus de sous-location s'ajoutent à votre comptabilité normale.";
+
+/* Guide - Je loue (MaLocation) */
+"guide_myrentals_title" = "Je loue - Matériel que je loue";
+"guide_myrentals_content" = "La section 'Je loue' permet de gérer le matériel que VOUS louez à quelqu'un d'autre (location de matériel externe).\n\n📤 Créer une location :\n1. Appuyez sur 'Ajouter une location'\n2. Donnez un nom au matériel loué\n3. Sélectionnez le loueur (à qui vous louez)\n4. Définissez le type de tarif (jour/semaine/mois/forfait)\n5. Indiquez le prix et la caution versée\n6. Définissez les dates de début et de fin\n\n📊 Suivi :\n• Montant total de la location\n• Caution versée et récupérée\n• Statut : En cours, En retard, Terminée\n• Paiement effectué ou en attente\n\n✅ Terminer une location :\n1. Marquez la location comme terminée\n2. Indiquez le montant de caution récupéré\n3. Confirmez le paiement effectué\n\n⚠️ Rappels :\nLes locations avec caution non récupérée apparaissent en alerte.";
+
+/* Guide - Cautions Je loue */
+"guide_myrentals_caution_title" = "Gérer mes cautions versées";
+"guide_myrentals_caution_content" = "Quand vous louez du matériel, vous versez souvent une caution.\n\n💵 Suivi de la caution :\n• Montant de caution versée à la signature\n• Montant récupéré à la fin de la location\n• Différence en cas de retenue\n\n🔄 Workflow :\n1. Lors de la création, indiquez la caution versée\n2. À la fin de la location, indiquez le montant récupéré\n3. La différence est automatiquement calculée\n\n📋 Alertes :\nDans 'Autre > Je loue', une alerte vous prévient si des locations terminées ont une caution non récupérée.\n\n💰 Comptabilité :\n• Caution versée = dépense temporaire\n• Caution récupérée = remboursement\n• Caution non récupérée = perte (dépense définitive)";
+
+/* Guide - Commerce */
+"guide_commerce_title" = "Module Achat / Vente";
+"guide_commerce_content" = "Le module Commerce est idéal pour les marchés, boutiques et petits commerces.\n\n📦 Fonctionnalités :\n• Catalogue d'articles avec prix d'achat et de vente\n• Gestion automatique du stock\n• Calcul de la TVA (collectée, déductible, à reverser)\n• Remises en % ou montant fixe\n• Modes de paiement (espèces, CB, chèque, virement)\n• Paiements différés avec rappels\n\n📊 Comptabilité commerciale :\n• Total ventes / achats / bénéfices\n• Détail TVA par taux\n• Panier moyen\n• Répartition des modes de paiement\n• Alertes de stock bas\n\n🔄 Export/Import JSON pour sauvegarder vos données.";
+
+/* Guide - Articles */
+"guide_articles_title" = "Gérer vos articles";
+"guide_articles_content" = "Les articles sont les produits de votre catalogue commercial.\n\n➕ Créer un article :\n• Nom et description\n• Catégorie (créez les vôtres)\n• Référence / SKU\n• Prix d'achat HT et taux de TVA achat\n• Prix de vente TTC et taux de TVA vente\n• Stock actuel et seuil d'alerte\n• Fournisseur (optionnel)\n• Photo (optionnel)\n\n📊 Marge automatique :\nL'application calcule automatiquement votre marge HT et pourcentage.\n\n🔔 Alertes stock :\nQuand le stock passe sous le seuil, l'article apparaît en alerte.\n\n⚡ Vente rapide :\nAppuyez longuement sur un article pour une vente rapide sans saisie complexe.";
+
+/* Guide - Transactions */
+"guide_transactions_title" = "Enregistrer les transactions";
+"guide_transactions_content" = "Les transactions sont vos ventes et achats.\n\n🛒 Créer une transaction :\n1. Choisissez le type : Vente ou Achat\n2. Sélectionnez un article du catalogue OU saisissez librement\n3. Indiquez la quantité\n4. Appliquez une remise (optionnel)\n5. Choisissez le mode de paiement\n6. Indiquez si payé ou à payer\n7. Si non payé, définissez la date de règlement\n\n📊 Récapitulatif automatique :\n• Montant brut HT\n• Remise appliquée\n• Montant net HT\n• TVA calculée\n• Total TTC\n\n🔔 Rappels :\nActivez les notifications pour les paiements à venir (3 jours avant).";
+
+/* Guide - Comptabilité */
+"guide_accounting_title" = "Comptabilité des locations";
+"guide_accounting_content" = "La comptabilité regroupe automatiquement vos opérations financières.\n\n📊 Contenu :\n• Revenus : Locations payées\n• Revenus : Cautions gardées\n• Dépenses : Réparations payées\n\n📅 Périodes :\n• Vue par mois\n• Vue par année\n• Vue totale\n\n💰 Indicateurs :\n• Total revenus\n• Total dépenses\n• Bénéfice net\n\n📤 Export :\n• PDF formaté pour comptabilité\n• JSON pour sauvegarde/import\n\nLes opérations s'ajoutent automatiquement quand vous marquez un paiement comme reçu.";
+
+/* Guide - Comptabilité commerciale */
+"guide_commerce_accounting_title" = "Comptabilité commerciale";
+"guide_commerce_accounting_content" = "Vue complète de votre activité de vente.\n\n📊 Tableau de bord :\n• Total des ventes TTC\n• Total des achats TTC\n• Bénéfice net\n• Panier moyen (ventes et achats)\n\n💹 TVA détaillée :\n• TVA collectée (sur ventes)\n• TVA déductible (sur achats)\n• TVA à reverser (différence)\n• Détail par taux (5.5%, 10%, 20%...)\n\n💳 Répartition paiements :\n• Espèces / CB / Chèque / Virement\n• Visualisation en pourcentage\n\n📦 Stock :\n• Nombre d'articles en stock\n• Articles en alerte (stock bas)\n\n💸 Remises accordées :\n• Total remises ventes\n• Total remises achats";
+
+/* Guide - Personnes */
+"guide_people_title" = "Carnet de contacts";
+"guide_people_content" = "Gérez les personnes avec qui vous interagissez.\n\n➕ Ajouter une personne :\n• Nom et prénom\n• Email (permet l'envoi d'emails)\n• Téléphone (permet les appels directs)\n• Organisation (société, association...)\n• Type : Personne, Réparateur ou Salarié\n• Photo (optionnel)\n\n📧 Email de rappel :\nDepuis la fiche d'une personne, envoyez un email listant automatiquement :\n• Le matériel prêté non rendu\n• Les emprunts en cours\n• Les locations actives\n\n📞 Appel direct :\nTouchez le numéro de téléphone pour appeler directement.\n\n📇 Import Contacts :\nImportez automatiquement depuis vos contacts iPhone.";
+
+/* Guide - Types de personnes */
+"guide_people_types_title" = "Types de personnes";
+"guide_people_types_content" = "Trois types pour organiser vos contacts :\n\n👤 Personne (défaut) :\nClients, amis, famille... Tous ceux à qui vous prêtez ou louez du matériel.\n\n🔧 Réparateur :\nArtisans et ateliers de réparation. Seuls les réparateurs peuvent être sélectionnés lors de l'envoi en réparation.\n\n👷 Salarié :\nMembres de votre équipe. Peuvent être affectés à des chantiers. Idéal pour les entreprises avec plusieurs sites.\n\n💡 Astuce :\nUne même personne ne peut avoir qu'un seul type. Changez-le à tout moment depuis sa fiche.";
+
+/* Guide - Doublons */
+"guide_duplicates_title" = "Fusionner les doublons";
+"guide_duplicates_content" = "L'application détecte automatiquement les personnes en double.\n\n🔍 Comment ça marche :\n• Détection par nom + prénom identiques\n• Ignorer la casse et les espaces\n\n🔄 Fusionner :\n1. Allez dans Autre > Personnes\n2. Appuyez sur le bouton 'Doublons' dans la barre\n3. Sélectionnez le groupe de doublons\n4. Choisissez la personne à conserver\n5. Confirmez la fusion\n\n✅ Résultat :\n• Tous les prêts sont réaffectés\n• Tous les emprunts sont réaffectés\n• Toutes les locations sont réaffectées\n• Les doublons sont supprimés\n\n💡 Vérifiez les informations de contact de la personne conservée.";
+
+/* Guide - Chantiers */
+"guide_worksites_title" = "Gestion des chantiers";
+"guide_worksites_content" = "Organisez votre équipe sur plusieurs sites de travail.\n\n🏗️ Créer un chantier :\n• Nom du chantier\n• Adresse complète\n• Description et notes\n• Date de début et fin\n• Contact principal sur site\n• Statut : Actif ou Terminé\n\n👷 Affecter des salariés :\n1. Créez des personnes de type 'Salarié'\n2. Ouvrez la fiche du chantier\n3. Ajoutez les salariés concernés\n\n🗺️ Navigation :\nTouchez l'adresse pour l'ouvrir dans Plans.\n\n📊 Statuts automatiques :\n• En préparation : Date de début non atteinte\n• Actif : En cours\n• Terminé : Marqué comme fini\n\n📤 Export en PDF ou JSON.";
+
+/* Guide - Lieux */
+"guide_locations_title" = "Lieux de stockage";
+"guide_locations_content" = "Organisez où est rangé votre matériel.\n\n📍 Créer un lieu :\n• Nom (ex: Garage, Entrepôt Nord...)\n• Adresse complète\n• Bâtiment\n• Étage\n• Salle\n• Notes\n\n📦 Utilisation :\n• Associez chaque matériel à un lieu\n• Ajoutez un emplacement précis (ex: étagère B, tiroir 3)\n• Filtrez votre inventaire par lieu\n\n🔍 Retrouver un objet :\n1. Recherchez-le dans Matériel\n2. La fiche indique le lieu et l'emplacement exact\n\n📊 Vue d'ensemble :\nLa fiche d'un lieu affiche tout le matériel qui y est stocké.";
+
+/* Guide - Catégories */
+"guide_categories_title" = "Gérer les catégories";
+"guide_categories_content" = "Les catégories organisent votre inventaire.\n\n➕ Créer une catégorie :\nLors de l'ajout d'un matériel, tapez un nouveau nom de catégorie.\n\n🗂️ Catégories suggérées :\n• Outillage\n• Électronique\n• Sport\n• Cuisine\n• Jardinage\n• Bricolage\n• Musique\n• Photo/Vidéo\n\n📝 Gérer les catégories :\n1. Dans la liste Matériel\n2. Appuyez sur l'icône dossier près du filtre catégorie\n3. Renommez ou supprimez\n\n⚠️ Supprimer une catégorie :\nLes matériels ne sont pas supprimés, ils perdent juste leur catégorie.";
+
+/* Guide - Recherche */
+"guide_search_title" = "Recherche et filtres";
+"guide_search_content" = "Retrouvez rapidement n'importe quel élément.\n\n🔍 Barre de recherche :\n• Disponible sur chaque liste\n• Recherche dans le nom et la description\n• Résultats en temps réel\n\n🎯 Filtres combinables :\n\n📦 Matériel :\n• Par catégorie\n• Par lieu de stockage\n• Par statut (Disponible, Prêté, Loué)\n\n↗️ Prêts / ↙️ Emprunts :\n• Tous / En cours / En retard / Retournés / Bientôt\n\n🏷️ Locations :\n• Par statut\n• Par état de paiement\n• Par état de caution\n\n🔧 Réparations :\n• En cours / Terminées\n• Payé / Non payé\n\n💡 Bouton Reset :\nRéinitialisez tous les filtres en un tap.";
+
+/* Guide - Statuts */
+"guide_status_title" = "Comprendre les statuts";
+"guide_status_content" = "Codes couleur dans toute l'application :\n\n🟢 Vert :\n• Disponible\n• Retourné\n• Payé\n• Terminé\n\n🟡 Orange :\n• En cours\n• Bientôt (< 3 jours)\n• En attente de paiement\n\n🔴 Rouge :\n• En retard\n• Non payé (date dépassée)\n• Problème détecté\n\n🔵 Bleu :\n• Information\n• Lien cliquable\n• Action possible\n\n📊 Indicateurs visuels :\n• Icône horloge : En cours\n• Icône triangle : En retard\n• Icône check : Terminé/Retourné\n• Badge numérique : Nombre d'éléments";
+
+/* Guide - Coffre-fort */
+"guide_safe_title" = "Coffre-fort sécurisé";
+"guide_safe_content" = "Protégez vos documents importants avec un accès sécurisé.\n\n🔐 Configuration :\n1. Créez un mot de passe (min. 4 caractères)\n2. Choisissez une question de récupération\n3. Répondez à la question secrète\n\n📦 Contenu recommandé :\n• Bijoux et montres de valeur\n• Électronique coûteuse\n• Œuvres d'art\n• Documents importants\n• Factures de gros achats\n\n🏷️ Pour chaque objet :\n• Photo de l'objet\n• Nom et description\n• Valeur estimée\n• Marque, modèle, n° de série\n• Photo de la facture/preuve d'achat\n\n📄 Inventaire assurance :\nExportez un PDF complet pour votre assureur.";
+
+/* Guide - Biométrie */
+"guide_biometric_title" = "Face ID / Touch ID";
+"guide_biometric_content" = "Accédez au coffre-fort avec la biométrie.\n\n✅ Avantages :\n• Accès rapide sans saisir le mot de passe\n• Sécurité renforcée\n• Même niveau de protection que votre iPhone\n\n🔧 Activation :\nL'authentification biométrique est automatique si votre appareil le supporte.\n\n📱 Compatibilité :\n• Face ID (iPhone X et +)\n• Touch ID (iPhone avec capteur)\n\n🔑 Fallback :\nSi la biométrie échoue, saisissez votre mot de passe.\n\n⚠️ Mot de passe oublié :\n1. Utilisez la question de récupération\n2. En dernier recours : réinitialisation complète (perte des données)";
+
+/* Guide - Mot de passe */
+"guide_password_title" = "Gestion du mot de passe";
+"guide_password_content" = "Sécurisez votre coffre-fort avec un mot de passe robuste.\n\n🔑 Règles :\n• Minimum 4 caractères\n• Confirmation requise\n• Question de récupération recommandée\n\n🔄 Changer le mot de passe :\n1. Ouvrez le coffre-fort\n2. Menu > Changer le mot de passe\n3. Entrez l'ancien mot de passe\n4. Saisissez et confirmez le nouveau\n\n❓ Mot de passe oublié :\n1. Appuyez sur 'Mot de passe oublié ?'\n2. Répondez à la question secrète\n3. Créez un nouveau mot de passe\n\n⚠️ Tout oublié :\nSi vous avez oublié le mot de passe ET la réponse, la seule option est la réinitialisation complète. Toutes les données seront perdues.";
+
+/* Guide - Factures */
+"guide_invoices_title" = "Gestion des factures";
+"guide_invoices_content" = "Conservez vos preuves d'achat numériquement.\n\n🧾 Pour chaque matériel :\n• Photo de la facture (JPG ou PDF)\n• Numéro de facture\n• Nom du vendeur/magasin\n• Date d'acquisition (automatique ou manuelle)\n\n🏠 Pour le coffre-fort :\n• Photo de la facture/preuve d'achat\n• Mêmes informations\n\n💡 Utilisations :\n• Preuve de propriété pour l'assurance\n• Suivi des garanties\n• Justificatif en cas de litige\n• Export dans les fiches PDF\n\n📤 Export :\nLes factures sont incluses dans :\n• Fiches matériel PDF\n• Inventaire assurance PDF\n• Sauvegarde JSON";
+
+/* Guide - Sauvegarde */
+"guide_backup_title" = "Sauvegarde et restauration";
+"guide_backup_content" = "Protégez vos données en les sauvegardant régulièrement.\n\n💾 Sauvegarde locale :\nAppuyez sur 'Sauvegarder maintenant' dans les Réglages. Crée un point de restauration local.\n\n📤 Export JSON :\nExportez toutes vos données (ou une sélection) en format JSON :\n• Envoyez par email\n• Sauvegardez dans Fichiers\n• Partagez via AirDrop\n\n📥 Import JSON :\nRestaurez vos données depuis un fichier JSON précédemment exporté.\n\n✅ Données exportées :\n• Matériels + photos\n• Prêts et emprunts\n• Locations et réparations\n• Personnes\n• Lieux et chantiers\n• Commerce (articles + transactions)\n• Coffre-fort";
+
+/* Guide - Export PDF */
+"guide_pdf_title" = "Export en PDF";
+"guide_pdf_content" = "Créez des documents professionnels au format PDF.\n\n📄 Types d'exports :\n\n📦 Catalogue Matériels :\n• Fiche détaillée par objet\n• Photo + description\n• Valeur et lieu de stockage\n• Photo de la facture\n\n🔐 Inventaire Assurance :\n• Liste complète du coffre-fort\n• Photos et preuves d'achat\n• Valeur totale estimée\n• À transmettre à votre assureur\n\n📊 Comptabilité :\n• Récapitulatif des opérations\n• Revenus et dépenses\n• Par période (mois/année)\n\n💡 Options :\n• Exclure les retournés\n• Choisir la qualité des images\n• Sélectionner les types de données";
+
+/* Guide - Export JSON */
+"guide_json_title" = "Export/Import JSON";
+"guide_json_content" = "Le format JSON est idéal pour les sauvegardes complètes.\n\n✅ Avantages :\n• Données structurées\n• Inclut toutes les photos\n• Restauration complète possible\n• Transfert entre appareils\n\n📤 Exporter :\n1. Réglages > Exporter\n2. Sélectionnez les données\n3. Partagez le fichier .json\n\n📥 Importer :\n1. Réglages > Importer JSON\n2. Sélectionnez le fichier\n3. Les données sont fusionnées (pas de doublon)\n\n💡 Conseil :\nFaites un export JSON mensuel et stockez-le sur iCloud, Google Drive ou par email.\n\n⚠️ Import :\nLes éléments existants (même ID) ne sont pas dupliqués.";
+
+/* Guide - Qualité images */
+"guide_image_quality_title" = "Qualité des images";
+"guide_image_quality_content" = "Optimisez la taille de vos exports.\n\n📷 Options disponibles :\n\n🟣 Original (iPhone) :\n• Qualité maximale\n• Fichiers très volumineux (~5 MB)\n• Pour archivage haute qualité\n\n🔵 Haute (2000px) :\n• Excellente qualité\n• Taille réduite (~2 MB)\n• Bon compromis\n\n🟢 Moyenne (1200px) :\n• Bonne qualité\n• Fichiers légers (~800 KB)\n• Recommandé ✅\n\n🟠 Basse (800px) :\n• Qualité acceptable\n• Très léger (~300 KB)\n• Pour exports nombreux\n\n⚙️ Modifier :\nRéglages > Qualité des images";
+
+/* Guide - Conseils */
+"guide_tips_title" = "Conseils pratiques";
+"guide_tips_content" = "Tirez le meilleur parti de l'application :\n\n📸 Photos :\n• Photographiez chaque objet de valeur\n• Incluez les numéros de série\n• Gardez les factures en photo\n\n👥 Contacts :\n• Créez les personnes avant les prêts\n• Renseignez emails et téléphones\n• Utilisez l'import depuis Contacts\n\n📅 Dates :\n• Soyez réaliste sur les dates de retour\n• Consultez régulièrement les retards\n• Envoyez des rappels par email\n\n💾 Sauvegardes :\n• Exportez en JSON chaque mois\n• Stockez sur le cloud\n• Testez une restauration\n\n🔐 Coffre-fort :\n• Inventoriez vos objets de valeur\n• Gardez les preuves d'achat\n• Exportez pour l'assurance";
+
+/* Guide - Bonnes pratiques */
+"guide_best_practices_title" = "Bonnes pratiques";
+"guide_best_practices_content" = "Optimisez votre utilisation quotidienne :\n\n✅ À faire :\n• Prenez une photo AVANT de prêter\n• Notez l'état dans les notes\n• Confirmez les retours rapidement\n• Gardez vos catégories cohérentes\n• Faites des sauvegardes régulières\n\n❌ À éviter :\n• Oublier de valider les retours\n• Ignorer les prêts en retard\n• Mélanger personnes et réparateurs\n• Négliger les photos de factures\n\n💡 Workflow idéal :\n1. Créez vos lieux de stockage\n2. Ajoutez les personnes clés\n3. Inventoriez votre matériel\n4. Photographiez les factures\n5. Utilisez la création rapide au quotidien";
+
+/* Guide - Emails */
+"guide_email_title" = "Envoyer des emails";
+"guide_email_content" = "Communiquez facilement avec vos contacts.\n\n📧 Email de rappel :\n1. Ouvrez la fiche de la personne\n2. Appuyez sur l'icône email\n3. Un message pré-rempli s'ouvre avec :\n   • Liste du matériel en prêt\n   • Dates de retour prévues\n   • Indication des retards\n\n📧 Rappel de paiement :\nPour les locations impayées, envoyez un rappel listant les montants dus.\n\n✅ Prérequis :\n• L'email doit être renseigné dans la fiche\n• L'app Mail doit être configurée\n\n💡 Personnalisez :\nLe message s'ouvre dans Mail, vous pouvez le modifier avant envoi.";
+
+/* Guide - Alertes */
+"guide_alerts_title" = "Alertes et notifications";
+"guide_alerts_content" = "L'application vous alerte visuellement :\n\n🔴 Indicateurs de retard :\n• Badge rouge sur les prêts en retard\n• Triangle d'alerte sur les emprunts\n• Couleur rouge dans les listes\n\n🟡 Échéances proches :\n• Filtre 'Bientôt' (< 3 jours)\n• Couleur orange\n\n💰 Paiements :\n• Section 'Paiements à venir'\n• Section 'Paiements en retard'\n• Alertes Commerce pour échéances\n\n📦 Stock bas :\n• Badge sur les articles en alerte\n• Visible dans Commerce\n\n💡 Conseil :\nConsultez régulièrement les filtres 'En retard' et 'Bientôt' pour anticiper.";
+
+/* Guide - Capacité */
+"guide_capacity_title" = "Capacité et limites";
+"guide_capacity_content" = "Version gratuite vs Premium :\n\n🆓 Version gratuite :\n• 10 matériels\n• 5 prêts actifs\n• 5 emprunts actifs\n• 5 locations\n• 5 réparations\n• 10 personnes\n• 3 lieux\n• 5 objets coffre-fort\n\n👑 Version Premium :\n• Tout en ILLIMITÉ !\n• Paiement unique, accès à vie\n• Soutenez le développement\n\n💾 Stockage :\n• Données locales sur votre iPhone\n• Pas de limite technique\n• Les photos occupent plus d'espace\n\n💡 Conseil :\nFaites des sauvegardes régulières, surtout si vous avez beaucoup de données.";
+
+/* Guide - Premium */
+"guide_premium_title" = "Passer à Premium";
+"guide_premium_content" = "Débloquez tout le potentiel de l'application.\n\n👑 Avantages Premium :\n• Matériels illimités\n• Prêts illimités\n• Emprunts illimités\n• Locations illimitées\n• Réparations illimitées\n• Personnes illimitées\n• Lieux illimités\n• Coffre-fort illimité\n\n💳 Paiement :\n• Paiement unique\n• Accès à vie\n• Pas d'abonnement\n\n🔄 Restaurer :\nSi vous changez d'appareil :\n1. Allez dans Premium\n2. Appuyez sur 'Restaurer les achats'\n3. Vos achats sont restaurés\n\n❤️ Soutenez :\nVotre achat aide à améliorer l'application !";
+
+/* Guide - FAQ */
+"guide_faq_title" = "Questions fréquentes";
+"guide_faq_content" = "❓ Mes données sont-elles sécurisées ?\nOui, tout est stocké localement sur votre iPhone. Le coffre-fort est protégé par mot de passe.\n\n❓ Puis-je utiliser l'app sur iPad/Mac ?\nOui, l'app est universelle et fonctionne sur iPhone, iPad et Mac (Apple Silicon).\n\n❓ Comment transférer mes données ?\nExportez en JSON, puis importez sur le nouvel appareil.\n\n❓ L'app fonctionne hors-ligne ?\nOui, toutes les fonctions sont disponibles sans internet.\n\n❓ Comment contacter le support ?\nEnvoyez un email depuis la page de l'App Store ou les Réglages.\n\n❓ Les mises à jour sont gratuites ?\nOui, toutes les mises à jour sont incluses.";
+
+/* Import Contacts */
+"Importer depuis Contacts" = "Importer depuis Contacts";
+"Remplir automatiquement depuis vos contacts" = "Remplir automatiquement depuis vos contacts";
+
+/* Guide - Prêter un emprunt */
+"guide_lend_borrow_title" = "Prêter un objet emprunté";
+"guide_lend_borrow_content" = "Vous avez emprunté un objet et souhaitez le prêter temporairement ?\n\n📤 Comment faire :\n1. Allez sur la fiche de l'emprunt\n2. Appuyez sur 'Prêter'\n3. Sélectionnez la personne à qui vous prêtez\n4. Définissez la date de retour prévue\n\n⚠️ Règles de blocage :\n• L'emprunt ne peut plus être rendu tant que le prêt est actif\n• Vous devez d'abord récupérer l'objet du prêt\n• Puis vous pourrez rendre l'emprunt\n\n🔄 Même logique pour :\n• Louer un emprunt (sous-location)\n• Envoyer un emprunt en réparation\n\nCela permet un suivi complet de la chaîne de possession.";
+
+/* Guide - Locations payantes */
+"guide_rentals_title" = "Louer votre matériel";
+"guide_rentals_content" = "Les locations vous permettent de louer votre matériel contre rémunération.\n\n➕ Créer une location :\n1. Sélectionnez le matériel à louer\n2. Choisissez le locataire\n3. Définissez le type de tarif :\n   • Jour (prix × nombre de jours)\n   • Semaine (prix × nombre de semaines)\n   • Mois (prix × nombre de mois)\n   • Forfait (prix fixe)\n4. Indiquez le montant de la caution\n5. Définissez les dates\n\n📊 Tableau de bord :\n• Revenus perçus (paiements confirmés)\n• En attente (non encore payés)\n\n✅ Fin de location :\n1. Terminez la location quand l'objet est rendu\n2. Confirmez la réception du paiement\n3. Gérez la caution (rendre ou garder)";
+
+/* Guide - Louer un emprunt */
+"guide_sublet_title" = "Louer un matériel emprunté";
+"guide_sublet_content" = "Vous pouvez sous-louer un matériel que vous louez vous-même.\n\n📤 Comment faire :\n1. Allez sur la fiche de votre location active\n2. Appuyez sur 'Sous-louer'\n3. Sélectionnez le sous-locataire\n4. Définissez vos propres tarifs et conditions\n\n⚠️ Règles :\n• La location principale ne peut pas être terminée tant que la sous-location est active\n• Récupérez d'abord le matériel de la sous-location\n• Puis terminez la location principale\n\n💰 Revenus :\nLes revenus de sous-location s'ajoutent à votre comptabilité normale.";
+
+/* Guide - Gestion des doublons */
+"guide_duplicates_title" = "Fusionner les doublons";
+"guide_duplicates_content" = "L'application détecte automatiquement les personnes en double.\n\n🔍 Comment ça marche :\n• Détection par nom + prénom identiques\n• Ignorer la casse et les espaces\n\n🔄 Fusionner :\n1. Allez dans Autre > Personnes\n2. Appuyez sur le bouton 'Doublons' dans la barre\n3. Sélectionnez le groupe de doublons\n4. Choisissez la personne à conserver\n5. Confirmez la fusion\n\n✅ Résultat :\n• Tous les prêts sont réaffectés\n• Tous les emprunts sont réaffectés\n• Toutes les locations sont réaffectées\n• Les doublons sont supprimés\n\n💡 Vérifiez les informations de contact de la personne conservée.";
+
+/* Coffre-fort */
+"Coffre-fort" = "Coffre-fort";
+"Objets de valeur" = "Objets de valeur";
+"Configurer le Coffre-fort" = "Configurer le Coffre-fort";
+"Créez un mot de passe pour protéger vos documents importants. Ce coffre-fort stockera les photos et factures de vos objets de valeur." = "Créez un mot de passe pour protéger vos documents importants. Ce coffre-fort stockera les photos et factures de vos objets de valeur.";
+"Mot de passe" = "Mot de passe";
+"Confirmer le mot de passe" = "Confirmer le mot de passe";
+"Créer le coffre-fort" = "Créer le coffre-fort";
+"Le mot de passe doit contenir au moins 4 caractères" = "Le mot de passe doit contenir au moins 4 caractères";
+"Les mots de passe ne correspondent pas" = "Les mots de passe ne correspondent pas";
+"Erreur lors de la création du mot de passe" = "Erreur lors de la création du mot de passe";
+"Coffre-fort verrouillé" = "Coffre-fort verrouillé";
+"Entrez votre mot de passe pour accéder à vos documents" = "Entrez votre mot de passe pour accéder à vos documents";
+"Déverrouiller" = "Déverrouiller";
+"Déverrouiller le coffre-fort" = "Déverrouiller le coffre-fort";
+"Mot de passe incorrect" = "Mot de passe incorrect";
+"Utiliser Face ID / Touch ID" = "Utiliser Face ID / Touch ID";
+"Valeur totale estimée" = "Valeur totale estimée";
+"Objets" = "Objets";
+"Ajouter un objet" = "Ajouter un objet";
+"Rechercher un objet" = "Rechercher un objet";
+"Exporter vers Fichiers" = "Exporter vers Fichiers";
+"Nouvel objet" = "Nouvel objet";
+"Photo de l'objet" = "Photo de l'objet";
+"Nom de l'objet" = "Nom de l'objet";
+"Valeur estimée (€)" = "Valeur estimée (€)";
+"Valeur estimée" = "Valeur estimée";
+"Détails (optionnel)" = "Détails (optionnel)";
+"Marque" = "Marque";
+"Modèle" = "Modèle";
+"N° de série" = "N° de série";
+"Facture / Preuve d'achat" = "Facture / Preuve d'achat";
+"Preuve d'achat" = "Preuve d'achat";
+"Facture enregistrée" = "Facture enregistrée";
+"Aucune facture enregistrée" = "Aucune facture enregistrée";
+"Ajouté au coffre" = "Ajouté au coffre";
+"Retirer" = "Retirer";
+
+/* Facture d'achat (Matériel) */
+"Facture d'achat" = "Facture d'achat";
+"Numéro de facture" = "Numéro de facture";
+"Vendeur / Magasin" = "Vendeur / Magasin";
+"Aucune facture" = "Aucune facture";
+"Ajouter une facture" = "Ajouter une facture";
+"Changer la facture" = "Changer la facture";
+"Retirer la facture" = "Retirer la facture";
+"Photo de la facture" = "Photo de la facture";
+"N° Facture" = "N° Facture";
+"Vendeur" = "Vendeur";
+"Aucune information de facture" = "Aucune information de facture";
+"Exporter la fiche" = "Exporter la fiche";
+"Quitter" = "Quitter";
+
+/* Export/Import */
+"Catalogue PDF" = "Catalogue PDF";
+"Exporter en fiches lisibles avec photos" = "Exporter en fiches lisibles avec photos";
+"Catalogue Matériels (PDF)" = "Catalogue Matériels (PDF)";
+"Sauvegarde JSON" = "Sauvegarde JSON";
+"Utilise la sélection ci-dessus" = "Utilise la sélection ci-dessus";
+"Pour restauration ou transfert" = "Pour restauration ou transfert";
+"Export JSON" = "Export JSON";
+"Import JSON" = "Import JSON";
+"Import réussi" = "Import réussi";
+"Les données ont été importées avec succès" = "Les données ont été importées avec succès";
+"Erreur d'import" = "Erreur d'import";
+"Impossible d'importer le fichier" = "Impossible d'importer le fichier";
+"Inventaire Assurance (PDF)" = "Inventaire Assurance (PDF)";
+"Export PDF" = "Export PDF";
+"Sauvegarde" = "Sauvegarde";
+
+/* Gestion mot de passe coffre-fort */
+"Question de récupération" = "Question de récupération";
+"En cas d'oubli du mot de passe" = "En cas d'oubli du mot de passe";
+"Votre réponse" = "Votre réponse";
+"La réponse doit contenir au moins 2 caractères" = "La réponse doit contenir au moins 2 caractères";
+"Mot de passe oublié ?" = "Mot de passe oublié ?";
+"Récupération du mot de passe" = "Récupération du mot de passe";
+"Question de sécurité :" = "Question de sécurité :";
+"Vérifier" = "Vérifier";
+"Réponse incorrecte" = "Réponse incorrecte";
+"Créez un nouveau mot de passe" = "Créez un nouveau mot de passe";
+"Nouveau mot de passe" = "Nouveau mot de passe";
+"Réinitialiser" = "Réinitialiser";
+"Erreur lors de la réinitialisation" = "Erreur lors de la réinitialisation";
+"Récupération" = "Récupération";
+"Changer le mot de passe" = "Changer le mot de passe";
+"Ancien mot de passe" = "Ancien mot de passe";
+"Confirmer le nouveau mot de passe" = "Confirmer le nouveau mot de passe";
+"Modifier le mot de passe" = "Modifier le mot de passe";
+"Ancien mot de passe incorrect" = "Ancien mot de passe incorrect";
+"Erreur lors du changement de mot de passe" = "Erreur lors du changement de mot de passe";
+"Mot de passe modifié avec succès" = "Mot de passe modifié avec succès";
+"Sécurité" = "Sécurité";
+"Question" = "Question";
+
+/* Questions de récupération */
+"Quel est le nom de votre premier animal de compagnie ?" = "Quel est le nom de votre premier animal de compagnie ?";
+"Quel est le prénom de votre meilleur ami d'enfance ?" = "Quel est le prénom de votre meilleur ami d'enfance ?";
+"Quelle est la ville de naissance de votre mère ?" = "Quelle est la ville de naissance de votre mère ?";
+"Quel est le nom de votre école primaire ?" = "Quel est le nom de votre école primaire ?";
+"Quel est votre plat préféré ?" = "Quel est votre plat préféré ?";
+"Quelle est la marque de votre première voiture ?" = "Quelle est la marque de votre première voiture ?";
+
+/* Réinitialisation complète du coffre-fort */
+"J'ai aussi oublié ma réponse" = "J'ai aussi oublié ma réponse";
+"Réinitialisation complète" = "Réinitialisation complète";
+"Attention : Perte de données" = "Attention : Perte de données";
+"Si vous avez oublié votre code ET votre réponse de sécurité, la seule option est de réinitialiser complètement le coffre-fort. Cela supprimera TOUTES les données stockées de manière irréversible." = "Si vous avez oublié votre code ET votre réponse de sécurité, la seule option est de réinitialiser complètement le coffre-fort. Cela supprimera TOUTES les données stockées de manière irréversible.";
+"Données qui seront supprimées :" = "Données qui seront supprimées :";
+"%d élément(s) dans le coffre-fort" = "%d élément(s) dans le coffre-fort";
+"Toutes les photos et factures" = "Toutes les photos et factures";
+"Conseil important" = "Conseil important";
+"À l'avenir, pensez à exporter vos données en JSON depuis les réglages pour avoir une sauvegarde." = "À l'avenir, pensez à exporter vos données en JSON depuis les réglages pour avoir une sauvegarde.";
+"Je comprends et souhaite continuer" = "Je comprends et souhaite continuer";
+"Confirmation finale" = "Confirmation finale";
+"Pour confirmer la suppression définitive, tapez SUPPRIMER ci-dessous :" = "Pour confirmer la suppression définitive, tapez SUPPRIMER ci-dessous :";
+"SUPPRIMER" = "SUPPRIMER";
+"Réinitialiser le coffre-fort" = "Réinitialiser le coffre-fort";
+"Êtes-vous vraiment sûr ?" = "Êtes-vous vraiment sûr ?";
+"Cette action est irréversible. Toutes les données du coffre-fort seront définitivement supprimées." = "Cette action est irréversible. Toutes les données du coffre-fort seront définitivement supprimées.";
+"Oui, tout supprimer" = "Oui, tout supprimer";
+"Conseil" = "Conseil";
+"Pensez à effectuer des sauvegardes régulières de votre coffre-fort au format JSON depuis les paramètres. En cas d'oubli total (code + réponse), seule une réinitialisation sera possible et toutes les données seront perdues." = "Pensez à effectuer des sauvegardes régulières de votre coffre-fort au format JSON depuis les paramètres. En cas d'oubli total (code + réponse), seule une réinitialisation sera possible et toutes les données seront perdues.";
+"Aucune question de récupération" = "Aucune question de récupération";
+"Aucune question de sécurité n'a été configurée pour ce coffre-fort. Vous pouvez uniquement réinitialiser complètement le coffre-fort, ce qui supprimera toutes les données." = "Aucune question de sécurité n'a été configurée pour ce coffre-fort. Vous pouvez uniquement réinitialiser complètement le coffre-fort, ce qui supprimera toutes les données.";
+
+/* Récupération lors du changement */
+"Une question de récupération existe déjà. Vous pouvez la modifier ci-dessous." = "Une question de récupération existe déjà. Vous pouvez la modifier ci-dessous.";
+"Définissez une question pour récupérer votre mot de passe en cas d'oubli." = "Définissez une question pour récupérer votre mot de passe en cas d'oubli.";
+
+/* Alertes et situation des prêts/emprunts */
+"Retour prévu:" = "Retour prévu:";
+"En retard" = "En retard";
+"Aucun prêt en cours" = "Aucun prêt en cours";
+"Aucun emprunt en cours" = "Aucun emprunt en cours";
+"Prêts en cours" = "Prêts en cours";
+"Emprunts en cours" = "Emprunts en cours";
+"Nom complet" = "Nom complet";
+"Dernier email" = "Dernier email";
+"Modifier la personne" = "Modifier la personne";
+
+/* Sections matériels entrées/sorties */
+"Matériels qui sortent" = "Matériels qui sortent";
+"Matériels qui rentrent" = "Matériels qui rentrent";
+"Aucun matériel en sortie" = "Aucun matériel en sortie";
+"Aucun matériel en entrée" = "Aucun matériel en entrée";
+
+/* Corps email */
+"Bonjour" = "Bonjour";
+"Aucun matériel emprunté en cours." = "Aucun matériel emprunté en cours.";
+"Voici le récapitulatif des matériels empruntés:" = "Voici le récapitulatif des matériels empruntés:";
+"RETARD: retour prévu" = "RETARD: retour prévu";
+"retard de" = "retard de";
+"retour prévu:" = "retour prévu:";
+"Merci de procéder au retour ou de nous informer d'un prolongement." = "Merci de procéder au retour ou de nous informer d'un prolongement.";
+"Cordialement," = "Cordialement,";
+"L'équipe gestion de matériel" = "L'équipe gestion de matériel";
+"Retour du matériel emprunté" = "Retour du matériel emprunté";
+"Récapitulatif des emprunts actifs:" = "Récapitulatif des emprunts actifs:";
+"Merci de préparer le retour ou nous indiquer tout besoin de prolongation." = "Merci de préparer le retour ou nous indiquer tout besoin de prolongation.";
+
+/* Qualité des images */
+"Qualité des images" = "Qualité des images";
+"Choisissez la qualité des images pour les exports PDF et JSON" = "Choisissez la qualité des images pour les exports PDF et JSON";
+"Originale (iPhone)" = "Originale (iPhone)";
+"Haute (2000px)" = "Haute (2000px)";
+"Moyenne (1200px)" = "Moyenne (1200px)";
+"Basse (800px)" = "Basse (800px)";
+"Qualité maximale, fichiers volumineux" = "Qualité maximale, fichiers volumineux";
+"Excellente qualité, taille réduite" = "Excellente qualité, taille réduite";
+"Bonne qualité, fichiers légers" = "Bonne qualité, fichiers légers";
+"Qualité acceptable, très léger" = "Qualité acceptable, très léger";
+
+/* Premium */
+"Premium" = "Premium";
+"Débloquez toutes les fonctionnalités" = "Débloquez toutes les fonctionnalités";
+"Premium actif" = "Premium actif";
+"Passez à Premium" = "Passez à Premium";
+"Avantages Premium" = "Avantages Premium";
+"Matériels illimités" = "Matériels illimités";
+"Ajoutez autant de matériels que vous voulez" = "Ajoutez autant de matériels que vous voulez";
+"Prêts illimités" = "Prêts illimités";
+"Gérez tous vos prêts sans limite" = "Gérez tous vos prêts sans limite";
+"Emprunts illimités" = "Emprunts illimités";
+"Suivez tous les objets qu'on vous prête" = "Suivez tous les objets qu'on vous prête";
+"Personnes illimitées" = "Personnes illimitées";
+"Ajoutez tous vos contacts sans restriction" = "Ajoutez tous vos contacts sans restriction";
+"Lieux illimités" = "Lieux illimités";
+"Créez autant de lieux de stockage que nécessaire" = "Créez autant de lieux de stockage que nécessaire";
+"Coffre-fort illimité" = "Coffre-fort illimité";
+"Stockez toutes vos preuves de possession" = "Stockez toutes vos preuves de possession";
+"Sauvegarde iCloud" = "Sauvegarde iCloud";
+"Synchronisez sur tous vos appareils" = "Synchronisez sur tous vos appareils";
+"Notifications avancées" = "Notifications avancées";
+"Rappels personnalisés pour les retours" = "Rappels personnalisés pour les retours";
+"Statistiques détaillées" = "Statistiques détaillées";
+"Analysez vos prêts et emprunts" = "Analysez vos prêts et emprunts";
+"Soutenez le développement" = "Soutenez le développement";
+"Aidez à améliorer l'application" = "Aidez à améliorer l'application";
+"Produits non disponibles" = "Produits non disponibles";
+"Chargement en cours..." = "Chargement en cours...";
+"Les produits seront disponibles dans un instant. Veuillez patienter ou réessayer." = "Les produits seront disponibles dans un instant. Veuillez patienter ou réessayer.";
+"Réessayer" = "Réessayer";
+"Paiement unique - Accès à vie" = "Paiement unique - Accès à vie";
+"Restaurer les achats" = "Restaurer les achats";
+"Conditions" = "Conditions";
+"Confidentialité" = "Confidentialité";
+"Merci !" = "Merci !";
+"Vous êtes maintenant Premium" = "Vous êtes maintenant Premium";
+"RECOMMANDÉ" = "RECOMMANDÉ";
+"Soutenir l'app" = "Soutenir l'app";
+"Si vous aimez Matériel, vous pouvez soutenir son développement avec un pourboire." = "Si vous aimez Matériel, vous pouvez soutenir son développement avec un pourboire.";
+"Votre soutien est très apprécié ! ❤️" = "Votre soutien est très apprécié ! ❤️";
+"Limite atteinte" = "Limite atteinte";
+"Passez à Premium pour continuer" = "Passez à Premium pour continuer";
+"Débloquer" = "Débloquer";
+"Version gratuite" = "Version gratuite";
+"Passer à Premium" = "Passer à Premium";
+"Limite lieux atteinte" = "Vous avez atteint la limite de lieux pour la version gratuite. Passez à Premium pour un accès illimité.";
+"Limite personnes atteinte" = "Vous avez atteint la limite de personnes pour la version gratuite. Passez à Premium pour un accès illimité.";
+"Limite matériels atteinte" = "Vous avez atteint la limite de matériels pour la version gratuite. Passez à Premium pour un accès illimité.";
+"Limite prêts atteinte" = "Vous avez atteint la limite de prêts pour la version gratuite. Passez à Premium pour un accès illimité.";
+"Limite emprunts atteinte" = "Vous avez atteint la limite d'emprunts pour la version gratuite. Passez à Premium pour un accès illimité.";
+"Limite coffre-fort atteinte" = "Vous avez atteint la limite d'objets du coffre-fort pour la version gratuite. Passez à Premium pour un accès illimité.";
+"Synchroniser les compteurs" = "Synchroniser les compteurs";
+
+/* Caméra */
+"Photographier" = "Photographier";
+"Prendre une photo" = "Prendre une photo";
+
+/* Biométrie */
+"Utiliser Face ID" = "Utiliser Face ID";
+"Utiliser Touch ID" = "Utiliser Touch ID";
+
+/* Langue */
+"Langue de l'application" = "Langue de l'application";
+"Choisissez votre langue préférée" = "Choisissez votre langue préférée";
+
+/* Catégories coffre-fort */
+"Électronique" = "Électronique";
+"Bijoux" = "Bijoux";
+"Art & Décoration" = "Art & Décoration";
+"Mobilier" = "Mobilier";
+"Électroménager" = "Électroménager";
+"Instruments de musique" = "Instruments de musique";
+"Sport & Loisirs" = "Sport & Loisirs";
+"Véhicules" = "Véhicules";
+"Vêtements de valeur" = "Vêtements de valeur";
+"Collections" = "Collections";
+"Autre" = "Autre";
+
+/* Prêter un emprunt */
+"Prêter" = "Prêter";
+"Prêter l'emprunt" = "Prêter l'emprunt";
+"Prêter cet emprunt" = "Prêter cet emprunt";
+"À qui prêter ?" = "À qui prêter ?";
+"Date de retour prévue" = "Date de retour prévue";
+"Retour prévu le" = "Retour prévu le";
+"L'emprunt ne pourra pas être restitué tant que ce prêt sera actif." = "L'emprunt ne pourra pas être restitué tant que ce prêt sera actif.";
+"Prêté à" = "Prêté à";
+"jusqu'au %@" = "jusqu'au %@";
+"Récupérer du prêt" = "Récupérer du prêt";
+"Retour impossible" = "Retour impossible";
+"Retour" = "Retour";
+
+/* Louer un emprunt */
+"Louer l'emprunt" = "Louer l'emprunt";
+"Louer cet emprunt" = "Louer cet emprunt";
+"L'emprunt ne pourra pas être restitué tant que cette location sera active." = "L'emprunt ne pourra pas être restitué tant que cette location sera active.";
+"Loué à" = "Loué à";
+"Récupérer de la location" = "Récupérer de la location";
+
+/* Créer matériel depuis emprunt */
+"Créer dans Matériels" = "Créer dans Matériels";
+"Ajoute aussi cet objet à votre inventaire" = "Ajoute aussi cet objet à votre inventaire";
+"Lieu de stockage" = "Lieu de stockage";
+"Aucun" = "Aucun";
+
+
+/* Guide - Prêter un emprunt */
+"guide_lend_borrow_title" = "Prêter un objet emprunté";
+"guide_lend_borrow_content" = "Vous avez emprunté un objet et souhaitez le prêter temporairement ? Utilisez le bouton 'Prêter' sur chaque emprunt actif. L'emprunt sera bloqué au retour tant que le prêt n'est pas récupéré. Vous pouvez aussi cocher 'Créer dans Matériels' lors de la création d'un emprunt pour l'ajouter à votre inventaire - il sera automatiquement supprimé lors de la restitution.";
+
+/* Guide - Locations payantes */
+"guide_rentals_title" = "Louer votre matériel";
+"guide_rentals_content" = "L'onglet 'Locations' vous permet de louer votre matériel contre rémunération. Définissez un tarif (jour/semaine/mois/forfait), une caution et suivez les paiements. Le récapitulatif financier affiche vos revenus perçus et en attente. Terminez la location quand l'objet est rendu, puis gérez le retour de caution.";
+
+/* Guide - Louer un emprunt */
+"guide_sublet_title" = "Louer un matériel emprunté";
+"guide_sublet_content" = "Vous avez emprunté un objet et souhaitez le louer temporairement ? Utilisez le bouton 'Louer' sur chaque emprunt actif. L'emprunt sera bloqué au retour tant que la location n'est pas récupérée. Définissez vos propres tarifs et conditions. Récupérez d'abord le matériel de la location avant de pouvoir restituer votre emprunt.";
+
+/* Guide - Gestion des doublons */
+"guide_duplicates_title" = "Fusionner les doublons";
+"guide_duplicates_content" = "L'application détecte automatiquement les personnes en double (même nom/prénom). Allez dans 'Autre > Personnes' et appuyez sur le bouton 'Doublons' dans la barre d'outils. Sélectionnez le groupe à fusionner : tous les prêts et emprunts seront réaffectés à la personne conservée, les autres seront supprimées.";
+
+/* Alertes de suppression */
+"Suppression définitive" = "Suppression définitive";
+"Suppression impossible" = "Suppression impossible";
+"Supprimer" = "Supprimer";
+"Êtes-vous sûr de vouloir supprimer cette personne ? Cette action est irréversible." = "Êtes-vous sûr de vouloir supprimer cette personne ? Cette action est irréversible.";
+"Êtes-vous sûr de vouloir supprimer ce lieu ? Cette action est irréversible." = "Êtes-vous sûr de vouloir supprimer ce lieu ? Cette action est irréversible.";
+"Êtes-vous sûr de vouloir supprimer ce prêt ? Cette action est irréversible." = "Êtes-vous sûr de vouloir supprimer ce prêt ? Cette action est irréversible.";
+"Vous devez d'abord marquer cette réparation comme payée avant de pouvoir la supprimer." = "Vous devez d'abord marquer cette réparation comme payée avant de pouvoir la supprimer.";
+"Vous ne pouvez pas supprimer cette location car toutes les actions ne sont pas terminées (règlement, caution, retour)." = "Vous ne pouvez pas supprimer cette location car toutes les actions ne sont pas terminées (règlement, caution, retour).";
+
+/* Locations */
+"Ajouter une location" = "Ajouter une location";
+"Nouvelle location" = "Nouvelle location";
+"Rechercher une location" = "Rechercher une location";
+"Louer" = "Louer";
+"Louer ce matériel" = "Louer ce matériel";
+"Matériel à louer" = "Matériel à louer";
+"Locataire" = "Locataire";
+"Tarification" = "Tarification";
+"Type de tarif" = "Type de tarif";
+"Prix total" = "Prix total";
+"Prix/jour" = "Prix/jour";
+"Prix/semaine" = "Prix/semaine";
+"Prix/mois" = "Prix/mois";
+"Prix forfait" = "Prix forfait";
+"Durée" = "Durée";
+"Caution" = "Caution";
+"Jour" = "Jour";
+"Semaine" = "Semaine";
+"Mois" = "Mois";
+"Forfait" = "Forfait";
+"Garder caution" = "Garder caution";
+"Retenir caution" = "Retenir caution";
+"Montant à retenir" = "Montant à retenir";
+"Montant retenu" = "Montant retenu";
+"Montant restitué" = "Montant restitué";
+"Caution totale" = "Caution totale";
+"Le montant ne peut pas dépasser la caution" = "Le montant ne peut pas dépasser la caution";
+"Revenus" = "Revenus";
+"En attente" = "En attente";
+"Payé" = "Payé";
+"Non payé" = "Non payé";
+"Paiement" = "Paiement";
+"Gardée" = "Gardée";
+"Restituée" = "Restituée";
+"Marquer payé" = "Marquer payé";
+"Régler la réparation" = "Régler la réparation";
+"Règlement réparation" = "Règlement réparation";
+"Montant à régler (€)" = "Montant à régler (€)";
+"Confirmer le paiement" = "Confirmer le paiement";
+"Notes (optionnel)" = "Notes (optionnel)";
+"Récapitulatif" = "Récapitulatif";
+"Terminer" = "Terminer";
+"Terminer la location" = "Terminer la location";
+"Terminer cette location ?" = "Terminer cette location ?";
+"Rendre caution" = "Rendre caution";
+"Rendre" = "Rendre";
+"Cautions à rendre" = "Cautions à rendre";
+"Terminées" = "Terminées";
+"Aucun matériel disponible" = "Aucun matériel disponible";
+"Êtes-vous sûr de vouloir supprimer cette location ? Cette action est irréversible." = "Êtes-vous sûr de vouloir supprimer cette location ? Cette action est irréversible.";
+"Vous avez atteint la limite de locations gratuites. Passez à Premium pour créer des locations illimitées." = "Vous avez atteint la limite de locations gratuites. Passez à Premium pour créer des locations illimitées.";
+"Historique des locations" = "Historique des locations";
+"Aucune location enregistrée" = "Aucune location enregistrée";
+"Terminée" = "Terminée";
+/* Sous-location */
+"Sous-louer" = "Sous-louer";
+"Sous-louer ce matériel" = "Sous-louer ce matériel";
+"À qui sous-louer ?" = "À qui sous-louer ?";
+"Sous-loué à" = "Sous-loué à";
+"Récupérer de la sous-location" = "Récupérer de la sous-location";
+"La location ne pourra pas être terminée tant que cette sous-location sera active." = "La location ne pourra pas être terminée tant que cette sous-location sera active.";
+
+/* Liens de navigation PersonneDetailView */
+"Voir tout" = "Voir tout";
+"Aucun prêt" = "Aucun prêt";
+"Aucun emprunt" = "Aucun emprunt";
+"Aucune location" = "Aucune location";
+"Rendus" = "Rendus";
+
+/* Types de personnes */
+"Personne" = "Personne";
+"Personnes" = "Personnes";
+"Réparateur" = "Réparateur";
+"Réparateurs" = "Réparateurs";
+"Salarié" = "Salarié";
+"Salariés" = "Salariés";
+"Type de personne" = "Type de personne";
+"Type" = "Type";
+
+/* Réparations */
+"Réparations" = "Réparations";
+"Réparation" = "Réparation";
+"Nouvelle réparation" = "Nouvelle réparation";
+"Envoyer en réparation" = "Envoyer en réparation";
+"Matériel à réparer" = "Matériel à réparer";
+"Sélectionner le réparateur" = "Sélectionner le réparateur";
+"Aucun réparateur enregistré" = "Aucun réparateur enregistré";
+"Ajouter un réparateur" = "Ajouter un réparateur";
+"Nouveau réparateur" = "Nouveau réparateur";
+"Description du problème" = "Description du problème";
+"Date de fin prévue" = "Date de fin prévue";
+"Définir une date de fin" = "Définir une date de fin";
+"Coût" = "Coût";
+"Réparation gratuite" = "Réparation gratuite";
+"Gratuite" = "Gratuite";
+"Coût estimé" = "Coût estimé";
+"Coût estimé en €" = "Coût estimé en €";
+"Coût en €" = "Coût en €";
+"Coût final" = "Coût final";
+"Coût estimé:" = "Coût estimé:";
+"Final:" = "Final:";
+"Estimé:" = "Estimé:";
+"Fin prévue:" = "Fin prévue:";
+"Retour:" = "Retour:";
+"Aucune réparation" = "Aucune réparation";
+"Aucune réparation en cours" = "Aucune réparation en cours";
+"Réparations en cours" = "Réparations en cours";
+"Locations Matériels en cours" = "Locations Matériels en cours";
+"Aucune location de matériel en cours" = "Aucune location de matériel en cours";
+"Les matériels en réparation apparaîtront ici" = "Les matériels en réparation apparaîtront ici";
+"Rechercher une réparation" = "Rechercher une réparation";
+"Valider le retour de réparation" = "Valider le retour de réparation";
+"Retour réparation" = "Retour réparation";
+"Notes de clôture" = "Notes de clôture";
+"Effacer cette réparation" = "Effacer cette réparation";
+"Êtes-vous sûr de vouloir supprimer cette réparation ?" = "Êtes-vous sûr de vouloir supprimer cette réparation ?";
+"En réparation" = "En réparation";
+"Matériel concerné" = "Matériel concerné";
+"Entreprise / Atelier" = "Entreprise / Atelier";
+"Que souhaitez-vous faire avec ce matériel ?" = "Que souhaitez-vous faire avec ce matériel ?";
+"Veuillez sélectionner un réparateur" = "Veuillez sélectionner un réparateur";
+"Veuillez décrire le problème" = "Veuillez décrire le problème";
+"Veuillez sélectionner un matériel et un réparateur" = "Veuillez sélectionner un matériel et un réparateur";
+"Toutes" = "Toutes";
+"Fermer" = "Fermer";
+"Envoyer" = "Envoyer";
+
+/* Comptabilité */
+"Comptabilité" = "Comptabilité";
+"opération(s)" = "opération(s)";
+"Période" = "Période";
+"Mois" = "Mois";
+"Année" = "Année";
+"Total" = "Total";
+"Bénéfice" = "Bénéfice";
+"Aucune opération" = "Aucune opération";
+"Les opérations comptables apparaîtront ici" = "Les opérations comptables apparaîtront ici";
+"Location (Revenu)" = "Location (Revenu)";
+"Caution gardée" = "Caution gardée";
+"Réparation (Dépense)" = "Réparation (Dépense)";
+"Supprimer cette opération ?" = "Supprimer cette opération ?";
+"Cette opération sera définitivement supprimée de l'historique comptable. Cette action est irréversible." = "Cette opération sera définitivement supprimée de l'historique comptable. Cette action est irréversible.";
+
+/* Export/Import Comptabilité */
+"Exporter" = "Exporter";
+"Exporter en PDF" = "Exporter en PDF";
+"Exporter en JSON" = "Exporter en JSON";
+"Importer" = "Importer";
+"Importer JSON" = "Importer JSON";
+"Import réussi" = "Import réussi";
+"Erreur d'import" = "Erreur d'import";
+"OK" = "OK";
+
+/* Module Commerce (Achat/Vente) */
+"Commerce" = "Commerce";
+"Achat / Vente" = "Achat / Vente";
+"article(s)" = "article(s)";
+"Articles" = "Articles";
+"Transactions" = "Transactions";
+"Ventes" = "Ventes";
+"Achats" = "Achats";
+"Achat" = "Achat";
+"Vente" = "Vente";
+"Stock" = "Stock";
+"Nouvel article" = "Nouvel article";
+"Nouvelle vente" = "Nouvelle vente";
+"Nouvel achat" = "Nouvel achat";
+"Aucun article" = "Aucun article";
+"Ajouter un article" = "Ajouter un article";
+"Rechercher un article" = "Rechercher un article";
+"Supprimer l'article ?" = "Supprimer l'article ?";
+"Aucune transaction" = "Aucune transaction";
+"Supprimer la transaction ?" = "Supprimer la transaction ?";
+"Cette action est irréversible." = "Cette action est irréversible.";
+"Modifier l'article" = "Modifier l'article";
+"Référence / SKU" = "Référence / SKU";
+"Prix d'achat" = "Prix d'achat";
+"Prix de vente" = "Prix de vente";
+"Prix HT" = "Prix HT";
+"Prix TTC" = "Prix TTC";
+"TVA Achat" = "TVA Achat";
+"TVA Vente" = "TVA Vente";
+"Marge" = "Marge";
+"Marge HT" = "Marge HT";
+"Quantité en stock" = "Quantité en stock";
+"Seuil d'alerte" = "Seuil d'alerte";
+"Fournisseur" = "Fournisseur";
+"Nom du fournisseur" = "Nom du fournisseur";
+"Sélectionner..." = "Sélectionner...";
+"+ Nouvelle catégorie" = "+ Nouvelle catégorie";
+"Nouvelle catégorie" = "Nouvelle catégorie";
+"Nom de la catégorie" = "Nom de la catégorie";
+"+ Nouveau fournisseur" = "+ Nouveau fournisseur";
+"Nouveau fournisseur" = "Nouveau fournisseur";
+"Aucun" = "Aucun";
+
+/* TVA */
+"TVA" = "TVA";
+"Taux de TVA" = "Taux de TVA";
+"Collectée" = "Collectée";
+"Déductible" = "Déductible";
+"À reverser" = "À reverser";
+"Détail TVA par taux" = "Détail TVA par taux";
+
+/* Remises */
+"Remise" = "Remise";
+"Type de remise" = "Type de remise";
+"Aucune remise" = "Aucune remise";
+"Remise en %" = "Remise en %";
+"Remise fixe (€)" = "Remise fixe (€)";
+"Valeur" = "Valeur";
+"Remise appliquée" = "Remise appliquée";
+"Remises accordées" = "Remises accordées";
+"Sur ventes" = "Sur ventes";
+"Sur achats" = "Sur achats";
+
+/* Paiement */
+"Paiement" = "Paiement";
+"Mode de paiement" = "Mode de paiement";
+"Espèces" = "Espèces";
+"Carte bancaire" = "Carte bancaire";
+"Chèque" = "Chèque";
+"Virement" = "Virement";
+"Payé" = "Payé";
+"Non payé" = "Non payé";
+"Non payées" = "Non payées";
+"Date de règlement" = "Date de règlement";
+"Rappel 3 jours avant" = "Rappel 3 jours avant";
+"Rappel paiement" = "Rappel paiement";
+"Paiement à régler dans 3 jours" = "Paiement à régler dans 3 jours";
+"Paiements en retard" = "Paiements en retard";
+"Paiements à venir" = "Paiements à venir";
+"%d en retard (%.2f €)" = "%d en retard (%.2f €)";
+"%d dans 3 jours (%.2f €)" = "%d dans 3 jours (%.2f €)";
+"Aujourd'hui" = "Aujourd'hui";
+"Demain" = "Demain";
+"Dans %d jours" = "Dans %d jours";
+"Ventes à encaisser" = "Ventes à encaisser";
+"Achats à payer" = "Achats à payer";
+
+/* Transaction */
+"Choisir un article" = "Choisir un article";
+"Saisie libre" = "Saisie libre";
+"Nom de l'article" = "Nom de l'article";
+"Quantité" = "Quantité";
+"Prix unitaire HT" = "Prix unitaire HT";
+"Récapitulatif" = "Récapitulatif";
+"Montant brut HT" = "Montant brut HT";
+"Montant net HT" = "Montant net HT";
+"Total TTC" = "Total TTC";
+"Client" = "Client";
+"Nom du client" = "Nom du client";
+"Date de transaction" = "Date de transaction";
+
+/* Comptabilité Commerciale */
+"Comptabilité Commerce" = "Comptabilité Commerce";
+"Résumé" = "Résumé";
+"Panier moyen vente" = "Panier moyen vente";
+"Panier moyen achat" = "Panier moyen achat";
+"Articles en stock" = "Articles en stock";
+"Stock bas" = "Stock bas";
+"Répartition paiements ventes" = "Répartition paiements ventes";
+
+/* Vente rapide */
+"Vente rapide" = "Vente rapide";
+"Stock insuffisant" = "Stock insuffisant";
+"Vendre" = "Vendre";
+"Consulter / Modifier" = "Consulter / Modifier";
+"Prix" = "Prix";
+"Mode" = "Mode";
+"Client (optionnel)" = "Client (optionnel)";
+"Nom du client" = "Nom du client";
+"Valider" = "Valider";
+"Sous-total HT" = "Sous-total HT";
+"Total HT" = "Total HT";
+"Type" = "Type";
+"Vente validée - Article et quantité non modifiables" = "Vente validée - Article et quantité non modifiables";
+"Transaction validée - Article et quantité non modifiables" = "Transaction validée - Article et quantité non modifiables";
+
+/* Réparation depuis emprunt */
+"En réparation" = "En réparation";
+"Réparer" = "Réparer";
+"Récupérer de la réparation" = "Récupérer de la réparation";
+"Actions bloquées" = "Actions bloquées";
+"Envoyer en réparation" = "Envoyer en réparation";
+"Réparer l'emprunt" = "Réparer l'emprunt";
+"Sélectionner le réparateur" = "Sélectionner le réparateur";
+"Aucun réparateur enregistré. Créez une personne de type 'Réparateur'." = "Aucun réparateur enregistré. Créez une personne de type 'Réparateur'.";
+"Ajouter un réparateur" = "Ajouter un réparateur";
+"Description du problème" = "Description du problème";
+"Délai" = "Délai";
+"Date de retour prévue" = "Date de retour prévue";
+"Retour prévu le" = "Retour prévu le";
+"Retour prévu le %@" = "Retour prévu le %@";
+"Coût" = "Coût";
+"Coût estimé" = "Coût estimé";
+"L'emprunt ne pourra pas être prêté, loué ou restitué tant que la réparation sera en cours." = "L'emprunt ne pourra pas être prêté, loué ou restitué tant que la réparation sera en cours.";
+"Envoyer" = "Envoyer";
+"Vous avez atteint la limite de réparations gratuites. Passez à Premium pour créer des réparations illimitées." = "Vous avez atteint la limite de réparations gratuites. Passez à Premium pour créer des réparations illimitées.";
+
+/* Locations impayées */
+"Locations impayées" = "Locations impayées";
+"Montant total impayé" = "Montant total impayé";
+"IMPAYÉ" = "IMPAYÉ";
+"Rappel de paiement" = "Rappel de paiement";
+"Envoyer un rappel de paiement" = "Envoyer un rappel de paiement";
+"Nous vous contactons concernant les locations suivantes dont le paiement n'a pas encore été reçu:" = "Nous vous contactons concernant les locations suivantes dont le paiement n'a pas encore été reçu:";
+"Aucun paiement en attente." = "Aucun paiement en attente.";
+"Retourné le:" = "Retourné le:";
+"Montant dû:" = "Montant dû:";
+"Total à régler:" = "Total à régler:";
+"Merci de procéder au règlement dans les meilleurs délais." = "Merci de procéder au règlement dans les meilleurs délais.";
+
+/* Cautions non traitées */
+"Total cautions à traiter" = "Total cautions à traiter";
+"Cautions à traiter" = "Cautions à traiter";
+"CAUTION" = "CAUTION";
+"Garder" = "Garder";
+"Garder la caution ?" = "Garder la caution ?";
+"Oui, garder la caution" = "Oui, garder la caution";
+"Cette action enregistrera la caution comme un revenu. Êtes-vous sûr ?" = "Cette action enregistrera la caution comme un revenu. Êtes-vous sûr ?";
+
+/* Gestion des catégories */
+"Gérer les catégories" = "Gérer les catégories";
+"Catégories" = "Catégories";
+"Aucune catégorie" = "Aucune catégorie";
+"matériel" = "matériel";
+"matériels" = "matériels";
+"Supprimer la catégorie" = "Supprimer la catégorie";
+"Renommer la catégorie" = "Renommer la catégorie";
+"Nouveau nom" = "Nouveau nom";
+"Renommer" = "Renommer";
+"Supprimer une catégorie retirera la catégorie des matériels concernés sans supprimer les matériels." = "Supprimer une catégorie retirera la catégorie des matériels concernés sans supprimer les matériels.";
+"Auto" = "Auto";
+
+/* Chantiers */
+"Chantier" = "Chantier";
+"Chantiers" = "Chantiers";
+"Chantier assigné" = "Chantier assigné";
+"Aucun chantier" = "Aucun chantier";
+"Aucun chantier assigné" = "Aucun chantier assigné";
+"Ajouter un chantier" = "Ajouter un chantier";
+"Nouveau chantier" = "Nouveau chantier";
+"Modifier le chantier" = "Modifier le chantier";
+"Supprimer le chantier" = "Supprimer le chantier";
+"Supprimer ce chantier ?" = "Supprimer ce chantier ?";
+"Les salariés assignés à ce chantier ne seront plus affectés." = "Les salariés assignés à ce chantier ne seront plus affectés.";
+"Nom du chantier" = "Nom du chantier";
+"Chantier actif" = "Chantier actif";
+"Terminé" = "Terminé";
+"Actif" = "Actif";
+"En préparation" = "En préparation";
+"Salariés assignés" = "Salariés assignés";
+"Aucun salarié assigné" = "Aucun salarié assigné";
+"Rechercher un chantier" = "Rechercher un chantier";
+"Date de début" = "Date de début";
+"Date de fin" = "Date de fin";
+"Période" = "Période";
+"actif(s)" = "actif(s)";
+
+/* Affectation salariés au chantier */
+"Affecter un salarié" = "Affecter un salarié";
+"Affecter des salariés" = "Affecter des salariés";
+"Affecter" = "Affecter";
+"Retirer" = "Retirer";
+"Retirer ce salarié ?" = "Retirer ce salarié ?";
+"Salariés disponibles" = "Salariés disponibles";
+"Disponible" = "Disponible";
+"Sélectionnez les salariés à affecter à ce chantier" = "Sélectionnez les salariés à affecter à ce chantier";
+"Aucun salarié disponible. Créez d'abord un salarié." = "Aucun salarié disponible. Créez d'abord un salarié.";
+"Aucun salarié créé" = "Aucun salarié créé";
+"Créez d'abord des salariés pour pouvoir les affecter à ce chantier." = "Créez d'abord des salariés pour pouvoir les affecter à ce chantier.";
+"Tous les salariés sont déjà affectés" = "Tous les salariés sont déjà affectés";
+"Tous vos salariés sont actuellement assignés à des chantiers." = "Tous vos salariés sont actuellement assignés à des chantiers.";
+"Créer un salarié" = "Créer un salarié";
+"Créer un nouveau salarié" = "Créer un nouveau salarié";
+"Rechercher un salarié" = "Rechercher un salarié";
+"Effacer" = "Effacer";
+"Aucun salarié disponible" = "Aucun salarié disponible";
+"Voulez-vous créer un nouveau salarié ?" = "Voulez-vous créer un nouveau salarié ?";
+"Oui" = "Oui";
+"Non" = "Non";
+
+/* Notification SMS salarié */
+"Notifier les salariés ?" = "Notifier les salariés ?";
+"Envoyer SMS" = "Envoyer SMS";
+"Non merci" = "Non merci";
+"Voulez-vous envoyer un SMS aux salariés affectés pour les informer de leur assignation au chantier ?" = "Voulez-vous envoyer un SMS aux salariés affectés pour les informer de leur assignation au chantier ?";
+"Bonjour,\n\nVous êtes affecté(e) au chantier : " = "Bonjour,\n\nVous êtes affecté(e) au chantier : ";
+"Adresse" = "Adresse";
+"Début" = "Début";
+"Contact sur site" = "Contact sur site";
+"Cordialement" = "Cordialement";
+
+/* Contact chantier */
+"Contact" = "Contact";
+"Contact principal" = "Contact principal";
+"Aucun" = "Aucun";
+
+/* Export chantier */
+"Export" = "Export";
+"Exporter en PDF" = "Exporter en PDF";
+"Exporter en JSON" = "Exporter en JSON";
+
+/* Je loue (MaLocation) */
+"Je loue" = "Je loue";
+"Dépensé" = "Dépensé";
+"Cautions" = "Cautions";
+"Récupérée" = "Récupérée";
+"Aucune location" = "Aucune location";
+"Ajoutez les objets que vous louez à quelqu'un" = "Ajoutez les objets que vous louez à quelqu'un";
+"Objet loué" = "Objet loué";
+"Loueur" = "Loueur";
+"À qui je loue" = "À qui je loue";
+"À payer" = "À payer";
+"Caution récupérée" = "Caution récupérée";
+"Prêté à" = "Prêté à";
+"Sous-loué à" = "Sous-loué à";
+"Récupérer du prêt" = "Récupérer du prêt";
+"Récupérer de la sous-location" = "Récupérer de la sous-location";
+"Prêter cet objet" = "Prêter cet objet";
+"Sous-louer" = "Sous-louer";
+"Marquer comme payé" = "Marquer comme payé";
+"Voulez-vous valider le retour de cet objet ?" = "Voulez-vous valider le retour de cet objet ?";
+"Prêter" = "Prêter";
+"Sous-louer à" = "Sous-louer à";
+"Total estimé" = "Total estimé";
+
+/* Récupération partielle de caution */
+"Récupérer caution" = "Récupérer caution";
+"Récupération de caution" = "Récupération de caution";
+"Caution totale" = "Caution totale";
+"Déjà récupéré" = "Déjà récupéré";
+"Reste à récupérer" = "Reste à récupérer";
+"Montant à récupérer" = "Montant à récupérer";
+"Récupérer la totalité" = "Récupérer la totalité";
+"Partielle" = "Partielle";
+"Reste" = "Reste";
+
+/* Gestion caution avec perte */
+"État de la caution" = "État de la caution";
+"Déjà perdu" = "Déjà perdu";
+"Reste à traiter" = "Reste à traiter";
+"Montant récupéré" = "Montant récupéré";
+"Montant gardé par le loueur" = "Montant gardé par le loueur";
+"Montant retenu pour dégâts, frais ou pénalités" = "Montant retenu pour dégâts, frais ou pénalités";
+"Tout perdu" = "Tout perdu";
+"Gérer la caution" = "Gérer la caution";
+"restant" = "restant";
+"Perdu" = "Perdu";
+"Clôturée" = "Clôturée";
+
+/* Comptabilité - Nouveaux types */
+"Je loue (Dépense)" = "Je loue (Dépense)";
+"Caution perdue" = "Caution perdue";
+
+/* Export/Import Je loue */
+"Importer JSON" = "Importer JSON";
+"Import réussi" = "Import réussi";
+"Erreur d'import" = "Erreur d'import";
+
+/* Locations depuis des Agences (ALM) */
+"Loué depuis une Agence" = "Loué depuis une Agence";
+"Aucune location depuis une agence" = "Aucune location depuis une agence";
+
+/* Emprunts liés au matériel */
+"Historique des emprunts" = "Historique des emprunts";
+"Aucun emprunt enregistré" = "Aucun emprunt enregistré";
+
+/* Headers de sections fiche produit */
+"Mon matériel vers les autres" = "Mon matériel vers les autres";
+"Ce que je loue / emprunte" = "Ce que je loue / emprunte";

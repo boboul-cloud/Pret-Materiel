@@ -1,0 +1,1216 @@
+/* English */
+
+/* Navigation and tabs */
+"Matériel" = "Equipment";
+"Prêts" = "Loans";
+"Emprunts" = "Borrowed";
+"Locations" = "Rentals";
+"Personnes" = "People";
+"Lieux" = "Locations";
+"Lieux de stockage" = "Storage locations";
+"Réglages" = "Settings";
+"Autre" = "Other";
+"Accueil" = "Home";
+
+/* Settings */
+"Langue" = "Language";
+"Choisir la langue" = "Choose language";
+"À propos" = "About";
+"Version" = "Version";
+"Langue, sauvegarde..." = "Language, backup...";
+"Sauvegarde locale" = "Local backup";
+"Sauvegarder maintenant" = "Save now";
+"Données sauvegardées" = "Data saved";
+"Exporter les données" = "Export data";
+"Choisissez les données à exporter" = "Choose data to export";
+"Partager l'export PDF" = "Share PDF export";
+"Email, Fichiers, AirDrop..." = "Email, Files, AirDrop...";
+"Exclure les retournés" = "Exclude returned";
+"Statistiques" = "Statistics";
+
+/* Export types */
+"Tout" = "All";
+"Matériels" = "Equipment";
+
+/* Image Compression */
+"Image compression" = "Image compression";
+"Optimise la taille des exports" = "Optimize export size";
+"Original" = "Original";
+"Haute" = "High";
+"Moyenne" = "Medium";
+"Basse" = "Low";
+"Originale (iPhone)" = "Original (iPhone)";
+"Haute (2000px)" = "High (2000px)";
+"Moyenne (1200px)" = "Medium (1200px)";
+"Basse (800px)" = "Low (800px)";
+"Qualité maximale, fichiers volumineux" = "Maximum quality, large files";
+"Excellente qualité, taille réduite" = "Excellent quality, reduced size";
+"Bonne qualité, fichiers légers" = "Good quality, light files";
+"Qualité acceptable, très léger" = "Acceptable quality, very light";
+
+/* Add buttons */
+"Ajouter une personne" = "Add person";
+"Ajouter un prêt" = "Add loan";
+"Ajouter un emprunt" = "Add borrow";
+"Ajouter un matériel" = "Add equipment";
+"Ajouter un lieu" = "Add location";
+"Créer un nouveau lieu" = "Create new location";
+
+/* Search */
+"Rechercher une personne" = "Search a person";
+"Rechercher un prêt" = "Search a loan";
+"Rechercher un emprunt" = "Search a borrow";
+"Rechercher du matériel" = "Search equipment";
+"Rechercher un lieu" = "Search a location";
+
+/* Filters - Categories and Locations */
+"Catégorie" = "Category";
+"Toutes catégories" = "All categories";
+"Lieu" = "Location";
+"Tous les lieux" = "All locations";
+
+/* Filters - Status (segmented control) */
+"Statut" = "Status";
+"Tous" = "All";
+"En cours" = "Ongoing";
+"En retard" = "Late";
+"Retournés" = "Returned";
+"Bientôt" = "Soon";
+"Filtre" = "Filter";
+
+/* Loan/borrow actions */
+"Valider le retour" = "Confirm return";
+"Confirmer le retour" = "Confirm return";
+"Voulez-vous valider le retour de ce matériel ?" = "Do you want to confirm the return of this equipment?";
+"Voulez-vous valider le retour de cet objet emprunté ?" = "Do you want to confirm the return of this borrowed item?";
+"Effacer ce prêt" = "Delete this loan";
+"Effacer cet emprunt" = "Delete this borrow";
+"Annuler" = "Cancel";
+
+/* Date information */
+"Début:" = "Start:";
+"Fin:" = "End:";
+"Retourné le" = "Returned on";
+"%d jour(s) de retard" = "%d day(s) late";
+
+/* Forms - Titles */
+"Nouveau prêt" = "New loan";
+"Nouvel emprunt" = "New borrow";
+"Nouveau matériel" = "New equipment";
+"Nouveau lieu" = "New location";
+"Nouvelle personne" = "New person";
+"Modifier le lieu" = "Edit location";
+"Modifier" = "Edit";
+"Enregistrer" = "Save";
+"Détails" = "Details";
+
+/* Forms - Sections */
+"Objet" = "Item";
+"Nom de l'objet" = "Item name";
+"Prêteur" = "Lender";
+"Emprunteur" = "Borrower";
+"Sélectionner la personne" = "Select person";
+"Sélectionner le matériel" = "Select equipment";
+"Choisir..." = "Choose...";
+"Aucune personne enregistrée" = "No person registered";
+"Aucun matériel disponible" = "No equipment available";
+"Dates" = "Dates";
+"Date de début" = "Start date";
+"Date de fin prévue" = "Expected end date";
+"Notes" = "Notes";
+"Créer" = "Create";
+"Ajouter" = "Add";
+
+/* Forms - Photo */
+"Photo" = "Photo";
+"Ajouter une photo" = "Add a photo";
+"Changer la photo" = "Change photo";
+"Choisir une photo" = "Choose a photo";
+"Retirer la photo" = "Remove photo";
+"Aucune photo" = "No photo";
+
+/* Forms - Location */
+"Identification" = "Identification";
+"Nom du lieu" = "Location name";
+"Adresse" = "Address";
+"Localisation" = "Location details";
+"Décrivez librement la localisation (ex: Bâtiment A, Étage 2, Salle 203)" = "Describe the location freely (e.g., Building A, Floor 2, Room 203)";
+"Bâtiment" = "Building";
+"Étage" = "Floor";
+"Salle" = "Room";
+
+/* Forms - Equipment Location */
+"Emplacement précis" = "Precise location";
+"Emplacement" = "Location";
+"Ex: Placard cuisine, Étagère du haut, Tiroir 3..." = "E.g., Kitchen cabinet, Top shelf, Drawer 3...";
+"Ex: Garage, Cave, Grenier, Bureau..." = "E.g., Garage, Basement, Attic, Office...";
+
+/* Forms - Person */
+"Identité" = "Identity";
+"Prénom" = "First name";
+"Nom" = "Last name";
+"Contact" = "Contact";
+"Email" = "Email";
+"Téléphone" = "Phone";
+"Organisation" = "Organization";
+"Nom complet" = "Full name";
+
+/* Forms - Equipment */
+"Informations générales" = "General information";
+"Description" = "Description";
+"Valeur (€)" = "Value (€)";
+"Date d'acquisition" = "Acquisition date";
+"Lieu de stockage" = "Storage location";
+"Aucun" = "None";
+"Aucune" = "None";
+"+ Nouvelle catégorie" = "+ New category";
+"Nom de la nouvelle catégorie" = "New category name";
+
+/* Equipment status */
+"Disponible" = "Available";
+"Prêté" = "Loaned";
+"Loué" = "Rented";
+"Tous les matériels" = "All equipment";
+
+/* Location details */
+"Informations" = "Information";
+"Matériel stocké" = "Stored equipment";
+"Aucun matériel stocké ici" = "No equipment stored here";
+"%d matériel(s)" = "%d item(s)";
+
+/* Person details */
+"Pas d'email" = "No email";
+"Pas de téléphone" = "No phone";
+"Prêts actifs:" = "Active loans:";
+"Emprunts actifs:" = "Active borrows:";
+"Copier l'adresse" = "Copy address";
+"Copier le téléphone" = "Copy phone";
+"Impossible d'ouvrir Mail" = "Cannot open Mail";
+"Aucun compte Mail configuré." = "No Mail account configured.";
+
+/* Contact counters */
+"contact(s)" = "contact(s)";
+"lieu(x)" = "location(s)";
+"jour(s) de retard" = "day(s) late";
+"matériel(s)" = "item(s)";
+
+/* Home page */
+"Gestion de prêts simplifiée" = "Simplified loan management";
+"Créer un prêt rapide" = "Quick loan";
+"Créer un prêt" = "Create a loan";
+"Je prête quelque chose" = "I'm lending something";
+"Créer un emprunt rapide" = "Quick borrow";
+"On me prête quelque chose" = "Someone is lending me something";
+
+/* Statistics */
+"Prêts actifs" = "Active loans";
+"Emprunts actifs" = "Active borrows";
+"Locations actives" = "Active rentals";
+"Locations actives:" = "Active rentals:";
+"Réparations en cours:" = "Ongoing repairs:";
+"Locations Matériels en cours:" = "Ongoing Equipment Rentals:";
+"Total prêts" = "Total loans";
+"Total locations" = "Total rentals";
+
+/* Rentals - Emails */
+"Aucune location en cours." = "No active rental.";
+"Voici le récapitulatif des locations en cours:" = "Here is a summary of your current rentals:";
+"Rappel location" = "Rental reminder";
+"Rappel prêts et locations" = "Loans and rentals reminder";
+"Aucun matériel emprunté ou loué en cours." = "No borrowed or rented equipment.";
+"Paiement en attente" = "Payment pending";
+"Caution:" = "Deposit:";
+"Locations en cours" = "Current rentals";
+"Aucune location en cours" = "No current rental";
+"Payé" = "Paid";
+"Envoyer un rappel" = "Send a reminder";
+
+/* Loan History */
+"Historique des prêts" = "Loan history";
+"Du" = "From";
+"au" = "to";
+"Retourné" = "Returned";
+"Aucun prêt enregistré" = "No loan recorded";
+
+/* Repair History */
+"Historique des réparations" = "Repair history";
+"Aucune réparation enregistrée" = "No repair recorded";
+"Détail réparation" = "Repair details";
+"Fin prévue:" = "Expected end:";
+"Description du problème" = "Problem description";
+"Coûts" = "Costs";
+"Estimé" = "Estimated";
+"Final" = "Final";
+
+/* Errors */
+"Erreur" = "Error";
+"OK" = "OK";
+"Veuillez remplir tous les champs obligatoires" = "Please fill in all required fields";
+"La date de fin doit être après la date de début" = "End date must be after start date";
+
+/* Toolbar */
+"Réinitialiser" = "Reset";
+
+/* User Guide */
+"Mode d'emploi" = "User Guide";
+"Guide d'utilisation" = "How to use the app";
+
+/* Guide Categories */
+"guide_cat_start" = "Getting Started";
+"guide_cat_management" = "Management";
+"guide_cat_rental" = "Rental & Commerce";
+"guide_cat_organization" = "Organization";
+"guide_cat_security" = "Security";
+"guide_cat_tips" = "Tips";
+
+/* Guide - Introduction */
+"guide_intro_title" = "Welcome to Equipment";
+"guide_intro_content" = "Equipment is your complete assistant for managing everything you lend, borrow, rent or sell.\n\n📦 Inventory: Catalog your equipment with photos and receipts\n🔄 Loans/Borrows: Track who has what and until when\n💰 Rentals: Rent your equipment and manage payments\n🛒 Commerce: Manage your purchases and sales with VAT\n🔐 Safe Box: Protect your important documents\n📊 Accounting: Track your income and expenses\n\nNavigate between tabs at the bottom to access different features.";
+
+/* Guide - Home */
+"guide_home_title" = "Home Page";
+"guide_home_content" = "The home page gives you quick access to main actions:\n\n📸 Quick Loan: Photograph an item you're lending, add info and you're done!\n\n📸 Quick Borrow: Someone lending you something? Note it in seconds.\n\n👑 Go Premium: Free version has limited items. Premium unlocks everything unlimited.\n\nQuick buttons automatically create equipment and contacts if needed.";
+
+/* Guide - Quick Create */
+"guide_quick_create_title" = "Quick Creation with Photo";
+"guide_quick_create_content" = "Quick creation is the easiest way to start:\n\n1️⃣ Tap 'Create quick loan' or 'Create quick borrow'\n2️⃣ Take a photo of the item (optional but recommended)\n3️⃣ Enter the item name\n4️⃣ Add the person's name\n5️⃣ Set the expected return date\n6️⃣ Confirm!\n\nThe app automatically creates:\n• The equipment card with photo\n• The contact if new\n• The loan or borrow with dates\n\nYou can edit these elements anytime.";
+
+/* Guide - Navigation */
+"guide_navigation_title" = "Navigating the App";
+"guide_navigation_content" = "The app is organized in 5 main tabs:\n\n🏠 Home: Quick actions and overview\n\n📦 Equipment: Your complete inventory with filters by category, location and status\n\n↗️ Loans: What you lend to others (filterable by status: Ongoing, Late, Returned)\n\n↙️ Borrowed: What others lend to you (same filters available)\n\n⚙️ Other: People, Locations, Worksites, Rentals, Repairs, Commerce, Accounting, Safe Box and Settings\n\nEach list is searchable and sortable.";
+
+/* Guide - Language */
+"guide_language_title" = "Change Language";
+"guide_language_content" = "The app is available in 7 languages:\n🇫🇷 Français\n🇬🇧 English\n🇩🇪 Deutsch\n🇪🇸 Español\n🇮🇹 Italiano\n🇵🇹 Português\n🇳🇱 Nederlands\n\nTo change language:\n1. Go to Other > Settings\n2. Select your language flag\n\nThe language is applied instantly throughout the app.";
+
+/* Guide - Equipment */
+"guide_equipment_title" = "Manage Your Equipment";
+"guide_equipment_content" = "The Equipment tab is your central inventory:\n\n➕ Add equipment:\n• Name and detailed description\n• Category (create your own)\n• Estimated value in €\n• Acquisition date\n• Storage location (optional)\n• Precise location (e.g., top shelf)\n• Photo of the item\n• Receipt photo with number and seller\n\n🔍 Filter your inventory:\n• By category (Tools, Sports, Kitchen...)\n• By storage location\n• By status (Available, Loaned, Rented)\n• By text search\n\n📊 View details:\n• Loan history\n• Rental history\n• Repair history";
+
+/* Guide - Photos */
+"guide_photos_title" = "Photos and Receipts";
+"guide_photos_content" = "Photos enrich your cards:\n\n📷 Equipment photo:\n• Visually identify the item\n• Visible in lists and PDF exports\n• Take directly or choose from gallery\n\n🧾 Receipt photo:\n• Important proof of purchase\n• Receipt number and seller (optional)\n• Useful for insurance or warranty\n• Exportable to PDF\n\n💡 Quality tip:\nIn Settings > Image Quality, choose:\n• Original: Max quality, heavy files\n• High: Good compromise\n• Medium: Recommended (light and sufficient)\n• Low: To save space";
+
+/* Guide - Loans */
+"guide_loans_title" = "Create and Manage Loans";
+"guide_loans_content" = "A loan = equipment you entrust to someone.\n\n➕ Create a loan:\n1. Select the equipment to lend\n2. Choose the borrower (or create one)\n3. Set dates (start and expected end)\n4. Add notes if needed\n\n📋 Loan statuses:\n🟢 Ongoing: Active loan, no delay\n🟡 Soon: Due in less than 3 days\n🔴 Late: End date passed\n✅ Returned: Equipment given back\n\n✔️ Confirm a return:\nTap 'Confirm return' on the loan card. The actual return date is recorded.\n\n📧 Follow up with a borrower:\nFrom the person's card, send a summary email of items in progress.";
+
+/* Guide - Borrows */
+"guide_borrows_title" = "Track Your Borrows";
+"guide_borrows_content" = "A borrow = something someone lends to you.\n\n➕ Create a borrow:\n1. Name the borrowed item\n2. Select the lender (person lending to you)\n3. Set start and expected return dates\n4. Take a photo of the item\n5. Add notes (condition, terms...)\n\n🔄 Actions on a borrow:\n• Lend it to someone else\n• Rent it out (subletting)\n• Send it for repair\n• Return it to the lender\n\n📦 Create in Equipment:\nCheck this option to add the borrowed item to your inventory. It will be automatically removed when you return it.\n\n⚠️ Blocking:\nYou cannot return a borrow if it's currently loaned, rented or being repaired.";
+
+/* Guide - Lend Borrow */
+"guide_lend_borrow_title" = "Lend a Borrowed Item";
+"guide_lend_borrow_content" = "Want to temporarily lend something you borrowed?\n\n📤 How to:\n1. Go to the borrow card\n2. Tap 'Lend'\n3. Select the person you're lending to\n4. Set the expected return date\n\n⚠️ Blocking rules:\n• The borrow cannot be returned while the loan is active\n• You must first recover the item from the loan\n• Then you can return the borrow\n\n🔄 Same logic for:\n• Renting a borrow (subletting)\n• Sending a borrow for repair\n\nThis allows complete tracking of the possession chain.";
+
+/* Guide - Repairs */
+"guide_repairs_title" = "Manage Repairs";
+"guide_repairs_content" = "Send your equipment for repair and track costs.\n\n🔧 Create a repair:\n1. Select the equipment to repair\n2. Choose a repairer ('Repairer' type required)\n3. Describe the problem\n4. Enter estimated cost\n5. Set expected return date\n\n📊 Tracking:\n• Status: In progress / Completed\n• Estimated vs final cost\n• Delay indicator if overdue\n\n✅ Complete a repair:\n1. Confirm the return\n2. Enter final cost\n3. Mark as 'Paid' when settled\n\n💰 Accounting:\nRepairs are automatically recorded as expenses.";
+
+/* Guide - Returns */
+"guide_return_title" = "Confirm Returns";
+"guide_return_content" = "When an item is returned, confirm the return:\n\n✅ For a loan:\nTap 'Confirm return'. The equipment becomes available again.\n\n✅ For a borrow:\nTap 'Confirm return'. The borrow is marked as returned.\n\n✅ For a rental:\nTap 'End rental'. You'll then need to:\n• Mark payment as received\n• Handle deposit (return or keep)\n\n✅ For a repair:\nTap 'Confirm repair return'. Enter the final cost.\n\n💡 Tip:\nReturns are timestamped. You'll find the complete history in each card.";
+
+/* Guide - Rentals */
+"guide_rentals_title" = "Rent Your Equipment";
+"guide_rentals_content" = "Rentals let you rent your equipment for payment.\n\n➕ Create a rental:\n1. Select the equipment to rent\n2. Choose the renter\n3. Set the rate type:\n   • Day (price × number of days)\n   • Week (price × number of weeks)\n   • Month (price × number of months)\n   • Fixed price\n4. Enter the deposit amount\n5. Set the dates\n\n📊 Dashboard:\n• Income received (confirmed payments)\n• Pending (not yet paid)\n\n✅ End a rental:\n1. End the rental when item is returned\n2. Confirm payment receipt\n3. Handle deposit (return or keep)";
+
+/* Guide - Deposits */
+"guide_caution_title" = "Manage Deposits";
+"guide_caution_content" = "The deposit is a guarantee collected at end of rental.\n\n💵 Types of actions:\n\n🔙 Return deposit:\nIf everything is OK, return the deposit to the renter. It doesn't count as income.\n\n⚠️ Keep deposit:\nIn case of damage or dispute, keep all or part. The kept amount is added to your income.\n\n📋 Tracking in 'Other':\nThe 'Deposits to return' section lists all completed rentals with pending deposit handling.\n\n💰 Accounting:\nOnly kept deposits appear in accounting as exceptional income.";
+
+/* Guide - Sublet */
+"guide_sublet_title" = "Sublet Equipment";
+"guide_sublet_content" = "You can sublet equipment you're renting yourself.\n\n📤 How to:\n1. Go to your active rental card\n2. Tap 'Sublet'\n3. Select the subletter\n4. Set your own rates and terms\n\n⚠️ Rules:\n• The main rental cannot be ended while the sublet is active\n• First recover the equipment from the sublet\n• Then end the main rental\n\n💰 Income:\nSublet income is added to your normal accounting.";
+
+/* Guide - I Rent (My Rentals) */
+"guide_myrentals_title" = "I Rent - Equipment I'm Renting";
+"guide_myrentals_content" = "The 'I Rent' section lets you manage equipment YOU are renting from someone else (external equipment rental).\n\n📤 Create a rental:\n1. Tap 'Add a rental'\n2. Name the rented equipment\n3. Select the lessor (who you're renting from)\n4. Set the rate type (day/week/month/flat rate)\n5. Enter the price and deposit paid\n6. Set start and end dates\n\n📊 Tracking:\n• Total rental amount\n• Deposit paid and recovered\n• Status: In progress, Late, Completed\n• Payment made or pending\n\n✅ End a rental:\n1. Mark the rental as completed\n2. Enter the deposit amount recovered\n3. Confirm payment made\n\n⚠️ Reminders:\nRentals with unrecovered deposits appear as alerts.";
+
+/* Guide - My Deposits */
+"guide_myrentals_caution_title" = "Managing My Deposits Paid";
+"guide_myrentals_caution_content" = "When you rent equipment, you often pay a deposit.\n\n💵 Deposit tracking:\n• Deposit amount paid at signing\n• Amount recovered at end of rental\n• Difference if any retention\n\n🔄 Workflow:\n1. When creating, enter the deposit paid\n2. At end of rental, enter amount recovered\n3. The difference is automatically calculated\n\n📋 Alerts:\nIn 'Other > I Rent', an alert warns you if completed rentals have unrecovered deposits.\n\n💰 Accounting:\n• Deposit paid = temporary expense\n• Deposit recovered = refund\n• Unrecovered deposit = loss (permanent expense)";
+
+/* Guide - Commerce */
+"guide_commerce_title" = "Buy/Sell Module";
+"guide_commerce_content" = "The Commerce module is ideal for markets, shops and small businesses.\n\n📦 Features:\n• Product catalog with purchase and selling prices\n• Automatic stock management\n• VAT calculation (collected, deductible, payable)\n• Percentage or fixed discounts\n• Payment methods (cash, card, check, transfer)\n• Deferred payments with reminders\n\n📊 Commercial accounting:\n• Total sales / purchases / profits\n• VAT detail by rate\n• Average basket\n• Payment method breakdown\n• Low stock alerts\n\n🔄 JSON export/import to backup your data.";
+
+/* Guide - Articles */
+"guide_articles_title" = "Manage Your Products";
+"guide_articles_content" = "Products are items in your commercial catalog.\n\n➕ Create a product:\n• Name and description\n• Category (create your own)\n• Reference / SKU\n• Purchase price excluding VAT and purchase VAT rate\n• Selling price including VAT and sales VAT rate\n• Current stock and alert threshold\n• Supplier (optional)\n• Photo (optional)\n\n📊 Automatic margin:\nThe app automatically calculates your margin and percentage.\n\n🔔 Stock alerts:\nWhen stock falls below threshold, the item appears in alerts.\n\n⚡ Quick sale:\nLong-press a product for quick sale without complex entry.";
+
+/* Guide - Transactions */
+"guide_transactions_title" = "Record Transactions";
+"guide_transactions_content" = "Transactions are your sales and purchases.\n\n🛒 Create a transaction:\n1. Choose type: Sale or Purchase\n2. Select a catalog item OR enter freely\n3. Enter quantity\n4. Apply discount (optional): % or fixed amount\n5. Choose payment method: Cash, Card, Check, Transfer\n6. Indicate if paid or pending\n7. If pending, set payment date\n\n📊 Automatic summary:\n• Gross amount excluding VAT\n• Applied discount\n• Net amount excluding VAT\n• Calculated VAT\n• Total including VAT\n\n🔔 Reminders:\nEnable notifications for upcoming payments (3 days before).";
+
+/* Guide - Accounting */
+"guide_accounting_title" = "Rental Accounting";
+"guide_accounting_content" = "Accounting automatically groups your financial operations.\n\n📊 Content:\n• Income: Paid rentals\n• Income: Kept deposits\n• Expenses: Paid repairs\n\n📅 Periods:\n• View by month\n• View by year\n• Total view\n\n💰 Indicators:\n• Total income (green)\n• Total expenses (red)\n• Net profit\n\n📤 Export:\n• Formatted PDF for accounting\n• JSON for backup/import\n\nOperations are automatically added when you mark a payment as received.";
+
+/* Guide - Commerce Accounting */
+"guide_commerce_accounting_title" = "Commercial Accounting";
+"guide_commerce_accounting_content" = "Complete view of your sales activity.\n\n📊 Dashboard:\n• Total sales including VAT\n• Total purchases including VAT\n• Net profit\n• Average basket (sales and purchases)\n\n💹 Detailed VAT:\n• Collected VAT (on sales)\n• Deductible VAT (on purchases)\n• VAT payable (difference)\n• Detail by rate (5.5%, 10%, 20%...)\n\n💳 Payment breakdown:\n• Cash / Card / Check / Transfer\n• Percentage visualization\n\n📦 Stock:\n• Number of items in stock\n• Items in alert (low stock)\n\n💸 Discounts given:\n• Total sales discounts\n• Total purchase discounts";
+
+/* Guide - People */
+"guide_people_title" = "Contact List";
+"guide_people_content" = "Manage people you interact with.\n\n➕ Add a person:\n• First and last name\n• Email (enables email sending)\n• Phone (enables direct calls)\n• Organization (company, association...)\n• Type: Person, Repairer or Employee\n• Photo (optional)\n\n📧 Reminder email:\nFrom a person's card, send an email automatically listing:\n• Equipment currently loaned\n• Expected return dates\n• Delay indications\n\n📞 Direct call:\nTap the phone number to call directly.\n\n📇 Import Contacts:\nAutomatically import from your iPhone contacts.";
+
+/* Guide - People Types */
+"guide_people_types_title" = "People Types";
+"guide_people_types_content" = "Three types to organize your contacts:\n\n👤 Person (default):\nClients, friends, family... Anyone you lend or rent equipment to.\n\n🔧 Repairer:\nCraftsmen and repair shops. Only repairers can be selected when sending for repair.\n\n👷 Employee:\nTeam members. Can be assigned to worksites. Ideal for companies with multiple sites.\n\n💡 Tip:\nA person can only have one type. Change it anytime from their card.";
+
+/* Guide - Duplicates */
+"guide_duplicates_title" = "Merge Duplicates";
+"guide_duplicates_content" = "The app automatically detects duplicate people.\n\n🔍 How it works:\n• Detection by identical first + last name\n• Ignores case and spaces\n\n🔄 Merge:\n1. Go to Other > People\n2. Tap the 'Duplicates' button in the toolbar\n3. Select the duplicate group\n4. Choose the person to keep\n5. Confirm the merge\n\n✅ Result:\n• All loans are reassigned\n• All borrows are reassigned\n• All rentals are reassigned\n• Duplicates are deleted\n\n💡 Check the contact info of the kept person.";
+
+/* Guide - Worksites */
+"guide_worksites_title" = "Worksite Management";
+"guide_worksites_content" = "Organize your team across multiple work sites.\n\n🏗️ Create a worksite:\n• Worksite name\n• Full address\n• Description and notes\n• Start and end dates\n• Main site contact\n• Status: Active or Completed\n\n👷 Assign employees:\n1. Create 'Employee' type people\n2. Open the worksite card\n3. Add the relevant employees\n\n🗺️ Navigation:\nTap the address to open in Maps.\n\n📊 Automatic statuses:\n• Preparing: Start date not reached\n• Active: In progress\n• Completed: Marked as finished\n\n📤 Export to PDF or JSON.";
+
+/* Guide - Locations */
+"guide_locations_title" = "Storage Locations";
+"guide_locations_content" = "Organize where your equipment is stored.\n\n📍 Create a location:\n• Name (e.g., Garage, North Warehouse...)\n• Full address\n• Building\n• Floor\n• Room\n• Notes\n\n📦 Usage:\n• Associate each equipment with a location\n• Add precise placement (e.g., shelf B, drawer 3)\n• Filter your inventory by location\n\n🔍 Find an item:\n1. Search for it in Equipment\n2. The card shows location and exact placement\n\n📊 Overview:\nA location's card shows all equipment stored there.";
+
+/* Guide - Categories */
+"guide_categories_title" = "Manage Categories";
+"guide_categories_content" = "Categories organize your inventory.\n\n➕ Create a category:\nWhen adding equipment, type a new category name.\n\n🗂️ Suggested categories:\n• Tools\n• Electronics\n• Sports\n• Kitchen\n• Gardening\n• DIY\n• Music\n• Photo/Video\n\n📝 Manage categories:\n1. In the Equipment list\n2. Tap the folder icon near the category filter\n3. Rename or delete\n\n⚠️ Delete a category:\nEquipment is not deleted, they just lose their category.";
+
+/* Guide - Search */
+"guide_search_title" = "Search and Filters";
+"guide_search_content" = "Quickly find any item.\n\n🔍 Search bar:\n• Available on every list\n• Searches name and description\n• Real-time results\n\n🎯 Combinable filters:\n\n📦 Equipment:\n• By category\n• By storage location\n• By status (Available, Loaned, Rented)\n\n↗️ Loans / ↙️ Borrows:\n• All / Ongoing / Late / Returned / Soon\n\n🏷️ Rentals:\n• By status\n• By payment state\n• By deposit state\n\n🔧 Repairs:\n• In progress / Completed\n• Paid / Unpaid\n\n💡 Reset button:\nReset all filters with one tap.";
+
+/* Guide - Status */
+"guide_status_title" = "Understanding Statuses";
+"guide_status_content" = "Color codes throughout the app:\n\n🟢 Green:\n• Available\n• Returned\n• Paid\n• Completed\n\n🟡 Orange:\n• Ongoing\n• Soon (< 3 days)\n• Awaiting payment\n\n🔴 Red:\n• Late\n• Unpaid (date passed)\n• Problem detected\n\n🔵 Blue:\n• Information\n• Clickable link\n• Available action\n\n📊 Visual indicators:\n• Clock icon: Ongoing\n• Triangle icon: Late\n• Check icon: Completed/Returned\n• Number badge: Item count";
+
+/* Guide - Safe */
+"guide_safe_title" = "Secure Safe Box";
+"guide_safe_content" = "Protect your important documents with secure access.\n\n🔐 Setup:\n1. Create a password (min. 4 characters)\n2. Choose a recovery question\n3. Answer the secret question\n\n📦 Recommended content:\n• Valuable jewelry and watches\n• Expensive electronics\n• Artwork\n• Important documents\n• Major purchase receipts\n\n🏷️ For each item:\n• Photo of the item\n• Name and description\n• Estimated value\n• Brand, model, serial number\n• Receipt/proof of purchase photo\n\n📄 Insurance inventory:\nExport a complete PDF for your insurer.";
+
+/* Guide - Biometric */
+"guide_biometric_title" = "Face ID / Touch ID";
+"guide_biometric_content" = "Access the safe box with biometrics.\n\n✅ Advantages:\n• Quick access without entering password\n• Enhanced security\n• Same protection level as your iPhone\n\n🔧 Activation:\nBiometric authentication is automatic if your device supports it.\n\n📱 Compatibility:\n• Face ID (iPhone X and later)\n• Touch ID (iPhone with sensor)\n\n🔑 Fallback:\nIf biometrics fails, enter your password.\n\n⚠️ Forgotten password:\n1. Use the recovery question\n2. Last resort: complete reset (data loss)";
+
+/* Guide - Password */
+"guide_password_title" = "Password Management";
+"guide_password_content" = "Secure your safe box with a strong password.\n\n🔑 Rules:\n• Minimum 4 characters\n• Confirmation required\n• Recovery question recommended\n\n🔄 Change password:\n1. Open the safe box\n2. Menu > Change password\n3. Enter old password\n4. Enter and confirm new one\n\n❓ Forgotten password:\n1. Tap 'Forgot password?'\n2. Answer the secret question\n3. Create a new password\n\n⚠️ Everything forgotten:\nIf you forgot both password AND answer, the only option is complete reset. All data will be lost.";
+
+/* Guide - Invoices */
+"guide_invoices_title" = "Receipt Management";
+"guide_invoices_content" = "Keep your purchase proofs digitally.\n\n🧾 For each equipment:\n• Receipt photo (JPG or PDF)\n• Receipt number\n• Seller/store name\n• Acquisition date (automatic or manual)\n\n🏠 For the safe box:\n• Receipt/proof of purchase photo\n• Same information\n\n💡 Uses:\n• Proof of ownership for insurance\n• Warranty tracking\n• Evidence in case of dispute\n• Export in PDF cards\n\n📤 Export:\nReceipts are included in:\n• Equipment PDF cards\n• Insurance inventory PDF\n• JSON backup";
+
+/* Guide - Backup */
+"guide_backup_title" = "Backup and Restore";
+"guide_backup_content" = "Protect your data with regular backups.\n\n💾 Local backup:\nTap 'Save now' in Settings. Creates a local restore point.\n\n📤 JSON export:\nExport all your data (or selection) in JSON format:\n• Send by email\n• Save in Files\n• Share via AirDrop\n\n📥 JSON import:\nRestore your data from a previously exported JSON file.\n\n✅ Exported data:\n• Equipment + photos\n• Loans and borrows\n• Rentals and repairs\n• People\n• Locations and worksites\n• Commerce (products + transactions)\n• Safe box";
+
+/* Guide - PDF */
+"guide_pdf_title" = "PDF Export";
+"guide_pdf_content" = "Create professional PDF documents.\n\n📄 Export types:\n\n📦 Equipment Catalog:\n• Detailed card per item\n• Photo + description\n• Value and storage location\n• Receipt photo\n\n🔐 Insurance Inventory:\n• Complete safe box list\n• Photos and purchase proofs\n• Total estimated value\n• To send to your insurer\n\n📊 Accounting:\n• Operations summary\n• Income and expenses\n• By period (month/year)\n\n💡 Options:\n• Exclude returned items\n• Choose image quality\n• Select data types";
+
+/* Guide - JSON */
+"guide_json_title" = "JSON Export/Import";
+"guide_json_content" = "JSON format is ideal for complete backups.\n\n✅ Advantages:\n• Structured data\n• Includes all photos\n• Complete restoration possible\n• Transfer between devices\n\n📤 Export:\n1. Settings > Export\n2. Select data\n3. Share the .json file\n\n📥 Import:\n1. Settings > Import JSON\n2. Select file\n3. Data is merged (no duplicates)\n\n💡 Tip:\nMake a monthly JSON export and store it on iCloud, Google Drive or by email.\n\n⚠️ Import:\nExisting elements (same ID) are not duplicated.";
+
+/* Guide - Image Quality */
+"guide_image_quality_title" = "Image Quality";
+"guide_image_quality_content" = "Optimize your export size.\n\n📷 Available options:\n\n🟣 Original (iPhone):\n• Maximum quality\n• Very large files (~5 MB)\n• For high-quality archiving\n\n🔵 High (2000px):\n• Excellent quality\n• Reduced size (~2 MB)\n• Good compromise\n\n🟢 Medium (1200px):\n• Good quality\n• Light files (~800 KB)\n• Recommended ✅\n\n🟠 Low (800px):\n• Acceptable quality\n• Very light (~300 KB)\n• For numerous exports\n\n⚙️ Change:\nSettings > Image Quality";
+
+/* Guide - Tips */
+"guide_tips_title" = "Practical Tips";
+"guide_tips_content" = "Get the most out of the app:\n\n📸 Photos:\n• Photograph every valuable item\n• Include serial numbers\n• Keep receipt photos\n\n👥 Contacts:\n• Create people before loans\n• Enter emails and phones\n• Use Contact import\n\n📅 Dates:\n• Be realistic about return dates\n• Regularly check delays\n• Send email reminders\n\n💾 Backups:\n• Export JSON monthly\n• Store in the cloud\n• Test a restore\n\n🔐 Safe box:\n• Inventory your valuables\n• Keep purchase proofs\n• Export for insurance";
+
+/* Guide - Best Practices */
+"guide_best_practices_title" = "Best Practices";
+"guide_best_practices_content" = "Optimize your daily use:\n\n✅ Do:\n• Take a photo BEFORE lending\n• Note condition in notes\n• Confirm returns quickly\n• Keep categories consistent\n• Make regular backups\n\n❌ Avoid:\n• Forgetting to confirm returns\n• Ignoring late loans\n• Mixing people and repairers\n• Neglecting receipt photos\n\n💡 Ideal workflow:\n1. Create your storage locations\n2. Add key contacts\n3. Inventory your equipment\n4. Photograph receipts\n5. Use quick creation daily";
+
+/* Guide - Email */
+"guide_email_title" = "Sending Emails";
+"guide_email_content" = "Easily communicate with your contacts.\n\n📧 Reminder email:\n1. Open the person's card\n2. Tap the email icon\n3. A pre-filled message opens with:\n   • List of loaned equipment\n   • Expected return dates\n   • Delay indications\n\n📧 Payment reminder:\nFor unpaid rentals, send a reminder listing amounts due.\n\n✅ Requirements:\n• Email must be entered in the card\n• Mail app must be configured\n\n💡 Customize:\nThe message opens in Mail, you can edit before sending.";
+
+/* Guide - Alerts */
+"guide_alerts_title" = "Alerts and Notifications";
+"guide_alerts_content" = "The app alerts you visually:\n\n🔴 Delay indicators:\n• Red badge on late loans\n• Warning triangle on borrows\n• Red color in lists\n\n🟡 Upcoming deadlines:\n• 'Soon' filter (< 3 days)\n• Orange color\n\n💰 Payments:\n• 'Upcoming payments' section\n• 'Late payments' section\n• Commerce alerts for deadlines\n\n📦 Low stock:\n• Badge on items in alert\n• Visible in Commerce\n\n💡 Tip:\nRegularly check 'Late' and 'Soon' filters to anticipate.";
+
+/* Guide - Capacity */
+"guide_capacity_title" = "Capacity and Limits";
+"guide_capacity_content" = "Free version vs Premium:\n\n🆓 Free version:\n• 10 equipment\n• 5 active loans\n• 5 active borrows\n• 5 rentals\n• 5 repairs\n• 10 people\n• 3 locations\n• 5 safe box items\n\n👑 Premium version:\n• Everything UNLIMITED!\n• One-time payment, lifetime access\n• Support development\n\n💾 Storage:\n• Local data on your iPhone\n• No technical limit\n• Photos take up more space\n\n💡 Tip:\nMake regular backups, especially with lots of data.";
+
+/* Guide - Premium */
+"guide_premium_title" = "Go Premium";
+"guide_premium_content" = "Unlock the app's full potential.\n\n👑 Premium advantages:\n• Unlimited equipment\n• Unlimited loans\n• Unlimited borrows\n• Unlimited rentals\n• Unlimited repairs\n• Unlimited people\n• Unlimited locations\n• Unlimited safe box\n\n💳 Payment:\n• One-time payment\n• Lifetime access\n• No subscription\n\n🔄 Restore:\nIf you change devices:\n1. Go to Premium\n2. Tap 'Restore purchases'\n3. Your purchases are restored\n\n❤️ Support:\nYour purchase helps improve the app!";
+
+/* Guide - FAQ */
+"guide_faq_title" = "Frequently Asked Questions";
+"guide_faq_content" = "❓ Is my data secure?\nYes, everything is stored locally on your iPhone. The safe box is password protected.\n\n❓ Can I use the app on iPad/Mac?\nYes, the app is universal and works on iPhone, iPad and Mac (Apple Silicon).\n\n❓ How do I transfer my data?\nExport to JSON, then import on the new device.\n\n❓ Does the app work offline?\nYes, all features are available without internet.\n\n❓ How do I contact support?\nSend an email from the App Store page or Settings.\n\n❓ Are updates free?\nYes, all updates are included.";
+
+/* Import Contacts */
+"Importer depuis Contacts" = "Import from Contacts";
+"Remplir automatiquement depuis vos contacts" = "Auto-fill from your contacts";
+
+/* Safe Box */
+"Coffre-fort" = "Safe Box";
+"Objets de valeur" = "Valuables";
+"Configurer le Coffre-fort" = "Set Up Safe Box";
+"Créez un mot de passe pour protéger vos documents importants. Ce coffre-fort stockera les photos et factures de vos objets de valeur." = "Create a password to protect your important documents. This safe box will store photos and receipts of your valuables.";
+"Mot de passe" = "Password";
+"Confirmer le mot de passe" = "Confirm password";
+"Créer le coffre-fort" = "Create safe box";
+"Le mot de passe doit contenir au moins 4 caractères" = "Password must be at least 4 characters";
+"Les mots de passe ne correspondent pas" = "Passwords do not match";
+"Erreur lors de la création du mot de passe" = "Error creating password";
+"Coffre-fort verrouillé" = "Safe Box Locked";
+"Entrez votre mot de passe pour accéder à vos documents" = "Enter your password to access your documents";
+"Déverrouiller" = "Unlock";
+"Déverrouiller le coffre-fort" = "Unlock safe box";
+"Mot de passe incorrect" = "Incorrect password";
+"Utiliser Face ID / Touch ID" = "Use Face ID / Touch ID";
+"Valeur totale estimée" = "Total estimated value";
+"Objets" = "Items";
+"Ajouter un objet" = "Add an item";
+"Rechercher un objet" = "Search for an item";
+"Exporter vers Fichiers" = "Export to Files";
+"Nouvel objet" = "New item";
+"Photo de l'objet" = "Item photo";
+"Nom de l'objet" = "Item name";
+"Valeur estimée (€)" = "Estimated value (€)";
+"Valeur estimée" = "Estimated value";
+"Détails (optionnel)" = "Details (optional)";
+"Marque" = "Brand";
+"Modèle" = "Model";
+"N° de série" = "Serial number";
+"Facture / Preuve d'achat" = "Receipt / Proof of purchase";
+"Preuve d'achat" = "Proof of purchase";
+"Facture enregistrée" = "Receipt saved";
+"Aucune facture enregistrée" = "No receipt saved";
+"Ajouté au coffre" = "Added to safe box";
+"Retirer" = "Remove";
+
+/* Purchase Receipt (Equipment) */
+"Facture d'achat" = "Purchase Receipt";
+"Numéro de facture" = "Receipt number";
+"Vendeur / Magasin" = "Seller / Store";
+"Aucune facture" = "No receipt";
+"Ajouter une facture" = "Add receipt";
+"Changer la facture" = "Change receipt";
+"Retirer la facture" = "Remove receipt";
+"Photo de la facture" = "Receipt photo";
+"N° Facture" = "Receipt #";
+"Vendeur" = "Seller";
+"Aucune information de facture" = "No receipt information";
+"Exporter la fiche" = "Export record";
+"Quitter" = "Back";
+
+/* Export/Import */
+"Catalogue PDF" = "PDF Catalog";
+"Exporter en fiches lisibles avec photos" = "Export as readable sheets with photos";
+"Catalogue Matériels (PDF)" = "Equipment Catalog (PDF)";
+"Sauvegarde JSON" = "JSON Backup";
+"Utilise la sélection ci-dessus" = "Uses the selection above";
+"Pour restauration ou transfert" = "For restoration or transfer";
+"Export JSON" = "Export JSON";
+"Import JSON" = "Import JSON";
+"Import réussi" = "Import successful";
+"Les données ont été importées avec succès" = "Data has been imported successfully";
+"Erreur d'import" = "Import error";
+"Impossible d'importer le fichier" = "Unable to import file";
+"Inventaire Assurance (PDF)" = "Insurance Inventory (PDF)";
+"Export PDF" = "PDF Export";
+"Sauvegarde" = "Backup";
+
+/* Password management */
+"Question de récupération" = "Recovery question";
+"En cas d'oubli du mot de passe" = "In case you forget your password";
+"Votre réponse" = "Your answer";
+"La réponse doit contenir au moins 2 caractères" = "Answer must be at least 2 characters";
+"Mot de passe oublié ?" = "Forgot password?";
+"Récupération du mot de passe" = "Password recovery";
+"Question de sécurité :" = "Security question:";
+"Vérifier" = "Verify";
+"Réponse incorrecte" = "Incorrect answer";
+"Créez un nouveau mot de passe" = "Create a new password";
+"Nouveau mot de passe" = "New password";
+"Réinitialiser" = "Reset";
+"Erreur lors de la réinitialisation" = "Error during reset";
+"Récupération" = "Recovery";
+"Changer le mot de passe" = "Change password";
+"Ancien mot de passe" = "Old password";
+"Confirmer le nouveau mot de passe" = "Confirm new password";
+"Modifier le mot de passe" = "Update password";
+"Ancien mot de passe incorrect" = "Incorrect old password";
+"Erreur lors du changement de mot de passe" = "Error changing password";
+"Mot de passe modifié avec succès" = "Password changed successfully";
+"Sécurité" = "Security";
+"Question" = "Question";
+
+/* Recovery questions */
+"Quel est le nom de votre premier animal de compagnie ?" = "What is your first pet's name?";
+"Quel est le prénom de votre meilleur ami d'enfance ?" = "What is your childhood best friend's first name?";
+"Quelle est la ville de naissance de votre mère ?" = "What city was your mother born in?";
+"Quel est le nom de votre école primaire ?" = "What is the name of your primary school?";
+"Quel est votre plat préféré ?" = "What is your favorite dish?";
+"Quelle est la marque de votre première voiture ?" = "What was the brand of your first car?";
+
+/* Full vault reset */
+"J'ai aussi oublié ma réponse" = "I also forgot my answer";
+"Réinitialisation complète" = "Complete reset";
+"Attention : Perte de données" = "Warning: Data loss";
+"Si vous avez oublié votre code ET votre réponse de sécurité, la seule option est de réinitialiser complètement le coffre-fort. Cela supprimera TOUTES les données stockées de manière irréversible." = "If you have forgotten your code AND your security answer, the only option is to completely reset the vault. This will permanently delete ALL stored data.";
+"Données qui seront supprimées :" = "Data that will be deleted:";
+"%d élément(s) dans le coffre-fort" = "%d item(s) in the vault";
+"Toutes les photos et factures" = "All photos and invoices";
+"Conseil important" = "Important advice";
+"À l'avenir, pensez à exporter vos données en JSON depuis les réglages pour avoir une sauvegarde." = "In the future, remember to export your data as JSON from settings to have a backup.";
+"Je comprends et souhaite continuer" = "I understand and wish to continue";
+"Confirmation finale" = "Final confirmation";
+"Pour confirmer la suppression définitive, tapez SUPPRIMER ci-dessous :" = "To confirm permanent deletion, type DELETE below:";
+"SUPPRIMER" = "DELETE";
+"Réinitialiser le coffre-fort" = "Reset the vault";
+"Êtes-vous vraiment sûr ?" = "Are you really sure?";
+"Cette action est irréversible. Toutes les données du coffre-fort seront définitivement supprimées." = "This action is irreversible. All vault data will be permanently deleted.";
+"Oui, tout supprimer" = "Yes, delete everything";
+"Conseil" = "Advice";
+"Pensez à effectuer des sauvegardes régulières de votre coffre-fort au format JSON depuis les paramètres. En cas d'oubli total (code + réponse), seule une réinitialisation sera possible et toutes les données seront perdues." = "Remember to regularly back up your vault as JSON from settings. If you forget both code and answer, only a reset will be possible and all data will be lost.";
+"Aucune question de récupération" = "No recovery question";
+"Aucune question de sécurité n'a été configurée pour ce coffre-fort. Vous pouvez uniquement réinitialiser complètement le coffre-fort, ce qui supprimera toutes les données." = "No security question has been configured for this vault. You can only completely reset the vault, which will delete all data.";
+
+/* Recovery during password change */
+"Une question de récupération existe déjà. Vous pouvez la modifier ci-dessous." = "A recovery question already exists. You can modify it below.";
+"Définissez une question pour récupérer votre mot de passe en cas d'oubli." = "Set up a question to recover your password if you forget it.";
+
+/* Alerts and loan/borrow status */
+"Retour prévu:" = "Expected return:";
+"En retard" = "Late";
+"Aucun prêt en cours" = "No active loans";
+"Aucun emprunt en cours" = "No active borrows";
+"Prêts en cours" = "Active loans";
+"Emprunts en cours" = "Active borrows";
+"Informations" = "Information";
+"Nom complet" = "Full name";
+"Dernier email" = "Last email";
+"Modifier la personne" = "Edit person";
+
+/* Sections for equipment in/out */
+"Matériels qui sortent" = "Outgoing equipment";
+"Matériels qui rentrent" = "Incoming equipment";
+"Aucun matériel en sortie" = "No outgoing equipment";
+"Aucun matériel en entrée" = "No incoming equipment";
+
+/* Email body */
+"Bonjour" = "Hello";
+"Aucun matériel emprunté en cours." = "No equipment currently borrowed.";
+"Voici le récapitulatif des matériels empruntés:" = "Here is the summary of borrowed equipment:";
+"RETARD: retour prévu" = "LATE: expected return";
+"retard de" = "late by";
+"retour prévu:" = "expected return:";
+"Merci de procéder au retour ou de nous informer d'un prolongement." = "Please proceed with the return or let us know about an extension.";
+"Cordialement," = "Best regards,";
+"L'équipe gestion de matériel" = "The equipment management team";
+"Retour du matériel emprunté" = "Return of borrowed equipment";
+"Récapitulatif des emprunts actifs:" = "Summary of active borrows:";
+"Merci de préparer le retour ou nous indiquer tout besoin de prolongation." = "Please prepare the return or let us know if you need an extension.";
+
+/* Image Quality */
+"Qualité des images" = "Image Quality";
+"Choisissez la qualité des images pour les exports PDF et JSON" = "Choose image quality for PDF and JSON exports";
+"Originale (iPhone)" = "Original (iPhone)";
+"Haute (2000px)" = "High (2000px)";
+"Moyenne (1200px)" = "Medium (1200px)";
+"Basse (800px)" = "Low (800px)";
+"Qualité maximale, fichiers volumineux" = "Maximum quality, large files";
+"Excellente qualité, taille réduite" = "Excellent quality, reduced size";
+"Bonne qualité, fichiers légers" = "Good quality, lightweight files";
+"Qualité acceptable, très léger" = "Acceptable quality, very light";
+
+/* Premium */
+"Premium" = "Premium";
+"Débloquez toutes les fonctionnalités" = "Unlock all features";
+"Premium actif" = "Premium active";
+"Passez à Premium" = "Go Premium";
+"Avantages Premium" = "Premium Benefits";
+"Matériels illimités" = "Unlimited equipment";
+"Ajoutez autant de matériels que vous voulez" = "Add as many items as you want";
+"Prêts illimités" = "Unlimited loans";
+"Gérez tous vos prêts sans limite" = "Manage all your loans without limits";
+"Emprunts illimités" = "Unlimited borrows";
+"Suivez tous les objets qu'on vous prête" = "Track all items lent to you";
+"Personnes illimitées" = "Unlimited contacts";
+"Ajoutez tous vos contacts sans restriction" = "Add all your contacts without restriction";
+"Lieux illimités" = "Unlimited Locations";
+"Créez autant de lieux de stockage que nécessaire" = "Create as many storage locations as needed";
+"Coffre-fort illimité" = "Unlimited safe box";
+"Stockez toutes vos preuves de possession" = "Store all your proofs of ownership";
+"Sauvegarde iCloud" = "iCloud Backup";
+"Synchronisez sur tous vos appareils" = "Sync across all your devices";
+"Notifications avancées" = "Advanced notifications";
+"Rappels personnalisés pour les retours" = "Custom reminders for returns";
+"Statistiques détaillées" = "Detailed statistics";
+"Analysez vos prêts et emprunts" = "Analyze your loans and borrows";
+"Soutenez le développement" = "Support development";
+"Aidez à améliorer l'application" = "Help improve the app";
+"Produits non disponibles" = "Products unavailable";
+"Chargement en cours..." = "Loading...";
+"Les produits seront disponibles dans un instant. Veuillez patienter ou réessayer." = "Products will be available shortly. Please wait or try again.";
+"Réessayer" = "Try again";
+"Paiement unique - Accès à vie" = "One-time payment - Lifetime access";
+"Restaurer les achats" = "Restore purchases";
+"Conditions" = "Terms";
+"Confidentialité" = "Privacy";
+"Merci !" = "Thank you!";
+"Vous êtes maintenant Premium" = "You are now Premium";
+"RECOMMANDÉ" = "RECOMMENDED";
+"Soutenir l'app" = "Support the app";
+"Si vous aimez Matériel, vous pouvez soutenir son développement avec un pourboire." = "If you like Equipment, you can support its development with a tip.";
+"Votre soutien est très apprécié ! ❤️" = "Your support is greatly appreciated! ❤️";
+"Limite atteinte" = "Limit reached";
+"Passez à Premium pour continuer" = "Go Premium to continue";
+"Débloquer" = "Unlock";
+"Version gratuite" = "Free version";
+"Passer à Premium" = "Upgrade to Premium";
+"Limite lieux atteinte" = "You have reached the location limit for the free version. Upgrade to Premium for unlimited access.";
+"Limite personnes atteinte" = "You have reached the contact limit for the free version. Upgrade to Premium for unlimited access.";
+"Limite matériels atteinte" = "You have reached the equipment limit for the free version. Upgrade to Premium for unlimited access.";
+"Limite prêts atteinte" = "You have reached the loan limit for the free version. Upgrade to Premium for unlimited access.";
+"Limite emprunts atteinte" = "You have reached the borrow limit for the free version. Upgrade to Premium for unlimited access.";
+"Limite coffre-fort atteinte" = "You have reached the safe item limit for the free version. Upgrade to Premium for unlimited access.";
+"Synchroniser les compteurs" = "Sync counters";
+
+/* Camera */
+"Photographier" = "Take photo";
+"Prendre une photo" = "Take a photo";
+
+/* Biometrics */
+"Utiliser Face ID" = "Use Face ID";
+"Utiliser Touch ID" = "Use Touch ID";
+
+/* Language */
+"Langue de l'application" = "App Language";
+"Choisissez votre langue préférée" = "Choose your preferred language";
+
+/* Safe categories */
+"Électronique" = "Electronics";
+"Bijoux" = "Jewelry";
+"Art & Décoration" = "Art & Decor";
+"Mobilier" = "Furniture";
+"Électroménager" = "Appliances";
+"Instruments de musique" = "Musical instruments";
+"Sport & Loisirs" = "Sports & Leisure";
+"Véhicules" = "Vehicles";
+"Vêtements de valeur" = "Valuable clothing";
+"Collections" = "Collections";
+"Autre" = "Other";
+
+/* Lend a borrowed item */
+"Prêter" = "Lend";
+"Prêter l'emprunt" = "Lend the borrow";
+"Prêter cet emprunt" = "Lend this borrowed item";
+"À qui prêter ?" = "Lend to whom?";
+"Date de retour prévue" = "Expected return date";
+"Retour prévu le" = "Expected return on";
+"L'emprunt ne pourra pas être restitué tant que ce prêt sera actif." = "The borrow cannot be returned while this loan is active.";
+"Prêté à" = "Lent to";
+"jusqu'au %@" = "until %@";
+"Récupérer du prêt" = "Retrieve from loan";
+"Retour impossible" = "Return impossible";
+"Retour" = "Return";
+
+/* Rent a borrowed item */
+"Louer l'emprunt" = "Rent the borrow";
+"Louer cet emprunt" = "Rent this borrowed item";
+"L'emprunt ne pourra pas être restitué tant que cette location sera active." = "The borrow cannot be returned while this rental is active.";
+"Loué à" = "Rented to";
+"Récupérer de la location" = "Retrieve from rental";
+
+/* Create equipment from borrow */
+"Créer dans Matériels" = "Create in Equipment";
+"Ajoute aussi cet objet à votre inventaire" = "Also adds this item to your inventory";
+"Lieu de stockage" = "Storage location";
+"Aucun" = "None";
+
+
+/* Guide - Lend a borrowed item */
+"guide_lend_borrow_title" = "Lend a borrowed item";
+"guide_lend_borrow_content" = "Did you borrow something and want to lend it temporarily? Use the 'Lend' button on each active borrow. The borrow will be blocked from return until the loan is retrieved. You can also check 'Create in Equipment' when creating a borrow to add it to your inventory - it will be automatically deleted when returned.";
+
+/* Guide - Paid rentals */
+"guide_rentals_title" = "Rent your equipment";
+"guide_rentals_content" = "The 'Rentals' tab lets you rent your equipment for money. Set a rate (day/week/month/flat), a deposit and track payments. The financial summary shows your earned and pending income. Complete the rental when the item is returned, then manage the deposit refund.";
+
+/* Guide - Rent a borrowed item */
+"guide_sublet_title" = "Rent a borrowed item";
+"guide_sublet_content" = "Did you borrow something and want to rent it out temporarily? Use the 'Rent' button on each active borrow. The borrow will be blocked from return until the rental is retrieved. Set your own rates and conditions. First recover the equipment from the rental before you can return your borrow.";
+
+/* Guide - Duplicate management */
+"guide_duplicates_title" = "Merge duplicates";
+"guide_duplicates_content" = "The app automatically detects duplicate people (same first/last name). Go to 'Other > People' and tap the 'Duplicates' button in the toolbar. Select the group to merge: all loans and borrows will be reassigned to the kept person, others will be deleted.";
+
+/* Delete alerts */
+"Suppression définitive" = "Permanent deletion";
+"Suppression impossible" = "Deletion not allowed";
+"Supprimer" = "Delete";
+"Êtes-vous sûr de vouloir supprimer cette personne ? Cette action est irréversible." = "Are you sure you want to delete this person? This action is irreversible.";
+"Êtes-vous sûr de vouloir supprimer ce lieu ? Cette action est irréversible." = "Are you sure you want to delete this location? This action is irreversible.";
+"Êtes-vous sûr de vouloir supprimer ce prêt ? Cette action est irréversible." = "Are you sure you want to delete this loan? This action is irreversible.";
+"Vous devez d'abord marquer cette réparation comme payée avant de pouvoir la supprimer." = "You must first mark this repair as paid before you can delete it.";
+"Vous ne pouvez pas supprimer cette location car toutes les actions ne sont pas terminées (règlement, caution, retour)." = "You cannot delete this rental because not all actions are completed (payment, deposit, return).";
+
+/* Rentals */
+"Ajouter une location" = "Add a rental";
+"Nouvelle location" = "New rental";
+"Rechercher une location" = "Search for a rental";
+"Louer" = "Rent out";
+"Louer ce matériel" = "Rent out this equipment";
+"Matériel à louer" = "Equipment to rent";
+"Locataire" = "Tenant";
+"Tarification" = "Pricing";
+"Type de tarif" = "Pricing type";
+"Prix total" = "Total price";
+"Prix/jour" = "Price/day";
+"Prix/semaine" = "Price/week";
+"Prix/mois" = "Price/month";
+"Prix forfait" = "Flat price";
+"Durée" = "Duration";
+"Caution" = "Deposit";
+"Jour" = "Day";
+"Semaine" = "Week";
+"Mois" = "Month";
+"Forfait" = "Flat rate";
+"Garder caution" = "Keep deposit";
+"Retenir caution" = "Retain deposit";
+"Montant à retenir" = "Amount to retain";
+"Montant retenu" = "Retained amount";
+"Montant restitué" = "Refunded amount";
+"Caution totale" = "Total deposit";
+"Le montant ne peut pas dépasser la caution" = "Amount cannot exceed the deposit";
+"Revenus" = "Revenue";
+"En attente" = "Pending";
+"Payé" = "Paid";
+"Non payé" = "Unpaid";
+"Paiement" = "Payment";
+"Gardée" = "Kept";
+"Restituée" = "Returned";
+"Marquer payé" = "Mark as paid";
+"Régler la réparation" = "Pay for repair";
+"Règlement réparation" = "Repair payment";
+"Montant à régler (€)" = "Amount to pay (€)";
+"Confirmer le paiement" = "Confirm payment";
+"Notes (optionnel)" = "Notes (optional)";
+"Récapitulatif" = "Summary";
+"Terminer" = "Complete";
+"Terminer la location" = "Complete rental";
+"Terminer cette location ?" = "Complete this rental?";
+"Rendre caution" = "Return deposit";
+"Rendre" = "Return";
+"Cautions à rendre" = "Deposits to return";
+"Terminées" = "Completed";
+"Aucun matériel disponible" = "No equipment available";
+"Êtes-vous sûr de vouloir supprimer cette location ? Cette action est irréversible." = "Are you sure you want to delete this rental? This action is irreversible.";
+"Vous avez atteint la limite de locations gratuites. Passez à Premium pour créer des locations illimitées." = "You have reached the free rentals limit. Upgrade to Premium for unlimited rentals.";
+"Historique des locations" = "Rental history";
+"Aucune location enregistrée" = "No rental recorded";
+"Terminée" = "Completed";
+/* Subletting */
+"Sous-louer" = "Sublet";
+"Sous-louer ce matériel" = "Sublet this equipment";
+"À qui sous-louer ?" = "Sublet to whom?";
+"Sous-loué à" = "Sublet to";
+"Récupérer de la sous-location" = "Recover from subletting";
+"La location ne pourra pas être terminée tant que cette sous-location sera active." = "The rental cannot be completed while this subletting is active.";
+
+/* PersonneDetailView navigation links */
+"Voir tout" = "See all";
+"Aucun prêt" = "No loan";
+"Aucun emprunt" = "No borrow";
+"Aucune location" = "No rental";
+"Rendus" = "Returned";
+
+/* Person types */
+"Personne" = "Person";
+"Personnes" = "Persons";
+"Réparateur" = "Repairer";
+"Réparateurs" = "Repairers";
+"Salarié" = "Employee";
+"Salariés" = "Employees";
+"Type de personne" = "Person type";
+"Type" = "Type";
+
+/* Repairs */
+"Réparations" = "Repairs";
+"Réparation" = "Repair";
+"Nouvelle réparation" = "New repair";
+"Envoyer en réparation" = "Send to repair";
+"Matériel à réparer" = "Equipment to repair";
+"Sélectionner le réparateur" = "Select repairer";
+"Aucun réparateur enregistré" = "No repairer registered";
+"Ajouter un réparateur" = "Add a repairer";
+"Nouveau réparateur" = "New repairer";
+"Description du problème" = "Problem description";
+"Date de fin prévue" = "Expected end date";
+"Définir une date de fin" = "Set an end date";
+"Coût" = "Cost";
+"Réparation gratuite" = "Free repair";
+"Gratuite" = "Free";
+"Coût estimé" = "Estimated cost";
+"Coût estimé en €" = "Estimated cost in €";
+"Coût en €" = "Cost in €";
+"Coût final" = "Final cost";
+"Coût estimé:" = "Estimated:";
+"Final:" = "Final:";
+"Estimé:" = "Estimated:";
+"Fin prévue:" = "Expected end:";
+"Retour:" = "Return:";
+"Aucune réparation" = "No repair";
+"Aucune réparation en cours" = "No ongoing repair";
+"Réparations en cours" = "Ongoing repairs";
+"Locations Matériels en cours" = "Ongoing Equipment Rentals";
+"Aucune location de matériel en cours" = "No ongoing equipment rental";
+"Les matériels en réparation apparaîtront ici" = "Equipment under repair will appear here";
+"Rechercher une réparation" = "Search repair";
+"Valider le retour de réparation" = "Confirm repair return";
+"Retour réparation" = "Repair return";
+"Notes de clôture" = "Closing notes";
+"Effacer cette réparation" = "Delete this repair";
+"Êtes-vous sûr de vouloir supprimer cette réparation ?" = "Are you sure you want to delete this repair?";
+"En réparation" = "Under repair";
+"Matériel concerné" = "Equipment concerned";
+"Entreprise / Atelier" = "Company / Workshop";
+"Que souhaitez-vous faire avec ce matériel ?" = "What do you want to do with this equipment?";
+"Veuillez sélectionner un réparateur" = "Please select a repairer";
+"Veuillez décrire le problème" = "Please describe the problem";
+"Veuillez sélectionner un matériel et un réparateur" = "Please select equipment and a repairer";
+"Toutes" = "All";
+"Fermer" = "Close";
+"Envoyer" = "Send";
+
+/* Accounting */
+"Comptabilité" = "Accounting";
+"opération(s)" = "operation(s)";
+"Période" = "Period";
+"Mois" = "Month";
+"Année" = "Year";
+"Total" = "Total";
+"Bénéfice" = "Profit";
+"Aucune opération" = "No operation";
+"Les opérations comptables apparaîtront ici" = "Accounting operations will appear here";
+"Location (Revenu)" = "Rental (Income)";
+"Caution gardée" = "Deposit kept";
+"Réparation (Dépense)" = "Repair (Expense)";
+"Supprimer cette opération ?" = "Delete this operation?";
+"Cette opération sera définitivement supprimée de l'historique comptable. Cette action est irréversible." = "This operation will be permanently deleted from the accounting history. This action cannot be undone.";
+
+/* Export/Import Accounting */
+"Exporter" = "Export";
+"Exporter en PDF" = "Export as PDF";
+"Exporter en JSON" = "Export as JSON";
+"Importer" = "Import";
+"Importer JSON" = "Import JSON";
+"Import réussi" = "Import successful";
+"Erreur d'import" = "Import error";
+"OK" = "OK";
+
+/* Quick Sale */
+"Vente rapide" = "Quick Sale";
+"Stock insuffisant" = "Insufficient stock";
+"Vendre" = "Sell";
+"Consulter / Modifier" = "View / Edit";
+"Prix" = "Price";
+"Mode" = "Mode";
+"Client (optionnel)" = "Client (optional)";
+"Nom du client" = "Client name";
+"Valider" = "Confirm";
+"Sous-total HT" = "Subtotal excl. VAT";
+"Total HT" = "Total excl. VAT";
+"Type" = "Type";
+"Vente validée - Article et quantité non modifiables" = "Validated sale - Item and quantity cannot be modified";
+"Transaction validée - Article et quantité non modifiables" = "Validated transaction - Item and quantity cannot be modified";
+"Quantité" = "Quantity";
+"Prix unitaire HT" = "Unit price excl. VAT";
+"TVA" = "VAT";
+"Remise" = "Discount";
+"Total TTC" = "Total incl. VAT";
+"Paiement" = "Payment";
+"Payé" = "Paid";
+
+/* Commerce Module */
+"Commerce" = "Commerce";
+"Achat / Vente" = "Buy / Sell";
+"Articles" = "Products";
+"Transactions" = "Transactions";
+"Comptabilité Commerce" = "Commercial Accounting";
+"Ajouter un article" = "Add product";
+"Ajouter une transaction" = "Add transaction";
+"Rechercher un article" = "Search product";
+"Rechercher une transaction" = "Search transaction";
+"Nouvel article" = "New product";
+"Nouvelle transaction" = "New transaction";
+"Modifier l'article" = "Edit product";
+"Modifier la transaction" = "Edit transaction";
+"Achat" = "Purchase";
+"Vente" = "Sale";
+"Achats" = "Purchases";
+"Ventes" = "Sales";
+"Résumé du jour" = "Today's summary";
+"Aucun article" = "No products";
+"Aucune transaction" = "No transactions";
+"Commencez par ajouter vos articles" = "Start by adding your products";
+"Enregistrez vos achats et ventes" = "Record your purchases and sales";
+"Supprimer l'article ?" = "Delete product?";
+"Cette action est irréversible." = "This action cannot be undone.";
+"Supprimer" = "Delete";
+"Supprimer la transaction ?" = "Delete transaction?";
+"Nom de l'article" = "Product name";
+"Référence" = "Reference";
+"Catégorie article" = "Product category";
+"Stock" = "Stock";
+"Quantité en stock" = "Quantity in stock";
+"Seuil d'alerte" = "Alert threshold";
+"Stock bas" = "Low stock";
+"Fournisseur" = "Supplier";
+"Nom du fournisseur" = "Supplier name";
+"+ Nouveau fournisseur" = "+ New supplier";
+"Nouveau fournisseur" = "New supplier";
+"Aucun" = "None";
+"Prix d'achat HT" = "Purchase price excl. VAT";
+"Prix de vente HT" = "Sale price excl. VAT";
+"Taux TVA achat" = "VAT rate purchase";
+"Taux TVA vente" = "VAT rate sale";
+"TVA 0%" = "VAT 0%";
+"TVA 5.5%" = "VAT 5.5%";
+"TVA 10%" = "VAT 10%";
+"TVA 20%" = "VAT 20%";
+"Marge HT" = "Margin excl. VAT";
+"Marge %" = "Margin %";
+"Résumé" = "Summary";
+"Montant brut HT" = "Gross amount excl. VAT";
+"Montant net HT" = "Net amount excl. VAT";
+"Type de transaction" = "Transaction type";
+"Type de remise" = "Discount type";
+"Aucune remise" = "No discount";
+"Remise en %" = "Discount %";
+"Remise fixe (€)" = "Fixed discount (€)";
+"Mode de paiement" = "Payment method";
+"Espèces" = "Cash";
+"Carte bancaire" = "Credit card";
+"Chèque" = "Check";
+"Virement" = "Bank transfer";
+"Client / Fournisseur" = "Client / Supplier";
+"Date de transaction" = "Transaction date";
+"Date de règlement" = "Payment due date";
+"Rappel 3 jours avant" = "Reminder 3 days before";
+"Rappel paiement" = "Payment reminder";
+"Paiement à régler dans 3 jours" = "Payment due in 3 days";
+"Collectée" = "Collected";
+"Déductible" = "Deductible";
+"À reverser" = "To pay";
+"Détail TVA par taux" = "VAT detail by rate";
+"Remises accordées" = "Discounts granted";
+"Sur ventes" = "On sales";
+"Sur achats" = "On purchases";
+"Paiements en retard" = "Overdue payments";
+"Paiements à venir" = "Upcoming payments";
+"%d en retard (%.2f €)" = "%d overdue (%.2f €)";
+"%d dans 3 jours (%.2f €)" = "%d in 3 days (%.2f €)";
+"Aujourd'hui" = "Today";
+"Demain" = "Tomorrow";
+"Dans %d jours" = "In %d days";
+"Ventes à encaisser" = "Sales to collect";
+"Achats à payer" = "Purchases to pay";
+"Panier moyen vente" = "Average sale basket";
+"Panier moyen achat" = "Average purchase basket";
+"Articles en stock" = "Products in stock";
+"Répartition paiements ventes" = "Sales payment distribution";
+"Galerie" = "Gallery";
+"Appareil photo" = "Camera";
+
+/* Repair from borrowed */
+"En réparation" = "Under repair";
+"Réparer" = "Repair";
+"Récupérer de la réparation" = "Retrieve from repair";
+"Actions bloquées" = "Actions blocked";
+"Envoyer en réparation" = "Send for repair";
+"Réparer l'emprunt" = "Repair borrowed item";
+"Sélectionner le réparateur" = "Select repairman";
+"Aucun réparateur enregistré. Créez une personne de type 'Réparateur'." = "No repairman registered. Create a person of type 'Repairman'.";
+"Ajouter un réparateur" = "Add a repairman";
+"Description du problème" = "Problem description";
+"Délai" = "Deadline";
+"Date de retour prévue" = "Expected return date";
+"Retour prévu le" = "Expected return on";
+"Retour prévu le %@" = "Expected return on %@";
+"Coût" = "Cost";
+"Coût estimé" = "Estimated cost";
+"L'emprunt ne pourra pas être prêté, loué ou restitué tant que la réparation sera en cours." = "The borrowed item cannot be loaned, rented or returned while under repair.";
+"Envoyer" = "Send";
+"Vous avez atteint la limite de réparations gratuites. Passez à Premium pour créer des réparations illimitées." = "You have reached the free repair limit. Upgrade to Premium to create unlimited repairs.";
+
+/* Unpaid rentals */
+"Locations impayées" = "Unpaid rentals";
+"Montant total impayé" = "Total unpaid amount";
+"IMPAYÉ" = "UNPAID";
+"Rappel de paiement" = "Payment reminder";
+"Envoyer un rappel de paiement" = "Send payment reminder";
+"Nous vous contactons concernant les locations suivantes dont le paiement n'a pas encore été reçu:" = "We are contacting you regarding the following rentals for which payment has not yet been received:";
+"Aucun paiement en attente." = "No payment pending.";
+"Retourné le:" = "Returned on:";
+"Montant dû:" = "Amount due:";
+"Total à régler:" = "Total to pay:";
+"Merci de procéder au règlement dans les meilleurs délais." = "Please proceed with payment as soon as possible.";
+
+/* Unprocessed deposits */
+"Total cautions à traiter" = "Total deposits to process";
+"Cautions à traiter" = "Deposits to process";
+"CAUTION" = "DEPOSIT";
+"Garder" = "Keep";
+"Garder la caution ?" = "Keep the deposit?";
+"Oui, garder la caution" = "Yes, keep the deposit";
+"Cette action enregistrera la caution comme un revenu. Êtes-vous sûr ?" = "This action will record the deposit as income. Are you sure?";
+
+/* Category management */
+"Gérer les catégories" = "Manage categories";
+"Catégories" = "Categories";
+"Aucune catégorie" = "No category";
+"matériel" = "item";
+"matériels" = "items";
+"Supprimer la catégorie" = "Delete category";
+"Renommer la catégorie" = "Rename category";
+"Nouveau nom" = "New name";
+"Renommer" = "Rename";
+"Supprimer une catégorie retirera la catégorie des matériels concernés sans supprimer les matériels." = "Deleting a category will remove the category from the related equipment without deleting the equipment.";
+"Auto" = "Auto";
+
+/* Work sites */
+"Chantier" = "Work site";
+"Chantiers" = "Work sites";
+"Chantier assigné" = "Assigned work site";
+"Aucun chantier" = "No work site";
+"Aucun chantier assigné" = "No work site assigned";
+"Ajouter un chantier" = "Add a work site";
+"Nouveau chantier" = "New work site";
+"Modifier le chantier" = "Edit work site";
+"Supprimer le chantier" = "Delete work site";
+"Supprimer ce chantier ?" = "Delete this work site?";
+"Les salariés assignés à ce chantier ne seront plus affectés." = "Employees assigned to this work site will no longer be affected.";
+"Nom du chantier" = "Work site name";
+"Chantier actif" = "Active work site";
+"Terminé" = "Completed";
+"Actif" = "Active";
+"En préparation" = "In preparation";
+"Salariés assignés" = "Assigned employees";
+"Aucun salarié assigné" = "No employee assigned";
+"Rechercher un chantier" = "Search a work site";
+"Date de début" = "Start date";
+"Date de fin" = "End date";
+"Période" = "Period";
+"actif(s)" = "active";
+
+/* Assign employees to work site */
+"Affecter un salarié" = "Assign an employee";
+"Affecter des salariés" = "Assign employees";
+"Affecter" = "Assign";
+"Retirer" = "Remove";
+"Retirer ce salarié ?" = "Remove this employee?";
+"Salariés disponibles" = "Available employees";
+"Disponible" = "Available";
+"Sélectionnez les salariés à affecter à ce chantier" = "Select employees to assign to this work site";
+"Aucun salarié disponible. Créez d'abord un salarié." = "No employee available. Create an employee first.";
+"Aucun salarié créé" = "No employee created";
+"Créez d'abord des salariés pour pouvoir les affecter à ce chantier." = "Create employees first to assign them to this work site.";
+"Tous les salariés sont déjà affectés" = "All employees are already assigned";
+"Tous vos salariés sont actuellement assignés à des chantiers." = "All your employees are currently assigned to work sites.";
+"Créer un salarié" = "Create an employee";
+"Créer un nouveau salarié" = "Create a new employee";
+"Rechercher un salarié" = "Search an employee";
+"Effacer" = "Clear";
+"Aucun salarié disponible" = "No employee available";
+"Voulez-vous créer un nouveau salarié ?" = "Do you want to create a new employee?";
+"Oui" = "Yes";
+"Non" = "No";
+
+/* SMS notification for employee */
+"Notifier les salariés ?" = "Notify employees?";
+"Envoyer SMS" = "Send SMS";
+"Non merci" = "No thanks";
+"Voulez-vous envoyer un SMS aux salariés affectés pour les informer de leur assignation au chantier ?" = "Do you want to send an SMS to the assigned employees to inform them of their work site assignment?";
+"Bonjour,\n\nVous êtes affecté(e) au chantier : " = "Hello,\n\nYou have been assigned to the work site: ";
+"Adresse" = "Address";
+"Début" = "Start";
+"Contact sur site" = "On-site contact";
+"Cordialement" = "Best regards";
+
+/* Work site contact */
+"Contact" = "Contact";
+"Contact principal" = "Main contact";
+"Aucun" = "None";
+
+/* Work site export */
+"Export" = "Export";
+"Exporter en PDF" = "Export as PDF";
+"Exporter en JSON" = "Export as JSON";
+
+/* I Rent (MaLocation) */
+"Je loue" = "I Rent";
+"Dépensé" = "Spent";
+"Cautions" = "Deposits";
+"Récupérée" = "Recovered";
+"Aucune location" = "No rentals";
+"Ajoutez les objets que vous louez à quelqu'un" = "Add items you rent from someone";
+"Objet loué" = "Rented item";
+"Loueur" = "Lessor";
+"À qui je loue" = "Who I rent from";
+"À payer" = "To pay";
+"Caution récupérée" = "Deposit recovered";
+"Prêté à" = "Lent to";
+"Sous-loué à" = "Sublet to";
+"Récupérer du prêt" = "Retrieve from loan";
+"Récupérer de la sous-location" = "Retrieve from sublet";
+"Prêter cet objet" = "Lend this item";
+"Sous-louer" = "Sublet";
+"Marquer comme payé" = "Mark as paid";
+"Voulez-vous valider le retour de cet objet ?" = "Do you want to confirm the return of this item?";
+"Prêter" = "Lend";
+"Sous-louer à" = "Sublet to";
+"Total estimé" = "Estimated total";
+
+/* Partial deposit recovery */
+"Récupérer caution" = "Recover deposit";
+"Récupération de caution" = "Deposit recovery";
+"Caution totale" = "Total deposit";
+"Déjà récupéré" = "Already recovered";
+"Reste à récupérer" = "Remaining to recover";
+"Montant à récupérer" = "Amount to recover";
+"Récupérer la totalité" = "Recover full amount";
+"Partielle" = "Partial";
+"Reste" = "Remaining";
+
+/* Deposit management with loss */
+"État de la caution" = "Deposit status";
+"Déjà perdu" = "Already lost";
+"Reste à traiter" = "Remaining to process";
+"Montant récupéré" = "Recovered amount";
+"Montant gardé par le loueur" = "Amount kept by landlord";
+"Montant retenu pour dégâts, frais ou pénalités" = "Amount withheld for damages, fees or penalties";
+"Tout perdu" = "All lost";
+"Gérer la caution" = "Manage deposit";
+"restant" = "remaining";
+"Perdu" = "Lost";
+"Clôturée" = "Closed";
+
+/* Accounting - New types */
+"Je loue (Dépense)" = "I rent (Expense)";
+"Caution perdue" = "Lost deposit";
+
+/* Export/Import I rent */
+"Importer JSON" = "Import JSON";
+"Import réussi" = "Import successful";
+"Erreur d'import" = "Import error";
+
+/* Rented from Agency (ALM) */
+"Loué depuis une Agence" = "Rented from Agency";
+"Aucune location depuis une agence" = "No rentals from agency";
+
+/* Borrowings linked to equipment */
+"Historique des emprunts" = "Borrowing history";
+"Aucun emprunt enregistré" = "No borrowing recorded";
+
+/* Product detail section headers */
+"Mon matériel vers les autres" = "My equipment to others";
+"Ce que je loue / emprunte" = "What I rent / borrow";

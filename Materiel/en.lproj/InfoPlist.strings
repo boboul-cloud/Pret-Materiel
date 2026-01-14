@@ -1,0 +1,4 @@
+/* Permissions - English */
+"NSCameraUsageDescription" = "The app needs access to the camera to take photos of loaned equipment.";
+"NSPhotoLibraryUsageDescription" = "The app needs access to your photos to select an image of the equipment.";
+"NSContactsUsageDescription" = "The app needs access to your contacts to easily import people.";

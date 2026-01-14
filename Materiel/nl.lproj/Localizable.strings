@@ -1,0 +1,1172 @@
+/* Nederlands */
+
+/* Navigatie en tabbladen */
+"Matériel" = "Materiaal";
+"Prêts" = "Uitleningen";
+"Emprunts" = "Leningen";
+"Locations" = "Verhuur";
+"Personnes" = "Personen";
+"Lieux" = "Locaties";
+"Lieux de stockage" = "Opslaglocaties";
+"Réglages" = "Instellingen";
+"Autre" = "Overig";
+"Accueil" = "Home";
+
+/* Instellingen */
+"Langue" = "Taal";
+"Choisir la langue" = "Kies de taal";
+"À propos" = "Over";
+"Version" = "Versie";
+"Langue, sauvegarde..." = "Taal, backup...";
+"Sauvegarde locale" = "Lokale backup";
+"Sauvegarder maintenant" = "Nu opslaan";
+"Données sauvegardées" = "Gegevens opgeslagen";
+"Exporter les données" = "Gegevens exporteren";
+"Choisissez les données à exporter" = "Kies de te exporteren gegevens";
+"Partager l'export PDF" = "Deel de PDF";
+"Email, Fichiers, AirDrop..." = "E-mail, Bestanden, AirDrop...";
+"Exclure les retournés" = "Geretourneerde uitsluiten";
+"Statistiques" = "Statistieken";
+
+/* Exporttypes */
+"Tout" = "Alles";
+"Matériels" = "Materialen";
+
+/* Beeldcompressie */
+"Image compression" = "Beeldcompressie";
+"Optimise la taille des exports" = "Optimaliseert de exportgrootte";
+"Original" = "Origineel";
+"Haute" = "Hoog";
+"Moyenne" = "Gemiddeld";
+"Basse" = "Laag";
+"Originale (iPhone)" = "Origineel (iPhone)";
+"Haute (2000px)" = "Hoog (2000px)";
+"Moyenne (1200px)" = "Gemiddeld (1200px)";
+"Basse (800px)" = "Laag (800px)";
+"Qualité maximale, fichiers volumineux" = "Maximale kwaliteit, grote bestanden";
+"Excellente qualité, taille réduite" = "Uitstekende kwaliteit, kleinere omvang";
+"Bonne qualité, fichiers légers" = "Goede kwaliteit, lichte bestanden";
+"Qualité acceptable, très léger" = "Acceptabele kwaliteit, zeer licht";
+
+/* Toevoegknoppen */
+"Ajouter une personne" = "Persoon toevoegen";
+"Ajouter un prêt" = "Uitlening toevoegen";
+"Ajouter un emprunt" = "Lening toevoegen";
+"Ajouter un matériel" = "Materiaal toevoegen";
+"Ajouter un lieu" = "Locatie toevoegen";
+"Créer un nouveau lieu" = "Nieuwe locatie aanmaken";
+
+/* Zoeken */
+"Rechercher une personne" = "Persoon zoeken";
+"Rechercher un prêt" = "Uitlening zoeken";
+"Rechercher un emprunt" = "Lening zoeken";
+"Rechercher du matériel" = "Materiaal zoeken";
+"Rechercher un lieu" = "Locatie zoeken";
+
+/* Filters - Categorieën en Locaties */
+"Catégorie" = "Categorie";
+"Toutes catégories" = "Alle categorieën";
+"Lieu" = "Locatie";
+"Tous les lieux" = "Alle locaties";
+
+/* Filters - Status */
+"Statut" = "Status";
+"Tous" = "Alle";
+"En cours" = "Lopend";
+"En retard" = "Te laat";
+"Retournés" = "Geretourneerd";
+"Bientôt" = "Binnenkort";
+"Filtre" = "Filter";
+
+/* Uitleenacties */
+"Valider le retour" = "Retour bevestigen";
+"Confirmer le retour" = "Retour bevestigen";
+"Voulez-vous valider le retour de ce matériel ?" = "Wilt u de retour van dit materiaal bevestigen?";
+"Voulez-vous valider le retour de cet objet emprunté ?" = "Wilt u de retour van dit geleende object bevestigen?";
+"Effacer ce prêt" = "Deze uitlening verwijderen";
+"Effacer cet emprunt" = "Deze lening verwijderen";
+"Annuler" = "Annuleren";
+
+/* Datuminfo */
+"Début:" = "Begin:";
+"Fin:" = "Einde:";
+"Retourné le" = "Geretourneerd op";
+"%d jour(s) de retard" = "%d dag(en) te laat";
+
+/* Formulieren - Titels */
+"Nouveau prêt" = "Nieuwe uitlening";
+"Nouvel emprunt" = "Nieuwe lening";
+"Nouveau matériel" = "Nieuw materiaal";
+"Nouveau lieu" = "Nieuwe locatie";
+"Nouvelle personne" = "Nieuwe persoon";
+"Modifier le lieu" = "Locatie bewerken";
+"Modifier" = "Bewerken";
+"Enregistrer" = "Opslaan";
+"Détails" = "Details";
+
+/* Formulieren - Secties */
+"Objet" = "Object";
+"Nom de l'objet" = "Naam van het object";
+"Prêteur" = "Uitlener";
+"Emprunteur" = "Lener";
+"Sélectionner la personne" = "Selecteer de persoon";
+"Sélectionner le matériel" = "Selecteer het materiaal";
+"Choisir..." = "Kiezen...";
+"Aucune personne enregistrée" = "Geen persoon geregistreerd";
+"Aucun matériel disponible" = "Geen materiaal beschikbaar";
+"Dates" = "Datums";
+"Date de début" = "Begindatum";
+"Date de fin prévue" = "Verwachte einddatum";
+"Notes" = "Notities";
+"Créer" = "Aanmaken";
+"Ajouter" = "Toevoegen";
+
+/* Formulieren - Foto */
+"Photo" = "Foto";
+"Ajouter une photo" = "Foto toevoegen";
+"Changer la photo" = "Foto wijzigen";
+"Choisir une photo" = "Foto kiezen";
+"Retirer la photo" = "Foto verwijderen";
+"Aucune photo" = "Geen foto";
+
+/* Formulieren - Locatie */
+"Identification" = "Identificatie";
+"Nom du lieu" = "Naam van de locatie";
+"Adresse" = "Adres";
+"Localisation" = "Locatie";
+"Décrivez librement la localisation (ex: Bâtiment A, Étage 2, Salle 203)" = "Beschrijf vrij de locatie (bijv: Gebouw A, Verdieping 2, Kamer 203)";
+"Bâtiment" = "Gebouw";
+"Étage" = "Verdieping";
+"Salle" = "Kamer";
+
+/* Formulieren - Materiaallocatie */
+"Emplacement précis" = "Precieze locatie";
+"Emplacement" = "Locatie";
+"Ex: Placard cuisine, Étagère du haut, Tiroir 3..." = "Bijv: Keukenkast, Bovenste plank, Lade 3...";
+
+/* Formulieren - Persoon */
+"Identité" = "Identiteit";
+"Prénom" = "Voornaam";
+"Nom" = "Achternaam";
+"Contact" = "Contact";
+"Email" = "E-mail";
+"Téléphone" = "Telefoon";
+"Organisation" = "Organisatie";
+"Nom complet" = "Volledige naam";
+
+/* Formulieren - Materiaal */
+"Informations générales" = "Algemene informatie";
+"Description" = "Beschrijving";
+"Valeur (€)" = "Waarde (€)";
+"Date d'acquisition" = "Aankoopdatum";
+"Lieu de stockage" = "Opslaglocatie";
+"Aucun" = "Geen";"Aucune" = "Geen";
+"+ Nouvelle catégorie" = "+ Nieuwe categorie";
+"Nom de la nouvelle catégorie" = "Naam van de nieuwe categorie";
+/* Materiaalstatus */
+"Disponible" = "Beschikbaar";
+"Prêté" = "Uitgeleend";
+"Loué" = "Verhuurd";
+"Tous les matériels" = "Alle materialen";
+
+/* Locatiedetails */
+"Informations" = "Informatie";
+"Matériel stocké" = "Opgeslagen materiaal";
+"Aucun matériel stocké ici" = "Geen materiaal hier opgeslagen";
+"%d matériel(s)" = "%d materiaal/materialen";
+
+/* Persoondetails */
+"Pas d'email" = "Geen e-mail";
+"Pas de téléphone" = "Geen telefoon";
+"Prêts actifs:" = "Actieve uitleningen:";
+"Emprunts actifs:" = "Actieve leningen:";
+"Copier l'adresse" = "Adres kopiëren";
+"Copier le téléphone" = "Telefoon kopiëren";
+"Impossible d'ouvrir Mail" = "Kan Mail niet openen";
+"Aucun compte Mail configuré." = "Geen Mail-account geconfigureerd.";
+
+/* Tellers */
+"contact(s)" = "contact(en)";
+"lieu(x)" = "locatie(s)";
+"jour(s) de retard" = "dag(en) te laat";
+"matériel(s)" = "materiaal/materialen";
+
+/* Startpagina */
+"Gestion de prêts simplifiée" = "Vereenvoudigd uitleenbeheer";
+"Créer un prêt rapide" = "Snelle uitlening maken";
+"Créer un prêt" = "Uitlening maken";
+"Je prête quelque chose" = "Ik leen iets uit";
+"Créer un emprunt rapide" = "Snelle lening maken";
+"On me prête quelque chose" = "Iemand leent mij iets";
+
+/* Statistieken */
+"Prêts actifs" = "Actieve uitleningen";
+"Emprunts actifs" = "Actieve leningen";
+"Locations actives" = "Actieve verhuur";
+"Locations actives:" = "Actieve verhuur:";
+"Réparations en cours:" = "Lopende reparaties:";
+"Locations Matériels en cours:" = "Lopende materiaalverhuur:";
+"Total prêts" = "Totaal uitleningen";
+"Total locations" = "Totaal verhuur";
+
+/* Verhuur - E-mails */
+"Aucune location en cours." = "Geen actieve verhuur.";
+"Voici le récapitulatif des locations en cours:" = "Hier is een overzicht van uw huidige verhuur:";
+"Rappel location" = "Verhuursherinnering";
+"Rappel prêts et locations" = "Herinnering uitleningen en verhuur";
+"Aucun matériel emprunté ou loué en cours." = "Geen geleend of gehuurd materiaal.";
+"Paiement en attente" = "Betaling in afwachting";
+"Caution:" = "Borg:";
+"Locations en cours" = "Huidige verhuur";
+"Aucune location en cours" = "Geen huidige verhuur";
+"Payé" = "Betaald";
+"Envoyer un rappel" = "Stuur een herinnering";
+
+/* Uitleengeschiedenis */
+"Historique des prêts" = "Uitleengeschiedenis";
+"Du" = "Van";
+"au" = "tot";
+"Retourné" = "Geretourneerd";
+"Aucun prêt enregistré" = "Geen uitlening geregistreerd";
+
+/* Reparatiegeschiedenis */
+"Historique des réparations" = "Reparatiegeschiedenis";
+"Aucune réparation enregistrée" = "Geen reparatie geregistreerd";
+"Détail réparation" = "Reparatie details";
+"Fin prévue:" = "Verwachte einde:";
+"Description du problème" = "Probleembeschrijving";
+"Coûts" = "Kosten";
+"Estimé" = "Geschat";
+"Final" = "Definitief";
+
+/* Fouten */
+"Erreur" = "Fout";
+"OK" = "OK";
+"Veuillez remplir tous les champs obligatoires" = "Vul alle verplichte velden in";
+"La date de fin doit être après la date de début" = "De einddatum moet na de begindatum zijn";
+
+/* Werkbalk */
+"Réinitialiser" = "Resetten";
+
+/* Gebruikershandleiding */
+"Mode d'emploi" = "Gebruiksaanwijzing";
+"Guide d'utilisation" = "Gebruikershandleiding";
+
+/* Gids categorieën */
+"guide_cat_start" = "Aan de slag";
+"guide_cat_management" = "Beheer";
+"guide_cat_rental" = "Verhuur en Handel";
+"guide_cat_organization" = "Organisatie";
+"guide_cat_security" = "Beveiliging";
+"guide_cat_tips" = "Tips";
+
+/* Gids - Introductie */
+"guide_intro_title" = "Welkom bij Materiaal";
+"guide_intro_content" = "Materiaal is je complete assistent voor het beheren van alles wat je uitleent, leent, verhuurt of verkoopt.\n\n📦 Inventaris: Catalogiseer je uitrusting met foto's en bonnen\n🔄 Uitleningen: Volg wie wat heeft en tot wanneer\n💰 Verhuur: Verhuur je uitrusting en beheer betalingen\n🛒 Handel: Beheer je aankopen en verkopen met BTW\n🔐 Kluis: Bescherm je belangrijke documenten\n📊 Boekhouding: Volg je inkomsten en uitgaven\n\nNavigeer tussen de tabbladen onderaan om de verschillende functies te openen.";
+
+/* Gids - Startpagina */
+"guide_home_title" = "Startpagina";
+"guide_home_content" = "De startpagina geeft snelle toegang tot de belangrijkste acties:\n\n📸 Snelle uitlening: Fotografeer een item dat je uitleent, voeg info toe en klaar!\n\n📸 Snelle lening ontvangen: Iemand leent je iets? Noteer het in seconden.\n\n👑 Word Premium: De gratis versie heeft beperkte items. Premium ontgrendelt alles onbeperkt.\n\nDe snelknoppen maken automatisch uitrusting en contacten aan indien nodig.";
+
+/* Gids - Snel aanmaken */
+"guide_quick_create_title" = "Snel aanmaken met foto";
+"guide_quick_create_content" = "Snel aanmaken is de makkelijkste manier om te beginnen:\n\n1️⃣ Tik op 'Snelle uitlening aanmaken' of 'Snelle lening ontvangen aanmaken'\n2️⃣ Maak een foto van het item (optioneel maar aanbevolen)\n3️⃣ Voer de naam van het item in\n4️⃣ Voeg de naam van de persoon toe\n5️⃣ Stel de verwachte retourdatum in\n6️⃣ Bevestig!\n\nDe app maakt automatisch aan:\n• De uitrustingsfiche met foto\n• Het contact als het nieuw is\n• De uitlening met datums\n\nJe kunt deze elementen op elk moment bewerken.";
+
+/* Gids - Navigatie */
+"guide_navigation_title" = "Navigeren in de app";
+"guide_navigation_content" = "De app is georganiseerd in 5 hoofdtabbladen:\n\n🏠 Start: Snelle acties en overzicht\n\n📦 Materiaal: Je complete inventaris met filters op categorie, locatie en status\n\n↗️ Uitleningen: Wat je aan anderen uitleent (filterbaar op status: Lopend, Verlopen, Terug)\n\n↙️ Geleend: Wat anderen aan jou uitlenen (zelfde filters beschikbaar)\n\n⚙️ Overig: Personen, Locaties, Bouwplaatsen, Verhuur, Reparaties, Handel, Boekhouding, Kluis en Instellingen\n\nElke lijst is doorzoekbaar en sorteerbaar.";
+
+/* Gids - Taal */
+"guide_language_title" = "Taal wijzigen";
+"guide_language_content" = "De app is beschikbaar in 7 talen:\n🇫🇷 Français\n🇬🇧 English\n🇩🇪 Deutsch\n🇪🇸 Español\n🇮🇹 Italiano\n🇵🇹 Português\n🇳🇱 Nederlands\n\nOm de taal te wijzigen:\n1. Ga naar Overig > Instellingen\n2. Selecteer de vlag van je taal\n\nDe taal wordt direct toegepast in de hele app.";
+
+/* Gids - Materiaal */
+"guide_equipment_title" = "Je materiaal beheren";
+"guide_equipment_content" = "Het tabblad Materiaal is je centrale inventaris:\n\n➕ Uitrusting toevoegen:\n• Naam en gedetailleerde beschrijving\n• Categorie (maak je eigen)\n• Geschatte waarde in €\n• Aanschafdatum\n• Opslaglocatie (optioneel)\n• Precieze positie (bijv. bovenste plank)\n• Foto van het item\n• Foto van de bon met nummer en verkoper\n\n🔍 Inventaris filteren:\n• Op categorie (Gereedschap, Sport, Keuken...)\n• Op opslaglocatie\n• Op status (Beschikbaar, Uitgeleend, Verhuurd)\n• Op tekstzoekopdracht\n\n📊 Details bekijken:\n• Uitleengeschiedenis\n• Verhuurgeschiedenis\n• Reparatiegeschiedenis";
+
+/* Gids - Foto's */
+"guide_photos_title" = "Foto's en bonnen";
+"guide_photos_content" = "Foto's verrijken je fiches:\n\n📷 Uitrustingsfoto:\n• Identificeer het item visueel\n• Zichtbaar in lijsten en PDF-exports\n• Maak direct of kies uit galerij\n\n🧾 Bonfoto:\n• Belangrijk aankoopbewijs\n• Bonnummer en verkoper (optioneel)\n• Handig voor verzekering of garantie\n• Exporteerbaar naar PDF\n\n💡 Kwaliteitstip:\nKies in Instellingen > Beeldkwaliteit:\n• Origineel: Max kwaliteit, grote bestanden\n• Hoog: Goed compromis\n• Medium: Aanbevolen (licht en voldoende)\n• Laag: Om ruimte te besparen";
+
+/* Gids - Uitleningen */
+"guide_loans_title" = "Uitleningen aanmaken en beheren";
+"guide_loans_content" = "Een uitlening = uitrusting die je aan iemand toevertrouwt.\n\n➕ Een uitlening aanmaken:\n1. Selecteer de uit te lenen uitrusting\n2. Kies de lener (of maak een nieuwe)\n3. Stel datums in (begin en verwacht einde)\n4. Voeg notities toe indien nodig\n\n📋 Uitleenstatus:\n🟢 Lopend: Actieve uitlening, niet verlopen\n🟡 Binnenkort: Vervalt over minder dan 3 dagen\n🔴 Verlopen: Einddatum verstreken\n✅ Terug: Uitrusting teruggebracht\n\n✔️ Een retour bevestigen:\nTik op 'Retour bevestigen' in de uitleenfiche. De werkelijke retourdatum wordt geregistreerd.\n\n📧 Opvolgen met een lener:\nVanuit de persoonsfiche, stuur een e-mail met samenvatting van lopende items.";
+
+/* Gids - Leningen ontvangen */
+"guide_borrows_title" = "Je leningen ontvangen bijhouden";
+"guide_borrows_content" = "Een lening ontvangen = iets dat iemand aan jou uitleent.\n\n➕ Een lening ontvangen aanmaken:\n1. Benoem het geleende item\n2. Selecteer de uitlener (persoon die aan jou uitleent)\n3. Stel begin- en verwachte retourdatum in\n4. Maak een foto van het item\n5. Voeg notities toe (staat, voorwaarden...)\n\n🔄 Acties op een lening ontvangen:\n• Uitlenen aan een andere persoon\n• Onderverhuren (subverhuur)\n• Opsturen voor reparatie\n• Terugbrengen naar de uitlener\n\n📦 Aanmaken in Materiaal:\nActiveer deze optie om het geleende item aan je inventaris toe te voegen. Het wordt automatisch verwijderd bij retour.\n\n⚠️ Blokkering:\nJe kunt een lening ontvangen niet retourneren als het momenteel is uitgeleend, verhuurd of in reparatie.";
+
+/* Gids - Geleend uitlenen */
+"guide_lend_borrow_title" = "Een geleend item uitlenen";
+"guide_lend_borrow_content" = "Wil je tijdelijk iets uitlenen dat je zelf hebt geleend?\n\n📤 Hoe te doen:\n1. Ga naar de fiche van de lening ontvangen\n2. Tik op 'Uitlenen'\n3. Selecteer de persoon aan wie je uitleent\n4. Stel de verwachte retourdatum in\n\n⚠️ Blokkeringsregels:\n• De lening ontvangen kan niet worden geretourneerd zolang de uitlening actief is\n• Je moet eerst het item van de uitlening terughalen\n• Dan kun je de lening ontvangen retourneren\n\n🔄 Zelfde logica voor:\n• Een lening ontvangen verhuren (onderverhuur)\n• Een lening ontvangen voor reparatie sturen\n\nDit maakt complete tracking van de bezitsketen mogelijk.";
+
+/* Gids - Reparaties */
+"guide_repairs_title" = "Reparaties beheren";
+"guide_repairs_content" = "Stuur je uitrusting voor reparatie en volg de kosten.\n\n🔧 Een reparatie aanmaken:\n1. Selecteer de te repareren uitrusting\n2. Kies een reparateur ('Reparateur' type vereist)\n3. Beschrijf het probleem\n4. Voer de geschatte kosten in\n5. Stel de verwachte retourdatum in\n\n📊 Tracking:\n• Status: Lopend / Voltooid\n• Geschatte vs werkelijke kosten\n• Vertragingsindicator indien verlopen\n\n✅ Een reparatie voltooien:\n1. Bevestig retour\n2. Voer werkelijke kosten in\n3. Markeer als 'Betaald' wanneer verrekend\n\n💰 Boekhouding:\nReparaties worden automatisch geregistreerd als uitgaven.";
+
+/* Gids - Retouren */
+"guide_return_title" = "Retouren bevestigen";
+"guide_return_content" = "Wanneer een item wordt teruggebracht, bevestig de retour:\n\n✅ Voor een uitlening:\nTik op 'Retour bevestigen'. De uitrusting wordt weer beschikbaar.\n\n✅ Voor een lening ontvangen:\nTik op 'Retour bevestigen'. De lening ontvangen wordt als geretourneerd gemarkeerd.\n\n✅ Voor een verhuur:\nTik op 'Verhuur beëindigen'. Je moet dan:\n• Betaling markeren als ontvangen\n• Borg beheren (teruggeven of inhouden)\n\n✅ Voor een reparatie:\nTik op 'Reparatieretour bevestigen'. Voer de werkelijke kosten in.\n\n💡 Tip:\nRetouren hebben een datum/tijd stempel. Je vindt de volledige geschiedenis in elke fiche.";
+
+/* Gids - Verhuur */
+"guide_rentals_title" = "Je uitrusting verhuren";
+"guide_rentals_content" = "Verhuur stelt je in staat je uitrusting tegen betaling te verhuren.\n\n➕ Een verhuur aanmaken:\n1. Selecteer de te verhuren uitrusting\n2. Kies de huurder\n3. Stel het tarieftype in:\n   • Dag (prijs × aantal dagen)\n   • Week (prijs × aantal weken)\n   • Maand (prijs × aantal maanden)\n   • Vast bedrag\n4. Voer het borgbedrag in\n5. Stel de datums in\n\n📊 Dashboard:\n• Ontvangen inkomsten (bevestigde betalingen)\n• In afwachting (nog niet betaald)\n\n✅ Een verhuur beëindigen:\n1. Beëindig de verhuur wanneer het item is teruggebracht\n2. Bevestig ontvangst van betaling\n3. Beheer de borg (teruggeven of inhouden)";
+
+/* Gids - Borg */
+"guide_caution_title" = "Borgen beheren";
+"guide_caution_content" = "De borg is een waarborg die aan het einde van de verhuur wordt geïnd.\n\n💵 Actietypes:\n\n🔙 Borg teruggeven:\nAls alles OK is, geef de borg terug aan de huurder. Telt niet als inkomsten.\n\n⚠️ Borg inhouden:\nBij schade of geschil, houd geheel of gedeeltelijk in. Het ingehouden bedrag wordt toegevoegd aan je inkomsten.\n\n📋 Tracking in 'Overig':\nDe sectie 'Terug te geven borgen' toont alle beëindigde verhuren met openstaand borgbeheer.\n\n💰 Boekhouding:\nAlleen ingehouden borgen verschijnen in de boekhouding als uitzonderlijke inkomsten.";
+
+/* Gids - Onderverhuur */
+"guide_sublet_title" = "Uitrusting onderverhuren";
+"guide_sublet_content" = "Je kunt uitrusting onderverhuren die je zelf huurt.\n\n📤 Hoe te doen:\n1. Ga naar je actieve verhuurfiche\n2. Tik op 'Onderverhuren'\n3. Selecteer de onderhuurder\n4. Stel je eigen tarieven en voorwaarden in\n\n⚠️ Regels:\n• De hoofdverhuur kan niet worden beëindigd zolang de onderverhuur actief is\n• Haal eerst de uitrusting terug van de onderverhuur\n• Beëindig dan de hoofdverhuur\n\n💰 Inkomsten:\nOnderverhuurinkomsten worden toegevoegd aan je normale boekhouding.";
+
+/* Gids - Ik huur */
+"guide_myrentals_title" = "Ik huur - Uitrusting die ik huur";
+"guide_myrentals_content" = "De sectie 'Ik huur' laat je uitrusting beheren die JIJ van iemand anders huurt (externe uitrustingshuur).\n\n📤 Een huur aanmaken:\n1. Tik op 'Huur toevoegen'\n2. Geef de gehuurde uitrusting een naam\n3. Selecteer de verhuurder (van wie je huurt)\n4. Stel het tarieftype in (dag/week/maand/forfait)\n5. Voer de prijs en betaalde borg in\n6. Stel begin- en einddatum in\n\n📊 Tracking:\n• Totaal huurbedrag\n• Betaalde en terugontvangen borg\n• Status: Lopend, Te laat, Beëindigd\n• Betaling gedaan of in afwachting\n\n✅ Een huur beëindigen:\n1. Markeer de huur als beëindigd\n2. Voer het terugontvangen borgbedrag in\n3. Bevestig de gedane betaling\n\n⚠️ Herinneringen:\nHuren met niet-terugontvangen borg verschijnen als waarschuwingen.";
+
+/* Gids - Mijn borgen */
+"guide_myrentals_caution_title" = "Mijn betaalde borgen beheren";
+"guide_myrentals_caution_content" = "Wanneer je uitrusting huurt, betaal je vaak een borg.\n\n💵 Borgtracking:\n• Betaald borgbedrag bij ondertekening\n• Terugontvangen bedrag aan het einde van de huur\n• Verschil bij inhouding\n\n🔄 Workflow:\n1. Bij aanmaken, voer de betaalde borg in\n2. Aan het einde van de huur, voer terugontvangen bedrag in\n3. Het verschil wordt automatisch berekend\n\n📋 Waarschuwingen:\nIn 'Overig > Ik huur' waarschuwt een melding je als beëindigde huren niet-terugontvangen borgen hebben.\n\n💰 Boekhouding:\n• Betaalde borg = tijdelijke uitgave\n• Terugontvangen borg = terugbetaling\n• Niet-terugontvangen borg = verlies (definitieve uitgave)";
+
+/* Gids - Handel */
+"guide_commerce_title" = "Koop/Verkoop Module";
+"guide_commerce_content" = "De Handelsmodule is ideaal voor markten, winkels en kleine bedrijven.\n\n📦 Functies:\n• Productcatalogus met inkoop- en verkoopprijzen\n• Automatisch voorraadbeheer\n• BTW-berekening (geïnd, aftrekbaar, te betalen)\n• Percentage of vast bedrag kortingen\n• Betaalmethoden (contant, kaart, cheque, overschrijving)\n• Uitgestelde betalingen met herinneringen\n\n📊 Commerciële boekhouding:\n• Totaal verkopen / aankopen / winst\n• BTW-detail per tarief\n• Gemiddeld bonbedrag\n• Uitsplitsing per betaalmethode\n• Lage voorraadwaarschuwingen\n\n🔄 Exporteer/importeer JSON voor gegevensback-up.";
+
+/* Gids - Artikelen */
+"guide_articles_title" = "Je producten beheren";
+"guide_articles_content" = "Producten zijn items in je commerciële catalogus.\n\n➕ Een product aanmaken:\n• Naam en beschrijving\n• Categorie (maak je eigen)\n• Referentie / SKU\n• Inkoopprijs excl. BTW en inkoop-BTW-tarief\n• Verkoopprijs incl. BTW en verkoop-BTW-tarief\n• Huidige voorraad en waarschuwingslimiet\n• Leverancier (optioneel)\n• Foto (optioneel)\n\n📊 Automatische marge:\nDe app berekent automatisch je marge en percentage.\n\n🔔 Voorraadwaarschuwingen:\nWanneer voorraad onder de limiet zakt, verschijnt het item in waarschuwingen.\n\n⚡ Snelle verkoop:\nHoud lang ingedrukt op een product voor snelle verkoop zonder complexe invoer.";
+
+/* Gids - Transacties */
+"guide_transactions_title" = "Transacties registreren";
+"guide_transactions_content" = "Transacties zijn je verkopen en aankopen.\n\n🛒 Een transactie aanmaken:\n1. Kies type: Verkoop of Aankoop\n2. Selecteer een item uit de catalogus OF voer vrij in\n3. Voer hoeveelheid in\n4. Pas korting toe (optioneel): % of vast bedrag\n5. Kies betaalmethode: Contant, Kaart, Cheque, Overschrijving\n6. Geef aan of betaald of in afwachting\n7. Indien in afwachting, stel betaaldatum in\n\n📊 Automatisch overzicht:\n• Bruto bedrag excl. BTW\n• Toegepaste korting\n• Netto bedrag excl. BTW\n• Berekende BTW\n• Totaal incl. BTW\n\n🔔 Herinneringen:\nActiveer notificaties voor naderende betalingen (3 dagen van tevoren).";
+
+/* Gids - Boekhouding */
+"guide_accounting_title" = "Verhuurboekhouding";
+"guide_accounting_content" = "De boekhouding groepeert automatisch je financiële operaties.\n\n📊 Inhoud:\n• Inkomsten: Betaalde verhuur\n• Inkomsten: Ingehouden borgen\n• Uitgaven: Betaalde reparaties\n\n📅 Perioden:\n• Maandoverzicht\n• Jaaroverzicht\n• Totaaloverzicht\n\n💰 Indicatoren:\n• Totale inkomsten (groen)\n• Totale uitgaven (rood)\n• Nettowinst\n\n📤 Exporteren:\n• Geformatteerde PDF voor boekhouding\n• JSON voor back-up/import\n\nOperaties worden automatisch toegevoegd wanneer je een betaling als ontvangen markeert.";
+
+/* Gids - Commerciële boekhouding */
+"guide_commerce_accounting_title" = "Commerciële boekhouding";
+"guide_commerce_accounting_content" = "Volledig overzicht van je verkoopactiviteit.\n\n📊 Dashboard:\n• Totaal verkopen incl. BTW\n• Totaal aankopen incl. BTW\n• Nettowinst\n• Gemiddeld bonbedrag (verkoop en aankoop)\n\n💹 Gedetailleerde BTW:\n• Geïnde BTW (op verkopen)\n• Aftrekbare BTW (op aankopen)\n• Te betalen BTW (verschil)\n• Detail per tarief (9%, 21%...)\n\n💳 Betalingsuitsplitsing:\n• Contant / Kaart / Cheque / Overschrijving\n• Percentageweergave\n\n📦 Voorraad:\n• Aantal items op voorraad\n• Items in waarschuwing (lage voorraad)\n\n💸 Verleende kortingen:\n• Totaal kortingen op verkopen\n• Totaal kortingen op aankopen";
+
+/* Gids - Personen */
+"guide_people_title" = "Contactenlijst";
+"guide_people_content" = "Beheer de mensen met wie je interacteert.\n\n➕ Een persoon toevoegen:\n• Voor- en achternaam\n• E-mail (maakt e-mails versturen mogelijk)\n• Telefoon (maakt direct bellen mogelijk)\n• Organisatie (bedrijf, vereniging...)\n• Type: Persoon, Reparateur of Werknemer\n• Foto (optioneel)\n\n📧 Herinneringse-mail:\nVanuit de fiche van een persoon, stuur een e-mail met automatisch:\n• Momenteel geleende uitrusting\n• Verwachte retourdata\n• Vertragingsindicaties\n\n📞 Direct bellen:\nTik op het telefoonnummer om direct te bellen.\n\n📇 Contacten importeren:\nImporteer automatisch vanuit je iPhone-contacten.";
+
+/* Gids - Persoonstypes */
+"guide_people_types_title" = "Persoonstypes";
+"guide_people_types_content" = "Drie types om je contacten te organiseren:\n\n👤 Persoon (standaard):\nKlanten, vrienden, familie... Iedereen aan wie je uitrusting uitleent of verhuurt.\n\n🔧 Reparateur:\nAmbachtslieden en reparatiewerkplaatsen. Alleen reparateurs kunnen worden geselecteerd bij het versturen voor reparatie.\n\n👷 Werknemer:\nTeamleden. Kunnen worden toegewezen aan bouwplaatsen. Ideaal voor bedrijven met meerdere locaties.\n\n💡 Tip:\nEen persoon kan slechts één type hebben. Wijzig op elk moment vanuit hun fiche.";
+
+/* Gids - Duplicaten */
+"guide_duplicates_title" = "Duplicaten samenvoegen";
+"guide_duplicates_content" = "De app detecteert automatisch dubbele personen.\n\n🔍 Hoe het werkt:\n• Detectie op identieke voor- + achternaam\n• Negeert hoofd/kleine letters en spaties\n\n🔄 Samenvoegen:\n1. Ga naar Overig > Personen\n2. Tik op de 'Duplicaten' knop in de werkbalk\n3. Selecteer de duplicatengroep\n4. Kies de te behouden persoon\n5. Bevestig samenvoeging\n\n✅ Resultaat:\n• Alle uitleningen worden hertoegewezen\n• Alle leningen ontvangen worden hertoegewezen\n• Alle verhuren worden hertoegewezen\n• Duplicaten worden verwijderd\n\n💡 Controleer de contactgegevens van de behouden persoon.";
+
+/* Gids - Bouwplaatsen */
+"guide_worksites_title" = "Bouwplaatsbeheer";
+"guide_worksites_content" = "Organiseer je team over meerdere werklocaties.\n\n🏗️ Een bouwplaats aanmaken:\n• Naam van de bouwplaats\n• Volledig adres\n• Beschrijving en notities\n• Start- en einddatums\n• Hoofdcontact ter plaatse\n• Status: Actief of Voltooid\n\n👷 Werknemers toewijzen:\n1. Maak personen van het type 'Werknemer' aan\n2. Open de bouwplaatsfiche\n3. Voeg relevante werknemers toe\n\n🗺️ Navigatie:\nTik op het adres om te openen in Kaarten.\n\n📊 Automatische statussen:\n• Voorbereidend: Startdatum niet bereikt\n• Actief: In uitvoering\n• Voltooid: Gemarkeerd als afgerond\n\n📤 Exporteer naar PDF of JSON.";
+
+/* Gids - Locaties */
+"guide_locations_title" = "Opslaglocaties";
+"guide_locations_content" = "Organiseer waar je uitrusting is opgeslagen.\n\n📍 Een locatie aanmaken:\n• Naam (bijv. Garage, Noord Magazijn...)\n• Volledig adres\n• Gebouw\n• Verdieping\n• Kamer\n• Notities\n\n📦 Gebruik:\n• Koppel elke uitrusting aan een locatie\n• Voeg precieze positionering toe (bijv. plank B, lade 3)\n• Filter je inventaris op locatie\n\n🔍 Een item vinden:\n1. Zoek in Materiaal\n2. De fiche toont locatie en exacte positie\n\n📊 Overzicht:\nDe fiche van een locatie toont alle daar opgeslagen uitrusting.";
+
+/* Gids - Categorieën */
+"guide_categories_title" = "Categorieën beheren";
+"guide_categories_content" = "Categorieën organiseren je inventaris.\n\n➕ Een categorie aanmaken:\nBij het toevoegen van uitrusting, typ een nieuwe categorienaam.\n\n🗂️ Voorgestelde categorieën:\n• Gereedschap\n• Elektronica\n• Sport\n• Keuken\n• Tuin\n• Doe-het-zelf\n• Muziek\n• Foto/Video\n\n📝 Categorieën beheren:\n1. In de Materiaallijst\n2. Tik op het mapicoon naast het categoriefilter\n3. Hernoem of verwijder\n\n⚠️ Een categorie verwijderen:\nUitrusting wordt niet verwijderd, verliest alleen de categorie.";
+
+/* Gids - Zoeken */
+"guide_search_title" = "Zoeken en filteren";
+"guide_search_content" = "Vind snel elk item.\n\n🔍 Zoekbalk:\n• Beschikbaar in elke lijst\n• Zoekt op naam en beschrijving\n• Realtime resultaten\n\n🎯 Combineerbare filters:\n\n📦 Materiaal:\n• Op categorie\n• Op opslaglocatie\n• Op status (Beschikbaar, Uitgeleend, Verhuurd)\n\n↗️ Uitleningen / ↙️ Geleend:\n• Alle / Lopend / Verlopen / Terug / Binnenkort\n\n🏷️ Verhuur:\n• Op status\n• Op betaalstatus\n• Op borgstatus\n\n🔧 Reparaties:\n• Lopend / Voltooid\n• Betaald / Niet betaald\n\n💡 Resetknop:\nReset alle filters met één tik.";
+
+/* Gids - Status */
+"guide_status_title" = "Statussen begrijpen";
+"guide_status_content" = "Kleurcodes door de hele app:\n\n🟢 Groen:\n• Beschikbaar\n• Teruggebracht\n• Betaald\n• Voltooid\n\n🟡 Oranje:\n• Lopend\n• Binnenkort (< 3 dagen)\n• In afwachting van betaling\n\n🔴 Rood:\n• Verlopen\n• Niet betaald (datum verstreken)\n• Probleem gedetecteerd\n\n🔵 Blauw:\n• Informatie\n• Klikbare link\n• Beschikbare actie\n\n📊 Visuele indicatoren:\n• Klokicoon: Lopend\n• Driehoekicoon: Verlopen\n• Vinkicoon: Voltooid/Terug\n• Numerieke badge: Itemtelling";
+
+/* Gids - Kluis */
+"guide_safe_title" = "Beveiligde kluis";
+"guide_safe_content" = "Bescherm je belangrijke documenten met beveiligde toegang.\n\n🔐 Instellen:\n1. Maak een wachtwoord aan (min. 4 tekens)\n2. Kies een herselvraag\n3. Beantwoord de geheime vraag\n\n📦 Aanbevolen inhoud:\n• Waardevolle sieraden en horloges\n• Dure elektronica\n• Kunstwerken\n• Belangrijke documenten\n• Bonnen van grote aankopen\n\n🏷️ Voor elk item:\n• Foto van het item\n• Naam en beschrijving\n• Geschatte waarde\n• Merk, model, serienummer\n• Foto van bon/aankoopbewijs\n\n📄 Inventaris voor verzekering:\nExporteer een volledige PDF voor je verzekeraar.";
+
+/* Gids - Biometrie */
+"guide_biometric_title" = "Face ID / Touch ID";
+"guide_biometric_content" = "Open de kluis met biometrie.\n\n✅ Voordelen:\n• Snelle toegang zonder wachtwoord typen\n• Verbeterde beveiliging\n• Zelfde beschermingsniveau als je iPhone\n\n🔧 Activering:\nBiometrische authenticatie is automatisch als je apparaat dit ondersteunt.\n\n📱 Compatibiliteit:\n• Face ID (iPhone X en later)\n• Touch ID (iPhone met sensor)\n\n🔑 Fallback:\nAls biometrie faalt, typ je wachtwoord.\n\n⚠️ Wachtwoord vergeten:\n1. Gebruik de herselvraag\n2. Laatste redmiddel: volledige reset (gegevensverlies)";
+
+/* Gids - Wachtwoord */
+"guide_password_title" = "Wachtwoordbeheer";
+"guide_password_content" = "Bescherm je kluis met een sterk wachtwoord.\n\n🔑 Regels:\n• Minimaal 4 tekens\n• Bevestiging vereist\n• Herselvraag aanbevolen\n\n🔄 Wachtwoord wijzigen:\n1. Open de kluis\n2. Menu > Wachtwoord wijzigen\n3. Voer oud wachtwoord in\n4. Voer nieuw wachtwoord in en bevestig\n\n❓ Wachtwoord vergeten:\n1. Tik op 'Wachtwoord vergeten?'\n2. Beantwoord de geheime vraag\n3. Maak een nieuw wachtwoord aan\n\n⚠️ Alles vergeten:\nAls je wachtwoord EN antwoord bent vergeten, is de enige optie een volledige reset. Alle gegevens gaan verloren.";
+
+/* Gids - Facturen */
+"guide_invoices_title" = "Bonnenbeheer";
+"guide_invoices_content" = "Bewaar je aankoopbewijzen digitaal.\n\n🧾 Voor elke uitrusting:\n• Foto van de bon (JPG of PDF)\n• Bonnummer\n• Naam van verkoper/winkel\n• Aanschafdatum (automatisch of handmatig)\n\n🏠 Voor de kluis:\n• Foto van bon/aankoopbewijs\n• Dezelfde informatie\n\n💡 Gebruik:\n• Eigendomsbewijs voor verzekering\n• Garantie-tracking\n• Bewijs bij geschil\n• Export in PDF-fiches\n\n📤 Exporteren:\nBonnen zijn opgenomen in:\n• Uitrusting PDF-fiches\n• Verzekeringsinventaris PDF\n• JSON back-up";
+
+/* Gids - Back-up */
+"guide_backup_title" = "Back-up en herstel";
+"guide_backup_content" = "Bescherm je gegevens met regelmatige back-ups.\n\n💾 Lokale back-up:\nTik op 'Nu opslaan' in Instellingen. Maakt een lokaal herstelpunt aan.\n\n📤 JSON exporteren:\nExporteer al je gegevens (of selectie) in JSON-formaat:\n• Verstuur via e-mail\n• Sla op in Bestanden\n• Deel via AirDrop\n\n📥 JSON importeren:\nHerstel je gegevens vanuit een eerder geëxporteerd JSON-bestand.\n\n✅ Geëxporteerde gegevens:\n• Uitrusting + foto's\n• Uitleningen en leningen ontvangen\n• Verhuur en reparaties\n• Personen\n• Locaties en bouwplaatsen\n• Handel (producten + transacties)\n• Kluis";
+
+/* Gids - PDF */
+"guide_pdf_title" = "PDF-export";
+"guide_pdf_content" = "Maak professionele PDF-documenten.\n\n📄 Exporttypes:\n\n📦 Uitrustingscatalogus:\n• Gedetailleerde fiche per item\n• Foto + beschrijving\n• Waarde en opslaglocatie\n• Bonfoto\n\n🔐 Verzekeringsinventaris:\n• Volledige kluislijst\n• Foto's en aankoopbewijzen\n• Totale geschatte waarde\n• Om naar je verzekeraar te sturen\n\n📊 Boekhouding:\n• Operatieoverzicht\n• Inkomsten en uitgaven\n• Per periode (maand/jaar)\n\n💡 Opties:\n• Sluit geretourneerde items uit\n• Kies beeldkwaliteit\n• Selecteer gegevenstypes";
+
+/* Gids - JSON */
+"guide_json_title" = "JSON exporteren/importeren";
+"guide_json_content" = "Het JSON-formaat is ideaal voor volledige back-ups.\n\n✅ Voordelen:\n• Gestructureerde gegevens\n• Inclusief alle foto's\n• Volledig herstel mogelijk\n• Overdracht tussen apparaten\n\n📤 Exporteren:\n1. Instellingen > Exporteren\n2. Selecteer gegevens\n3. Deel het .json bestand\n\n📥 Importeren:\n1. Instellingen > JSON importeren\n2. Selecteer bestand\n3. Gegevens worden samengevoegd (geen duplicaten)\n\n💡 Tip:\nMaak maandelijks een JSON-export en bewaar op iCloud, Google Drive of via e-mail.\n\n⚠️ Importeren:\nBestaande elementen (zelfde ID) worden niet gedupliceerd.";
+
+/* Gids - Beeldkwaliteit */
+"guide_image_quality_title" = "Beeldkwaliteit";
+"guide_image_quality_content" = "Optimaliseer de grootte van je exports.\n\n📷 Beschikbare opties:\n\n🟣 Origineel (iPhone):\n• Maximale kwaliteit\n• Zeer grote bestanden (~5 MB)\n• Voor hoge kwaliteit archivering\n\n🔵 Hoog (2000px):\n• Uitstekende kwaliteit\n• Verkleinde grootte (~2 MB)\n• Goed compromis\n\n🟢 Medium (1200px):\n• Goede kwaliteit\n• Lichte bestanden (~800 KB)\n• Aanbevolen ✅\n\n🟠 Laag (800px):\n• Acceptabele kwaliteit\n• Zeer licht (~300 KB)\n• Voor talrijke exports\n\n⚙️ Wijzigen:\nInstellingen > Beeldkwaliteit";
+
+/* Gids - Tips */
+"guide_tips_title" = "Praktische tips";
+"guide_tips_content" = "Haal het maximale uit de app:\n\n📸 Foto's:\n• Fotografeer elk waardevol item\n• Neem serienummers op\n• Bewaar bonfoto's\n\n👥 Contacten:\n• Maak personen aan voor uitleningen\n• Voer e-mails en telefoons in\n• Gebruik Contacten importeren\n\n📅 Datums:\n• Wees realistisch met retourdata\n• Controleer regelmatig verlopen items\n• Stuur e-mailherinneringen\n\n💾 Back-ups:\n• Exporteer maandelijks JSON\n• Bewaar in de cloud\n• Test een herstel\n\n🔐 Kluis:\n• Inventariseer je waardevolle voorwerpen\n• Bewaar aankoopbewijzen\n• Exporteer voor verzekering";
+
+/* Gids - Beste praktijken */
+"guide_best_practices_title" = "Beste praktijken";
+"guide_best_practices_content" = "Optimaliseer je dagelijks gebruik:\n\n✅ Wel doen:\n• Maak een foto VOOR het uitlenen\n• Noteer de staat in notities\n• Bevestig retouren snel\n• Houd categorieën consistent\n• Maak regelmatig back-ups\n\n❌ Niet doen:\n• Vergeten retouren te bevestigen\n• Verlopen uitleningen negeren\n• Personen en reparateurs verwarren\n• Bonfoto's verwaarlozen\n\n💡 Ideale workflow:\n1. Maak je opslaglocaties aan\n2. Voeg belangrijke contacten toe\n3. Inventariseer je uitrusting\n4. Fotografeer bonnen\n5. Gebruik dagelijks snel aanmaken";
+
+/* Gids - E-mail */
+"guide_email_title" = "E-mails versturen";
+"guide_email_content" = "Communiceer eenvoudig met je contacten.\n\n📧 Herinneringse-mail:\n1. Open de fiche van de persoon\n2. Tik op het e-mailicoon\n3. Een vooraf ingevuld bericht opent met:\n   • Lijst van geleende uitrusting\n   • Verwachte retourdata\n   • Vertragingsindicaties\n\n📧 Betalingsherinnering:\nVoor onbetaalde verhuur, stuur een herinnering met verschuldigde bedragen.\n\n✅ Vereisten:\n• E-mail moet ingevuld zijn in de fiche\n• Mail-app moet geconfigureerd zijn\n\n💡 Aanpassen:\nHet bericht opent in Mail, je kunt het bewerken voor verzending.";
+
+/* Gids - Waarschuwingen */
+"guide_alerts_title" = "Waarschuwingen en notificaties";
+"guide_alerts_content" = "De app waarschuwt je visueel:\n\n🔴 Vertragingsindicatoren:\n• Rode badge op verlopen uitleningen\n• Waarschuwingsdriehoek op leningen ontvangen\n• Rode kleur in lijsten\n\n🟡 Naderende deadlines:\n• 'Binnenkort' filter (< 3 dagen)\n• Oranje kleur\n\n💰 Betalingen:\n• Sectie 'Naderende betalingen'\n• Sectie 'Verlopen betalingen'\n• Handelswaarschuwingen voor vervaldatums\n\n📦 Lage voorraad:\n• Badge op items in waarschuwing\n• Zichtbaar in Handel\n\n💡 Tip:\nControleer regelmatig de 'Verlopen' en 'Binnenkort' filters om vooruit te plannen.";
+
+/* Gids - Capaciteit */
+"guide_capacity_title" = "Capaciteit en limieten";
+"guide_capacity_content" = "Gratis versie vs Premium:\n\n🆓 Gratis versie:\n• 10 uitrustingen\n• 5 actieve uitleningen\n• 5 actieve leningen ontvangen\n• 5 verhuren\n• 5 reparaties\n• 10 personen\n• 3 locaties\n• 5 kluisitems\n\n👑 Premium versie:\n• Alles ONBEPERKT!\n• Eenmalige betaling, levenslange toegang\n• Ondersteun de ontwikkeling\n\n💾 Opslag:\n• Lokale gegevens op je iPhone\n• Geen technische limiet\n• Foto's nemen meer ruimte in\n\n💡 Tip:\nMaak regelmatig back-ups, vooral met veel gegevens.";
+
+/* Gids - Premium */
+"guide_premium_title" = "Word Premium";
+"guide_premium_content" = "Ontgrendel het volledige potentieel van de app.\n\n👑 Premium voordelen:\n• Onbeperkte uitrusting\n• Onbeperkte uitleningen\n• Onbeperkte leningen ontvangen\n• Onbeperkte verhuur\n• Onbeperkte reparaties\n• Onbeperkte personen\n• Onbeperkte locaties\n• Onbeperkte kluis\n\n💳 Betaling:\n• Eenmalige betaling\n• Levenslange toegang\n• Geen abonnement\n\n🔄 Herstellen:\nBij apparaatwisseling:\n1. Ga naar Premium\n2. Tik op 'Aankopen herstellen'\n3. Je aankopen worden hersteld\n\n❤️ Ondersteuning:\nJe aankoop helpt de app te verbeteren!";
+
+/* Gids - FAQ */
+"guide_faq_title" = "Veelgestelde vragen";
+"guide_faq_content" = "❓ Zijn mijn gegevens veilig?\nJa, alles wordt lokaal opgeslagen op je iPhone. De kluis is wachtwoordbeveiligd.\n\n❓ Kan ik de app op iPad/Mac gebruiken?\nJa, de app is universeel en werkt op iPhone, iPad en Mac (Apple Silicon).\n\n❓ Hoe zet ik mijn gegevens over?\nExporteer naar JSON, importeer dan op het nieuwe apparaat.\n\n❓ Werkt de app offline?\nJa, alle functies zijn beschikbaar zonder internet.\n\n❓ Hoe neem ik contact op met support?\nStuur een e-mail via de App Store-pagina of via Instellingen.\n\n❓ Zijn updates gratis?\nJa, alle updates zijn inbegrepen.";
+
+/* Contacten importeren */
+"Importer depuis Contacts" = "Importeren uit Contacten";
+"Remplir automatiquement depuis vos contacts" = "Automatisch invullen vanuit uw contacten";
+
+/* Kluis */
+"Coffre-fort" = "Kluis";
+"Objets de valeur" = "Waardevolle objecten";
+"Configurer le Coffre-fort" = "Kluis configureren";
+"Créez un mot de passe pour protéger vos documents importants. Ce coffre-fort stockera les photos et factures de vos objets de valeur." = "Maak een wachtwoord aan om uw belangrijke documenten te beschermen. Deze kluis bewaart de foto's en facturen van uw waardevolle objecten.";
+"Mot de passe" = "Wachtwoord";
+"Confirmer le mot de passe" = "Wachtwoord bevestigen";
+"Créer le coffre-fort" = "Kluis aanmaken";
+"Le mot de passe doit contenir au moins 4 caractères" = "Het wachtwoord moet minimaal 4 tekens bevatten";
+"Les mots de passe ne correspondent pas" = "De wachtwoorden komen niet overeen";
+"Erreur lors de la création du mot de passe" = "Fout bij het aanmaken van het wachtwoord";
+"Coffre-fort verrouillé" = "Kluis vergrendeld";
+"Entrez votre mot de passe pour accéder à vos documents" = "Voer uw wachtwoord in om toegang te krijgen tot uw documenten";
+"Déverrouiller" = "Ontgrendelen";
+"Déverrouiller le coffre-fort" = "Kluis ontgrendelen";
+"Mot de passe incorrect" = "Onjuist wachtwoord";
+"Utiliser Face ID / Touch ID" = "Face ID / Touch ID gebruiken";
+"Valeur totale estimée" = "Geschatte totale waarde";
+"Objets" = "Objecten";
+"Ajouter un objet" = "Object toevoegen";
+"Rechercher un objet" = "Object zoeken";
+"Exporter vers Fichiers" = "Exporteren naar Bestanden";
+"Nouvel objet" = "Nieuw object";
+"Photo de l'objet" = "Foto van het object";
+"Nom de l'objet" = "Naam van het object";
+"Valeur estimée (€)" = "Geschatte waarde (€)";
+"Valeur estimée" = "Geschatte waarde";
+"Détails (optionnel)" = "Details (optioneel)";
+"Marque" = "Merk";
+"Modèle" = "Model";
+"N° de série" = "Serienummer";
+"Facture / Preuve d'achat" = "Factuur / Aankoopbewijs";
+"Preuve d'achat" = "Aankoopbewijs";
+"Facture enregistrée" = "Factuur geregistreerd";
+"Aucune facture enregistrée" = "Geen factuur geregistreerd";
+"Ajouté au coffre" = "Toegevoegd aan de kluis";
+"Retirer" = "Verwijderen";
+
+/* Aankoopfactuur (Materiaal) */
+"Facture d'achat" = "Aankoopfactuur";
+"Numéro de facture" = "Factuurnummer";
+"Vendeur / Magasin" = "Verkoper / Winkel";
+"Aucune facture" = "Geen factuur";
+"Ajouter une facture" = "Factuur toevoegen";
+"Changer la facture" = "Factuur wijzigen";
+"Retirer la facture" = "Factuur verwijderen";
+"Photo de la facture" = "Foto van de factuur";
+"N° Facture" = "Factuurnr.";
+"Vendeur" = "Verkoper";
+"Aucune information de facture" = "Geen factuurinformatie";
+"Exporter la fiche" = "Fiche exporteren";
+"Quitter" = "Afsluiten";
+
+/* Export/Import */
+"Catalogue PDF" = "PDF-catalogus";
+"Exporter en fiches lisibles avec photos" = "Exporteren naar leesbare fiches met foto's";
+"Catalogue Matériels (PDF)" = "Materiaalcatalogus (PDF)";
+"Sauvegarde JSON" = "JSON-backup";
+"Utilise la sélection ci-dessus" = "Gebruikt de bovenstaande selectie";
+"Pour restauration ou transfert" = "Voor herstel of overdracht";
+"Export JSON" = "JSON exporteren";
+"Import JSON" = "JSON importeren";
+"Import réussi" = "Import geslaagd";
+"Les données ont été importées avec succès" = "De gegevens zijn succesvol geïmporteerd";
+"Erreur d'import" = "Importfout";
+"Impossible d'importer le fichier" = "Kan het bestand niet importeren";
+"Inventaire Assurance (PDF)" = "Verzekeringsinventaris (PDF)";
+"Export PDF" = "PDF exporteren";
+"Sauvegarde" = "Backup";
+
+/* Wachtwoordbeheer kluis */
+"Question de récupération" = "Herstelvraag";
+"En cas d'oubli du mot de passe" = "Bij vergeten wachtwoord";
+"Votre réponse" = "Uw antwoord";
+"La réponse doit contenir au moins 2 caractères" = "Het antwoord moet minimaal 2 tekens bevatten";
+"Mot de passe oublié ?" = "Wachtwoord vergeten?";
+"Récupération du mot de passe" = "Wachtwoordherstel";
+"Question de sécurité :" = "Beveiligingsvraag:";
+"Vérifier" = "Controleren";
+"Réponse incorrecte" = "Onjuist antwoord";
+"Créez un nouveau mot de passe" = "Maak een nieuw wachtwoord aan";
+"Nouveau mot de passe" = "Nieuw wachtwoord";
+"Réinitialiser" = "Resetten";
+"Erreur lors de la réinitialisation" = "Fout bij het resetten";
+"Récupération" = "Herstel";
+"Changer le mot de passe" = "Wachtwoord wijzigen";
+"Ancien mot de passe" = "Oud wachtwoord";
+"Confirmer le nouveau mot de passe" = "Nieuw wachtwoord bevestigen";
+"Modifier le mot de passe" = "Wachtwoord wijzigen";
+"Ancien mot de passe incorrect" = "Oud wachtwoord onjuist";
+"Erreur lors du changement de mot de passe" = "Fout bij het wijzigen van het wachtwoord";
+"Mot de passe modifié avec succès" = "Wachtwoord succesvol gewijzigd";
+"Sécurité" = "Beveiliging";
+"Question" = "Vraag";
+
+/* Herstelvragen */
+"Quel est le nom de votre premier animal de compagnie ?" = "Wat is de naam van uw eerste huisdier?";
+"Quel est le prénom de votre meilleur ami d'enfance ?" = "Wat is de voornaam van uw beste jeugdvriend?";
+"Quelle est la ville de naissance de votre mère ?" = "Wat is de geboorteplaats van uw moeder?";
+"Quel est le nom de votre école primaire ?" = "Wat is de naam van uw basisschool?";
+"Quel est votre plat préféré ?" = "Wat is uw favoriete gerecht?";
+"Quelle est la marque de votre première voiture ?" = "Wat is het merk van uw eerste auto?";
+
+/* Volledige reset van de kluis */
+"J'ai aussi oublié ma réponse" = "Ik ben ook mijn antwoord vergeten";
+"Réinitialisation complète" = "Volledige reset";
+"Attention : Perte de données" = "Let op: Gegevensverlies";
+"Si vous avez oublié votre code ET votre réponse de sécurité, la seule option est de réinitialiser complètement le coffre-fort. Cela supprimera TOUTES les données stockées de manière irréversible." = "Als u zowel uw code ALS uw beveiligingsantwoord bent vergeten, is de enige optie om de kluis volledig te resetten. Dit verwijdert ALLE opgeslagen gegevens onomkeerbaar.";
+"Données qui seront supprimées :" = "Gegevens die worden verwijderd:";
+"%d élément(s) dans le coffre-fort" = "%d item(s) in de kluis";
+"Toutes les photos et factures" = "Alle foto's en facturen";
+"Conseil important" = "Belangrijk advies";
+"À l'avenir, pensez à exporter vos données en JSON depuis les réglages pour avoir une sauvegarde." = "Denk er in de toekomst aan om uw gegevens als JSON te exporteren vanuit de instellingen voor een backup.";
+"Je comprends et souhaite continuer" = "Ik begrijp het en wil doorgaan";
+"Confirmation finale" = "Laatste bevestiging";
+"Pour confirmer la suppression définitive, tapez SUPPRIMER ci-dessous :" = "Typ VERWIJDEREN om de permanente verwijdering te bevestigen:";
+"SUPPRIMER" = "VERWIJDEREN";
+"Réinitialiser le coffre-fort" = "Kluis resetten";
+"Êtes-vous vraiment sûr ?" = "Weet u het zeker?";
+"Cette action est irréversible. Toutes les données du coffre-fort seront définitivement supprimées." = "Deze actie is onomkeerbaar. Alle kluisgegevens worden permanent verwijderd.";
+"Oui, tout supprimer" = "Ja, alles verwijderen";
+"Conseil" = "Advies";
+"Pensez à effectuer des sauvegardes régulières de votre coffre-fort au format JSON depuis les paramètres. En cas d'oubli total (code + réponse), seule une réinitialisation sera possible et toutes les données seront perdues." = "Vergeet niet regelmatig een backup te maken van uw kluis als JSON vanuit instellingen. Bij volledig vergeten (code + antwoord) is alleen een reset mogelijk en gaan alle gegevens verloren.";
+"Aucune question de récupération" = "Geen herstelvraag";
+"Aucune question de sécurité n'a été configurée pour ce coffre-fort. Vous pouvez uniquement réinitialiser complètement le coffre-fort, ce qui supprimera toutes les données." = "Er is geen beveiligingsvraag ingesteld voor deze kluis. U kunt alleen de kluis volledig resetten, waardoor alle gegevens worden verwijderd.";
+
+/* Herstel tijdens wijziging */
+"Une question de récupération existe déjà. Vous pouvez la modifier ci-dessous." = "Er bestaat al een herstelvraag. U kunt deze hieronder wijzigen.";
+"Définissez une question pour récupérer votre mot de passe en cas d'oubli." = "Stel een vraag in om uw wachtwoord te herstellen bij vergeten.";
+
+/* Uitleenwaarschuwingen */
+"Retour prévu:" = "Verwachte retour:";
+"En retard" = "Te laat";
+"Aucun prêt en cours" = "Geen lopende uitlening";
+"Aucun emprunt en cours" = "Geen lopende lening";
+"Prêts en cours" = "Lopende uitleningen";
+"Emprunts en cours" = "Lopende leningen";
+"Nom complet" = "Volledige naam";
+"Dernier email" = "Laatste e-mail";
+"Modifier la personne" = "Persoon bewerken";
+
+/* Secties materialen in/uit */
+"Matériels qui sortent" = "Uitgaande materialen";
+"Matériels qui rentrent" = "Inkomende materialen";
+"Aucun matériel en sortie" = "Geen uitgaande materialen";
+"Aucun matériel en entrée" = "Geen inkomende materialen";
+
+/* E-mailinhoud */
+"Bonjour" = "Hallo";
+"Aucun matériel emprunté en cours." = "Geen lopende geleende materialen.";
+"Voici le récapitulatif des matériels empruntés:" = "Hier is het overzicht van de geleende materialen:";
+"RETARD: retour prévu" = "TE LAAT: verwachte retour";
+"retard de" = "vertraging van";
+"retour prévu:" = "verwachte retour:";
+"Merci de procéder au retour ou de nous informer d'un prolongement." = "Gelieve de retour uit te voeren of ons te informeren over een verlenging.";
+"Cordialement," = "Met vriendelijke groet,";
+"L'équipe gestion de matériel" = "Het materiaalbeheerteam";
+"Retour du matériel emprunté" = "Retour van geleend materiaal";
+"Récapitulatif des emprunts actifs:" = "Overzicht van actieve leningen:";
+"Merci de préparer le retour ou nous indiquer tout besoin de prolongation." = "Bereid de retour voor of geef aan of verlenging nodig is.";
+
+/* Beeldkwaliteit */
+"Qualité des images" = "Beeldkwaliteit";
+"Choisissez la qualité des images pour les exports PDF et JSON" = "Kies de beeldkwaliteit voor PDF- en JSON-exports";
+"Originale (iPhone)" = "Origineel (iPhone)";
+"Haute (2000px)" = "Hoog (2000px)";
+"Moyenne (1200px)" = "Gemiddeld (1200px)";
+"Basse (800px)" = "Laag (800px)";
+"Qualité maximale, fichiers volumineux" = "Maximale kwaliteit, grote bestanden";
+"Excellente qualité, taille réduite" = "Uitstekende kwaliteit, kleinere omvang";
+"Bonne qualité, fichiers légers" = "Goede kwaliteit, lichte bestanden";
+"Qualité acceptable, très léger" = "Acceptabele kwaliteit, zeer licht";
+
+/* Premium */
+"Premium" = "Premium";
+"Débloquez toutes les fonctionnalités" = "Ontgrendel alle functies";
+"Premium actif" = "Premium actief";
+"Passez à Premium" = "Upgrade naar Premium";
+"Avantages Premium" = "Premium voordelen";
+"Matériels illimités" = "Onbeperkt materiaal";
+"Ajoutez autant de matériels que vous voulez" = "Voeg zoveel materiaal toe als u wilt";
+"Prêts illimités" = "Onbeperkte uitleningen";
+"Gérez tous vos prêts sans limite" = "Beheer al uw uitleningen zonder limiet";
+"Emprunts illimités" = "Onbeperkte leningen";
+"Suivez tous les objets qu'on vous prête" = "Volg alle objecten die u leent";
+"Personnes illimitées" = "Onbeperkte personen";
+"Ajoutez tous vos contacts sans restriction" = "Voeg al uw contacten toe zonder beperking";
+"Lieux illimités" = "Onbeperkte locaties";
+"Créez autant de lieux de stockage que nécessaire" = "Maak zoveel opslaglocaties aan als nodig";
+"Coffre-fort illimité" = "Onbeperkte kluis";
+"Stockez toutes vos preuves de possession" = "Bewaar al uw eigendomsbewijzen";
+"Sauvegarde iCloud" = "iCloud-backup";
+"Synchronisez sur tous vos appareils" = "Synchroniseer op al uw apparaten";
+"Notifications avancées" = "Geavanceerde meldingen";
+"Rappels personnalisés pour les retours" = "Gepersonaliseerde herinneringen voor retouren";
+"Statistiques détaillées" = "Gedetailleerde statistieken";
+"Analysez vos prêts et emprunts" = "Analyseer uw uitleningen en leningen";
+"Soutenez le développement" = "Steun de ontwikkeling";
+"Aidez à améliorer l'application" = "Help de app te verbeteren";
+"Produits non disponibles" = "Producten niet beschikbaar";
+"Réessayer" = "Opnieuw proberen";
+"Paiement unique - Accès à vie" = "Eenmalige betaling - Levenslange toegang";
+"Restaurer les achats" = "Aankopen herstellen";
+"Conditions" = "Voorwaarden";
+"Confidentialité" = "Privacy";
+"Merci !" = "Bedankt!";
+"Vous êtes maintenant Premium" = "U bent nu Premium";
+"RECOMMANDÉ" = "AANBEVOLEN";
+"Soutenir l'app" = "De app steunen";
+"Si vous aimez Matériel, vous pouvez soutenir son développement avec un pourboire." = "Als u Materiaal leuk vindt, kunt u de ontwikkeling steunen met een fooi.";
+"Votre soutien est très apprécié ! ❤️" = "Uw steun wordt zeer gewaardeerd! ❤️";
+"Limite atteinte" = "Limiet bereikt";
+"Passez à Premium pour continuer" = "Upgrade naar Premium om door te gaan";
+"Débloquer" = "Ontgrendelen";
+"Version gratuite" = "Gratis versie";
+"Passer à Premium" = "Upgraden naar Premium";
+"Limite lieux atteinte" = "U hebt de limiet voor locaties bereikt voor de gratis versie. Upgrade naar Premium voor onbeperkte toegang.";
+"Limite personnes atteinte" = "U hebt de limiet voor personen bereikt voor de gratis versie. Upgrade naar Premium voor onbeperkte toegang.";
+"Limite matériels atteinte" = "U hebt de limiet voor materialen bereikt voor de gratis versie. Upgrade naar Premium voor onbeperkte toegang.";
+"Limite prêts atteinte" = "U hebt de limiet voor uitleningen bereikt voor de gratis versie. Upgrade naar Premium voor onbeperkte toegang.";
+"Limite emprunts atteinte" = "U hebt de limiet voor leningen bereikt voor de gratis versie. Upgrade naar Premium voor onbeperkte toegang.";
+"Limite coffre-fort atteinte" = "U hebt de limiet voor kluisobjecten bereikt voor de gratis versie. Upgrade naar Premium voor onbeperkte toegang.";
+"Synchroniser les compteurs" = "Tellers synchroniseren";
+
+/* Camera */
+"Photographier" = "Fotograferen";
+"Prendre une photo" = "Foto maken";
+
+/* Biometrie */
+"Utiliser Face ID" = "Face ID gebruiken";
+"Utiliser Touch ID" = "Touch ID gebruiken";
+
+/* Kluiscategorieën */
+"Électronique" = "Elektronica";
+"Bijoux" = "Sieraden";
+"Art & Décoration" = "Kunst & Decoratie";
+"Mobilier" = "Meubilair";
+"Électroménager" = "Huishoudelijke apparaten";
+"Instruments de musique" = "Muziekinstrumenten";
+"Sport & Loisirs" = "Sport & Vrije tijd";
+"Véhicules" = "Voertuigen";
+"Vêtements de valeur" = "Waardevolle kleding";
+"Collections" = "Collecties";
+"Autre" = "Overig";
+
+/* Lening uitlenen */
+"Prêter" = "Uitlenen";
+"Prêter l'emprunt" = "De lening uitlenen";
+"Prêter cet emprunt" = "Deze lening uitlenen";
+"À qui prêter ?" = "Aan wie uitlenen?";
+"Date de retour prévue" = "Verwachte retourdatum";
+"Retour prévu le" = "Verwachte retour op";
+"L'emprunt ne pourra pas être restitué tant que ce prêt sera actif." = "De lening kan niet worden geretourneerd zolang deze uitlening actief is.";
+"Prêté à" = "Uitgeleend aan";
+"jusqu'au %@" = "tot %@";
+"Récupérer du prêt" = "Terughalen van uitlening";
+"Retour impossible" = "Retour onmogelijk";
+"Retour" = "Retour";
+
+/* Lening verhuren */
+"Louer l'emprunt" = "De lening verhuren";
+"Louer cet emprunt" = "Deze lening verhuren";
+"L'emprunt ne pourra pas être restitué tant que cette location sera active." = "De lening kan niet worden geretourneerd zolang deze verhuur actief is.";
+"Loué à" = "Verhuurd aan";
+"Récupérer de la location" = "Terughalen van verhuur";
+
+/* Materiaal maken van lening */
+"Créer dans Matériels" = "Aanmaken in Materialen";
+"Ajoute aussi cet objet à votre inventaire" = "Voegt dit object ook toe aan uw inventaris";
+"Lieu de stockage" = "Opslaglocatie";
+"Aucun" = "Geen";
+
+/* Handleiding - Lening uitlenen */
+"guide_lend_borrow_title" = "Een geleend object uitlenen";
+"guide_lend_borrow_content" = "Hebt u een object geleend en wilt u het tijdelijk uitlenen? Gebruik de knop 'Uitlenen' bij elke actieve lening. De lening wordt geblokkeerd voor retour zolang de uitlening niet is teruggehaald. U kunt ook 'Aanmaken in Materialen' aanvinken bij het maken van een lening om het aan uw inventaris toe te voegen - het wordt automatisch verwijderd bij retour.";
+
+/* Handleiding - Betaalde verhuur */
+"guide_rentals_title" = "Uw materiaal verhuren";
+"guide_rentals_content" = "Het tabblad 'Verhuur' laat u uw materiaal tegen betaling verhuren. Stel een tarief in (dag/week/maand/vast), een borg en volg betalingen. Het financieel overzicht toont uw ontvangen en openstaande inkomsten. Beëindig de verhuur wanneer het artikel wordt teruggebracht, beheer daarna de borgteruggave.";
+
+/* Handleiding - Een geleend object verhuren */
+"guide_sublet_title" = "Een geleend object verhuren";
+"guide_sublet_content" = "Hebt u een object geleend en wilt u het tijdelijk verhuren? Gebruik de knop 'Verhuren' bij elke actieve lening. De lening wordt geblokkeerd voor retour zolang de verhuur niet is teruggehaald. Stel uw eigen tarieven en voorwaarden in. Haal eerst het materiaal terug van de verhuur voordat u uw lening kunt retourneren.";
+
+/* Handleiding - Duplicatenbeheer */
+"guide_duplicates_title" = "Duplicaten samenvoegen";
+"guide_duplicates_content" = "De app detecteert automatisch dubbele personen (dezelfde naam/voornaam). Ga naar 'Overig > Personen' en druk op de knop 'Duplicaten' in de werkbalk. Selecteer de groep om samen te voegen: alle uitleningen worden toegewezen aan de behouden persoon, de andere worden verwijderd.";
+
+/* Verwijderwaarschuwingen */
+"Suppression définitive" = "Definitief verwijderen";
+"Suppression impossible" = "Verwijderen niet toegestaan";
+"Supprimer" = "Verwijderen";
+"Êtes-vous sûr de vouloir supprimer cette personne ? Cette action est irréversible." = "Weet u zeker dat u deze persoon wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.";
+"Êtes-vous sûr de vouloir supprimer ce lieu ? Cette action est irréversible." = "Weet u zeker dat u deze locatie wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.";
+"Êtes-vous sûr de vouloir supprimer ce prêt ? Cette action est irréversible." = "Weet u zeker dat u deze uitlening wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.";
+"Vous devez d'abord marquer cette réparation comme payée avant de pouvoir la supprimer." = "U moet deze reparatie eerst als betaald markeren voordat u deze kunt verwijderen.";
+"Vous ne pouvez pas supprimer cette location car toutes les actions ne sont pas terminées (règlement, caution, retour)." = "U kunt deze verhuur niet verwijderen omdat niet alle acties zijn voltooid (betaling, borg, retour).";
+
+/* Verhuur */
+"Ajouter une location" = "Verhuur toevoegen";
+"Nouvelle location" = "Nieuwe verhuur";
+"Rechercher une location" = "Zoek een verhuur";
+"Louer" = "Verhuren";
+"Louer ce matériel" = "Dit materiaal verhuren";
+"Matériel à louer" = "Te verhuren materiaal";
+"Locataire" = "Huurder";
+"Tarification" = "Tarieven";
+"Type de tarif" = "Tarieftype";
+"Prix total" = "Totaalprijs";
+"Prix/jour" = "Prijs/dag";
+"Prix/semaine" = "Prijs/week";
+"Prix/mois" = "Prijs/maand";
+"Prix forfait" = "Vaste prijs";
+"Durée" = "Duur";
+"Caution" = "Borg";
+"Jour" = "Dag";
+"Semaine" = "Week";
+"Mois" = "Maand";
+"Forfait" = "Vast tarief";
+"Garder caution" = "Borg houden";
+"Retenir caution" = "Borg inhouden";
+"Montant à retenir" = "In te houden bedrag";
+"Montant retenu" = "Ingehouden bedrag";
+"Montant restitué" = "Terugbetaald bedrag";
+"Caution totale" = "Totale borg";
+"Le montant ne peut pas dépasser la caution" = "Het bedrag mag de borg niet overschrijden";
+"Revenus" = "Inkomsten";
+"En attente" = "In afwachting";
+"Payé" = "Betaald";
+"Non payé" = "Niet betaald";
+"Paiement" = "Betaling";
+"Gardée" = "Ingehouden";
+"Restituée" = "Terugbetaald";
+"Marquer payé" = "Markeer als betaald";
+"Régler la réparation" = "Reparatie betalen";
+"Règlement réparation" = "Reparatiebetaling";
+"Montant à régler (€)" = "Te betalen bedrag (€)";
+"Confirmer le paiement" = "Betaling bevestigen";
+"Notes (optionnel)" = "Notities (optioneel)";
+"Récapitulatif" = "Overzicht";
+"Terminer" = "Beëindigen";
+"Terminer la location" = "Verhuur beëindigen";
+"Terminer cette location ?" = "Deze verhuur beëindigen?";
+"Rendre caution" = "Borg terugbetalen";
+"Rendre" = "Teruggeven";
+"Cautions à rendre" = "Borgen terug te betalen";
+"Terminées" = "Beëindigd";
+"Terminée" = "Beëindigd";
+"Aucun matériel disponible" = "Geen materiaal beschikbaar";
+"Historique des locations" = "Verhuurgeschiedenis";
+"Aucune location enregistrée" = "Geen verhuur geregistreerd";
+"Êtes-vous sûr de vouloir supprimer cette location ? Cette action est irréversible." = "Weet u zeker dat u deze verhuur wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.";
+"Vous avez atteint la limite de locations gratuites. Passez à Premium pour créer des locations illimitées." = "U heeft de limiet voor gratis verhuur bereikt. Upgrade naar Premium voor onbeperkte verhuur.";
+
+/* Onderverhuur */
+"Sous-louer" = "Onderverhuren";
+"Sous-louer ce matériel" = "Dit materiaal onderverhuren";
+"À qui sous-louer ?" = "Aan wie onderverhuren?";
+"Sous-loué à" = "Onderverhuurd aan";
+"Récupérer de la sous-location" = "Terughalen van onderverhuur";
+"La location ne pourra pas être terminée tant que cette sous-location sera active." = "De verhuur kan niet worden beëindigd zolang deze onderverhuur actief is.";
+
+/* PersonneDetailView navigatielinks */
+"Voir tout" = "Alles bekijken";
+"Aucun prêt" = "Geen uitlening";
+"Aucun emprunt" = "Geen lening";
+"Aucune location" = "Geen verhuur";
+"Rendus" = "Teruggebracht";
+
+/* Personentypes */
+"Personne" = "Persoon";
+"Personnes" = "Personen";
+"Réparateur" = "Reparateur";
+"Réparateurs" = "Reparateurs";
+"Salarié" = "Werknemer";
+"Salariés" = "Werknemers";
+"Type de personne" = "Type persoon";
+"Type" = "Type";
+
+/* Reparaties */
+"Réparations" = "Reparaties";
+"Réparation" = "Reparatie";
+"Nouvelle réparation" = "Nieuwe reparatie";
+"Envoyer en réparation" = "Naar reparatie sturen";
+"Matériel à réparer" = "Te repareren materiaal";
+"Sélectionner le réparateur" = "Reparateur selecteren";
+"Aucun réparateur enregistré" = "Geen reparateur geregistreerd";
+"Ajouter un réparateur" = "Reparateur toevoegen";
+"Nouveau réparateur" = "Nieuwe reparateur";
+"Description du problème" = "Probleembeschrijving";
+"Date de fin prévue" = "Verwachte einddatum";
+"Définir une date de fin" = "Einddatum instellen";
+"Coût" = "Kosten";
+"Réparation gratuite" = "Gratis reparatie";
+"Gratuite" = "Gratis";
+"Coût estimé" = "Geschatte kosten";
+"Coût estimé en €" = "Geschatte kosten in €";
+"Coût en €" = "Kosten in €";
+"Coût final" = "Eindkosten";
+"Coût estimé:" = "Geschat:";
+"Final:" = "Eindelijk:";
+"Estimé:" = "Geschat:";
+"Fin prévue:" = "Verwacht einde:";
+"Retour:" = "Retour:";
+"Aucune réparation" = "Geen reparatie";
+"Aucune réparation en cours" = "Geen lopende reparatie";
+"Réparations en cours" = "Lopende reparaties";
+"Locations Matériels en cours" = "Lopende materiaalverhuur";
+"Aucune location de matériel en cours" = "Geen lopende materiaalverhuur";
+"Les matériels en réparation apparaîtront ici" = "Materialen in reparatie verschijnen hier";
+"Rechercher une réparation" = "Reparatie zoeken";
+"Valider le retour de réparation" = "Reparatieretour bevestigen";
+"Retour réparation" = "Reparatieretour";
+"Notes de clôture" = "Afsluitingsnotities";
+"Effacer cette réparation" = "Deze reparatie verwijderen";
+"Êtes-vous sûr de vouloir supprimer cette réparation ?" = "Weet u zeker dat u deze reparatie wilt verwijderen?";
+"En réparation" = "In reparatie";
+"Matériel concerné" = "Betrokken materiaal";
+"Entreprise / Atelier" = "Bedrijf / Werkplaats";
+"Que souhaitez-vous faire avec ce matériel ?" = "Wat wilt u met dit materiaal doen?";
+"Veuillez sélectionner un réparateur" = "Selecteer een reparateur";
+"Veuillez décrire le problème" = "Beschrijf het probleem";
+"Veuillez sélectionner un matériel et un réparateur" = "Selecteer materiaal en reparateur";
+"Toutes" = "Alle";
+"Fermer" = "Sluiten";
+"Envoyer" = "Verzenden";
+
+/* Boekhouding */
+"Comptabilité" = "Boekhouding";
+"opération(s)" = "transactie(s)";
+"Période" = "Periode";
+"Mois" = "Maand";
+"Année" = "Jaar";
+"Total" = "Totaal";
+"Bénéfice" = "Winst";
+"Aucune opération" = "Geen transacties";
+"Les opérations comptables apparaîtront ici" = "Boekhoudkundige transacties verschijnen hier";
+"Location (Revenu)" = "Verhuur (Inkomsten)";
+"Caution gardée" = "Borg ingehouden";
+"Réparation (Dépense)" = "Reparatie (Uitgave)";
+"Supprimer cette opération ?" = "Deze transactie verwijderen?";
+"Cette opération sera définitivement supprimée de l'historique comptable. Cette action est irréversible." = "Deze transactie wordt permanent verwijderd uit de boekhoudgeschiedenis. Deze actie kan niet ongedaan worden gemaakt.";
+
+/* Export/Import Boekhouding */
+"Exporter" = "Exporteren";
+"Exporter en PDF" = "Exporteren als PDF";
+"Exporter en JSON" = "Exporteren als JSON";
+"Importer" = "Importeren";
+"Importer JSON" = "JSON importeren";
+"Import réussi" = "Import geslaagd";
+"Erreur d'import" = "Importfout";
+"OK" = "OK";
+
+/* Camera */
+"Photographier" = "Fotograferen";
+"Prendre une photo" = "Foto maken";
+
+/* Biometrie */
+"Utiliser Face ID" = "Gebruik Face ID";
+"Utiliser Touch ID" = "Gebruik Touch ID";
+
+/* Taalinstellingen */
+"Langue de l'application" = "Taal van de app";
+"Choisissez votre langue préférée" = "Kies uw voorkeurstaal";
+
+/* Snelle verkoop */
+"Vente rapide" = "Snelle verkoop";
+"Stock insuffisant" = "Onvoldoende voorraad";
+"Vendre" = "Verkopen";
+"Consulter / Modifier" = "Bekijken / Bewerken";
+"Prix" = "Prijs";
+"Mode" = "Modus";
+"Client (optionnel)" = "Klant (optioneel)";
+"Nom du client" = "Klantnaam";
+"Valider" = "Bevestigen";
+"Sous-total HT" = "Subtotaal excl. BTW";
+"Total HT" = "Totaal excl. BTW";
+"Type" = "Type";
+"Vente validée - Article et quantité non modifiables" = "Bevestigde verkoop - Artikel en hoeveelheid niet wijzigbaar";
+"Transaction validée - Article et quantité non modifiables" = "Bevestigde transactie - Artikel en hoeveelheid niet wijzigbaar";
+"Quantité" = "Hoeveelheid";
+"Prix unitaire HT" = "Eenheidsprijs excl. BTW";
+"TVA" = "BTW";
+"Remise" = "Korting";
+"Total TTC" = "Totaal incl. BTW";
+"Paiement" = "Betaling";
+"Payé" = "Betaald";
+
+/* Handelsmodule */
+"Commerce" = "Handel";
+"Achat / Vente" = "Aankoop / Verkoop";
+"Articles" = "Artikelen";
+"Transactions" = "Transacties";
+"Comptabilité Commerce" = "Handelsboekhouding";
+"Ajouter un article" = "Artikel toevoegen";
+"Ajouter une transaction" = "Transactie toevoegen";
+"Rechercher un article" = "Artikel zoeken";
+"Rechercher une transaction" = "Transactie zoeken";
+"Nouvel article" = "Nieuw artikel";
+"Nouvelle transaction" = "Nieuwe transactie";
+"Modifier l'article" = "Artikel bewerken";
+"Modifier la transaction" = "Transactie bewerken";
+"Achat" = "Aankoop";
+"Vente" = "Verkoop";
+"Achats" = "Aankopen";
+"Ventes" = "Verkopen";
+"Résumé du jour" = "Samenvatting van de dag";
+"Aucun article" = "Geen artikelen";
+"Aucune transaction" = "Geen transacties";
+"Commencez par ajouter vos articles" = "Begin met het toevoegen van uw artikelen";
+"Enregistrez vos achats et ventes" = "Registreer uw aankopen en verkopen";
+"Supprimer l'article ?" = "Artikel verwijderen?";
+"Cette action est irréversible." = "Deze actie kan niet ongedaan worden gemaakt.";
+"Supprimer" = "Verwijderen";
+"Supprimer la transaction ?" = "Transactie verwijderen?";
+"Nom de l'article" = "Artikelnaam";
+"Référence" = "Referentie";
+"Catégorie article" = "Artikelcategorie";
+"Stock" = "Voorraad";
+"Quantité en stock" = "Hoeveelheid in voorraad";
+"Seuil d'alerte" = "Waarschuwingsdrempel";
+"Stock bas" = "Lage voorraad";
+"Fournisseur" = "Leverancier";
+"Nom du fournisseur" = "Leveranciersnaam";
+"+ Nouveau fournisseur" = "+ Nieuwe leverancier";
+"Nouveau fournisseur" = "Nieuwe leverancier";
+"Aucun" = "Geen";
+"Prix d'achat HT" = "Aankoopprijs excl. BTW";
+"Prix de vente HT" = "Verkoopprijs excl. BTW";
+"Taux TVA achat" = "BTW-tarief aankoop";
+"Taux TVA vente" = "BTW-tarief verkoop";
+"TVA 0%" = "BTW 0%";
+"TVA 5.5%" = "BTW 5,5%";
+"TVA 10%" = "BTW 10%";
+"TVA 20%" = "BTW 20%";
+"Marge HT" = "Marge excl. BTW";
+"Marge %" = "Marge %";
+"Résumé" = "Samenvatting";
+"Montant brut HT" = "Brutobedrag excl. BTW";
+"Montant net HT" = "Nettobedrag excl. BTW";
+"Type de transaction" = "Transactietype";
+"Type de remise" = "Kortingtype";
+"Aucune remise" = "Geen korting";
+"Remise en %" = "Korting in %";
+"Remise fixe (€)" = "Vaste korting (€)";
+"Mode de paiement" = "Betaalmethode";
+"Espèces" = "Contant";
+"Carte bancaire" = "Bankkaart";
+"Chèque" = "Cheque";
+"Virement" = "Overschrijving";
+"Client / Fournisseur" = "Klant / Leverancier";
+"Date de transaction" = "Transactiedatum";
+"Date de règlement" = "Betalingsdatum";
+"Rappel 3 jours avant" = "Herinnering 3 dagen van tevoren";
+"Rappel paiement" = "Betalingsherinnering";
+"Paiement à régler dans 3 jours" = "Betaling over 3 dagen";
+"Collectée" = "Geïnd";
+"Déductible" = "Aftrekbaar";
+"À reverser" = "Te betalen";
+"Détail TVA par taux" = "BTW-detail per tarief";
+"Remises accordées" = "Verleende kortingen";
+"Sur ventes" = "Op verkopen";
+"Sur achats" = "Op aankopen";
+"Paiements en retard" = "Achterstallige betalingen";
+"Paiements à venir" = "Aankomende betalingen";
+"%d en retard (%.2f €)" = "%d achterstallig (%.2f €)";
+"%d dans 3 jours (%.2f €)" = "%d over 3 dagen (%.2f €)";
+"Aujourd'hui" = "Vandaag";
+"Demain" = "Morgen";
+"Dans %d jours" = "Over %d dagen";
+"Ventes à encaisser" = "Te innen verkopen";
+"Achats à payer" = "Te betalen aankopen";
+"Panier moyen vente" = "Gemiddelde verkoopkorf";
+"Panier moyen achat" = "Gemiddelde aankoopkorf";
+"Articles en stock" = "Artikelen op voorraad";
+"Répartition paiements ventes" = "Verdeling verkoopbetalingen";
+"Galerie" = "Galerij";
+"Appareil photo" = "Camera";
+
+/* Reparatie van geleend item */
+"En réparation" = "In reparatie";
+"Réparer" = "Repareren";
+"Récupérer de la réparation" = "Ophalen van reparatie";
+"Actions bloquées" = "Acties geblokkeerd";
+"Envoyer en réparation" = "Naar reparatie sturen";
+"Réparer l'emprunt" = "Geleend item repareren";
+"Sélectionner le réparateur" = "Selecteer reparateur";
+"Aucun réparateur enregistré. Créez une personne de type 'Réparateur'." = "Geen reparateur geregistreerd. Maak een persoon van het type 'Reparateur' aan.";
+"Ajouter un réparateur" = "Reparateur toevoegen";
+"Description du problème" = "Probleemomschrijving";
+"Délai" = "Deadline";
+"Date de retour prévue" = "Verwachte retourdatum";
+"Retour prévu le" = "Retour verwacht op";
+"Retour prévu le %@" = "Retour verwacht op %@";
+"Coût" = "Kosten";
+"Coût estimé" = "Geschatte kosten";
+"L'emprunt ne pourra pas être prêté, loué ou restitué tant que la réparation sera en cours." = "Het geleende item kan niet worden uitgeleend, verhuurd of geretourneerd zolang de reparatie loopt.";
+"Envoyer" = "Verzenden";
+"Vous avez atteint la limite de réparations gratuites. Passez à Premium pour créer des réparations illimitées." = "U heeft de limiet voor gratis reparaties bereikt. Upgrade naar Premium voor onbeperkte reparaties.";
+
+/* Onbetaalde verhuur */
+"Locations impayées" = "Onbetaalde verhuur";
+"Montant total impayé" = "Totaal onbetaald bedrag";
+"IMPAYÉ" = "ONBETAALD";
+"Rappel de paiement" = "Betalingsherinnering";
+"Envoyer un rappel de paiement" = "Betalingsherinnering verzenden";
+"Nous vous contactons concernant les locations suivantes dont le paiement n'a pas encore été reçu:" = "We nemen contact met u op over de volgende verhuur waarvoor de betaling nog niet is ontvangen:";
+"Aucun paiement en attente." = "Geen openstaande betaling.";
+"Retourné le:" = "Geretourneerd op:";
+"Montant dû:" = "Verschuldigd bedrag:";
+"Total à régler:" = "Totaal te betalen:";
+"Merci de procéder au règlement dans les meilleurs délais." = "Gelieve zo snel mogelijk tot betaling over te gaan.";
+
+/* Onverwerkte borgsommen */
+"Total cautions à traiter" = "Totaal borgsommen te verwerken";
+"Cautions à traiter" = "Borgsommen te verwerken";
+"CAUTION" = "BORG";
+"Garder" = "Behouden";
+"Garder la caution ?" = "Borg behouden?";
+"Oui, garder la caution" = "Ja, borg behouden";
+"Cette action enregistrera la caution comme un revenu. Êtes-vous sûr ?" = "Deze actie zal de borg als inkomen registreren. Weet u het zeker?";
+
+/* Categoriebeheer */
+"Gérer les catégories" = "Categorieën beheren";
+"Catégories" = "Categorieën";
+"Aucune catégorie" = "Geen categorie";
+"matériel" = "artikel";
+"matériels" = "artikelen";
+"Supprimer la catégorie" = "Categorie verwijderen";
+"Renommer la catégorie" = "Categorie hernoemen";
+"Nouveau nom" = "Nieuwe naam";
+"Renommer" = "Hernoemen";
+"Supprimer une catégorie retirera la catégorie des matériels concernés sans supprimer les matériels." = "Het verwijderen van een categorie verwijdert de categorie van de betreffende apparatuur zonder de apparatuur te verwijderen.";
+"Auto" = "Auto";
+
+/* Bouwplaatsen */
+"Chantier" = "Bouwplaats";
+"Chantiers" = "Bouwplaatsen";
+"Chantier assigné" = "Toegewezen bouwplaats";
+"Aucun chantier" = "Geen bouwplaats";
+"Aucun chantier assigné" = "Geen bouwplaats toegewezen";
+"Ajouter un chantier" = "Bouwplaats toevoegen";
+"Nouveau chantier" = "Nieuwe bouwplaats";
+"Modifier le chantier" = "Bouwplaats bewerken";
+"Supprimer le chantier" = "Bouwplaats verwijderen";
+"Supprimer ce chantier ?" = "Deze bouwplaats verwijderen?";
+"Les salariés assignés à ce chantier ne seront plus affectés." = "Werknemers toegewezen aan deze bouwplaats worden niet meer beïnvloed.";
+"Nom du chantier" = "Naam van de bouwplaats";
+"Chantier actif" = "Actieve bouwplaats";
+"Terminé" = "Voltooid";
+"Actif" = "Actief";
+"En préparation" = "In voorbereiding";
+"Salariés assignés" = "Toegewezen werknemers";
+"Aucun salarié assigné" = "Geen werknemer toegewezen";
+"Rechercher un chantier" = "Bouwplaats zoeken";
+"Date de début" = "Startdatum";
+"Date de fin" = "Einddatum";
+"Période" = "Periode";
+"actif(s)" = "actief";
+
+/* Werknemers toewijzen aan bouwplaats */
+"Affecter un salarié" = "Werknemer toewijzen";
+"Affecter des salariés" = "Werknemers toewijzen";
+"Affecter" = "Toewijzen";
+"Retirer" = "Verwijderen";
+"Retirer ce salarié ?" = "Deze werknemer verwijderen?";
+"Salariés disponibles" = "Beschikbare werknemers";
+"Disponible" = "Beschikbaar";
+"Sélectionnez les salariés à affecter à ce chantier" = "Selecteer werknemers om aan deze bouwplaats toe te wijzen";
+"Aucun salarié disponible. Créez d'abord un salarié." = "Geen werknemers beschikbaar. Maak eerst een werknemer aan.";
+"Aucun salarié créé" = "Geen werknemer aangemaakt";
+"Créez d'abord des salariés pour pouvoir les affecter à ce chantier." = "Maak eerst werknemers aan om ze aan deze bouwplaats toe te wijzen.";
+"Tous les salariés sont déjà affectés" = "Alle werknemers zijn al toegewezen";
+"Tous vos salariés sont actuellement assignés à des chantiers." = "Al uw werknemers zijn momenteel toegewezen aan bouwplaatsen.";
+"Créer un salarié" = "Werknemer aanmaken";
+"Créer un nouveau salarié" = "Nieuwe werknemer aanmaken";
+"Rechercher un salarié" = "Werknemer zoeken";
+"Effacer" = "Wissen";
+"Aucun salarié disponible" = "Geen werknemer beschikbaar";
+"Voulez-vous créer un nouveau salarié ?" = "Wilt u een nieuwe werknemer aanmaken?";
+"Oui" = "Ja";
+"Non" = "Nee";
+
+/* Bouwplaats contact */
+"Contact principal" = "Hoofdcontact";
+
+/* Bouwplaats exporteren */
+"Export" = "Export";
+"Exporter en PDF" = "Exporteren als PDF";
+"Exporter en JSON" = "Exporteren als JSON";
+
+/* Ik huur (MaLocation) */
+"Je loue" = "Ik huur";
+"Dépensé" = "Uitgegeven";
+"Cautions" = "Borgsommen";
+"Récupérée" = "Teruggehaald";
+"Aucune location" = "Geen verhuur";
+"Ajoutez les objets que vous louez à quelqu'un" = "Voeg objecten toe die u van iemand huurt";
+"Objet loué" = "Gehuurd object";
+"Loueur" = "Verhuurder";
+"À qui je loue" = "Van wie ik huur";
+"À payer" = "Te betalen";
+"Caution récupérée" = "Borg teruggehaald";
+"Prêté à" = "Uitgeleend aan";
+"Sous-loué à" = "Onderverhuurd aan";
+"Récupérer du prêt" = "Terughalen van uitlening";
+"Récupérer de la sous-location" = "Terughalen van onderverhuur";
+"Prêter cet objet" = "Dit object uitlenen";
+"Sous-louer" = "Onderverhuren";
+"Marquer comme payé" = "Markeren als betaald";
+"Voulez-vous valider le retour de cet objet ?" = "Wilt u de teruggave van dit object bevestigen?";
+"Prêter" = "Uitlenen";
+"Sous-louer à" = "Onderverhuren aan";
+"Total estimé" = "Geschat totaal";
+
+/* Gehuurd van Agentschap (ALM) */
+"Loué depuis une Agence" = "Gehuurd van Agentschap";
+"Aucune location depuis une agence" = "Geen huur van agentschap";
+
+/* Leningen gekoppeld aan materiaal */
+"Historique des emprunts" = "Uitleengeschiedenis";
+"Aucun emprunt enregistré" = "Geen lening geregistreerd";
+
+/* Productfiche sectiekoppen */
+"Mon matériel vers les autres" = "Mijn materiaal aan anderen";
+"Ce que je loue / emprunte" = "Wat ik huur / leen";

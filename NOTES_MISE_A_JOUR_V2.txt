@@ -1,0 +1,158 @@
+================================================================================
+                    NOTES DE MISE À JOUR v2.0 - TOUTES LES LANGUES
+================================================================================
+
+================================================================================
+🇫🇷 FRANÇAIS
+================================================================================
+
+🎉 Mise à jour majeure !
+
+NOUVEAUTÉS :
+• Mes Locations : Nouveau module pour gérer le matériel que VOUS louez à d'autres
+• Export/Import JSON complet : Toutes les données sont maintenant sauvegardées
+• Module Achat/Vente enrichi
+
+AMÉLIORATIONS :
+• Gestion des personnes améliorée
+• Qualité d'export des images personnalisable
+• Mode d'emploi étendu
+• Interface des réglages redessinée
+
+CORRECTIONS :
+• Correction de l'import/export JSON
+• Améliorations de stabilité
+
+
+================================================================================
+🇬🇧 ENGLISH
+================================================================================
+
+🎉 Major update!
+
+NEW FEATURES:
+• My Rentals: New module to manage equipment YOU rent to others
+• Complete JSON Export/Import: All data is now saved
+• Enhanced Buy/Sell module
+
+IMPROVEMENTS:
+• Improved people management
+• Customizable image export quality
+• Extended user guide
+• Redesigned settings interface
+
+FIXES:
+• JSON import/export fix
+• Stability improvements
+
+
+================================================================================
+🇩🇪 DEUTSCH
+================================================================================
+
+🎉 Großes Update!
+
+NEUE FUNKTIONEN:
+• Meine Vermietungen: Neues Modul zur Verwaltung von Material, das SIE an andere vermieten
+• Vollständiger JSON-Export/Import: Alle Daten werden jetzt gespeichert
+• Erweitertes Kauf/Verkauf-Modul
+
+VERBESSERUNGEN:
+• Verbesserte Personenverwaltung
+• Anpassbare Bildexportqualität
+• Erweiterte Bedienungsanleitung
+• Neu gestaltete Einstellungen
+
+KORREKTUREN:
+• JSON-Import/Export-Korrektur
+• Stabilitätsverbesserungen
+
+
+================================================================================
+🇪🇸 ESPAÑOL
+================================================================================
+
+🎉 ¡Actualización importante!
+
+NOVEDADES:
+• Mis Alquileres: Nuevo módulo para gestionar el material que USTED alquila a otros
+• Exportación/Importación JSON completa: Todos los datos se guardan ahora
+• Módulo Compra/Venta mejorado
+
+MEJORAS:
+• Gestión de personas mejorada
+• Calidad de exportación de imágenes personalizable
+• Manual de uso ampliado
+• Interfaz de ajustes rediseñada
+
+CORRECCIONES:
+• Corrección de importación/exportación JSON
+• Mejoras de estabilidad
+
+
+================================================================================
+🇮🇹 ITALIANO
+================================================================================
+
+🎉 Aggiornamento importante!
+
+NOVITÀ:
+• I Miei Noleggi: Nuovo modulo per gestire il materiale che TU noleggi ad altri
+• Esportazione/Importazione JSON completa: Tutti i dati vengono ora salvati
+• Modulo Acquisto/Vendita migliorato
+
+MIGLIORAMENTI:
+• Gestione persone migliorata
+• Qualità di esportazione immagini personalizzabile
+• Guida utente estesa
+• Interfaccia impostazioni ridisegnata
+
+CORREZIONI:
+• Correzione importazione/esportazione JSON
+• Miglioramenti di stabilità
+
+
+================================================================================
+🇵🇹 PORTUGUÊS
+================================================================================
+
+🎉 Atualização importante!
+
+NOVIDADES:
+• Meus Aluguéis: Novo módulo para gerenciar o material que VOCÊ aluga para outros
+• Exportação/Importação JSON completa: Todos os dados são agora salvos
+• Módulo Compra/Venda melhorado
+
+MELHORIAS:
+• Gestão de pessoas melhorada
+• Qualidade de exportação de imagens personalizável
+• Manual do usuário ampliado
+• Interface de configurações redesenhada
+
+CORREÇÕES:
+• Correção de importação/exportação JSON
+• Melhorias de estabilidade
+
+
+================================================================================
+🇳🇱 NEDERLANDS
+================================================================================
+
+🎉 Grote update!
+
+NIEUW:
+• Mijn Verhuur: Nieuwe module om materiaal te beheren dat U aan anderen verhuurt
+• Volledige JSON-export/import: Alle gegevens worden nu opgeslagen
+• Verbeterde Koop/Verkoop-module
+
+VERBETERINGEN:
+• Verbeterd personenbeheer
+• Aanpasbare beeldexportkwaliteit
+• Uitgebreide gebruikershandleiding
+• Vernieuwde instellingeninterface
+
+CORRECTIES:
+• JSON-import/export-correctie
+• Stabiliteitsverbeteringen
+
+================================================================================

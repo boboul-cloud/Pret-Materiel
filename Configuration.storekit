@@ -1,0 +1,107 @@
+{
+  "identifier" : "com.materiel.products",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : true,
+      "internalID" : "1",
+      "localizations" : [
+        {
+          "description" : "Débloquez toutes les fonctionnalités Premium à vie",
+          "displayName" : "Premium à vie",
+          "locale" : "fr"
+        },
+        {
+          "description" : "Unlock all Premium features forever",
+          "displayName" : "Lifetime Premium",
+          "locale" : "en"
+        }
+      ],
+      "productID" : "com.materiel.premium.unlock",
+      "referenceName" : "Premium Unlock",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "2",
+      "localizations" : [
+        {
+          "description" : "Un café pour le développeur",
+          "displayName" : "Petit pourboire",
+          "locale" : "fr"
+        },
+        {
+          "description" : "A coffee for the developer",
+          "displayName" : "Small Tip",
+          "locale" : "en"
+        }
+      ],
+      "productID" : "com.materiel.tip.small",
+      "referenceName" : "Small Tip",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "3",
+      "localizations" : [
+        {
+          "description" : "Une pizza pour le développeur",
+          "displayName" : "Pourboire moyen",
+          "locale" : "fr"
+        },
+        {
+          "description" : "A pizza for the developer",
+          "displayName" : "Medium Tip",
+          "locale" : "en"
+        }
+      ],
+      "productID" : "com.materiel.tip.medium",
+      "referenceName" : "Medium Tip",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "4",
+      "localizations" : [
+        {
+          "description" : "Un cadeau généreux pour le développeur",
+          "displayName" : "Grand pourboire",
+          "locale" : "fr"
+        },
+        {
+          "description" : "A generous gift for the developer",
+          "displayName" : "Large Tip",
+          "locale" : "en"
+        }
+      ],
+      "productID" : "com.materiel.tip.large",
+      "referenceName" : "Large Tip",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "fr",
+    "_storefront" : "FRA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

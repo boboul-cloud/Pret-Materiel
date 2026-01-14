@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Matériel | Gestion de Prêts</title>
+    <style>
+        :root {
+            --primary-color: #007AFF;
+            --secondary-color: #5856D6;
+            --success-color: #34C759;
+            --warning-color: #FF9500;
+            --danger-color: #FF3B30;
+            --background: #F2F2F7;
+            --card-bg: #FFFFFF;
+            --text-primary: #1C1C1E;
+            --text-secondary: #8E8E93;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--background);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 27%;
+            background: white;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* Navigation */
+        nav {
+            background: var(--card-bg);
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        nav a {
+            color: var(--primary-color);
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        /* Sections */
+        section {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        section h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        section h3 {
+            color: var(--text-primary);
+            margin: 20px 0 10px;
+            font-size: 1.1rem;
+        }
+
+        section p {
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+        }
+
+        /* FAQ */
+        .faq-item {
+            border-bottom: 1px solid #E5E5EA;
+            padding: 15px 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            color: var(--text-primary);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            transition: transform 0.3s;
+        }
+
+        .faq-item.active .faq-question::after {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            color: var(--text-secondary);
+            margin-top: 10px;
+            display: none;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        /* Features List */
+        .features-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .feature-item {
+            background: var(--background);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .feature-item h4 {
+            color: var(--text-primary);
+            margin-bottom: 5px;
+        }
+
+        .feature-item p {
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .form-group label {
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            padding: 12px 16px;
+            border: 1px solid #E5E5EA;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-family: inherit;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            background: var(--primary-color);
+            color: white;
+            padding: 14px 28px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .submit-btn:hover {
+            background: #0056b3;
+        }
+
+        /* Contact Info */
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            background: var(--background);
+            border-radius: 12px;
+        }
+
+        .contact-icon {
+            font-size: 1.5rem;
+        }
+
+        .contact-item a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-secondary);
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: var(--text-secondary);
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Language Selector */
+        .lang-selector {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .lang-selector select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: none;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            font-size: 0.9rem;
+            cursor: pointer;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            section {
+                padding: 20px;
+            }
+
+            .features-list {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Alert Box */
+        .alert {
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .alert-info {
+            background: #E8F4FD;
+            color: #0077CC;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .alert-success {
+            background: #E8F9ED;
+            color: #1D7A36;
+            border-left: 4px solid var(--success-color);
+        }
+
+        /* Version Info */
+        .version-info {
+            display: inline-block;
+            background: var(--background);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header style="position: relative;">
+        <div class="lang-selector">
+            <select onchange="changeLanguage(this.value)">
+                <option value="fr">🇫🇷 Français</option>
+                <option value="en">🇬🇧 English</option>
+                <option value="de">🇩🇪 Deutsch</option>
+                <option value="es">🇪🇸 Español</option>
+            </select>
+        </div>
+        <div class="app-icon">📦</div>
+        <h1>Matériel</h1>
+        <p>Gestion de Prêts & Emprunts</p>
+        <span class="version-info">Version 2.0</span>
+        <p style="margin-top: 15px;"><a href="https://apps.apple.com/app/prêt-matériel/id6757075000" style="color: white; text-decoration: underline; font-weight: 500;">📲 Télécharger sur l'App Store</a></p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#features">Fonctionnalités</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#guide">Guide</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#privacy">Confidentialité</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Fonctionnalités -->
+        <section id="features">
+            <h2>📱 Fonctionnalités</h2>
+            <p>Découvrez toutes les fonctionnalités de Matériel pour gérer efficacement vos prêts et emprunts.</p>
+            
+            <div class="features-list">
+                <div class="feature-item">
+                    <div class="feature-icon">📤</div>
+                    <h4>Gestion des prêts</h4>
+                    <p>Enregistrez ce que vous prêtez, à qui et jusqu'à quand</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📥</div>
+                    <h4>Suivi des emprunts</h4>
+                    <p>N'oubliez plus de rendre ce qu'on vous prête</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📸</div>
+                    <h4>Photos</h4>
+                    <p>Prenez en photo le matériel avant de le prêter</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">👥</div>
+                    <h4>Contacts</h4>
+                    <p>Gérez vos emprunteurs et prêteurs</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📍</div>
+                    <h4>Lieux de stockage</h4>
+                    <p>Organisez où se trouve votre matériel</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🔔</div>
+                    <h4>Alertes visuelles</h4>
+                    <p>Retards en rouge, échéances proches en orange</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📄</div>
+                    <h4>Export PDF</h4>
+                    <p>Partagez vos listes par email ou AirDrop</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">💾</div>
+                    <h4>Sauvegarde</h4>
+                    <p>Protégez vos données localement</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq">
+            <h2>❓ Questions Fréquentes</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">Comment créer un nouveau prêt ?</div>
+                <div class="faq-answer">
+                    Allez dans l'onglet "Prêts", appuyez sur le bouton "+" en haut à droite. Sélectionnez le matériel à prêter, la personne à qui vous prêtez, et définissez la date de retour prévue. Vous pouvez également prendre une photo pour documenter l'état du matériel.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Comment marquer un prêt comme retourné ?</div>
+                <div class="faq-answer">
+                    Dans la liste des prêts, trouvez le prêt concerné et faites-le glisser vers la gauche pour accéder aux options, puis sélectionnez "Retourné". Vous pouvez également appuyer sur le prêt pour ouvrir les détails et marquer le retour.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Comment suivre un emprunt (ce que j'emprunte) ?</div>
+                <div class="faq-answer">
+                    Allez dans l'onglet "Emprunts". Ici vous pouvez enregistrer ce que vous empruntez à d'autres personnes. C'est l'inverse des prêts : vous êtes l'emprunteur, pas le prêteur.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Comment ajouter du matériel à mon inventaire ?</div>
+                <div class="faq-answer">
+                    Allez dans l'onglet "Matériel" et appuyez sur le bouton "+". Entrez le nom du matériel, une description optionnelle, sélectionnez un lieu de stockage, et vous pouvez ajouter une photo.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Mes données sont-elles sécurisées ?</div>
+                <div class="faq-answer">
+                    Oui, toutes vos données sont stockées localement sur votre appareil. Elles ne sont jamais envoyées sur des serveurs externes. Vous pouvez également créer des sauvegardes depuis les paramètres de l'application.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Comment exporter mes données en PDF ?</div>
+                <div class="faq-answer">
+                    Dans les réglages de l'application, vous trouverez l'option "Exporter en PDF". Cela génère un document PDF contenant tous vos prêts en cours que vous pouvez partager par email, AirDrop ou enregistrer.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Comment changer la langue de l'application ?</div>
+                <div class="faq-answer">
+                    L'application utilise automatiquement la langue de votre iPhone/iPad. Pour la changer, allez dans Réglages iOS > Général > Langue et région, et modifiez la langue principale de votre appareil.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">L'application fonctionne-t-elle sans connexion internet ?</div>
+                <div class="faq-answer">
+                    Oui, Matériel fonctionne entièrement hors ligne. Toutes vos données sont stockées localement sur votre appareil.
+                </div>
+            </div>
+        </section>
+
+        <!-- Guide d'utilisation -->
+        <section id="guide">
+            <h2>📖 Guide d'utilisation</h2>
+            
+            <div class="alert alert-info">
+                💡 <strong>Astuce :</strong> Commencez par ajouter votre matériel et vos contacts avant de créer des prêts.
+            </div>
+
+            <h3>1. Configurer votre inventaire</h3>
+            <p>Avant de créer des prêts, ajoutez votre matériel dans l'onglet "Matériel". Vous pouvez organiser vos équipements par lieux de stockage (garage, bureau, cave, etc.).</p>
+
+            <h3>2. Ajouter des contacts</h3>
+            <p>Dans l'onglet "Personnes", ajoutez les personnes à qui vous prêtez ou empruntez régulièrement. Vous pouvez ajouter leur email et numéro de téléphone pour les contacter facilement.</p>
+
+            <h3>3. Créer un prêt</h3>
+            <p>Lorsque vous prêtez quelque chose :</p>
+            <ul style="margin-left: 20px; color: var(--text-secondary);">
+                <li>Allez dans "Prêts"</li>
+                <li>Appuyez sur "+"</li>
+                <li>Sélectionnez le matériel et la personne</li>
+                <li>Définissez une date de retour</li>
+                <li>Optionnel : prenez une photo de l'état du matériel</li>
+            </ul>
+
+            <h3>4. Suivre les retards</h3>
+            <p>Les prêts en retard s'affichent en rouge, ceux dont la date approche en orange. Vous voyez ainsi d'un coup d'œil ce qui doit être récupéré.</p>
+
+            <h3>5. Valider un retour</h3>
+            <p>Quand le matériel vous est rendu, marquez le prêt comme "Retourné". Le matériel redevient automatiquement disponible pour de nouveaux prêts.</p>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>📧 Nous contacter</h2>
+            <p>Une question, une suggestion ou un problème ? N'hésitez pas à nous contacter.</p>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <div>
+                        <strong>Email</strong><br>
+                        <a href="mailto:support@materiel-app.com">support@materiel-app.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">⏱️</span>
+                    <div>
+                        <strong>Délai de réponse</strong><br>
+                        Nous répondons généralement sous 24-48 heures
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 30px;">Formulaire de contact</h3>
+            <form class="contact-form" action="mailto:support@materiel-app.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Votre nom</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Votre email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Sujet</label>
+                    <select id="subject" name="subject">
+                        <option value="question">Question générale</option>
+                        <option value="bug">Signaler un bug</option>
+                        <option value="suggestion">Suggestion d'amélioration</option>
+                        <option value="other">Autre</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Votre message</label>
+                    <textarea id="message" name="message" required placeholder="Décrivez votre question ou problème..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Envoyer le message</button>
+            </form>
+        </section>
+
+        <!-- Politique de confidentialité -->
+        <section id="privacy">
+            <h2>🔒 Politique de Confidentialité</h2>
+            <p><strong>Dernière mise à jour :</strong> Décembre 2025</p>
+
+            <h3>Collecte des données</h3>
+            <p>L'application Matériel ne collecte aucune donnée personnelle. Toutes les informations que vous saisissez (matériel, contacts, prêts) sont stockées uniquement sur votre appareil.</p>
+
+            <h3>Stockage des données</h3>
+            <p>Vos données sont stockées localement sur votre iPhone ou iPad. Elles ne sont jamais transmises à des serveurs externes ni partagées avec des tiers.</p>
+
+            <h3>Photos</h3>
+            <p>Si vous utilisez la fonction photo pour documenter l'état du matériel, ces images sont stockées localement dans l'application et ne sont jamais envoyées ailleurs.</p>
+
+            <h3>Accès à la caméra</h3>
+            <p>L'application peut demander l'accès à votre caméra pour prendre des photos du matériel. Cette autorisation est optionnelle et vous pouvez utiliser l'application sans l'activer.</p>
+
+            <h3>Accès à la galerie photos</h3>
+            <p>L'application peut demander l'accès à votre galerie photos pour sélectionner des images existantes. Cette autorisation est également optionnelle.</p>
+
+            <h3>Analyses et publicités</h3>
+            <p>L'application ne contient aucun outil d'analyse, de tracking, ni de publicité.</p>
+
+            <h3>Sauvegarde iCloud</h3>
+            <p>Si la sauvegarde iCloud est activée sur votre appareil, les données de l'application peuvent être incluses dans votre sauvegarde iCloud chiffrée.</p>
+
+            <h3>Modifications</h3>
+            <p>Cette politique de confidentialité peut être mise à jour occasionnellement. Les changements seront publiés sur cette page.</p>
+
+            <h3>Contact</h3>
+            <p>Pour toute question concernant cette politique de confidentialité, contactez-nous à <a href="mailto:support@materiel-app.com">support@materiel-app.com</a></p>
+        </section>
+
+        <!-- Conditions d'utilisation -->
+        <section id="terms">
+            <h2>📜 Conditions d'Utilisation</h2>
+            
+            <h3>Acceptation des conditions</h3>
+            <p>En téléchargeant et en utilisant l'application Matériel, vous acceptez ces conditions d'utilisation.</p>
+
+            <h3>Licence d'utilisation</h3>
+            <p>Nous vous accordons une licence limitée, non exclusive et non transférable pour utiliser l'application sur vos appareils Apple conformément à ces conditions.</p>
+
+            <h3>Responsabilité</h3>
+            <p>L'application est fournie "telle quelle". Nous ne sommes pas responsables des pertes de données ou de tout dommage résultant de l'utilisation de l'application. Nous vous recommandons de faire des sauvegardes régulières.</p>
+
+            <h3>Modifications</h3>
+            <p>Nous nous réservons le droit de modifier ces conditions à tout moment. Les modifications entreront en vigueur dès leur publication.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p><strong>Matériel - Gestion de Prêts</strong></p>
+        <p>© 2025 Tous droits réservés</p>
+        <p style="margin-top: 20px; font-size: 0.9rem;">
+            <a href="#privacy" style="color: var(--text-secondary);">Confidentialité</a> · 
+            <a href="#terms" style="color: var(--text-secondary);">Conditions</a> · 
+            <a href="#contact" style="color: var(--text-secondary);">Contact</a>
+        </p>
+    </footer>
+
+    <script>
+        // FAQ Toggle
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                item.classList.toggle('active');
+            });
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Language change (placeholder - in a real app you'd load translations)
+        function changeLanguage(lang) {
+            // This is a placeholder. In production, you would:
+            // 1. Load translations from a JSON file
+            // 2. Update all text content based on selected language
+            console.log('Language changed to:', lang);
+            alert('La page sera affichée en ' + 
+                (lang === 'fr' ? 'Français' : 
+                 lang === 'en' ? 'English' : 
+                 lang === 'de' ? 'Deutsch' : 'Español'));
+        }
+    </script>
+</body>
+</html>

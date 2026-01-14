@@ -1,0 +1,1173 @@
+/* Italiano */
+
+/* Navigazione e schede */
+"Matériel" = "Materiale";
+"Prêts" = "Prestiti";
+"Emprunts" = "Prestiti ricevuti";
+"Locations" = "Noleggi";
+"Personnes" = "Persone";
+"Lieux" = "Luoghi";
+"Lieux de stockage" = "Luoghi di stoccaggio";
+"Réglages" = "Impostazioni";
+"Autre" = "Altro";
+"Accueil" = "Home";
+
+/* Impostazioni */
+"Langue" = "Lingua";
+"Choisir la langue" = "Scegli la lingua";
+"À propos" = "Informazioni";
+"Version" = "Versione";
+"Langue, sauvegarde..." = "Lingua, backup...";
+"Sauvegarde locale" = "Backup locale";
+"Sauvegarder maintenant" = "Salva adesso";
+"Données sauvegardées" = "Dati salvati";
+"Exporter les données" = "Esporta i dati";
+"Choisissez les données à exporter" = "Scegli i dati da esportare";
+"Partager l'export PDF" = "Condividi il PDF";
+"Email, Fichiers, AirDrop..." = "Email, File, AirDrop...";
+"Exclure les retournés" = "Escludi i restituiti";
+"Statistiques" = "Statistiche";
+
+/* Tipi di esportazione */
+"Tout" = "Tutto";
+"Matériels" = "Materiali";
+
+/* Compressione immagini */
+"Image compression" = "Compressione immagini";
+"Optimise la taille des exports" = "Ottimizza la dimensione delle esportazioni";
+"Original" = "Originale";
+"Haute" = "Alta";
+"Moyenne" = "Media";
+"Basse" = "Bassa";
+"Originale (iPhone)" = "Originale (iPhone)";
+"Haute (2000px)" = "Alta (2000px)";
+"Moyenne (1200px)" = "Media (1200px)";
+"Basse (800px)" = "Bassa (800px)";
+"Qualité maximale, fichiers volumineux" = "Qualità massima, file pesanti";
+"Excellente qualité, taille réduite" = "Eccellente qualità, dimensione ridotta";
+"Bonne qualité, fichiers légers" = "Buona qualità, file leggeri";
+"Qualité acceptable, très léger" = "Qualità accettabile, molto leggero";
+
+/* Pulsanti aggiungi */
+"Ajouter une personne" = "Aggiungi una persona";
+"Ajouter un prêt" = "Aggiungi un prestito";
+"Ajouter un emprunt" = "Aggiungi un prestito ricevuto";
+"Ajouter un matériel" = "Aggiungi un materiale";
+"Ajouter un lieu" = "Aggiungi un luogo";
+"Créer un nouveau lieu" = "Crea un nuovo luogo";
+
+/* Ricerca */
+"Rechercher une personne" = "Cerca una persona";
+"Rechercher un prêt" = "Cerca un prestito";
+"Rechercher un emprunt" = "Cerca un prestito ricevuto";
+"Rechercher du matériel" = "Cerca materiale";
+"Rechercher un lieu" = "Cerca un luogo";
+
+/* Filtri - Categorie e Luoghi */
+"Catégorie" = "Categoria";
+"Toutes catégories" = "Tutte le categorie";
+"Lieu" = "Luogo";
+"Tous les lieux" = "Tutti i luoghi";
+
+/* Filtri - Stati */
+"Statut" = "Stato";
+"Tous" = "Tutti";
+"En cours" = "In corso";
+"En retard" = "In ritardo";
+"Retournés" = "Restituiti";
+"Bientôt" = "Presto";
+"Filtre" = "Filtro";
+
+/* Azioni prestiti */
+"Valider le retour" = "Conferma la restituzione";
+"Confirmer le retour" = "Conferma la restituzione";
+"Voulez-vous valider le retour de ce matériel ?" = "Vuoi confermare la restituzione di questo materiale?";
+"Voulez-vous valider le retour de cet objet emprunté ?" = "Vuoi confermare la restituzione di questo oggetto preso in prestito?";
+"Effacer ce prêt" = "Elimina questo prestito";
+"Effacer cet emprunt" = "Elimina questo prestito ricevuto";
+"Annuler" = "Annulla";
+
+/* Info date */
+"Début:" = "Inizio:";
+"Fin:" = "Fine:";
+"Retourné le" = "Restituito il";
+"%d jour(s) de retard" = "%d giorno/i di ritardo";
+
+/* Moduli - Titoli */
+"Nouveau prêt" = "Nuovo prestito";
+"Nouvel emprunt" = "Nuovo prestito ricevuto";
+"Nouveau matériel" = "Nuovo materiale";
+"Nouveau lieu" = "Nuovo luogo";
+"Nouvelle personne" = "Nuova persona";
+"Modifier le lieu" = "Modifica il luogo";
+"Modifier" = "Modifica";
+"Enregistrer" = "Salva";
+"Détails" = "Dettagli";
+
+/* Moduli - Sezioni */
+"Objet" = "Oggetto";
+"Nom de l'objet" = "Nome dell'oggetto";
+"Prêteur" = "Prestatore";
+"Emprunteur" = "Mutuatario";
+"Sélectionner la personne" = "Seleziona la persona";
+"Sélectionner le matériel" = "Seleziona il materiale";
+"Choisir..." = "Scegli...";
+"Aucune personne enregistrée" = "Nessuna persona registrata";
+"Aucun matériel disponible" = "Nessun materiale disponibile";
+"Dates" = "Date";
+"Date de début" = "Data di inizio";
+"Date de fin prévue" = "Data di fine prevista";
+"Notes" = "Note";
+"Créer" = "Crea";
+"Ajouter" = "Aggiungi";
+
+/* Moduli - Foto */
+"Photo" = "Foto";
+"Ajouter une photo" = "Aggiungi una foto";
+"Changer la photo" = "Cambia la foto";
+"Choisir une photo" = "Scegli una foto";
+"Retirer la photo" = "Rimuovi la foto";
+"Aucune photo" = "Nessuna foto";
+
+/* Moduli - Luogo */
+"Identification" = "Identificazione";
+"Nom du lieu" = "Nome del luogo";
+"Adresse" = "Indirizzo";
+"Localisation" = "Posizione";
+"Décrivez librement la localisation (ex: Bâtiment A, Étage 2, Salle 203)" = "Descrivi liberamente la posizione (es: Edificio A, Piano 2, Sala 203)";
+"Bâtiment" = "Edificio";
+"Étage" = "Piano";
+"Salle" = "Sala";
+
+/* Moduli - Posizione del materiale */
+"Emplacement précis" = "Posizione precisa";
+"Emplacement" = "Posizione";
+"Ex: Placard cuisine, Étagère du haut, Tiroir 3..." = "Es: Armadio cucina, Scaffale superiore, Cassetto 3...";
+
+/* Moduli - Persona */
+"Identité" = "Identità";
+"Prénom" = "Nome";
+"Nom" = "Cognome";
+"Contact" = "Contatto";
+"Email" = "Email";
+"Téléphone" = "Telefono";
+"Organisation" = "Organizzazione";
+"Nom complet" = "Nome completo";
+
+/* Moduli - Materiale */
+"Informations générales" = "Informazioni generali";
+"Description" = "Descrizione";
+"Valeur (€)" = "Valore (€)";
+"Date d'acquisition" = "Data di acquisto";
+"Lieu de stockage" = "Luogo di stoccaggio";
+"Aucun" = "Nessuno";
+"Aucune" = "Nessuna";
+"+ Nouvelle catégorie" = "+ Nuova categoria";
+"Nom de la nouvelle catégorie" = "Nome della nuova categoria";
+
+/* Stati materiale */
+"Disponible" = "Disponibile";
+"Prêté" = "Prestato";
+"Loué" = "Noleggiato";
+"Tous les matériels" = "Tutti i materiali";
+
+/* Dettagli luogo */
+"Informations" = "Informazioni";
+"Matériel stocké" = "Materiale stoccato";
+"Aucun matériel stocké ici" = "Nessun materiale stoccato qui";
+"%d matériel(s)" = "%d materiale/i";
+
+/* Dettagli persona */
+"Pas d'email" = "Nessuna email";
+"Pas de téléphone" = "Nessun telefono";
+"Prêts actifs:" = "Prestiti attivi:";
+"Emprunts actifs:" = "Prestiti ricevuti attivi:";
+"Copier l'adresse" = "Copia l'indirizzo";
+"Copier le téléphone" = "Copia il telefono";
+"Impossible d'ouvrir Mail" = "Impossibile aprire Mail";
+"Aucun compte Mail configuré." = "Nessun account Mail configurato.";
+
+/* Contatori */
+"contact(s)" = "contatto/i";
+"lieu(x)" = "luogo/hi";
+"jour(s) de retard" = "giorno/i di ritardo";
+"matériel(s)" = "materiale/i";
+
+/* Pagina iniziale */
+"Gestion de prêts simplifiée" = "Gestione prestiti semplificata";
+"Créer un prêt rapide" = "Crea un prestito veloce";
+"Créer un prêt" = "Crea un prestito";
+"Je prête quelque chose" = "Presto qualcosa";
+"Créer un emprunt rapide" = "Crea un prestito ricevuto veloce";
+"On me prête quelque chose" = "Mi prestano qualcosa";
+
+/* Statistiche */
+"Prêts actifs" = "Prestiti attivi";
+"Emprunts actifs" = "Prestiti ricevuti attivi";
+"Locations actives" = "Noleggi attivi";
+"Locations actives:" = "Noleggi attivi:";
+"Réparations en cours:" = "Riparazioni in corso:";
+"Locations Matériels en cours:" = "Noleggi di Materiali in corso:";
+"Total prêts" = "Totale prestiti";
+"Total locations" = "Totale noleggi";
+
+/* Noleggi - Email */
+"Aucune location en cours." = "Nessun noleggio attivo.";
+"Voici le récapitulatif des locations en cours:" = "Ecco il riepilogo dei noleggi in corso:";
+"Rappel location" = "Promemoria noleggio";
+"Rappel prêts et locations" = "Promemoria prestiti e noleggi";
+"Aucun matériel emprunté ou loué en cours." = "Nessun materiale in prestito o noleggiato.";
+"Paiement en attente" = "Pagamento in attesa";
+"Caution:" = "Cauzione:";
+"Locations en cours" = "Noleggi in corso";
+"Aucune location en cours" = "Nessun noleggio in corso";
+"Payé" = "Pagato";
+"Envoyer un rappel" = "Invia un promemoria";
+
+/* Storico prestiti */
+"Historique des prêts" = "Storico prestiti";
+"Du" = "Dal";
+"au" = "al";
+"Retourné" = "Restituito";
+"Aucun prêt enregistré" = "Nessun prestito registrato";
+
+/* Storico riparazioni */
+"Historique des réparations" = "Storico riparazioni";
+"Aucune réparation enregistrée" = "Nessuna riparazione registrata";
+"Détail réparation" = "Dettaglio riparazione";
+"Fin prévue:" = "Fine prevista:";
+"Description du problème" = "Descrizione del problema";
+"Coûts" = "Costi";
+"Estimé" = "Stimato";
+"Final" = "Finale";
+
+/* Errori */
+"Erreur" = "Errore";
+"OK" = "OK";
+"Veuillez remplir tous les champs obligatoires" = "Si prega di compilare tutti i campi obbligatori";
+"La date de fin doit être après la date de début" = "La data di fine deve essere successiva alla data di inizio";
+
+/* Toolbar */
+"Réinitialiser" = "Ripristina";
+
+/* Guida utente */
+"Mode d'emploi" = "Istruzioni per l'uso";
+"Guide d'utilisation" = "Guida all'uso";
+
+/* Categorie della guida */
+"guide_cat_start" = "Primi passi";
+"guide_cat_management" = "Gestione";
+"guide_cat_rental" = "Noleggio e Commercio";
+"guide_cat_organization" = "Organizzazione";
+"guide_cat_security" = "Sicurezza";
+"guide_cat_tips" = "Consigli";
+
+/* Guida - Introduzione */
+"guide_intro_title" = "Benvenuto in Materiale";
+"guide_intro_content" = "Materiale è il tuo assistente completo per gestire tutto ciò che presti, prendi in prestito, noleggi o vendi.\n\n📦 Inventario: Cataloga i tuoi equipaggiamenti con foto e ricevute\n🔄 Prestiti: Traccia chi ha cosa e fino a quando\n💰 Noleggi: Noleggia i tuoi equipaggiamenti e gestisci i pagamenti\n🛒 Commercio: Gestisci acquisti e vendite con IVA\n🔐 Cassaforte: Proteggi i tuoi documenti importanti\n📊 Contabilità: Traccia entrate e uscite\n\nNaviga tra le schede in basso per accedere alle diverse funzioni.";
+
+/* Guida - Pagina iniziale */
+"guide_home_title" = "Pagina iniziale";
+"guide_home_content" = "La pagina iniziale ti dà accesso rapido alle azioni principali:\n\n📸 Prestito veloce: Fotografa un articolo che presti, aggiungi info e hai finito!\n\n📸 Prestito ricevuto veloce: Qualcuno ti presta qualcosa? Annotalo in secondi.\n\n👑 Diventa Premium: La versione gratuita ha articoli limitati. Premium sblocca tutto illimitato.\n\nI pulsanti rapidi creano automaticamente equipaggiamenti e contatti se necessario.";
+
+/* Guida - Creazione rapida */
+"guide_quick_create_title" = "Creazione rapida con foto";
+"guide_quick_create_content" = "La creazione rapida è il modo più semplice per iniziare:\n\n1️⃣ Tocca 'Crea prestito veloce' o 'Crea prestito ricevuto veloce'\n2️⃣ Scatta una foto dell'articolo (opzionale ma consigliato)\n3️⃣ Inserisci il nome dell'articolo\n4️⃣ Aggiungi il nome della persona\n5️⃣ Imposta la data di restituzione prevista\n6️⃣ Conferma!\n\nL'app crea automaticamente:\n• La scheda dell'equipaggiamento con foto\n• Il contatto se nuovo\n• Il prestito con le date\n\nPuoi modificare questi elementi in qualsiasi momento.";
+
+/* Guida - Navigazione */
+"guide_navigation_title" = "Navigare nell'app";
+"guide_navigation_content" = "L'app è organizzata in 5 schede principali:\n\n🏠 Home: Azioni rapide e panoramica\n\n📦 Materiale: Il tuo inventario completo con filtri per categoria, luogo e stato\n\n↗️ Prestiti: Ciò che presti ad altri (filtrabile per stato: In corso, In ritardo, Restituito)\n\n↙️ Prestiti ricevuti: Ciò che altri ti prestano (stessi filtri disponibili)\n\n⚙️ Altro: Persone, Luoghi, Cantieri, Noleggi, Riparazioni, Commercio, Contabilità, Cassaforte e Impostazioni\n\nOgni lista è ricercabile e ordinabile.";
+
+/* Guida - Lingua */
+"guide_language_title" = "Cambiare lingua";
+"guide_language_content" = "L'app è disponibile in 7 lingue:\n🇫🇷 Français\n🇬🇧 English\n🇩🇪 Deutsch\n🇪🇸 Español\n🇮🇹 Italiano\n🇵🇹 Português\n🇳🇱 Nederlands\n\nPer cambiare lingua:\n1. Vai a Altro > Impostazioni\n2. Seleziona la bandiera della tua lingua\n\nLa lingua viene applicata istantaneamente in tutta l'app.";
+
+/* Guida - Materiale */
+"guide_equipment_title" = "Gestisci il tuo materiale";
+"guide_equipment_content" = "La scheda Materiale è il tuo inventario centrale:\n\n➕ Aggiungere materiale:\n• Nome e descrizione dettagliata\n• Categoria (crea le tue)\n• Valore stimato in €\n• Data di acquisizione\n• Luogo di stoccaggio (opzionale)\n• Posizione precisa (es: scaffale superiore)\n• Foto dell'articolo\n• Foto della ricevuta con numero e venditore\n\n🔍 Filtrare l'inventario:\n• Per categoria (Utensili, Sport, Cucina...)\n• Per luogo di stoccaggio\n• Per stato (Disponibile, Prestato, Noleggiato)\n• Per ricerca testuale\n\n📊 Visualizzare dettagli:\n• Storico prestiti\n• Storico noleggi\n• Storico riparazioni";
+
+/* Guida - Foto */
+"guide_photos_title" = "Foto e ricevute";
+"guide_photos_content" = "Le foto arricchiscono le tue schede:\n\n📷 Foto dell'equipaggiamento:\n• Identifica visivamente l'articolo\n• Visibile in liste ed esportazioni PDF\n• Scatta direttamente o scegli dalla galleria\n\n🧾 Foto della ricevuta:\n• Prova d'acquisto importante\n• Numero ricevuta e venditore (opzionale)\n• Utile per assicurazione o garanzia\n• Esportabile in PDF\n\n💡 Consiglio sulla qualità:\nIn Impostazioni > Qualità immagine, scegli:\n• Originale: Qualità max, file pesanti\n• Alta: Buon compromesso\n• Media: Consigliata (leggera e sufficiente)\n• Bassa: Per risparmiare spazio";
+
+/* Guida - Prestiti */
+"guide_loans_title" = "Creare e gestire prestiti";
+"guide_loans_content" = "Un prestito = equipaggiamento che affidi a qualcuno.\n\n➕ Creare un prestito:\n1. Seleziona l'equipaggiamento da prestare\n2. Scegli il mutuatario (o creane uno)\n3. Imposta le date (inizio e fine prevista)\n4. Aggiungi note se necessario\n\n📋 Stati del prestito:\n🟢 In corso: Prestito attivo, nessun ritardo\n🟡 Presto: Scade tra meno di 3 giorni\n🔴 In ritardo: Data di fine superata\n✅ Restituito: Equipaggiamento restituito\n\n✔️ Confermare una restituzione:\nTocca 'Conferma restituzione' sulla scheda del prestito. Viene registrata la data effettiva di restituzione.\n\n📧 Sollecitare un mutuatario:\nDalla scheda della persona, invia un'email riepilogativa degli articoli in corso.";
+
+/* Guida - Prestiti ricevuti */
+"guide_borrows_title" = "Seguire i tuoi prestiti ricevuti";
+"guide_borrows_content" = "Un prestito ricevuto = qualcosa che qualcuno ti presta.\n\n➕ Creare un prestito ricevuto:\n1. Nomina l'articolo preso in prestito\n2. Seleziona il prestatore (chi ti presta)\n3. Imposta date di inizio e restituzione prevista\n4. Scatta una foto dell'articolo\n5. Aggiungi note (stato, condizioni...)\n\n🔄 Azioni su un prestito ricevuto:\n• Prestarlo a qualcun altro\n• Noleggiarlo (subaffitto)\n• Inviarlo in riparazione\n• Restituirlo al prestatore\n\n📦 Creare in Materiale:\nAttiva questa opzione per aggiungere l'articolo prestato al tuo inventario. Verrà rimosso automaticamente quando lo restituirai.\n\n⚠️ Blocco:\nNon puoi restituire un prestito ricevuto se è attualmente prestato, noleggiato o in riparazione.";
+
+/* Guida - Prestare un prestito ricevuto */
+"guide_lend_borrow_title" = "Prestare un articolo preso in prestito";
+"guide_lend_borrow_content" = "Vuoi prestare temporaneamente qualcosa che hai preso in prestito?\n\n📤 Come fare:\n1. Vai alla scheda del prestito ricevuto\n2. Tocca 'Presta'\n3. Seleziona la persona a cui presti\n4. Imposta la data di restituzione prevista\n\n⚠️ Regole di blocco:\n• Il prestito ricevuto non può essere restituito finché il prestito è attivo\n• Devi prima recuperare l'articolo dal prestito\n• Poi puoi restituire il prestito ricevuto\n\n🔄 Stessa logica per:\n• Noleggiare un prestito ricevuto (subaffitto)\n• Inviare un prestito ricevuto in riparazione\n\nQuesto permette un tracciamento completo della catena di possesso.";
+
+/* Guida - Riparazioni */
+"guide_repairs_title" = "Gestire le riparazioni";
+"guide_repairs_content" = "Invia i tuoi equipaggiamenti in riparazione e traccia i costi.\n\n🔧 Creare una riparazione:\n1. Seleziona l'equipaggiamento da riparare\n2. Scegli un riparatore (tipo 'Riparatore' richiesto)\n3. Descrivi il problema\n4. Inserisci il costo stimato\n5. Imposta la data di restituzione prevista\n\n📊 Tracciamento:\n• Stato: In corso / Completata\n• Costo stimato vs finale\n• Indicatore di ritardo se scaduto\n\n✅ Completare una riparazione:\n1. Conferma la restituzione\n2. Inserisci il costo finale\n3. Segna come 'Pagato' quando saldato\n\n💰 Contabilità:\nLe riparazioni vengono registrate automaticamente come spese.";
+
+/* Guida - Restituzioni */
+"guide_return_title" = "Confermare le restituzioni";
+"guide_return_content" = "Quando un articolo viene restituito, conferma la restituzione:\n\n✅ Per un prestito:\nTocca 'Conferma restituzione'. L'equipaggiamento torna disponibile.\n\n✅ Per un prestito ricevuto:\nTocca 'Conferma restituzione'. Il prestito ricevuto viene segnato come restituito.\n\n✅ Per un noleggio:\nTocca 'Termina noleggio'. Dovrai poi:\n• Segnare il pagamento come ricevuto\n• Gestire la cauzione (restituire o trattenere)\n\n✅ Per una riparazione:\nTocca 'Conferma restituzione riparazione'. Inserisci il costo finale.\n\n💡 Consiglio:\nLe restituzioni hanno timestamp. Troverai lo storico completo in ogni scheda.";
+
+/* Guida - Noleggi */
+"guide_rentals_title" = "Noleggiare i tuoi equipaggiamenti";
+"guide_rentals_content" = "I noleggi ti permettono di affittare i tuoi equipaggiamenti a pagamento.\n\n➕ Creare un noleggio:\n1. Seleziona l'equipaggiamento da noleggiare\n2. Scegli il locatario\n3. Imposta il tipo di tariffa:\n   • Giorno (prezzo × numero di giorni)\n   • Settimana (prezzo × numero di settimane)\n   • Mese (prezzo × numero di mesi)\n   • Prezzo fisso\n4. Inserisci l'importo della cauzione\n5. Imposta le date\n\n📊 Dashboard:\n• Entrate ricevute (pagamenti confermati)\n• In sospeso (non ancora pagato)\n\n✅ Terminare un noleggio:\n1. Termina il noleggio quando l'articolo viene restituito\n2. Conferma la ricezione del pagamento\n3. Gestisci la cauzione (restituire o trattenere)";
+
+/* Guida - Cauzioni */
+"guide_caution_title" = "Gestire le cauzioni";
+"guide_caution_content" = "La cauzione è una garanzia riscossa alla fine del noleggio.\n\n💵 Tipi di azioni:\n\n🔙 Restituire la cauzione:\nSe tutto è OK, restituisci la cauzione al locatario. Non conta come entrata.\n\n⚠️ Trattenere la cauzione:\nIn caso di danni o contenzioso, trattieni tutto o parte. L'importo trattenuto viene aggiunto alle tue entrate.\n\n📋 Tracciamento in 'Altro':\nLa sezione 'Cauzioni da restituire' elenca tutti i noleggi completati con gestione cauzione in sospeso.\n\n💰 Contabilità:\nSolo le cauzioni trattenute appaiono in contabilità come entrate eccezionali.";
+
+/* Guida - Subaffitto */
+"guide_sublet_title" = "Subaffittare equipaggiamenti";
+"guide_sublet_content" = "Puoi subaffittare equipaggiamenti che stai noleggiando tu stesso.\n\n📤 Come fare:\n1. Vai alla scheda del tuo noleggio attivo\n2. Tocca 'Subaffitta'\n3. Seleziona il subaffittuario\n4. Imposta le tue tariffe e condizioni\n\n⚠️ Regole:\n• Il noleggio principale non può essere terminato finché il subaffitto è attivo\n• Prima recupera l'equipaggiamento dal subaffitto\n• Poi termina il noleggio principale\n\n💰 Entrate:\nLe entrate del subaffitto vengono aggiunte alla tua contabilità normale.";
+
+/* Guida - Io noleggio */
+"guide_myrentals_title" = "Io noleggio - Equipaggiamento che noleggio";
+"guide_myrentals_content" = "La sezione 'Io noleggio' permette di gestire l'equipaggiamento che TU noleggi da qualcun altro (noleggio equipaggiamento esterno).\n\n📤 Creare un noleggio:\n1. Tocca 'Aggiungi un noleggio'\n2. Nomina l'equipaggiamento noleggiato\n3. Seleziona il locatore (da chi noleggi)\n4. Definisci il tipo di tariffa (giorno/settimana/mese/forfait)\n5. Inserisci il prezzo e la cauzione versata\n6. Definisci le date di inizio e fine\n\n📊 Tracciamento:\n• Importo totale del noleggio\n• Cauzione versata e recuperata\n• Stato: In corso, In ritardo, Terminato\n• Pagamento effettuato o in sospeso\n\n✅ Terminare un noleggio:\n1. Segna il noleggio come terminato\n2. Inserisci l'importo della cauzione recuperata\n3. Conferma il pagamento effettuato\n\n⚠️ Promemoria:\nI noleggi con cauzione non recuperata appaiono come avvisi.";
+
+/* Guida - Le mie cauzioni */
+"guide_myrentals_caution_title" = "Gestire le mie cauzioni versate";
+"guide_myrentals_caution_content" = "Quando noleggi equipaggiamento, spesso versi una cauzione.\n\n💵 Tracciamento cauzione:\n• Importo cauzione versato alla firma\n• Importo recuperato alla fine del noleggio\n• Differenza in caso di trattenuta\n\n🔄 Flusso di lavoro:\n1. Alla creazione, inserisci la cauzione versata\n2. Alla fine del noleggio, inserisci l'importo recuperato\n3. La differenza viene calcolata automaticamente\n\n📋 Avvisi:\nIn 'Altro > Io noleggio', un avviso ti avverte se noleggi terminati hanno cauzioni non recuperate.\n\n💰 Contabilità:\n• Cauzione versata = spesa temporanea\n• Cauzione recuperata = rimborso\n• Cauzione non recuperata = perdita (spesa definitiva)";
+
+/* Guida - Commercio */
+"guide_commerce_title" = "Modulo Acquisto/Vendita";
+"guide_commerce_content" = "Il modulo Commercio è ideale per mercati, negozi e piccole imprese.\n\n📦 Funzionalità:\n• Catalogo prodotti con prezzi di acquisto e vendita\n• Gestione automatica delle scorte\n• Calcolo IVA (incassata, detraibile, da versare)\n• Sconti percentuali o fissi\n• Metodi di pagamento (contanti, carta, assegno, bonifico)\n• Pagamenti differiti con promemoria\n\n📊 Contabilità commerciale:\n• Totale vendite / acquisti / profitti\n• Dettaglio IVA per aliquota\n• Scontrino medio\n• Ripartizione per metodo di pagamento\n• Avvisi scorte basse\n\n🔄 Esporta/importa JSON per backup dei dati.";
+
+/* Guida - Articoli */
+"guide_articles_title" = "Gestire i tuoi prodotti";
+"guide_articles_content" = "I prodotti sono articoli del tuo catalogo commerciale.\n\n➕ Creare un prodotto:\n• Nome e descrizione\n• Categoria (crea le tue)\n• Riferimento / SKU\n• Prezzo d'acquisto al netto e aliquota IVA acquisto\n• Prezzo di vendita IVA inclusa e aliquota IVA vendita\n• Scorta attuale e soglia di avviso\n• Fornitore (opzionale)\n• Foto (opzionale)\n\n📊 Margine automatico:\nL'app calcola automaticamente il tuo margine e percentuale.\n\n🔔 Avvisi scorte:\nQuando la scorta scende sotto la soglia, l'articolo appare negli avvisi.\n\n⚡ Vendita rapida:\nPremi a lungo su un prodotto per vendita rapida senza inserimento complesso.";
+
+/* Guida - Transazioni */
+"guide_transactions_title" = "Registrare transazioni";
+"guide_transactions_content" = "Le transazioni sono le tue vendite e acquisti.\n\n🛒 Creare una transazione:\n1. Scegli tipo: Vendita o Acquisto\n2. Seleziona un articolo dal catalogo O inserisci liberamente\n3. Inserisci quantità\n4. Applica sconto (opzionale): % o importo fisso\n5. Scegli metodo di pagamento: Contanti, Carta, Assegno, Bonifico\n6. Indica se pagato o in sospeso\n7. Se in sospeso, imposta data di pagamento\n\n📊 Riepilogo automatico:\n• Importo lordo al netto\n• Sconto applicato\n• Importo netto al netto\n• IVA calcolata\n• Totale IVA inclusa\n\n🔔 Promemoria:\nAttiva notifiche per pagamenti imminenti (3 giorni prima).";
+
+/* Guida - Contabilità */
+"guide_accounting_title" = "Contabilità noleggi";
+"guide_accounting_content" = "La contabilità raggruppa automaticamente le tue operazioni finanziarie.\n\n📊 Contenuto:\n• Entrate: Noleggi pagati\n• Entrate: Cauzioni trattenute\n• Uscite: Riparazioni pagate\n\n📅 Periodi:\n• Vista per mese\n• Vista per anno\n• Vista totale\n\n💰 Indicatori:\n• Totale entrate (verde)\n• Totale uscite (rosso)\n• Profitto netto\n\n📤 Esporta:\n• PDF formattato per contabilità\n• JSON per backup/importazione\n\nLe operazioni vengono aggiunte automaticamente quando segni un pagamento come ricevuto.";
+
+/* Guida - Contabilità commerciale */
+"guide_commerce_accounting_title" = "Contabilità commerciale";
+"guide_commerce_accounting_content" = "Vista completa della tua attività di vendita.\n\n📊 Dashboard:\n• Totale vendite IVA inclusa\n• Totale acquisti IVA inclusa\n• Profitto netto\n• Scontrino medio (vendite e acquisti)\n\n💹 IVA dettagliata:\n• IVA incassata (sulle vendite)\n• IVA detraibile (sugli acquisti)\n• IVA da versare (differenza)\n• Dettaglio per aliquota (4%, 10%, 22%...)\n\n💳 Ripartizione pagamenti:\n• Contanti / Carta / Assegno / Bonifico\n• Visualizzazione percentuale\n\n📦 Scorte:\n• Numero articoli in magazzino\n• Articoli in avviso (scorte basse)\n\n💸 Sconti concessi:\n• Totale sconti su vendite\n• Totale sconti su acquisti";
+
+/* Guida - Persone */
+"guide_people_title" = "Rubrica contatti";
+"guide_people_content" = "Gestisci le persone con cui interagisci.\n\n➕ Aggiungere una persona:\n• Nome e cognome\n• Email (permette invio email)\n• Telefono (permette chiamate dirette)\n• Organizzazione (azienda, associazione...)\n• Tipo: Persona, Riparatore o Dipendente\n• Foto (opzionale)\n\n📧 Email di promemoria:\nDalla scheda di una persona, invia un'email elencando automaticamente:\n• Equipaggiamenti attualmente prestati\n• Date di restituzione previste\n• Indicazioni di ritardo\n\n📞 Chiamata diretta:\nTocca il numero di telefono per chiamare direttamente.\n\n📇 Importa Contatti:\nImporta automaticamente dai contatti del tuo iPhone.";
+
+/* Guida - Tipi di persone */
+"guide_people_types_title" = "Tipi di persone";
+"guide_people_types_content" = "Tre tipi per organizzare i tuoi contatti:\n\n👤 Persona (predefinito):\nClienti, amici, familiari... Chiunque a cui presti o noleggi equipaggiamento.\n\n🔧 Riparatore:\nArtigiani e officine di riparazione. Solo i riparatori possono essere selezionati quando invii in riparazione.\n\n👷 Dipendente:\nMembri del team. Possono essere assegnati ai cantieri. Ideale per aziende con più sedi.\n\n💡 Consiglio:\nUna persona può avere un solo tipo. Cambialo in qualsiasi momento dalla sua scheda.";
+
+/* Guida - Duplicati */
+"guide_duplicates_title" = "Unire duplicati";
+"guide_duplicates_content" = "L'app rileva automaticamente le persone duplicate.\n\n🔍 Come funziona:\n• Rilevamento per nome + cognome identici\n• Ignora maiuscole/minuscole e spazi\n\n🔄 Unire:\n1. Vai a Altro > Persone\n2. Tocca il pulsante 'Duplicati' nella barra degli strumenti\n3. Seleziona il gruppo di duplicati\n4. Scegli la persona da mantenere\n5. Conferma l'unione\n\n✅ Risultato:\n• Tutti i prestiti vengono riassegnati\n• Tutti i prestiti ricevuti vengono riassegnati\n• Tutti i noleggi vengono riassegnati\n• I duplicati vengono eliminati\n\n💡 Verifica i dati di contatto della persona mantenuta.";
+
+/* Guida - Cantieri */
+"guide_worksites_title" = "Gestione dei cantieri";
+"guide_worksites_content" = "Organizza il tuo team su più siti di lavoro.\n\n🏗️ Creare un cantiere:\n• Nome del cantiere\n• Indirizzo completo\n• Descrizione e note\n• Date di inizio e fine\n• Contatto principale del sito\n• Stato: Attivo o Completato\n\n👷 Assegnare dipendenti:\n1. Crea persone di tipo 'Dipendente'\n2. Apri la scheda del cantiere\n3. Aggiungi i dipendenti pertinenti\n\n🗺️ Navigazione:\nTocca l'indirizzo per aprirlo in Mappe.\n\n📊 Stati automatici:\n• In preparazione: Data di inizio non raggiunta\n• Attivo: In corso\n• Completato: Segnato come terminato\n\n📤 Esporta in PDF o JSON.";
+
+/* Guida - Luoghi */
+"guide_locations_title" = "Luoghi di stoccaggio";
+"guide_locations_content" = "Organizza dove sono conservati i tuoi equipaggiamenti.\n\n📍 Creare un luogo:\n• Nome (es: Garage, Magazzino Nord...)\n• Indirizzo completo\n• Edificio\n• Piano\n• Sala\n• Note\n\n📦 Utilizzo:\n• Associa ogni equipaggiamento a un luogo\n• Aggiungi posizionamento preciso (es: scaffale B, cassetto 3)\n• Filtra il tuo inventario per luogo\n\n🔍 Trovare un articolo:\n1. Cercalo in Materiale\n2. La scheda mostra luogo e posizione esatta\n\n📊 Panoramica:\nLa scheda di un luogo mostra tutti gli equipaggiamenti conservati lì.";
+
+/* Guida - Categorie */
+"guide_categories_title" = "Gestire le categorie";
+"guide_categories_content" = "Le categorie organizzano il tuo inventario.\n\n➕ Creare una categoria:\nQuando aggiungi equipaggiamento, digita un nuovo nome di categoria.\n\n🗂️ Categorie suggerite:\n• Utensili\n• Elettronica\n• Sport\n• Cucina\n• Giardinaggio\n• Fai da te\n• Musica\n• Foto/Video\n\n📝 Gestire le categorie:\n1. Nella lista Materiale\n2. Tocca l'icona cartella vicino al filtro categoria\n3. Rinomina o elimina\n\n⚠️ Eliminare una categoria:\nGli equipaggiamenti non vengono eliminati, perdono solo la categoria.";
+
+/* Guida - Ricerca */
+"guide_search_title" = "Ricerca e filtri";
+"guide_search_content" = "Trova rapidamente qualsiasi articolo.\n\n🔍 Barra di ricerca:\n• Disponibile in ogni lista\n• Cerca in nome e descrizione\n• Risultati in tempo reale\n\n🎯 Filtri combinabili:\n\n📦 Materiale:\n• Per categoria\n• Per luogo di stoccaggio\n• Per stato (Disponibile, Prestato, Noleggiato)\n\n↗️ Prestiti / ↙️ Prestiti ricevuti:\n• Tutti / In corso / In ritardo / Restituiti / Presto\n\n🏷️ Noleggi:\n• Per stato\n• Per stato pagamento\n• Per stato cauzione\n\n🔧 Riparazioni:\n• In corso / Completate\n• Pagate / Non pagate\n\n💡 Pulsante reset:\nReimposta tutti i filtri con un tocco.";
+
+/* Guida - Stati */
+"guide_status_title" = "Capire gli stati";
+"guide_status_content" = "Codici colore in tutta l'app:\n\n🟢 Verde:\n• Disponibile\n• Restituito\n• Pagato\n• Completato\n\n🟡 Arancione:\n• In corso\n• Presto (< 3 giorni)\n• In attesa di pagamento\n\n🔴 Rosso:\n• In ritardo\n• Non pagato (data superata)\n• Problema rilevato\n\n🔵 Blu:\n• Informazione\n• Link cliccabile\n• Azione disponibile\n\n📊 Indicatori visivi:\n• Icona orologio: In corso\n• Icona triangolo: In ritardo\n• Icona spunta: Completato/Restituito\n• Badge numerico: Conteggio articoli";
+
+/* Guida - Cassaforte */
+"guide_safe_title" = "Cassaforte sicura";
+"guide_safe_content" = "Proteggi i tuoi documenti importanti con accesso sicuro.\n\n🔐 Configurazione:\n1. Crea una password (min. 4 caratteri)\n2. Scegli una domanda di recupero\n3. Rispondi alla domanda segreta\n\n📦 Contenuto consigliato:\n• Gioielli e orologi di valore\n• Elettronica costosa\n• Opere d'arte\n• Documenti importanti\n• Ricevute di acquisti importanti\n\n🏷️ Per ogni articolo:\n• Foto dell'articolo\n• Nome e descrizione\n• Valore stimato\n• Marca, modello, numero di serie\n• Foto ricevuta/prova d'acquisto\n\n📄 Inventario assicurativo:\nEsporta un PDF completo per il tuo assicuratore.";
+
+/* Guida - Biometria */
+"guide_biometric_title" = "Face ID / Touch ID";
+"guide_biometric_content" = "Accedi alla cassaforte con la biometria.\n\n✅ Vantaggi:\n• Accesso rapido senza inserire password\n• Sicurezza migliorata\n• Stesso livello di protezione del tuo iPhone\n\n🔧 Attivazione:\nL'autenticazione biometrica è automatica se il tuo dispositivo la supporta.\n\n📱 Compatibilità:\n• Face ID (iPhone X e successivi)\n• Touch ID (iPhone con sensore)\n\n🔑 Fallback:\nSe la biometria fallisce, inserisci la tua password.\n\n⚠️ Password dimenticata:\n1. Usa la domanda di recupero\n2. Ultima risorsa: reset completo (perdita dati)";
+
+/* Guida - Password */
+"guide_password_title" = "Gestione password";
+"guide_password_content" = "Proteggi la tua cassaforte con una password forte.\n\n🔑 Regole:\n• Minimo 4 caratteri\n• Conferma richiesta\n• Domanda di recupero consigliata\n\n🔄 Cambiare password:\n1. Apri la cassaforte\n2. Menu > Cambia password\n3. Inserisci vecchia password\n4. Inserisci e conferma la nuova\n\n❓ Password dimenticata:\n1. Tocca 'Password dimenticata?'\n2. Rispondi alla domanda segreta\n3. Crea una nuova password\n\n⚠️ Tutto dimenticato:\nSe hai dimenticato password E risposta, l'unica opzione è un reset completo. Tutti i dati andranno persi.";
+
+/* Guida - Fatture */
+"guide_invoices_title" = "Gestione ricevute";
+"guide_invoices_content" = "Conserva le tue prove d'acquisto digitalmente.\n\n🧾 Per ogni equipaggiamento:\n• Foto della ricevuta (JPG o PDF)\n• Numero ricevuta\n• Nome venditore/negozio\n• Data di acquisizione (automatica o manuale)\n\n🏠 Per la cassaforte:\n• Foto ricevuta/prova d'acquisto\n• Stesse informazioni\n\n💡 Utilizzi:\n• Prova di proprietà per assicurazione\n• Tracciamento garanzia\n• Prove in caso di contenzioso\n• Esportazione in schede PDF\n\n📤 Esporta:\nLe ricevute sono incluse in:\n• Schede PDF equipaggiamenti\n• PDF inventario assicurativo\n• Backup JSON";
+
+/* Guida - Backup */
+"guide_backup_title" = "Backup e ripristino";
+"guide_backup_content" = "Proteggi i tuoi dati con backup regolari.\n\n💾 Backup locale:\nTocca 'Salva adesso' in Impostazioni. Crea un punto di ripristino locale.\n\n📤 Esporta JSON:\nEsporta tutti i tuoi dati (o selezione) in formato JSON:\n• Invia via email\n• Salva in File\n• Condividi via AirDrop\n\n📥 Importa JSON:\nRipristina i tuoi dati da un file JSON precedentemente esportato.\n\n✅ Dati esportati:\n• Equipaggiamenti + foto\n• Prestiti e prestiti ricevuti\n• Noleggi e riparazioni\n• Persone\n• Luoghi e cantieri\n• Commercio (prodotti + transazioni)\n• Cassaforte";
+
+/* Guida - PDF */
+"guide_pdf_title" = "Esportazione PDF";
+"guide_pdf_content" = "Crea documenti PDF professionali.\n\n📄 Tipi di esportazione:\n\n📦 Catalogo equipaggiamenti:\n• Scheda dettagliata per articolo\n• Foto + descrizione\n• Valore e luogo di stoccaggio\n• Foto ricevuta\n\n🔐 Inventario assicurativo:\n• Lista completa cassaforte\n• Foto e prove d'acquisto\n• Valore totale stimato\n• Da inviare al tuo assicuratore\n\n📊 Contabilità:\n• Riepilogo operazioni\n• Entrate e uscite\n• Per periodo (mese/anno)\n\n💡 Opzioni:\n• Escludere articoli restituiti\n• Scegliere qualità immagine\n• Selezionare tipi di dati";
+
+/* Guida - JSON */
+"guide_json_title" = "Esporta/Importa JSON";
+"guide_json_content" = "Il formato JSON è ideale per backup completi.\n\n✅ Vantaggi:\n• Dati strutturati\n• Include tutte le foto\n• Ripristino completo possibile\n• Trasferimento tra dispositivi\n\n📤 Esporta:\n1. Impostazioni > Esporta\n2. Seleziona dati\n3. Condividi il file .json\n\n📥 Importa:\n1. Impostazioni > Importa JSON\n2. Seleziona file\n3. I dati vengono uniti (nessun duplicato)\n\n💡 Consiglio:\nFai un'esportazione JSON mensile e conservala su iCloud, Google Drive o via email.\n\n⚠️ Importa:\nGli elementi esistenti (stesso ID) non vengono duplicati.";
+
+/* Guida - Qualità immagine */
+"guide_image_quality_title" = "Qualità immagine";
+"guide_image_quality_content" = "Ottimizza la dimensione delle tue esportazioni.\n\n📷 Opzioni disponibili:\n\n🟣 Originale (iPhone):\n• Qualità massima\n• File molto grandi (~5 MB)\n• Per archiviazione di alta qualità\n\n🔵 Alta (2000px):\n• Eccellente qualità\n• Dimensione ridotta (~2 MB)\n• Buon compromesso\n\n🟢 Media (1200px):\n• Buona qualità\n• File leggeri (~800 KB)\n• Consigliata ✅\n\n🟠 Bassa (800px):\n• Qualità accettabile\n• Molto leggero (~300 KB)\n• Per esportazioni numerose\n\n⚙️ Modificare:\nImpostazioni > Qualità immagine";
+
+/* Guida - Consigli */
+"guide_tips_title" = "Consigli pratici";
+"guide_tips_content" = "Ottieni il massimo dall'app:\n\n📸 Foto:\n• Fotografa ogni articolo di valore\n• Includi i numeri di serie\n• Conserva le foto delle ricevute\n\n👥 Contatti:\n• Crea le persone prima dei prestiti\n• Inserisci email e telefoni\n• Usa l'importazione Contatti\n\n📅 Date:\n• Sii realistico sulle date di restituzione\n• Controlla regolarmente i ritardi\n• Invia promemoria via email\n\n💾 Backup:\n• Esporta JSON mensilmente\n• Conserva nel cloud\n• Prova un ripristino\n\n🔐 Cassaforte:\n• Inventaria i tuoi oggetti di valore\n• Conserva prove d'acquisto\n• Esporta per l'assicurazione";
+
+/* Guida - Migliori pratiche */
+"guide_best_practices_title" = "Migliori pratiche";
+"guide_best_practices_content" = "Ottimizza il tuo uso quotidiano:\n\n✅ Fai:\n• Scatta una foto PRIMA di prestare\n• Annota lo stato nelle note\n• Conferma le restituzioni rapidamente\n• Mantieni le categorie coerenti\n• Fai backup regolari\n\n❌ Evita:\n• Dimenticare di confermare le restituzioni\n• Ignorare prestiti in ritardo\n• Mischiare persone e riparatori\n• Trascurare le foto delle ricevute\n\n💡 Flusso di lavoro ideale:\n1. Crea i tuoi luoghi di stoccaggio\n2. Aggiungi contatti chiave\n3. Inventaria i tuoi equipaggiamenti\n4. Fotografa le ricevute\n5. Usa la creazione rapida quotidianamente";
+
+/* Guida - Email */
+"guide_email_title" = "Inviare email";
+"guide_email_content" = "Comunica facilmente con i tuoi contatti.\n\n📧 Email di promemoria:\n1. Apri la scheda della persona\n2. Tocca l'icona email\n3. Si apre un messaggio pre-compilato con:\n   • Lista equipaggiamenti prestati\n   • Date di restituzione previste\n   • Indicazioni di ritardo\n\n📧 Promemoria pagamento:\nPer noleggi non pagati, invia un promemoria con importi dovuti.\n\n✅ Requisiti:\n• L'email deve essere inserita nella scheda\n• L'app Mail deve essere configurata\n\n💡 Personalizzare:\nIl messaggio si apre in Mail, puoi modificarlo prima di inviare.";
+
+/* Guida - Avvisi */
+"guide_alerts_title" = "Avvisi e notifiche";
+"guide_alerts_content" = "L'app ti avvisa visivamente:\n\n🔴 Indicatori di ritardo:\n• Badge rosso su prestiti in ritardo\n• Triangolo di avviso su prestiti ricevuti\n• Colore rosso nelle liste\n\n🟡 Scadenze imminenti:\n• Filtro 'Presto' (< 3 giorni)\n• Colore arancione\n\n💰 Pagamenti:\n• Sezione 'Pagamenti imminenti'\n• Sezione 'Pagamenti in ritardo'\n• Avvisi commercio per scadenze\n\n📦 Scorte basse:\n• Badge su articoli in avviso\n• Visibile in Commercio\n\n💡 Consiglio:\nControlla regolarmente i filtri 'In ritardo' e 'Presto' per anticipare.";
+
+/* Guida - Capacità */
+"guide_capacity_title" = "Capacità e limiti";
+"guide_capacity_content" = "Versione gratuita vs Premium:\n\n🆓 Versione gratuita:\n• 10 equipaggiamenti\n• 5 prestiti attivi\n• 5 prestiti ricevuti attivi\n• 5 noleggi\n• 5 riparazioni\n• 10 persone\n• 3 luoghi\n• 5 oggetti in cassaforte\n\n👑 Versione Premium:\n• Tutto ILLIMITATO!\n• Pagamento unico, accesso a vita\n• Supporta lo sviluppo\n\n💾 Archiviazione:\n• Dati locali sul tuo iPhone\n• Nessun limite tecnico\n• Le foto occupano più spazio\n\n💡 Consiglio:\nFai backup regolari, specialmente con molti dati.";
+
+/* Guida - Premium */
+"guide_premium_title" = "Diventa Premium";
+"guide_premium_content" = "Sblocca tutto il potenziale dell'app.\n\n👑 Vantaggi Premium:\n• Equipaggiamenti illimitati\n• Prestiti illimitati\n• Prestiti ricevuti illimitati\n• Noleggi illimitati\n• Riparazioni illimitate\n• Persone illimitate\n• Luoghi illimitati\n• Cassaforte illimitata\n\n💳 Pagamento:\n• Pagamento unico\n• Accesso a vita\n• Nessun abbonamento\n\n🔄 Ripristina:\nSe cambi dispositivo:\n1. Vai a Premium\n2. Tocca 'Ripristina acquisti'\n3. I tuoi acquisti vengono ripristinati\n\n❤️ Supporto:\nIl tuo acquisto aiuta a migliorare l'app!";
+
+/* Guida - FAQ */
+"guide_faq_title" = "Domande frequenti";
+"guide_faq_content" = "❓ I miei dati sono sicuri?\nSì, tutto è memorizzato localmente sul tuo iPhone. La cassaforte è protetta da password.\n\n❓ Posso usare l'app su iPad/Mac?\nSì, l'app è universale e funziona su iPhone, iPad e Mac (Apple Silicon).\n\n❓ Come trasferisco i miei dati?\nEsporta in JSON, poi importa sul nuovo dispositivo.\n\n❓ L'app funziona offline?\nSì, tutte le funzionalità sono disponibili senza internet.\n\n❓ Come contatto l'assistenza?\nInvia un'email dalla pagina App Store o dalle Impostazioni.\n\n❓ Gli aggiornamenti sono gratuiti?\nSì, tutti gli aggiornamenti sono inclusi.";
+
+/* Importa Contatti */
+"Importer depuis Contacts" = "Importa da Contatti";
+"Remplir automatiquement depuis vos contacts" = "Compila automaticamente dai tuoi contatti";
+
+/* Cassaforte */
+"Coffre-fort" = "Cassaforte";
+"Objets de valeur" = "Oggetti di valore";
+"Configurer le Coffre-fort" = "Configura la Cassaforte";
+"Créez un mot de passe pour protéger vos documents importants. Ce coffre-fort stockera les photos et factures de vos objets de valeur." = "Crea una password per proteggere i tuoi documenti importanti. Questa cassaforte conserverà le foto e le fatture dei tuoi oggetti di valore.";
+"Mot de passe" = "Password";
+"Confirmer le mot de passe" = "Conferma la password";
+"Créer le coffre-fort" = "Crea la cassaforte";
+"Le mot de passe doit contenir au moins 4 caractères" = "La password deve contenere almeno 4 caratteri";
+"Les mots de passe ne correspondent pas" = "Le password non corrispondono";
+"Erreur lors de la création du mot de passe" = "Errore durante la creazione della password";
+"Coffre-fort verrouillé" = "Cassaforte bloccata";
+"Entrez votre mot de passe pour accéder à vos documents" = "Inserisci la tua password per accedere ai tuoi documenti";
+"Déverrouiller" = "Sblocca";
+"Déverrouiller le coffre-fort" = "Sblocca la cassaforte";
+"Mot de passe incorrect" = "Password errata";
+"Utiliser Face ID / Touch ID" = "Usa Face ID / Touch ID";
+"Valeur totale estimée" = "Valore totale stimato";
+"Objets" = "Oggetti";
+"Ajouter un objet" = "Aggiungi un oggetto";
+"Rechercher un objet" = "Cerca un oggetto";
+"Exporter vers Fichiers" = "Esporta in File";
+"Nouvel objet" = "Nuovo oggetto";
+"Photo de l'objet" = "Foto dell'oggetto";
+"Nom de l'objet" = "Nome dell'oggetto";
+"Valeur estimée (€)" = "Valore stimato (€)";
+"Valeur estimée" = "Valore stimato";
+"Détails (optionnel)" = "Dettagli (opzionale)";
+"Marque" = "Marca";
+"Modèle" = "Modello";
+"N° de série" = "N° di serie";
+"Facture / Preuve d'achat" = "Fattura / Prova d'acquisto";
+"Preuve d'achat" = "Prova d'acquisto";
+"Facture enregistrée" = "Fattura registrata";
+"Aucune facture enregistrée" = "Nessuna fattura registrata";
+"Ajouté au coffre" = "Aggiunto alla cassaforte";
+"Retirer" = "Rimuovi";
+
+/* Fattura d'acquisto (Materiale) */
+"Facture d'achat" = "Fattura d'acquisto";
+"Numéro de facture" = "Numero fattura";
+"Vendeur / Magasin" = "Venditore / Negozio";
+"Aucune facture" = "Nessuna fattura";
+"Ajouter une facture" = "Aggiungi una fattura";
+"Changer la facture" = "Cambia la fattura";
+"Retirer la facture" = "Rimuovi la fattura";
+"Photo de la facture" = "Foto della fattura";
+"N° Facture" = "N° Fattura";
+"Vendeur" = "Venditore";
+"Aucune information de facture" = "Nessuna informazione sulla fattura";
+"Exporter la fiche" = "Esporta la scheda";
+"Quitter" = "Esci";
+
+/* Export/Import */
+"Catalogue PDF" = "Catalogo PDF";
+"Exporter en fiches lisibles avec photos" = "Esporta in schede leggibili con foto";
+"Catalogue Matériels (PDF)" = "Catalogo Materiali (PDF)";
+"Sauvegarde JSON" = "Backup JSON";
+"Utilise la sélection ci-dessus" = "Usa la selezione sopra";
+"Pour restauration ou transfert" = "Per ripristino o trasferimento";
+"Export JSON" = "Esporta JSON";
+"Import JSON" = "Importa JSON";
+"Import réussi" = "Importazione riuscita";
+"Les données ont été importées avec succès" = "I dati sono stati importati con successo";
+"Erreur d'import" = "Errore di importazione";
+"Impossible d'importer le fichier" = "Impossibile importare il file";
+"Inventaire Assurance (PDF)" = "Inventario Assicurazione (PDF)";
+"Export PDF" = "Esporta PDF";
+"Sauvegarde" = "Backup";
+
+/* Gestione password cassaforte */
+"Question de récupération" = "Domanda di recupero";
+"En cas d'oubli du mot de passe" = "In caso di password dimenticata";
+"Votre réponse" = "La tua risposta";
+"La réponse doit contenir au moins 2 caractères" = "La risposta deve contenere almeno 2 caratteri";
+"Mot de passe oublié ?" = "Password dimenticata?";
+"Récupération du mot de passe" = "Recupero password";
+"Question de sécurité :" = "Domanda di sicurezza:";
+"Vérifier" = "Verifica";
+"Réponse incorrecte" = "Risposta errata";
+"Créez un nouveau mot de passe" = "Crea una nuova password";
+"Nouveau mot de passe" = "Nuova password";
+"Réinitialiser" = "Ripristina";
+"Erreur lors de la réinitialisation" = "Errore durante il ripristino";
+"Récupération" = "Recupero";
+"Changer le mot de passe" = "Cambia password";
+"Ancien mot de passe" = "Vecchia password";
+"Confirmer le nouveau mot de passe" = "Conferma la nuova password";
+"Modifier le mot de passe" = "Modifica la password";
+"Ancien mot de passe incorrect" = "Vecchia password errata";
+"Erreur lors du changement de mot de passe" = "Errore durante il cambio password";
+"Mot de passe modifié avec succès" = "Password modificata con successo";
+"Sécurité" = "Sicurezza";
+"Question" = "Domanda";
+
+/* Domande di recupero */
+"Quel est le nom de votre premier animal de compagnie ?" = "Qual è il nome del tuo primo animale domestico?";
+"Quel est le prénom de votre meilleur ami d'enfance ?" = "Qual è il nome del tuo migliore amico d'infanzia?";
+"Quelle est la ville de naissance de votre mère ?" = "Qual è la città di nascita di tua madre?";
+"Quel est le nom de votre école primaire ?" = "Qual è il nome della tua scuola elementare?";
+"Quel est votre plat préféré ?" = "Qual è il tuo piatto preferito?";
+"Quelle est la marque de votre première voiture ?" = "Qual è la marca della tua prima auto?";
+
+/* Reset completo della cassaforte */
+"J'ai aussi oublié ma réponse" = "Ho dimenticato anche la mia risposta";
+"Réinitialisation complète" = "Reset completo";
+"Attention : Perte de données" = "Attenzione: Perdita di dati";
+"Si vous avez oublié votre code ET votre réponse de sécurité, la seule option est de réinitialiser complètement le coffre-fort. Cela supprimera TOUTES les données stockées de manière irréversible." = "Se hai dimenticato il codice E la risposta di sicurezza, l'unica opzione è resettare completamente la cassaforte. Questo eliminerà TUTTI i dati memorizzati in modo irreversibile.";
+"Données qui seront supprimées :" = "Dati che verranno eliminati:";
+"%d élément(s) dans le coffre-fort" = "%d elemento/i nella cassaforte";
+"Toutes les photos et factures" = "Tutte le foto e le fatture";
+"Conseil important" = "Consiglio importante";
+"À l'avenir, pensez à exporter vos données en JSON depuis les réglages pour avoir une sauvegarde." = "In futuro, ricorda di esportare i tuoi dati in JSON dalle impostazioni per avere un backup.";
+"Je comprends et souhaite continuer" = "Capisco e desidero continuare";
+"Confirmation finale" = "Conferma finale";
+"Pour confirmer la suppression définitive, tapez SUPPRIMER ci-dessous :" = "Per confermare l'eliminazione permanente, digita ELIMINA qui sotto:";
+"SUPPRIMER" = "ELIMINA";
+"Réinitialiser le coffre-fort" = "Resetta la cassaforte";
+"Êtes-vous vraiment sûr ?" = "Sei davvero sicuro?";
+"Cette action est irréversible. Toutes les données du coffre-fort seront définitivement supprimées." = "Questa azione è irreversibile. Tutti i dati della cassaforte saranno eliminati permanentemente.";
+"Oui, tout supprimer" = "Sì, elimina tutto";
+"Conseil" = "Consiglio";
+"Pensez à effectuer des sauvegardes régulières de votre coffre-fort au format JSON depuis les paramètres. En cas d'oubli total (code + réponse), seule une réinitialisation sera possible et toutes les données seront perdues." = "Ricorda di fare backup regolari della cassaforte in JSON dalle impostazioni. In caso di dimenticanza totale (codice + risposta), sarà possibile solo un reset e tutti i dati andranno persi.";
+"Aucune question de récupération" = "Nessuna domanda di recupero";
+"Aucune question de sécurité n'a été configurée pour ce coffre-fort. Vous pouvez uniquement réinitialiser complètement le coffre-fort, ce qui supprimera toutes les données." = "Nessuna domanda di sicurezza è stata configurata per questa cassaforte. Puoi solo resettare completamente la cassaforte, il che eliminerà tutti i dati.";
+
+/* Recupero durante cambio */
+"Une question de récupération existe déjà. Vous pouvez la modifier ci-dessous." = "Esiste già una domanda di recupero. Puoi modificarla qui sotto.";
+"Définissez une question pour récupérer votre mot de passe en cas d'oubli." = "Definisci una domanda per recuperare la password in caso di dimenticanza.";
+
+/* Avvisi prestiti */
+"Retour prévu:" = "Restituzione prevista:";
+"En retard" = "In ritardo";
+"Aucun prêt en cours" = "Nessun prestito in corso";
+"Aucun emprunt en cours" = "Nessun prestito ricevuto in corso";
+"Prêts en cours" = "Prestiti in corso";
+"Emprunts en cours" = "Prestiti ricevuti in corso";
+"Nom complet" = "Nome completo";
+"Dernier email" = "Ultima email";
+"Modifier la personne" = "Modifica la persona";
+
+/* Sezioni materiali in entrata/uscita */
+"Matériels qui sortent" = "Materiali in uscita";
+"Matériels qui rentrent" = "Materiali in entrata";
+"Aucun matériel en sortie" = "Nessun materiale in uscita";
+"Aucun matériel en entrée" = "Nessun materiale in entrata";
+
+/* Corpo email */
+"Bonjour" = "Buongiorno";
+"Aucun matériel emprunté en cours." = "Nessun materiale preso in prestito in corso.";
+"Voici le récapitulatif des matériels empruntés:" = "Ecco il riepilogo dei materiali presi in prestito:";
+"RETARD: retour prévu" = "RITARDO: restituzione prevista";
+"retard de" = "ritardo di";
+"retour prévu:" = "restituzione prevista:";
+"Merci de procéder au retour ou de nous informer d'un prolongement." = "Si prega di procedere alla restituzione o di informarci di un prolungamento.";
+"Cordialement," = "Cordiali saluti,";
+"L'équipe gestion de matériel" = "Il team gestione materiale";
+"Retour du matériel emprunté" = "Restituzione del materiale preso in prestito";
+"Récapitulatif des emprunts actifs:" = "Riepilogo dei prestiti ricevuti attivi:";
+"Merci de préparer le retour ou nous indiquer tout besoin de prolongation." = "Si prega di preparare la restituzione o indicarci eventuali necessità di proroga.";
+
+/* Qualità immagini */
+"Qualité des images" = "Qualità delle immagini";
+"Choisissez la qualité des images pour les exports PDF et JSON" = "Scegli la qualità delle immagini per le esportazioni PDF e JSON";
+"Originale (iPhone)" = "Originale (iPhone)";
+"Haute (2000px)" = "Alta (2000px)";
+"Moyenne (1200px)" = "Media (1200px)";
+"Basse (800px)" = "Bassa (800px)";
+"Qualité maximale, fichiers volumineux" = "Qualità massima, file pesanti";
+"Excellente qualité, taille réduite" = "Eccellente qualità, dimensione ridotta";
+"Bonne qualité, fichiers légers" = "Buona qualità, file leggeri";
+"Qualité acceptable, très léger" = "Qualità accettabile, molto leggero";
+
+/* Premium */
+"Premium" = "Premium";
+"Débloquez toutes les fonctionnalités" = "Sblocca tutte le funzionalità";
+"Premium actif" = "Premium attivo";
+"Passez à Premium" = "Passa a Premium";
+"Avantages Premium" = "Vantaggi Premium";
+"Matériels illimités" = "Materiali illimitati";
+"Ajoutez autant de matériels que vous voulez" = "Aggiungi tutti i materiali che vuoi";
+"Prêts illimités" = "Prestiti illimitati";
+"Gérez tous vos prêts sans limite" = "Gestisci tutti i tuoi prestiti senza limiti";
+"Emprunts illimités" = "Prestiti ricevuti illimitati";
+"Suivez tous les objets qu'on vous prête" = "Segui tutti gli oggetti che ti prestano";
+"Personnes illimitées" = "Persone illimitate";
+"Ajoutez tous vos contacts sans restriction" = "Aggiungi tutti i tuoi contatti senza restrizioni";
+"Lieux illimités" = "Luoghi illimitati";
+"Créez autant de lieux de stockage que nécessaire" = "Crea tutti i luoghi di stoccaggio necessari";
+"Coffre-fort illimité" = "Cassaforte illimitata";
+"Stockez toutes vos preuves de possession" = "Conserva tutte le tue prove di possesso";
+"Sauvegarde iCloud" = "Backup iCloud";
+"Synchronisez sur tous vos appareils" = "Sincronizza su tutti i tuoi dispositivi";
+"Notifications avancées" = "Notifiche avanzate";
+"Rappels personnalisés pour les retours" = "Promemoria personalizzati per le restituzioni";
+"Statistiques détaillées" = "Statistiche dettagliate";
+"Analysez vos prêts et emprunts" = "Analizza i tuoi prestiti";
+"Soutenez le développement" = "Sostieni lo sviluppo";
+"Aidez à améliorer l'application" = "Aiuta a migliorare l'applicazione";
+"Produits non disponibles" = "Prodotti non disponibili";
+"Réessayer" = "Riprova";
+"Paiement unique - Accès à vie" = "Pagamento unico - Accesso a vita";
+"Restaurer les achats" = "Ripristina gli acquisti";
+"Conditions" = "Condizioni";
+"Confidentialité" = "Privacy";
+"Merci !" = "Grazie!";
+"Vous êtes maintenant Premium" = "Ora sei Premium";
+"RECOMMANDÉ" = "CONSIGLIATO";
+"Soutenir l'app" = "Sostieni l'app";
+"Si vous aimez Matériel, vous pouvez soutenir son développement avec un pourboire." = "Se ti piace Materiale, puoi sostenere il suo sviluppo con una mancia.";
+"Votre soutien est très apprécié ! ❤️" = "Il tuo supporto è molto apprezzato! ❤️";
+"Limite atteinte" = "Limite raggiunto";
+"Passez à Premium pour continuer" = "Passa a Premium per continuare";
+"Débloquer" = "Sblocca";
+"Version gratuite" = "Versione gratuita";
+"Passer à Premium" = "Passa a Premium";
+"Limite lieux atteinte" = "Hai raggiunto il limite di luoghi per la versione gratuita. Passa a Premium per accesso illimitato.";
+"Limite personnes atteinte" = "Hai raggiunto il limite di persone per la versione gratuita. Passa a Premium per accesso illimitato.";
+"Limite matériels atteinte" = "Hai raggiunto il limite di materiali per la versione gratuita. Passa a Premium per accesso illimitato.";
+"Limite prêts atteinte" = "Hai raggiunto il limite di prestiti per la versione gratuita. Passa a Premium per accesso illimitato.";
+"Limite emprunts atteinte" = "Hai raggiunto il limite di prestiti ricevuti per la versione gratuita. Passa a Premium per accesso illimitato.";
+"Limite coffre-fort atteinte" = "Hai raggiunto il limite di oggetti nella cassaforte per la versione gratuita. Passa a Premium per accesso illimitato.";
+"Synchroniser les compteurs" = "Sincronizza i contatori";
+
+/* Fotocamera */
+"Photographier" = "Fotografa";
+"Prendre une photo" = "Scatta una foto";
+
+/* Biometria */
+"Utiliser Face ID" = "Usa Face ID";
+"Utiliser Touch ID" = "Usa Touch ID";
+
+/* Categorie cassaforte */
+"Électronique" = "Elettronica";
+"Bijoux" = "Gioielli";
+"Art & Décoration" = "Arte & Decorazione";
+"Mobilier" = "Mobili";
+"Électroménager" = "Elettrodomestici";
+"Instruments de musique" = "Strumenti musicali";
+"Sport & Loisirs" = "Sport & Tempo libero";
+"Véhicules" = "Veicoli";
+"Vêtements de valeur" = "Abbigliamento di valore";
+"Collections" = "Collezioni";
+"Autre" = "Altro";
+
+/* Prestare un prestito ricevuto */
+"Prêter" = "Presta";
+"Prêter l'emprunt" = "Presta il prestito ricevuto";
+"Prêter cet emprunt" = "Presta questo prestito ricevuto";
+"À qui prêter ?" = "A chi prestare?";
+"Date de retour prévue" = "Data di restituzione prevista";
+"Retour prévu le" = "Restituzione prevista il";
+"L'emprunt ne pourra pas être restitué tant que ce prêt sera actif." = "Il prestito ricevuto non potrà essere restituito finché questo prestito sarà attivo.";
+"Prêté à" = "Prestato a";
+"jusqu'au %@" = "fino al %@";
+"Récupérer du prêt" = "Recupera dal prestito";
+"Retour impossible" = "Restituzione impossibile";
+"Retour" = "Restituzione";
+
+/* Noleggiare un prestito ricevuto */
+"Louer l'emprunt" = "Noleggia il prestito ricevuto";
+"Louer cet emprunt" = "Noleggia questo prestito ricevuto";
+"L'emprunt ne pourra pas être restitué tant que cette location sera active." = "Il prestito ricevuto non potrà essere restituito finché questo noleggio sarà attivo.";
+"Loué à" = "Noleggiato a";
+"Récupérer de la location" = "Recupera dal noleggio";
+
+/* Creare materiale da prestito ricevuto */
+"Créer dans Matériels" = "Crea in Materiali";
+"Ajoute aussi cet objet à votre inventaire" = "Aggiunge anche questo oggetto al tuo inventario";
+"Lieu de stockage" = "Luogo di stoccaggio";
+"Aucun" = "Nessuno";
+
+/* Guida - Prestare un prestito ricevuto */
+"guide_lend_borrow_title" = "Prestare un oggetto preso in prestito";
+"guide_lend_borrow_content" = "Hai preso in prestito un oggetto e vuoi prestarlo temporaneamente? Usa il pulsante 'Presta' su ogni prestito ricevuto attivo. Il prestito ricevuto sarà bloccato alla restituzione finché il prestito non viene recuperato. Puoi anche selezionare 'Crea in Materiali' quando crei un prestito ricevuto per aggiungerlo al tuo inventario - sarà automaticamente rimosso alla restituzione.";
+
+/* Guida - Noleggi a pagamento */
+"guide_rentals_title" = "Noleggiare il tuo materiale";
+"guide_rentals_content" = "La scheda 'Noleggi' ti permette di noleggiare il tuo materiale a pagamento. Definisci una tariffa (giorno/settimana/mese/forfait), una cauzione e segui i pagamenti. Il riepilogo finanziario mostra i tuoi guadagni ricevuti e in attesa. Termina il noleggio quando l'articolo viene restituito, poi gestisci il rimborso della cauzione.";
+
+/* Guida - Noleggiare un prestito ricevuto */
+"guide_sublet_title" = "Noleggiare un oggetto preso in prestito";
+"guide_sublet_content" = "Hai preso in prestito un oggetto e vuoi noleggiarlo temporaneamente? Usa il pulsante 'Noleggia' su ogni prestito ricevuto attivo. Il prestito ricevuto sarà bloccato alla restituzione finché il noleggio non viene recuperato. Definisci le tue tariffe e condizioni. Prima recupera il materiale dal noleggio prima di poter restituire il tuo prestito ricevuto.";
+
+/* Guida - Gestione duplicati */
+"guide_duplicates_title" = "Unire i duplicati";
+"guide_duplicates_content" = "L'applicazione rileva automaticamente le persone duplicate (stesso nome/cognome). Vai in 'Altro > Persone' e premi il pulsante 'Duplicati' nella barra degli strumenti. Seleziona il gruppo da unire: tutti i prestiti saranno riassegnati alla persona conservata, le altre saranno eliminate.";
+
+/* Avvisi di eliminazione */
+"Suppression définitive" = "Eliminazione definitiva";
+"Suppression impossible" = "Eliminazione non consentita";
+"Supprimer" = "Elimina";
+"Êtes-vous sûr de vouloir supprimer cette personne ? Cette action est irréversible." = "Sei sicuro di voler eliminare questa persona? Questa azione è irreversibile.";
+"Êtes-vous sûr de vouloir supprimer ce lieu ? Cette action est irréversible." = "Sei sicuro di voler eliminare questo luogo? Questa azione è irreversibile.";
+"Êtes-vous sûr de vouloir supprimer ce prêt ? Cette action est irréversible." = "Sei sicuro di voler eliminare questo prestito? Questa azione è irreversibile.";
+"Vous devez d'abord marquer cette réparation comme payée avant de pouvoir la supprimer." = "Devi prima contrassegnare questa riparazione come pagata prima di poterla eliminare.";
+"Vous ne pouvez pas supprimer cette location car toutes les actions ne sont pas terminées (règlement, caution, retour)." = "Non puoi eliminare questo noleggio perché non tutte le azioni sono completate (pagamento, cauzione, restituzione).";
+
+/* Noleggi */
+"Ajouter une location" = "Aggiungi un noleggio";
+"Nouvelle location" = "Nuovo noleggio";
+"Rechercher une location" = "Cerca un noleggio";
+"Louer" = "Noleggiare";
+"Louer ce matériel" = "Noleggia questo materiale";
+"Matériel à louer" = "Materiale da noleggiare";
+"Locataire" = "Locatario";
+"Tarification" = "Tariffazione";
+"Type de tarif" = "Tipo di tariffa";
+"Prix total" = "Prezzo totale";
+"Prix/jour" = "Prezzo/giorno";
+"Prix/semaine" = "Prezzo/settimana";
+"Prix/mois" = "Prezzo/mese";
+"Prix forfait" = "Prezzo forfettario";
+"Durée" = "Durata";
+"Caution" = "Cauzione";
+"Jour" = "Giorno";
+"Semaine" = "Settimana";
+"Mois" = "Mese";
+"Forfait" = "Forfait";
+"Garder caution" = "Trattenere cauzione";
+"Retenir caution" = "Trattenere cauzione";
+"Montant à retenir" = "Importo da trattenere";
+"Montant retenu" = "Importo trattenuto";
+"Montant restitué" = "Importo restituito";
+"Caution totale" = "Cauzione totale";
+"Le montant ne peut pas dépasser la caution" = "L'importo non può superare la cauzione";
+"Revenus" = "Ricavi";
+"En attente" = "In attesa";
+"Payé" = "Pagato";
+"Non payé" = "Non pagato";
+"Paiement" = "Pagamento";
+"Gardée" = "Trattenuta";
+"Restituée" = "Restituita";
+"Marquer payé" = "Segna come pagato";"Régler la réparation" = "Paga la riparazione";
+"Règlement réparation" = "Pagamento riparazione";
+"Montant à régler (€)" = "Importo da pagare (€)";
+"Confirmer le paiement" = "Conferma pagamento";
+"Notes (optionnel)" = "Note (opzionale)";
+"Récapitulatif" = "Riepilogo";"Terminer" = "Terminare";
+"Terminer la location" = "Termina noleggio";
+"Terminer cette location ?" = "Terminare questo noleggio?";
+"Rendre caution" = "Restituire cauzione";
+"Rendre" = "Restituire";
+"Cautions à rendre" = "Cauzioni da restituire";
+"Terminées" = "Terminati";
+"Terminée" = "Terminato";
+"Aucun matériel disponible" = "Nessun materiale disponibile";
+"Historique des locations" = "Cronologia noleggi";
+"Aucune location enregistrée" = "Nessun noleggio registrato";
+"Êtes-vous sûr de vouloir supprimer cette location ? Cette action est irréversible." = "Sei sicuro di voler eliminare questo noleggio? Questa azione è irreversibile.";
+"Vous avez atteint la limite de locations gratuites. Passez à Premium pour créer des locations illimitées." = "Hai raggiunto il limite dei noleggi gratuiti. Passa a Premium per noleggi illimitati.";
+
+/* Subaffitto */
+"Sous-louer" = "Subaffittare";
+"Sous-louer ce matériel" = "Subaffittare questo materiale";
+"À qui sous-louer ?" = "A chi subaffittare?";
+"Sous-loué à" = "Subaffittato a";
+"Récupérer de la sous-location" = "Recuperare dal subaffitto";
+"La location ne pourra pas être terminée tant que cette sous-location sera active." = "Il noleggio non può essere terminato finché questo subaffitto è attivo.";
+
+/* Link di navigazione PersonneDetailView */
+"Voir tout" = "Vedi tutto";
+"Aucun prêt" = "Nessun prestito";
+"Aucun emprunt" = "Nessun prestito ricevuto";
+"Aucune location" = "Nessun noleggio";
+"Rendus" = "Restituiti";
+
+/* Tipi di persone */
+"Personne" = "Persona";
+"Personnes" = "Persone";
+"Réparateur" = "Riparatore";
+"Réparateurs" = "Riparatori";
+"Salarié" = "Dipendente";
+"Salariés" = "Dipendenti";
+"Type de personne" = "Tipo di persona";
+"Type" = "Tipo";
+
+/* Riparazioni */
+"Réparations" = "Riparazioni";
+"Réparation" = "Riparazione";
+"Nouvelle réparation" = "Nuova riparazione";
+"Envoyer en réparation" = "Inviare in riparazione";
+"Matériel à réparer" = "Materiale da riparare";
+"Sélectionner le réparateur" = "Selezionare riparatore";
+"Aucun réparateur enregistré" = "Nessun riparatore registrato";
+"Ajouter un réparateur" = "Aggiungere riparatore";
+"Nouveau réparateur" = "Nuovo riparatore";
+"Description du problème" = "Descrizione del problema";
+"Date de fin prévue" = "Data di fine prevista";
+"Définir une date de fin" = "Impostare data di fine";
+"Coût" = "Costo";
+"Réparation gratuite" = "Riparazione gratuita";
+"Gratuite" = "Gratuita";
+"Coût estimé" = "Costo stimato";
+"Coût estimé en €" = "Costo stimato in €";
+"Coût en €" = "Costo in €";
+"Coût final" = "Costo finale";
+"Coût estimé:" = "Stimato:";
+"Final:" = "Finale:";
+"Estimé:" = "Stimato:";
+"Fin prévue:" = "Fine prevista:";
+"Retour:" = "Ritorno:";
+"Aucune réparation" = "Nessuna riparazione";
+"Aucune réparation en cours" = "Nessuna riparazione in corso";
+"Réparations en cours" = "Riparazioni in corso";
+"Locations Matériels en cours" = "Noleggi di Materiali in corso";
+"Aucune location de matériel en cours" = "Nessun noleggio di materiale in corso";
+"Les matériels en réparation apparaîtront ici" = "I materiali in riparazione appariranno qui";
+"Rechercher une réparation" = "Cercare riparazione";
+"Valider le retour de réparation" = "Confermare ritorno riparazione";
+"Retour réparation" = "Ritorno riparazione";
+"Notes de clôture" = "Note di chiusura";
+"Effacer cette réparation" = "Eliminare questa riparazione";
+"Êtes-vous sûr de vouloir supprimer cette réparation ?" = "Sei sicuro di voler eliminare questa riparazione?";
+"En réparation" = "In riparazione";
+"Matériel concerné" = "Materiale interessato";
+"Entreprise / Atelier" = "Azienda / Officina";
+"Que souhaitez-vous faire avec ce matériel ?" = "Cosa vuoi fare con questo materiale?";
+"Veuillez sélectionner un réparateur" = "Per favore seleziona un riparatore";
+"Veuillez décrire le problème" = "Per favore descrivi il problema";
+"Veuillez sélectionner un matériel et un réparateur" = "Per favore seleziona materiale e riparatore";
+"Toutes" = "Tutte";
+"Fermer" = "Chiudi";
+"Envoyer" = "Invia";
+
+/* Contabilità */
+"Comptabilité" = "Contabilità";
+"opération(s)" = "operazione/i";
+"Période" = "Periodo";
+"Mois" = "Mese";
+"Année" = "Anno";
+"Total" = "Totale";
+"Bénéfice" = "Profitto";
+"Aucune opération" = "Nessuna operazione";
+"Les opérations comptables apparaîtront ici" = "Le operazioni contabili appariranno qui";
+"Location (Revenu)" = "Noleggio (Entrata)";
+"Caution gardée" = "Cauzione trattenuta";
+"Réparation (Dépense)" = "Riparazione (Spesa)";
+"Supprimer cette opération ?" = "Eliminare questa operazione?";
+"Cette opération sera définitivement supprimée de l'historique comptable. Cette action est irréversible." = "Questa operazione verrà eliminata definitivamente dalla cronologia contabile. Questa azione non può essere annullata.";
+
+/* Export/Import Contabilità */
+"Exporter" = "Esporta";
+"Exporter en PDF" = "Esporta come PDF";
+"Exporter en JSON" = "Esporta come JSON";
+"Importer" = "Importa";
+"Importer JSON" = "Importa JSON";
+"Import réussi" = "Importazione riuscita";
+"Erreur d'import" = "Errore di importazione";
+"OK" = "OK";
+
+/* Fotocamera */
+"Photographier" = "Fotografare";
+"Prendre une photo" = "Scattare una foto";
+
+/* Biometria */
+"Utiliser Face ID" = "Usa Face ID";
+"Utiliser Touch ID" = "Usa Touch ID";
+
+/* Impostazioni lingua */
+"Langue de l'application" = "Lingua dell'applicazione";
+"Choisissez votre langue préférée" = "Scegli la tua lingua preferita";
+
+/* Vendita rapida */
+"Vente rapide" = "Vendita rapida";
+"Stock insuffisant" = "Stock insufficiente";
+"Vendre" = "Vendi";
+"Consulter / Modifier" = "Visualizza / Modifica";
+"Prix" = "Prezzo";
+"Mode" = "Modalità";
+"Client (optionnel)" = "Cliente (opzionale)";
+"Nom du client" = "Nome del cliente";
+"Valider" = "Conferma";
+"Sous-total HT" = "Subtotale netto";
+"Total HT" = "Totale netto";
+"Type" = "Tipo";
+"Vente validée - Article et quantité non modifiables" = "Vendita confermata - Articolo e quantità non modificabili";
+"Transaction validée - Article et quantité non modifiables" = "Transazione confermata - Articolo e quantità non modificabili";
+"Quantité" = "Quantità";
+"Prix unitaire HT" = "Prezzo unitario netto";
+"TVA" = "IVA";
+"Remise" = "Sconto";
+"Total TTC" = "Totale lordo";
+"Paiement" = "Pagamento";
+"Payé" = "Pagato";
+
+/* Modulo Commercio */
+"Commerce" = "Commercio";
+"Achat / Vente" = "Acquisto / Vendita";
+"Articles" = "Articoli";
+"Transactions" = "Transazioni";
+"Comptabilité Commerce" = "Contabilità Commerciale";
+"Ajouter un article" = "Aggiungi articolo";
+"Ajouter une transaction" = "Aggiungi transazione";
+"Rechercher un article" = "Cerca articolo";
+"Rechercher une transaction" = "Cerca transazione";
+"Nouvel article" = "Nuovo articolo";
+"Nouvelle transaction" = "Nuova transazione";
+"Modifier l'article" = "Modifica articolo";
+"Modifier la transaction" = "Modifica transazione";
+"Achat" = "Acquisto";
+"Vente" = "Vendita";
+"Achats" = "Acquisti";
+"Ventes" = "Vendite";
+"Résumé du jour" = "Riepilogo del giorno";
+"Aucun article" = "Nessun articolo";
+"Aucune transaction" = "Nessuna transazione";
+"Commencez par ajouter vos articles" = "Inizia aggiungendo i tuoi articoli";
+"Enregistrez vos achats et ventes" = "Registra i tuoi acquisti e vendite";
+"Supprimer l'article ?" = "Eliminare l'articolo?";
+"Cette action est irréversible." = "Questa azione non può essere annullata.";
+"Supprimer" = "Elimina";
+"Supprimer la transaction ?" = "Eliminare la transazione?";
+"Nom de l'article" = "Nome dell'articolo";
+"Référence" = "Riferimento";
+"Catégorie article" = "Categoria articolo";
+"Stock" = "Stock";
+"Quantité en stock" = "Quantità in stock";
+"Seuil d'alerte" = "Soglia di allarme";
+"Stock bas" = "Stock basso";
+"Fournisseur" = "Fornitore";
+"Nom du fournisseur" = "Nome del fornitore";
+"+ Nouveau fournisseur" = "+ Nuovo fornitore";
+"Nouveau fournisseur" = "Nuovo fornitore";
+"Aucun" = "Nessuno";
+"Prix d'achat HT" = "Prezzo di acquisto netto";
+"Prix de vente HT" = "Prezzo di vendita netto";
+"Taux TVA achat" = "Aliquota IVA acquisto";
+"Taux TVA vente" = "Aliquota IVA vendita";
+"TVA 0%" = "IVA 0%";
+"TVA 5.5%" = "IVA 5,5%";
+"TVA 10%" = "IVA 10%";
+"TVA 20%" = "IVA 20%";
+"Marge HT" = "Margine netto";
+"Marge %" = "Margine %";
+"Résumé" = "Riepilogo";
+"Montant brut HT" = "Importo lordo netto";
+"Montant net HT" = "Importo netto";
+"Type de transaction" = "Tipo di transazione";
+"Type de remise" = "Tipo di sconto";
+"Aucune remise" = "Nessuno sconto";
+"Remise en %" = "Sconto in %";
+"Remise fixe (€)" = "Sconto fisso (€)";
+"Mode de paiement" = "Metodo di pagamento";
+"Espèces" = "Contanti";
+"Carte bancaire" = "Carta di credito";
+"Chèque" = "Assegno";
+"Virement" = "Bonifico";
+"Client / Fournisseur" = "Cliente / Fornitore";
+"Date de transaction" = "Data transazione";
+"Date de règlement" = "Data di pagamento";
+"Rappel 3 jours avant" = "Promemoria 3 giorni prima";
+"Rappel paiement" = "Promemoria pagamento";
+"Paiement à régler dans 3 jours" = "Pagamento da effettuare entro 3 giorni";
+"Collectée" = "Riscossa";
+"Déductible" = "Deducibile";
+"À reverser" = "Da versare";
+"Détail TVA par taux" = "Dettaglio IVA per aliquota";
+"Remises accordées" = "Sconti concessi";
+"Sur ventes" = "Sulle vendite";
+"Sur achats" = "Sugli acquisti";
+"Paiements en retard" = "Pagamenti in ritardo";
+"Paiements à venir" = "Pagamenti in arrivo";
+"%d en retard (%.2f €)" = "%d in ritardo (%.2f €)";
+"%d dans 3 jours (%.2f €)" = "%d tra 3 giorni (%.2f €)";
+"Aujourd'hui" = "Oggi";
+"Demain" = "Domani";
+"Dans %d jours" = "Tra %d giorni";
+"Ventes à encaisser" = "Vendite da incassare";
+"Achats à payer" = "Acquisti da pagare";
+"Panier moyen vente" = "Carrello medio vendita";
+"Panier moyen achat" = "Carrello medio acquisto";
+"Articles en stock" = "Articoli in stock";
+"Répartition paiements ventes" = "Distribuzione pagamenti vendite";
+"Galerie" = "Galleria";
+"Appareil photo" = "Fotocamera";
+
+/* Riparazione da prestito ricevuto */
+"En réparation" = "In riparazione";
+"Réparer" = "Riparare";
+"Récupérer de la réparation" = "Recuperare dalla riparazione";
+"Actions bloquées" = "Azioni bloccate";
+"Envoyer en réparation" = "Inviare in riparazione";
+"Réparer l'emprunt" = "Riparare l'articolo in prestito";
+"Sélectionner le réparateur" = "Selezionare il riparatore";
+"Aucun réparateur enregistré. Créez une personne de type 'Réparateur'." = "Nessun riparatore registrato. Creare una persona di tipo 'Riparatore'.";
+"Ajouter un réparateur" = "Aggiungere un riparatore";
+"Description du problème" = "Descrizione del problema";
+"Délai" = "Scadenza";
+"Date de retour prévue" = "Data di ritorno prevista";
+"Retour prévu le" = "Ritorno previsto il";
+"Retour prévu le %@" = "Ritorno previsto il %@";
+"Coût" = "Costo";
+"Coût estimé" = "Costo stimato";
+"L'emprunt ne pourra pas être prêté, loué ou restitué tant que la réparation sera en cours." = "L'articolo in prestito non può essere prestato, noleggiato o restituito durante la riparazione.";
+"Envoyer" = "Inviare";
+"Vous avez atteint la limite de réparations gratuites. Passez à Premium pour créer des réparations illimitées." = "Hai raggiunto il limite di riparazioni gratuite. Passa a Premium per riparazioni illimitate.";
+
+/* Noleggi non pagati */
+"Locations impayées" = "Noleggi non pagati";
+"Montant total impayé" = "Importo totale non pagato";
+"IMPAYÉ" = "NON PAGATO";
+"Rappel de paiement" = "Promemoria di pagamento";
+"Envoyer un rappel de paiement" = "Invia promemoria di pagamento";
+"Nous vous contactons concernant les locations suivantes dont le paiement n'a pas encore été reçu:" = "La contattiamo riguardo ai seguenti noleggi per i quali il pagamento non è ancora stato ricevuto:";
+"Aucun paiement en attente." = "Nessun pagamento in sospeso.";
+"Retourné le:" = "Restituito il:";
+"Montant dû:" = "Importo dovuto:";
+"Total à régler:" = "Totale da pagare:";
+"Merci de procéder au règlement dans les meilleurs délais." = "Si prega di procedere al pagamento il prima possibile.";
+
+/* Cauzioni non elaborate */
+"Total cautions à traiter" = "Totale cauzioni da elaborare";
+"Cautions à traiter" = "Cauzioni da elaborare";
+"CAUTION" = "CAUZIONE";
+"Garder" = "Trattenere";
+"Garder la caution ?" = "Trattenere la cauzione?";
+"Oui, garder la caution" = "Sì, trattenere la cauzione";
+"Cette action enregistrera la caution comme un revenu. Êtes-vous sûr ?" = "Questa azione registrerà la cauzione come entrata. Sei sicuro?";
+
+/* Gestione categorie */
+"Gérer les catégories" = "Gestisci categorie";
+"Catégories" = "Categorie";
+"Aucune catégorie" = "Nessuna categoria";
+"matériel" = "articolo";
+"matériels" = "articoli";
+"Supprimer la catégorie" = "Elimina categoria";
+"Renommer la catégorie" = "Rinomina categoria";
+"Nouveau nom" = "Nuovo nome";
+"Renommer" = "Rinomina";
+"Supprimer une catégorie retirera la catégorie des matériels concernés sans supprimer les matériels." = "L'eliminazione di una categoria rimuoverà la categoria dalle attrezzature interessate senza eliminare le attrezzature.";
+"Auto" = "Auto";
+
+/* Cantieri */
+"Chantier" = "Cantiere";
+"Chantiers" = "Cantieri";
+"Chantier assigné" = "Cantiere assegnato";
+"Aucun chantier" = "Nessun cantiere";
+"Aucun chantier assigné" = "Nessun cantiere assegnato";
+"Ajouter un chantier" = "Aggiungi un cantiere";
+"Nouveau chantier" = "Nuovo cantiere";
+"Modifier le chantier" = "Modifica cantiere";
+"Supprimer le chantier" = "Elimina cantiere";
+"Supprimer ce chantier ?" = "Eliminare questo cantiere?";
+"Les salariés assignés à ce chantier ne seront plus affectés." = "I dipendenti assegnati a questo cantiere non saranno più interessati.";
+"Nom du chantier" = "Nome del cantiere";
+"Chantier actif" = "Cantiere attivo";
+"Terminé" = "Completato";
+"Actif" = "Attivo";
+"En préparation" = "In preparazione";
+"Salariés assignés" = "Dipendenti assegnati";
+"Aucun salarié assigné" = "Nessun dipendente assegnato";
+"Rechercher un chantier" = "Cerca un cantiere";
+"Date de début" = "Data di inizio";
+"Date de fin" = "Data di fine";
+"Période" = "Periodo";
+"actif(s)" = "attivo/i";
+
+/* Assegnare dipendenti al cantiere */
+"Affecter un salarié" = "Assegna un dipendente";
+"Affecter des salariés" = "Assegna dipendenti";
+"Affecter" = "Assegna";
+"Retirer" = "Rimuovi";
+"Retirer ce salarié ?" = "Rimuovere questo dipendente?";
+"Salariés disponibles" = "Dipendenti disponibili";
+"Disponible" = "Disponibile";
+"Sélectionnez les salariés à affecter à ce chantier" = "Seleziona i dipendenti da assegnare a questo cantiere";
+"Aucun salarié disponible. Créez d'abord un salarié." = "Nessun dipendente disponibile. Crea prima un dipendente.";
+"Aucun salarié créé" = "Nessun dipendente creato";
+"Créez d'abord des salariés pour pouvoir les affecter à ce chantier." = "Crea prima i dipendenti per poterli assegnare a questo cantiere.";
+"Tous les salariés sont déjà affectés" = "Tutti i dipendenti sono già assegnati";
+"Tous vos salariés sont actuellement assignés à des chantiers." = "Tutti i tuoi dipendenti sono attualmente assegnati a cantieri.";
+"Créer un salarié" = "Crea un dipendente";
+"Créer un nouveau salarié" = "Crea un nuovo dipendente";
+"Rechercher un salarié" = "Cerca un dipendente";
+"Effacer" = "Cancella";
+"Aucun salarié disponible" = "Nessun dipendente disponibile";
+"Voulez-vous créer un nouveau salarié ?" = "Vuoi creare un nuovo dipendente?";
+"Oui" = "Sì";
+"Non" = "No";
+
+/* Contatto cantiere */
+"Contact principal" = "Contatto principale";
+"Aucun" = "Nessuno";
+
+/* Esportare cantiere */
+"Export" = "Esporta";
+"Exporter en PDF" = "Esporta in PDF";
+"Exporter en JSON" = "Esporta in JSON";
+
+/* Io noleggio (MaLocation) */
+"Je loue" = "Io noleggio";
+"Dépensé" = "Speso";
+"Cautions" = "Cauzioni";
+"Récupérée" = "Recuperata";
+"Aucune location" = "Nessun noleggio";
+"Ajoutez les objets que vous louez à quelqu'un" = "Aggiungi gli oggetti che noleggi da qualcuno";
+"Objet loué" = "Oggetto noleggiato";
+"Loueur" = "Noleggiatore";
+"À qui je loue" = "Da chi noleggio";
+"À payer" = "Da pagare";
+"Caution récupérée" = "Cauzione recuperata";
+"Prêté à" = "Prestato a";
+"Sous-loué à" = "Subaffittato a";
+"Récupérer du prêt" = "Recuperare dal prestito";
+"Récupérer de la sous-location" = "Recuperare dal subaffitto";
+"Prêter cet objet" = "Prestare questo oggetto";
+"Sous-louer" = "Subaffittare";
+"Marquer comme payé" = "Segna come pagato";
+"Voulez-vous valider le retour de cet objet ?" = "Vuoi confermare la restituzione di questo oggetto?";
+"Prêter" = "Prestare";
+"Sous-louer à" = "Subaffittare a";
+"Total estimé" = "Totale stimato";
+
+/* Noleggiato da Agenzia (ALM) */
+"Loué depuis une Agence" = "Noleggiato da Agenzia";
+"Aucune location depuis une agence" = "Nessun noleggio da agenzia";
+
+/* Prestiti collegati al materiale */
+"Historique des emprunts" = "Storico dei prestiti";
+"Aucun emprunt enregistré" = "Nessun prestito registrato";
+
+/* Intestazioni sezioni scheda prodotto */
+"Mon matériel vers les autres" = "Il mio materiale agli altri";
+"Ce que je loue / emprunte" = "Ciò che noleggio / prendo in prestito";
