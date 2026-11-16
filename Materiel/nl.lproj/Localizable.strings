@@ -255,10 +255,27 @@
 /* Gids categorieën */
 "guide_cat_start" = "Aan de slag";
 "guide_cat_management" = "Beheer";
+"guide_cat_scanner_ia" = "AI-Scanner";
 "guide_cat_rental" = "Verhuur en Handel";
 "guide_cat_organization" = "Organisatie";
 "guide_cat_security" = "Beveiliging";
 "guide_cat_tips" = "Tips";
+
+/* Gids - AI-Scanner */
+"guide_scanner_intro_title" = "Slimme Scanner";
+"guide_scanner_intro_content" = "De AI-scanner gebruikt OpenAI Vision-technologie (GPT-4o) om je uitrusting automatisch te identificeren vanaf een foto. Het herkent het objecttype, merk, model en stelt een passende categorie voor.";
+"guide_scanner_apikey_title" = "OpenAI API-Sleutel Vereist";
+"guide_scanner_apikey_content" = "Om deze functie te gebruiken, heb je een OpenAI API-sleutel nodig:\n\n1. Maak een account aan op platform.openai.com\n2. Ga naar API Keys en maak een nieuwe sleutel aan\n3. Kopieer de sleutel (begint met 'sk-')\n4. Plak deze in de app bij het eerste gebruik van de scanner\n\nJe sleutel wordt alleen op je apparaat opgeslagen en wordt nooit gedeeld.";
+"guide_scanner_cost_title" = "Gebruikskosten";
+"guide_scanner_cost_content" = "Het gebruik van de OpenAI API is betaald:\n\n• Ongeveer €0,003 tot €0,01 per geanalyseerde foto\n• Kosten worden direct gefactureerd op je OpenAI-account\n• Je kunt bestedingslimieten instellen op platform.openai.com\n• Controleer je gebruik regelmatig in je OpenAI-dashboard\n\nDe app heeft geen toegang tot je betalingsgegevens.";
+"guide_scanner_howto_title" = "Hoe Het Werkt";
+"guide_scanner_howto_content" = "1. Tik op 'Scannen met AI' in de uitrustingslijst\n2. Maak een foto of kies een bestaande afbeelding\n3. Tik op 'Identificeren met AI'\n4. De afbeelding wordt naar OpenAI gestuurd voor analyse\n5. Velden worden automatisch ingevuld\n6. Controleer en wijzig indien nodig\n7. Maak de uitrusting aan";
+"guide_scanner_tips_title" = "Tips voor Betere Resultaten";
+"guide_scanner_tips_content" = "• Maak de foto in een goed verlicht gebied\n• Kader het hele object in de afbeelding\n• Neem indien mogelijk het label of merklogo mee\n• Vermijd wazige of te donkere foto's\n• Een neutrale achtergrond verbetert de herkenning";
+"guide_scanner_internet_title" = "Internetverbinding Vereist";
+"guide_scanner_internet_content" = "De AI-scanner vereist een internetverbinding om te werken. De afbeelding wordt naar OpenAI-servers gestuurd voor analyse. Zonder verbinding kun je je uitrusting nog steeds handmatig toevoegen.";
+"guide_scanner_privacy_title" = "Privacy";
+"guide_scanner_privacy_content" = "• Je API-sleutel wordt lokaal op je apparaat opgeslagen\n• Afbeeldingen worden rechtstreeks naar OpenAI gestuurd (geen tussenserver)\n• Zie het privacybeleid van OpenAI voor meer informatie\n• Je kunt je sleutel op elk moment verwijderen in de scannerinstellingen";
 
 /* Gids - Introductie */
 "guide_intro_title" = "Welkom bij Materiaal";
@@ -1170,3 +1187,34 @@
 /* Productfiche sectiekoppen */
 "Mon matériel vers les autres" = "Mijn materiaal aan anderen";
 "Ce que je loue / emprunte" = "Wat ik huur / leen";
+
+/* Meldingsherinneringen */
+"Rappels automatiques" = "Automatische herinneringen";
+"Notifications pour les prêts et emprunts" = "Meldingen voor uitleningen";
+"Rappels de prêts" = "Uitleenherinneringen";
+"Recevoir un rappel avant la date de retour" = "Een herinnering ontvangen vóór de retourdatum";
+"Rappels d'emprunts" = "Leenherinneringen";
+"Recevoir un rappel avant de devoir rendre" = "Een herinnering ontvangen voordat u moet teruggeven";
+"Alertes de retard" = "Vertragingswaarschuwingen";
+"Notification si le retour n'est pas effectué" = "Melding als de teruggave niet is gedaan";
+"Rappel avant échéance" = "Herinnering voor vervaldatum";
+"jour" = "dag";
+"jours" = "dagen";
+"Recevoir un rappel X jours avant la date de retour prévue" = "Ontvang een herinnering X dagen vóór de verwachte retourdatum";
+"Rappel prêt" = "Uitleenherinnering";
+"Le matériel \"%@\" prêté à %@ doit être retourné dans %d jour(s)" = "Materiaal \"%@\" uitgeleend aan %@ moet binnen %d dag(en) worden teruggebracht";
+"Prêt à échéance" = "Uitlening vervalt vandaag";
+"Le matériel \"%@\" prêté à %@ doit être retourné aujourd'hui" = "Materiaal \"%@\" uitgeleend aan %@ moet vandaag worden teruggebracht";
+"Prêt en retard" = "Uitlening te laat";
+"Le matériel \"%@\" prêté à %@ n'a pas été retourné à temps !" = "Materiaal \"%@\" uitgeleend aan %@ is niet op tijd teruggebracht!";
+"Rappel emprunt" = "Leenherinnering";
+"L'objet \"%@\" emprunté à %@ doit être rendu dans %d jour(s)" = "Object \"%@\" geleend van %@ moet binnen %d dag(en) worden teruggebracht";
+"Emprunt à échéance" = "Lening vervalt vandaag";
+"L'objet \"%@\" emprunté à %@ doit être rendu aujourd'hui" = "Object \"%@\" geleend van %@ moet vandaag worden teruggebracht";
+"Emprunt en retard" = "Lening te laat";
+"L'objet \"%@\" emprunté à %@ doit être rendu d'urgence !" = "Object \"%@\" geleend van %@ moet dringend worden teruggebracht!";
+"Inconnu" = "Onbekend";
+"Envoyer un SMS de rappel" = "SMS-herinnering sturen";
+"Envoyez un SMS de rappel" = "Stuur een SMS-herinnering";
+"SMS_rappel_echeance" = "Hallo, dit is een herinnering dat het materiaal \"%@\" dat ik u heb uitgeleend op %@ moet worden teruggegeven. Gelieve het op tijd terug te brengen. Met vriendelijke groeten.";
+"SMS_rappel_retard" = "Hallo, het materiaal \"%@\" dat ik u heb uitgeleend moest op %@ worden teruggegeven. Het is %d dag(en) te laat. Gelieve het zo snel mogelijk terug te brengen. Met vriendelijke groeten.";

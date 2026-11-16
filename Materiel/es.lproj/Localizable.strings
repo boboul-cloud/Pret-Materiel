@@ -258,10 +258,27 @@
 /* Categorías de la guía */
 "guide_cat_start" = "Primeros pasos";
 "guide_cat_management" = "Gestión";
+"guide_cat_scanner_ia" = "Escáner IA";
 "guide_cat_rental" = "Alquiler y Comercio";
 "guide_cat_organization" = "Organización";
 "guide_cat_security" = "Seguridad";
 "guide_cat_tips" = "Consejos";
+
+/* Guía - Escáner IA */
+"guide_scanner_intro_title" = "Escáner Inteligente";
+"guide_scanner_intro_content" = "El escáner IA utiliza la tecnología OpenAI Vision (GPT-4o) para identificar automáticamente tu equipo a partir de una foto. Reconoce el tipo de objeto, marca, modelo y sugiere una categoría apropiada.";
+"guide_scanner_apikey_title" = "Clave API de OpenAI Requerida";
+"guide_scanner_apikey_content" = "Para usar esta función, necesitas una clave API de OpenAI:\n\n1. Crea una cuenta en platform.openai.com\n2. Ve a API Keys y crea una nueva clave\n3. Copia la clave (comienza con 'sk-')\n4. Pégala en la app al usar el escáner por primera vez\n\nTu clave se almacena solo en tu dispositivo y nunca se comparte.";
+"guide_scanner_cost_title" = "Costos de Uso";
+"guide_scanner_cost_content" = "El uso de la API de OpenAI es de pago:\n\n• Aproximadamente $0.003 a $0.01 por foto analizada\n• Los cargos se facturan directamente a tu cuenta de OpenAI\n• Puedes establecer límites de gasto en platform.openai.com\n• Revisa tu uso regularmente en tu panel de OpenAI\n\nLa app no tiene acceso a tu información de pago.";
+"guide_scanner_howto_title" = "Cómo Funciona";
+"guide_scanner_howto_content" = "1. Toca 'Escanear con IA' en la lista de equipos\n2. Toma una foto o elige una imagen existente\n3. Toca 'Identificar con IA'\n4. La imagen se envía a OpenAI para análisis\n5. Los campos se rellenan automáticamente\n6. Revisa y modifica si es necesario\n7. Crea el equipo";
+"guide_scanner_tips_title" = "Consejos para Mejores Resultados";
+"guide_scanner_tips_content" = "• Toma la foto en un área bien iluminada\n• Encuadra todo el objeto en la imagen\n• Si es posible, incluye la etiqueta o logo de la marca\n• Evita fotos borrosas o demasiado oscuras\n• Un fondo neutro mejora el reconocimiento";
+"guide_scanner_internet_title" = "Conexión a Internet Requerida";
+"guide_scanner_internet_content" = "El escáner IA requiere conexión a internet para funcionar. La imagen se envía a los servidores de OpenAI para análisis. Sin conexión, aún puedes agregar tu equipo manualmente.";
+"guide_scanner_privacy_title" = "Privacidad";
+"guide_scanner_privacy_content" = "• Tu clave API se almacena localmente en tu dispositivo\n• Las imágenes se envían directamente a OpenAI (sin servidor intermedio)\n• Consulta la política de privacidad de OpenAI para más información\n• Puedes eliminar tu clave en cualquier momento en los ajustes del escáner";
 
 /* Guía - Introducción */
 "guide_intro_title" = "Bienvenido a Material";
@@ -1168,3 +1185,34 @@
 /* Encabezados de sección de ficha de producto */
 "Mon matériel vers les autres" = "Mi material a otros";
 "Ce que je loue / emprunte" = "Lo que alquilo / pido prestado";
+
+/* Recordatorios de notificación */
+"Rappels automatiques" = "Recordatorios automáticos";
+"Notifications pour les prêts et emprunts" = "Notificaciones para préstamos";
+"Rappels de prêts" = "Recordatorios de préstamos";
+"Recevoir un rappel avant la date de retour" = "Recibir un recordatorio antes de la fecha de devolución";
+"Rappels d'emprunts" = "Recordatorios de préstamos recibidos";
+"Recevoir un rappel avant de devoir rendre" = "Recibir un recordatorio antes de tener que devolver";
+"Alertes de retard" = "Alertas de retraso";
+"Notification si le retour n'est pas effectué" = "Notificación si no se realiza la devolución";
+"Rappel avant échéance" = "Recordatorio antes del vencimiento";
+"jour" = "día";
+"jours" = "días";
+"Recevoir un rappel X jours avant la date de retour prévue" = "Recibir un recordatorio X días antes de la fecha de devolución prevista";
+"Rappel prêt" = "Recordatorio de préstamo";
+"Le matériel \"%@\" prêté à %@ doit être retourné dans %d jour(s)" = "El material \"%@\" prestado a %@ debe devolverse en %d día(s)";
+"Prêt à échéance" = "Préstamo vence hoy";
+"Le matériel \"%@\" prêté à %@ doit être retourné aujourd'hui" = "El material \"%@\" prestado a %@ debe devolverse hoy";
+"Prêt en retard" = "Préstamo atrasado";
+"Le matériel \"%@\" prêté à %@ n'a pas été retourné à temps !" = "¡El material \"%@\" prestado a %@ no fue devuelto a tiempo!";
+"Rappel emprunt" = "Recordatorio de préstamo recibido";
+"L'objet \"%@\" emprunté à %@ doit être rendu dans %d jour(s)" = "El objeto \"%@\" prestado por %@ debe devolverse en %d día(s)";
+"Emprunt à échéance" = "Préstamo recibido vence hoy";
+"L'objet \"%@\" emprunté à %@ doit être rendu aujourd'hui" = "El objeto \"%@\" prestado por %@ debe devolverse hoy";
+"Emprunt en retard" = "Préstamo recibido atrasado";
+"L'objet \"%@\" emprunté à %@ doit être rendu d'urgence !" = "¡El objeto \"%@\" prestado por %@ debe devolverse urgentemente!";
+"Inconnu" = "Desconocido";
+"Envoyer un SMS de rappel" = "Enviar un SMS de recordatorio";
+"Envoyez un SMS de rappel" = "Envíe un SMS de recordatorio";
+"SMS_rappel_echeance" = "Hola, le recuerdo que el material \"%@\" que le presté debe ser devuelto el %@. Gracias por devolverlo a tiempo. Saludos.";
+"SMS_rappel_retard" = "Hola, el material \"%@\" que le presté debía ser devuelto el %@. Tiene un retraso de %d día(s). Gracias por devolverlo lo antes posible. Saludos.";

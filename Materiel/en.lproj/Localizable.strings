@@ -258,10 +258,27 @@
 /* Guide Categories */
 "guide_cat_start" = "Getting Started";
 "guide_cat_management" = "Management";
+"guide_cat_scanner_ia" = "AI Scanner";
 "guide_cat_rental" = "Rental & Commerce";
 "guide_cat_organization" = "Organization";
 "guide_cat_security" = "Security";
 "guide_cat_tips" = "Tips";
+
+/* Guide - AI Scanner */
+"guide_scanner_intro_title" = "Smart Scanner";
+"guide_scanner_intro_content" = "The AI scanner uses OpenAI Vision technology (GPT-4o) to automatically identify your equipment from a photo. It recognizes the type of object, brand, model and suggests an appropriate category.";
+"guide_scanner_apikey_title" = "OpenAI API Key Required";
+"guide_scanner_apikey_content" = "To use this feature, you need an OpenAI API key:\n\n1. Create an account at platform.openai.com\n2. Go to API Keys and create a new key\n3. Copy the key (starts with 'sk-')\n4. Paste it in the app when first using the scanner\n\nYour key is stored only on your device and is never shared.";
+"guide_scanner_cost_title" = "Usage Costs";
+"guide_scanner_cost_content" = "Using the OpenAI API is paid:\n\n• About $0.003 to $0.01 per analyzed photo\n• Charges are billed directly to your OpenAI account\n• You can set spending limits at platform.openai.com\n• Check your usage regularly in your OpenAI dashboard\n\nThe app has no access to your payment information.";
+"guide_scanner_howto_title" = "How It Works";
+"guide_scanner_howto_content" = "1. Tap 'Scan with AI' in the equipment list\n2. Take a photo or choose an existing image\n3. Tap 'Identify with AI'\n4. The image is sent to OpenAI for analysis\n5. Fields are automatically pre-filled\n6. Review and modify if needed\n7. Create the equipment";
+"guide_scanner_tips_title" = "Tips for Better Results";
+"guide_scanner_tips_content" = "• Take the photo in a well-lit area\n• Frame the entire object in the image\n• If possible, include the label or brand logo\n• Avoid blurry or too dark photos\n• A neutral background improves recognition";
+"guide_scanner_internet_title" = "Internet Connection Required";
+"guide_scanner_internet_content" = "The AI scanner requires an internet connection to work. The image is sent to OpenAI servers for analysis. Without a connection, you can still add your equipment manually.";
+"guide_scanner_privacy_title" = "Privacy";
+"guide_scanner_privacy_content" = "• Your API key is stored locally on your device\n• Images are sent directly to OpenAI (no intermediate server)\n• See OpenAI's privacy policy for more information\n• You can delete your key at any time in the scanner settings";
 
 /* Guide - Introduction */
 "guide_intro_title" = "Welcome to Equipment";
@@ -1214,3 +1231,34 @@
 /* Product detail section headers */
 "Mon matériel vers les autres" = "My equipment to others";
 "Ce que je loue / emprunte" = "What I rent / borrow";
+
+/* Notification reminders */
+"Rappels automatiques" = "Automatic reminders";
+"Notifications pour les prêts et emprunts" = "Notifications for loans and borrowings";
+"Rappels de prêts" = "Loan reminders";
+"Recevoir un rappel avant la date de retour" = "Receive a reminder before the return date";
+"Rappels d'emprunts" = "Borrowing reminders";
+"Recevoir un rappel avant de devoir rendre" = "Receive a reminder before you need to return";
+"Alertes de retard" = "Overdue alerts";
+"Notification si le retour n'est pas effectué" = "Notification if the return is not made";
+"Rappel avant échéance" = "Reminder before deadline";
+"jour" = "day";
+"jours" = "days";
+"Recevoir un rappel X jours avant la date de retour prévue" = "Receive a reminder X days before the expected return date";
+"Rappel prêt" = "Loan reminder";
+"Le matériel \"%@\" prêté à %@ doit être retourné dans %d jour(s)" = "Equipment \"%@\" lent to %@ must be returned in %d day(s)";
+"Prêt à échéance" = "Loan due today";
+"Le matériel \"%@\" prêté à %@ doit être retourné aujourd'hui" = "Equipment \"%@\" lent to %@ must be returned today";
+"Prêt en retard" = "Overdue loan";
+"Le matériel \"%@\" prêté à %@ n'a pas été retourné à temps !" = "Equipment \"%@\" lent to %@ was not returned on time!";
+"Rappel emprunt" = "Borrowing reminder";
+"L'objet \"%@\" emprunté à %@ doit être rendu dans %d jour(s)" = "Item \"%@\" borrowed from %@ must be returned in %d day(s)";
+"Emprunt à échéance" = "Borrowing due today";
+"L'objet \"%@\" emprunté à %@ doit être rendu aujourd'hui" = "Item \"%@\" borrowed from %@ must be returned today";
+"Emprunt en retard" = "Overdue borrowing";
+"L'objet \"%@\" emprunté à %@ doit être rendu d'urgence !" = "Item \"%@\" borrowed from %@ must be returned urgently!";
+"Inconnu" = "Unknown";
+"Envoyer un SMS de rappel" = "Send an SMS reminder";
+"Envoyez un SMS de rappel" = "Send an SMS reminder";
+"SMS_rappel_echeance" = "Hello, this is a reminder that the equipment \"%@\" I lent you is due to be returned on %@. Please return it on time. Best regards.";
+"SMS_rappel_retard" = "Hello, the equipment \"%@\" I lent you was due to be returned on %@. It is %d day(s) overdue. Please return it as soon as possible. Best regards.";

@@ -147,6 +147,7 @@ struct PretListView: View {
 struct PretRowView: View {
     let pret: Pret
     @EnvironmentObject var dataManager: DataManager
+    @Environment(\.openURL) private var openURL
     @State private var showingConfirmation = false
     @State private var showingReaffectation = false
     @State private var showingReparationSheet = false
@@ -275,6 +276,33 @@ struct PretRowView: View {
                 }.padding(.top, 2)
             }
             if !pret.estRetourne {
+                // Bouton SMS de rappel à l'emprunteur
+                if let smsURL = dataManager.urlSMSRappelPret(pret) {
+                    Button {
+                        openURL(smsURL)
+                    } label: {
+                        HStack(spacing: 8) {
+                            Image(systemName: "message.fill")
+                                .font(.system(size: 16, weight: .semibold))
+                            Text(LocalizedStringKey("Envoyer un SMS de rappel"))
+                                .font(.subheadline)
+                                .fontWeight(.medium)
+                        }
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 10)
+                        .background(
+                            LinearGradient(
+                                colors: [Color.orange.opacity(0.85), Color.yellow.opacity(0.9)],
+                                startPoint: .leading,
+                                endPoint: .trailing
+                            )
+                        )
+                        .cornerRadius(10)
+                        .shadow(color: .orange.opacity(0.25), radius: 4, x: 0, y: 2)
+                    }.buttonStyle(.plain)
+                }
+                
                 Button { showingConfirmation = true } label: {
                     HStack(spacing: 8) {
                         Image(systemName: "checkmark.circle.fill")

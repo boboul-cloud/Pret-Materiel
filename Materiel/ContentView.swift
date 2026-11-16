@@ -62,10 +62,12 @@ struct ContentView: View {
                     .tabItem { Label(LocalizedStringKey("Prêts"), systemImage: "arrow.up.forward") }
                     .tag(2)
                     .id("prets-\(appLanguage)")
+                    .badge(dataManager.prets.filter { $0.estEnRetard }.count)
                 EmpruntListView()
                     .tabItem { Label(LocalizedStringKey("Emprunts"), systemImage: "arrow.down.backward") }
                     .tag(3)
                     .id("emprunts-\(appLanguage)")
+                    .badge(dataManager.emprunts.filter { $0.estEnRetard }.count)
                 AutreView()
                     .tabItem { Label(LocalizedStringKey("Autre"), systemImage: "ellipsis.circle") }
                     .tag(4)

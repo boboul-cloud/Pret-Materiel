@@ -336,6 +336,8 @@ class DataManager: ObservableObject {
         // Configurer les notifications de rappel de paiement
         demanderAutorisationNotifications()
         replanifierToutesLesNotificationsPaiement()
+        replanifierToutesLesNotificationsPret()
+        replanifierToutesLesNotificationsEmprunt()
     }
     
     // MARK: - Persistance
@@ -579,6 +581,8 @@ class DataManager: ObservableObject {
         // Valider le retour du prêt
         if let index = prets.firstIndex(where: { $0.id == pretId }) {
             prets[index].dateRetourEffectif = Date()
+            annulerNotificationsPret(pretId: pretId)
+            mettreAJourBadgeApp()
         }
         
         // Si gratuite, coût = nil et paiement déjà considéré comme "réglé"
@@ -994,6 +998,8 @@ class DataManager: ObservableObject {
         guard peutAjouterPret() else { return }
         prets.append(pret)
         totalPretsCreated += 1 // Incrémenter le compteur persistant
+        planifierNotificationsPret(pret)
+        mettreAJourBadgeApp()
         sauvegarderDonnees()
     }
     
@@ -1005,6 +1011,12 @@ class DataManager: ObservableObject {
     func modifierPret(_ pret: Pret) {
         if let index = prets.firstIndex(where: { $0.id == pret.id }) {
             prets[index] = pret
+            // Mettre à jour les notifications
+            annulerNotificationsPret(pretId: pret.id)
+            if pret.estActif {
+                planifierNotificationsPret(pret)
+            }
+            mettreAJourBadgeApp()
             // Forcer la publication du changement pour mettre à jour l'UI
             objectWillChange.send()
             sauvegarderDonnees()
@@ -1012,13 +1024,18 @@ class DataManager: ObservableObject {
     }
     
     func supprimerPret(_ pret: Pret) {
+        annulerNotificationsPret(pretId: pret.id)
         prets.removeAll { $0.id == pret.id }
+        mettreAJourBadgeApp()
         sauvegarderDonnees()
     }
     
     func validerRetour(_ pretId: UUID) {
         if let index = prets.firstIndex(where: { $0.id == pretId }) {
             prets[index].dateRetourEffectif = Date()
+            // Annuler les notifications car le prêt est retourné
+            annulerNotificationsPret(pretId: pretId)
+            mettreAJourBadgeApp()
             
             // Vérifier si ce prêt provient d'un emprunt (via pretActifId)
             if let empruntIndex = emprunts.firstIndex(where: { $0.pretActifId == pretId }) {
@@ -1036,6 +1053,10 @@ class DataManager: ObservableObject {
     }
     
     func supprimerPretsRetournes() {
+        // Annuler les notifications des prêts retournés
+        for pret in prets where pret.estRetourne {
+            annulerNotificationsPret(pretId: pret.id)
+        }
         prets.removeAll { $0.estRetourne }
         sauvegarderDonnees()
     }
@@ -1045,6 +1066,8 @@ class DataManager: ObservableObject {
         guard peutAjouterEmprunt() else { return }
         emprunts.append(emprunt)
         totalEmpruntsCreated += 1 // Incrémenter le compteur persistant
+        planifierNotificationsEmprunt(emprunt)
+        mettreAJourBadgeApp()
         sauvegarderDonnees()
     }
     
@@ -1056,6 +1079,12 @@ class DataManager: ObservableObject {
     func modifierEmprunt(_ emprunt: Emprunt) {
         if let index = emprunts.firstIndex(where: { $0.id == emprunt.id }) {
             emprunts[index] = emprunt
+            // Mettre à jour les notifications
+            annulerNotificationsEmprunt(empruntId: emprunt.id)
+            if emprunt.estActif {
+                planifierNotificationsEmprunt(emprunt)
+            }
+            mettreAJourBadgeApp()
             sauvegarderDonnees()
         }
     }
@@ -1065,7 +1094,9 @@ class DataManager: ObservableObject {
         if let materielLieId = emprunt.materielLieId {
             materiels.removeAll { $0.id == materielLieId }
         }
+        annulerNotificationsEmprunt(empruntId: emprunt.id)
         emprunts.removeAll { $0.id == emprunt.id }
+        mettreAJourBadgeApp()
         sauvegarderDonnees()
     }
     
@@ -1154,6 +1185,8 @@ class DataManager: ObservableObject {
         prets.append(pret)
         totalPretsCreated += 1 // Incrémenter le compteur persistant
         emprunts[empruntIndex].pretActifId = pret.id
+        planifierNotificationsPret(pret)
+        mettreAJourBadgeApp()
         sauvegarderDonnees()
     }
     
@@ -1181,9 +1214,10 @@ class DataManager: ObservableObject {
         }
         
         prets[foundPretIndex].dateRetourEffectif = Date()
+        annulerNotificationsPret(pretId: prets[foundPretIndex].id)
         emprunts[empruntIndex].pretActifId = nil
         // Note: Le matériel reste jusqu'à la restitution de l'emprunt (validerRetourEmprunt)
-        
+        mettreAJourBadgeApp()
         sauvegarderDonnees()
     }
     
@@ -1363,6 +1397,9 @@ class DataManager: ObservableObject {
             // Marquer l'emprunt comme retourné
             emprunts[index].dateRetourEffectif = Date()
             emprunts[index].materielLieId = nil // Dissocier le matériel
+            // Annuler les notifications car l'emprunt est retourné
+            annulerNotificationsEmprunt(empruntId: empruntId)
+            mettreAJourBadgeApp()
             
             // Ne pas décrémenter le compteur - la limite est définitive
             // (chaque emprunt créé compte dans la limite)
@@ -2454,11 +2491,14 @@ class DataManager: ObservableObject {
         print("[DataManager] Notification annulée: \(identifier)")
     }
     
-    /// Met à jour le badge de l'application en fonction des paiements en attente
+    /// Met à jour le badge de l'application en fonction des paiements en attente et des prêts/emprunts en retard
     func mettreAJourBadgeApp() {
         let paiementsEnAttente = transactionsCommerce.filter { !$0.estPaye && $0.dateReglement != nil && $0.paiementEnRetard }
+        let pretsEnRetard = prets.filter { $0.estEnRetard }
+        let empruntsEnRetard = emprunts.filter { $0.estEnRetard }
+        let totalBadge = paiementsEnAttente.count + pretsEnRetard.count + empruntsEnRetard.count
         Task { @MainActor in
-            UNUserNotificationCenter.current().setBadgeCount(paiementsEnAttente.count)
+            UNUserNotificationCenter.current().setBadgeCount(totalBadge)
         }
     }
     
@@ -2475,6 +2515,328 @@ class DataManager: ObservableObject {
                     self.planifierRappelPaiement(transaction: transaction)
                 }
                 // Mettre à jour le badge de l'app
+                self.mettreAJourBadgeApp()
+            }
+        }
+    }
+    
+    // MARK: - Notifications de rappel de prêt
+    
+    /// Délai de rappel avant échéance du prêt (en jours) - configurable dans les réglages
+    private var delaiRappelPretJours: Int {
+        let delai = UserDefaults.standard.integer(forKey: "App.RappelPretDelai")
+        return delai > 0 ? delai : 2 // 2 jours par défaut
+    }
+    
+    /// Vérifie si les notifications de prêt sont activées
+    private var notificationsPretActivees: Bool {
+        // Par défaut activées (true), sauf si l'utilisateur les a explicitement désactivées
+        if UserDefaults.standard.object(forKey: "App.NotificationsPret") == nil {
+            return true
+        }
+        return UserDefaults.standard.bool(forKey: "App.NotificationsPret")
+    }
+    
+    /// Vérifie si les notifications d'emprunt sont activées
+    private var notificationsEmpruntActivees: Bool {
+        if UserDefaults.standard.object(forKey: "App.NotificationsEmprunt") == nil {
+            return true
+        }
+        return UserDefaults.standard.bool(forKey: "App.NotificationsEmprunt")
+    }
+    
+    /// Vérifie si les rappels de retard sont activés
+    private var rappelsRetardActives: Bool {
+        if UserDefaults.standard.object(forKey: "App.RappelsRetard") == nil {
+            return true
+        }
+        return UserDefaults.standard.bool(forKey: "App.RappelsRetard")
+    }
+    
+    // MARK: - SMS de rappel pour les prêts
+    
+    /// Génère le texte du SMS de rappel pour un prêt
+    func genererTexteSMSRappelPret(_ pret: Pret) -> String {
+        let nomMateriel = getMateriel(id: pret.materielId)?.nom ?? NSLocalizedString("Matériel", comment: "")
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .long
+        let lang = UserDefaults.standard.string(forKey: "App.Language") ?? "fr"
+        dateFormatter.locale = Locale(identifier: lang)
+        let dateFin = dateFormatter.string(from: pret.dateFin)
+        
+        if pret.estEnRetard {
+            let joursRetard = Calendar.current.dateComponents([.day], from: pret.dateFin, to: Date()).day ?? 0
+            let path = Bundle.main.path(forResource: lang, ofType: "lproj") ?? Bundle.main.path(forResource: "fr", ofType: "lproj")
+            let bundle = path != nil ? (Bundle(path: path!) ?? Bundle.main) : Bundle.main
+            let format = NSLocalizedString("SMS_rappel_retard", bundle: bundle, comment: "")
+            return String(format: format, nomMateriel, dateFin, joursRetard)
+        } else {
+            let path = Bundle.main.path(forResource: lang, ofType: "lproj") ?? Bundle.main.path(forResource: "fr", ofType: "lproj")
+            let bundle = path != nil ? (Bundle(path: path!) ?? Bundle.main) : Bundle.main
+            let format = NSLocalizedString("SMS_rappel_echeance", bundle: bundle, comment: "")
+            return String(format: format, nomMateriel, dateFin)
+        }
+    }
+    
+    /// Retourne l'URL SMS pré-remplie pour rappeler un emprunteur
+    func urlSMSRappelPret(_ pret: Pret) -> URL? {
+        guard let personne = getPersonne(id: pret.personneId),
+              !personne.telephone.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else { return nil }
+        
+        let body = genererTexteSMSRappelPret(pret)
+        let encodedBody = body.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+        let telephone = personne.telephone.replacingOccurrences(of: " ", with: "")
+        
+        return URL(string: "sms:\(telephone)&body=\(encodedBody)")
+    }
+    
+    /// Planifie les notifications de rappel pour un prêt
+    func planifierNotificationsPret(_ pret: Pret) {
+        guard notificationsPretActivees else { return }
+        guard pret.estActif else { return }
+        
+        let calendar = Calendar.current
+        let aujourdhui = calendar.startOfDay(for: Date())
+        let dateFinJour = calendar.startOfDay(for: pret.dateFin)
+        
+        // Récupérer les infos du matériel et de la personne
+        let nomMateriel = getMateriel(id: pret.materielId)?.nom ?? NSLocalizedString("Matériel", comment: "")
+        let nomPersonne = getPersonne(id: pret.personneId)?.nomComplet ?? NSLocalizedString("Inconnu", comment: "")
+        
+        // 1. Notification de rappel X jours avant l'échéance
+        let delai = delaiRappelPretJours
+        if let dateRappel = calendar.date(byAdding: .day, value: -delai, to: pret.dateFin) {
+            let dateRappelJour = calendar.startOfDay(for: dateRappel)
+            if dateRappelJour >= aujourdhui {
+                let content = UNMutableNotificationContent()
+                content.title = NSLocalizedString("Rappel prêt", comment: "")
+                content.body = String(format: NSLocalizedString("Le matériel \"%@\" prêté à %@ doit être retourné dans %d jour(s)", comment: ""), nomMateriel, nomPersonne, delai)
+                content.subtitle = NSLocalizedString("Envoyez un SMS de rappel", comment: "")
+                content.sound = .default
+                content.categoryIdentifier = "PRET_RAPPEL"
+                
+                var dateComponents = calendar.dateComponents([.year, .month, .day], from: dateRappel)
+                dateComponents.hour = 9
+                dateComponents.minute = 0
+                
+                let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
+                let identifier = "pret_rappel_\(pret.id.uuidString)"
+                let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
+                
+                UNUserNotificationCenter.current().add(request) { error in
+                    if let error = error {
+                        print("[DataManager] Erreur notification rappel prêt: \(error.localizedDescription)")
+                    } else {
+                        print("[DataManager] Notification rappel prêt planifiée: \(delai) jours avant")
+                    }
+                }
+            }
+        }
+        
+        // 2. Notification le jour de l'échéance
+        if dateFinJour >= aujourdhui {
+            let content = UNMutableNotificationContent()
+            content.title = NSLocalizedString("Prêt à échéance", comment: "")
+            content.body = String(format: NSLocalizedString("Le matériel \"%@\" prêté à %@ doit être retourné aujourd'hui", comment: ""), nomMateriel, nomPersonne)
+            content.subtitle = NSLocalizedString("Envoyez un SMS de rappel", comment: "")
+            content.sound = .default
+            content.categoryIdentifier = "PRET_ECHEANCE"
+            
+            var dateComponents = calendar.dateComponents([.year, .month, .day], from: pret.dateFin)
+            dateComponents.hour = 9
+            dateComponents.minute = 0
+            
+            let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
+            let identifier = "pret_echeance_\(pret.id.uuidString)"
+            let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
+            
+            UNUserNotificationCenter.current().add(request) { error in
+                if let error = error {
+                    print("[DataManager] Erreur notification échéance prêt: \(error.localizedDescription)")
+                } else {
+                    print("[DataManager] Notification échéance prêt planifiée")
+                }
+            }
+        }
+        
+        // 3. Notification de retard (1 jour après l'échéance)
+        if rappelsRetardActives {
+            if let dateRetard = calendar.date(byAdding: .day, value: 1, to: pret.dateFin) {
+                let dateRetardJour = calendar.startOfDay(for: dateRetard)
+                if dateRetardJour >= aujourdhui {
+                    let content = UNMutableNotificationContent()
+                    content.title = NSLocalizedString("Prêt en retard", comment: "")
+                    content.body = String(format: NSLocalizedString("Le matériel \"%@\" prêté à %@ n'a pas été retourné à temps !", comment: ""), nomMateriel, nomPersonne)
+                    content.subtitle = NSLocalizedString("Envoyez un SMS de rappel", comment: "")
+                    content.sound = UNNotificationSound.defaultCritical
+                    content.categoryIdentifier = "PRET_RETARD"
+                    
+                    var dateComponents = calendar.dateComponents([.year, .month, .day], from: dateRetard)
+                    dateComponents.hour = 10
+                    dateComponents.minute = 0
+                    
+                    let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
+                    let identifier = "pret_retard_\(pret.id.uuidString)"
+                    let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
+                    
+                    UNUserNotificationCenter.current().add(request) { error in
+                        if let error = error {
+                            print("[DataManager] Erreur notification retard prêt: \(error.localizedDescription)")
+                        } else {
+                            print("[DataManager] Notification retard prêt planifiée")
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    /// Annule toutes les notifications associées à un prêt
+    func annulerNotificationsPret(pretId: UUID) {
+        let identifiers = [
+            "pret_rappel_\(pretId.uuidString)",
+            "pret_echeance_\(pretId.uuidString)",
+            "pret_retard_\(pretId.uuidString)"
+        ]
+        UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: identifiers)
+        print("[DataManager] Notifications prêt annulées: \(pretId.uuidString.prefix(8))")
+    }
+    
+    /// Replanifie toutes les notifications de prêt au lancement de l'app
+    func replanifierToutesLesNotificationsPret() {
+        UNUserNotificationCenter.current().getPendingNotificationRequests { requests in
+            let pretIds = requests.filter { $0.identifier.hasPrefix("pret_") }.map { $0.identifier }
+            UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: pretIds)
+            
+            Task { @MainActor in
+                for pret in self.prets where pret.estActif {
+                    self.planifierNotificationsPret(pret)
+                }
+                self.mettreAJourBadgeApp()
+            }
+        }
+    }
+    
+    // MARK: - Notifications de rappel d'emprunt
+    
+    /// Planifie les notifications de rappel pour un emprunt
+    func planifierNotificationsEmprunt(_ emprunt: Emprunt) {
+        guard notificationsEmpruntActivees else { return }
+        guard emprunt.estActif else { return }
+        
+        let calendar = Calendar.current
+        let aujourdhui = calendar.startOfDay(for: Date())
+        let dateFinJour = calendar.startOfDay(for: emprunt.dateFin)
+        
+        let nomObjet = emprunt.nomObjet
+        let nomPersonne = getPersonne(id: emprunt.personneId)?.nomComplet ?? NSLocalizedString("Inconnu", comment: "")
+        
+        // 1. Notification de rappel X jours avant l'échéance
+        let delai = delaiRappelPretJours
+        if let dateRappel = calendar.date(byAdding: .day, value: -delai, to: emprunt.dateFin) {
+            let dateRappelJour = calendar.startOfDay(for: dateRappel)
+            if dateRappelJour >= aujourdhui {
+                let content = UNMutableNotificationContent()
+                content.title = NSLocalizedString("Rappel emprunt", comment: "")
+                content.body = String(format: NSLocalizedString("L'objet \"%@\" emprunté à %@ doit être rendu dans %d jour(s)", comment: ""), nomObjet, nomPersonne, delai)
+                content.sound = .default
+                content.categoryIdentifier = "EMPRUNT_RAPPEL"
+                
+                var dateComponents = calendar.dateComponents([.year, .month, .day], from: dateRappel)
+                dateComponents.hour = 9
+                dateComponents.minute = 0
+                
+                let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
+                let identifier = "emprunt_rappel_\(emprunt.id.uuidString)"
+                let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
+                
+                UNUserNotificationCenter.current().add(request) { error in
+                    if let error = error {
+                        print("[DataManager] Erreur notification rappel emprunt: \(error.localizedDescription)")
+                    } else {
+                        print("[DataManager] Notification rappel emprunt planifiée")
+                    }
+                }
+            }
+        }
+        
+        // 2. Notification le jour de l'échéance
+        if dateFinJour >= aujourdhui {
+            let content = UNMutableNotificationContent()
+            content.title = NSLocalizedString("Emprunt à échéance", comment: "")
+            content.body = String(format: NSLocalizedString("L'objet \"%@\" emprunté à %@ doit être rendu aujourd'hui", comment: ""), nomObjet, nomPersonne)
+            content.sound = .default
+            content.categoryIdentifier = "EMPRUNT_ECHEANCE"
+            
+            var dateComponents = calendar.dateComponents([.year, .month, .day], from: emprunt.dateFin)
+            dateComponents.hour = 9
+            dateComponents.minute = 0
+            
+            let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
+            let identifier = "emprunt_echeance_\(emprunt.id.uuidString)"
+            let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
+            
+            UNUserNotificationCenter.current().add(request) { error in
+                if let error = error {
+                    print("[DataManager] Erreur notification échéance emprunt: \(error.localizedDescription)")
+                } else {
+                    print("[DataManager] Notification échéance emprunt planifiée")
+                }
+            }
+        }
+        
+        // 3. Notification de retard (1 jour après l'échéance)
+        if rappelsRetardActives {
+            if let dateRetard = calendar.date(byAdding: .day, value: 1, to: emprunt.dateFin) {
+                let dateRetardJour = calendar.startOfDay(for: dateRetard)
+                if dateRetardJour >= aujourdhui {
+                    let content = UNMutableNotificationContent()
+                    content.title = NSLocalizedString("Emprunt en retard", comment: "")
+                    content.body = String(format: NSLocalizedString("L'objet \"%@\" emprunté à %@ doit être rendu d'urgence !", comment: ""), nomObjet, nomPersonne)
+                    content.sound = UNNotificationSound.defaultCritical
+                    content.categoryIdentifier = "EMPRUNT_RETARD"
+                    
+                    var dateComponents = calendar.dateComponents([.year, .month, .day], from: dateRetard)
+                    dateComponents.hour = 10
+                    dateComponents.minute = 0
+                    
+                    let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
+                    let identifier = "emprunt_retard_\(emprunt.id.uuidString)"
+                    let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
+                    
+                    UNUserNotificationCenter.current().add(request) { error in
+                        if let error = error {
+                            print("[DataManager] Erreur notification retard emprunt: \(error.localizedDescription)")
+                        } else {
+                            print("[DataManager] Notification retard emprunt planifiée")
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    /// Annule toutes les notifications associées à un emprunt
+    func annulerNotificationsEmprunt(empruntId: UUID) {
+        let identifiers = [
+            "emprunt_rappel_\(empruntId.uuidString)",
+            "emprunt_echeance_\(empruntId.uuidString)",
+            "emprunt_retard_\(empruntId.uuidString)"
+        ]
+        UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: identifiers)
+        print("[DataManager] Notifications emprunt annulées: \(empruntId.uuidString.prefix(8))")
+    }
+    
+    /// Replanifie toutes les notifications d'emprunt au lancement de l'app
+    func replanifierToutesLesNotificationsEmprunt() {
+        UNUserNotificationCenter.current().getPendingNotificationRequests { requests in
+            let empruntIds = requests.filter { $0.identifier.hasPrefix("emprunt_") }.map { $0.identifier }
+            UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: empruntIds)
+            
+            Task { @MainActor in
+                for emprunt in self.emprunts where emprunt.estActif {
+                    self.planifierNotificationsEmprunt(emprunt)
+                }
                 self.mettreAJourBadgeApp()
             }
         }

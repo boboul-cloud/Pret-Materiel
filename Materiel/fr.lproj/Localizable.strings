@@ -258,10 +258,27 @@
 /* Catégories du guide */
 "guide_cat_start" = "Démarrage";
 "guide_cat_management" = "Gestion";
+"guide_cat_scanner_ia" = "Scanner IA";
 "guide_cat_rental" = "Location & Commerce";
 "guide_cat_organization" = "Organisation";
 "guide_cat_security" = "Sécurité";
 "guide_cat_tips" = "Conseils";
+
+/* Guide - Scanner IA */
+"guide_scanner_intro_title" = "Scanner intelligent";
+"guide_scanner_intro_content" = "Le scanner IA utilise la technologie OpenAI Vision (GPT-4o) pour identifier automatiquement vos matériels à partir d'une photo. Il reconnaît le type d'objet, la marque, le modèle et suggère une catégorie adaptée.";
+"guide_scanner_apikey_title" = "Clé API OpenAI requise";
+"guide_scanner_apikey_content" = "Pour utiliser cette fonctionnalité, vous devez disposer d'une clé API OpenAI :\n\n1. Créez un compte sur platform.openai.com\n2. Allez dans API Keys et créez une nouvelle clé\n3. Copiez la clé (commence par 'sk-')\n4. Collez-la dans l'application lors de la première utilisation du scanner\n\nVotre clé est stockée uniquement sur votre appareil et n'est jamais partagée.";
+"guide_scanner_cost_title" = "Coûts d'utilisation";
+"guide_scanner_cost_content" = "L'utilisation de l'API OpenAI est payante :\n\n• Environ 0,003€ à 0,01€ par photo analysée\n• Les frais sont prélevés directement sur votre compte OpenAI\n• Vous pouvez définir des limites de dépenses sur platform.openai.com\n• Vérifiez régulièrement votre consommation dans votre tableau de bord OpenAI\n\nL'application n'a aucun accès à vos informations de paiement.";
+"guide_scanner_howto_title" = "Comment ça fonctionne";
+"guide_scanner_howto_content" = "1. Appuyez sur 'Scanner avec l'IA' dans la liste des matériels\n2. Prenez une photo ou choisissez une image existante\n3. Appuyez sur 'Identifier avec l'IA'\n4. L'image est envoyée à OpenAI pour analyse\n5. Les champs sont pré-remplis automatiquement\n6. Vérifiez et modifiez si nécessaire\n7. Créez le matériel";
+"guide_scanner_tips_title" = "Conseils pour de meilleurs résultats";
+"guide_scanner_tips_content" = "• Prenez la photo dans un endroit bien éclairé\n• Cadrez l'objet entier dans l'image\n• Si possible, incluez l'étiquette ou le logo de la marque\n• Évitez les photos floues ou trop sombres\n• Un fond neutre améliore la reconnaissance";
+"guide_scanner_internet_title" = "Connexion internet requise";
+"guide_scanner_internet_content" = "Le scanner IA nécessite une connexion internet pour fonctionner. L'image est envoyée aux serveurs d'OpenAI pour analyse. Sans connexion, vous pouvez toujours ajouter vos matériels manuellement.";
+"guide_scanner_privacy_title" = "Confidentialité";
+"guide_scanner_privacy_content" = "• Votre clé API est stockée localement sur votre appareil\n• Les images sont envoyées directement à OpenAI (pas de serveur intermédiaire)\n• Consultez la politique de confidentialité d'OpenAI pour plus d'informations\n• Vous pouvez supprimer votre clé à tout moment dans les paramètres du scanner";
 
 /* Guide - Introduction */
 "guide_intro_title" = "Bienvenue dans Matériel";
@@ -1241,3 +1258,34 @@
 /* Headers de sections fiche produit */
 "Mon matériel vers les autres" = "Mon matériel vers les autres";
 "Ce que je loue / emprunte" = "Ce que je loue / emprunte";
+
+/* Notifications de rappel */
+"Rappels automatiques" = "Rappels automatiques";
+"Notifications pour les prêts et emprunts" = "Notifications pour les prêts et emprunts";
+"Rappels de prêts" = "Rappels de prêts";
+"Recevoir un rappel avant la date de retour" = "Recevoir un rappel avant la date de retour";
+"Rappels d'emprunts" = "Rappels d'emprunts";
+"Recevoir un rappel avant de devoir rendre" = "Recevoir un rappel avant de devoir rendre";
+"Alertes de retard" = "Alertes de retard";
+"Notification si le retour n'est pas effectué" = "Notification si le retour n'est pas effectué";
+"Rappel avant échéance" = "Rappel avant échéance";
+"jour" = "jour";
+"jours" = "jours";
+"Recevoir un rappel X jours avant la date de retour prévue" = "Recevoir un rappel X jours avant la date de retour prévue";
+"Rappel prêt" = "Rappel prêt";
+"Le matériel \"%@\" prêté à %@ doit être retourné dans %d jour(s)" = "Le matériel \"%@\" prêté à %@ doit être retourné dans %d jour(s)";
+"Prêt à échéance" = "Prêt à échéance";
+"Le matériel \"%@\" prêté à %@ doit être retourné aujourd'hui" = "Le matériel \"%@\" prêté à %@ doit être retourné aujourd'hui";
+"Prêt en retard" = "Prêt en retard";
+"Le matériel \"%@\" prêté à %@ n'a pas été retourné à temps !" = "Le matériel \"%@\" prêté à %@ n'a pas été retourné à temps !";
+"Rappel emprunt" = "Rappel emprunt";
+"L'objet \"%@\" emprunté à %@ doit être rendu dans %d jour(s)" = "L'objet \"%@\" emprunté à %@ doit être rendu dans %d jour(s)";
+"Emprunt à échéance" = "Emprunt à échéance";
+"L'objet \"%@\" emprunté à %@ doit être rendu aujourd'hui" = "L'objet \"%@\" emprunté à %@ doit être rendu aujourd'hui";
+"Emprunt en retard" = "Emprunt en retard";
+"L'objet \"%@\" emprunté à %@ doit être rendu d'urgence !" = "L'objet \"%@\" emprunté à %@ doit être rendu d'urgence !";
+"Inconnu" = "Inconnu";
+"Envoyer un SMS de rappel" = "Envoyer un SMS de rappel";
+"Envoyez un SMS de rappel" = "Envoyez un SMS de rappel";
+"SMS_rappel_echeance" = "Bonjour, je vous rappelle que le matériel \"%@\" que je vous ai prêté doit être retourné le %@. Merci de me le rendre à temps. Cordialement.";
+"SMS_rappel_retard" = "Bonjour, le matériel \"%@\" que je vous ai prêté devait être retourné le %@. Il est en retard de %d jour(s). Merci de me le rendre dès que possible. Cordialement.";

@@ -258,10 +258,27 @@
 /* Kategorien des Leitfadens */
 "guide_cat_start" = "Erste Schritte";
 "guide_cat_management" = "Verwaltung";
+"guide_cat_scanner_ia" = "KI-Scanner";
 "guide_cat_rental" = "Vermietung & Handel";
 "guide_cat_organization" = "Organisation";
 "guide_cat_security" = "Sicherheit";
 "guide_cat_tips" = "Tipps";
+
+/* Anleitung - KI-Scanner */
+"guide_scanner_intro_title" = "Intelligenter Scanner";
+"guide_scanner_intro_content" = "Der KI-Scanner verwendet OpenAI Vision-Technologie (GPT-4o), um Ihre Geräte automatisch anhand eines Fotos zu identifizieren. Er erkennt den Objekttyp, die Marke, das Modell und schlägt eine passende Kategorie vor.";
+"guide_scanner_apikey_title" = "OpenAI API-Schlüssel erforderlich";
+"guide_scanner_apikey_content" = "Um diese Funktion zu nutzen, benötigen Sie einen OpenAI API-Schlüssel:\n\n1. Erstellen Sie ein Konto auf platform.openai.com\n2. Gehen Sie zu API Keys und erstellen Sie einen neuen Schlüssel\n3. Kopieren Sie den Schlüssel (beginnt mit 'sk-')\n4. Fügen Sie ihn in der App bei der ersten Verwendung des Scanners ein\n\nIhr Schlüssel wird nur auf Ihrem Gerät gespeichert und niemals geteilt.";
+"guide_scanner_cost_title" = "Nutzungskosten";
+"guide_scanner_cost_content" = "Die Nutzung der OpenAI API ist kostenpflichtig:\n\n• Ca. 0,003 bis 0,01 € pro analysiertem Foto\n• Die Kosten werden direkt über Ihr OpenAI-Konto abgerechnet\n• Sie können Ausgabenlimits auf platform.openai.com festlegen\n• Überprüfen Sie regelmäßig Ihre Nutzung im OpenAI-Dashboard\n\nDie App hat keinen Zugriff auf Ihre Zahlungsinformationen.";
+"guide_scanner_howto_title" = "So funktioniert es";
+"guide_scanner_howto_content" = "1. Tippen Sie auf 'Mit KI scannen' in der Geräteliste\n2. Machen Sie ein Foto oder wählen Sie ein vorhandenes Bild\n3. Tippen Sie auf 'Mit KI identifizieren'\n4. Das Bild wird zur Analyse an OpenAI gesendet\n5. Felder werden automatisch vorausgefüllt\n6. Überprüfen und ändern Sie bei Bedarf\n7. Erstellen Sie das Gerät";
+"guide_scanner_tips_title" = "Tipps für bessere Ergebnisse";
+"guide_scanner_tips_content" = "• Fotografieren Sie bei guter Beleuchtung\n• Rahmen Sie das gesamte Objekt im Bild ein\n• Wenn möglich, zeigen Sie das Etikett oder Markenlogo\n• Vermeiden Sie unscharfe oder zu dunkle Fotos\n• Ein neutraler Hintergrund verbessert die Erkennung";
+"guide_scanner_internet_title" = "Internetverbindung erforderlich";
+"guide_scanner_internet_content" = "Der KI-Scanner benötigt eine Internetverbindung. Das Bild wird zur Analyse an OpenAI-Server gesendet. Ohne Verbindung können Sie Ihre Geräte weiterhin manuell hinzufügen.";
+"guide_scanner_privacy_title" = "Datenschutz";
+"guide_scanner_privacy_content" = "• Ihr API-Schlüssel wird lokal auf Ihrem Gerät gespeichert\n• Bilder werden direkt an OpenAI gesendet (kein Zwischenserver)\n• Siehe OpenAI-Datenschutzrichtlinie für weitere Informationen\n• Sie können Ihren Schlüssel jederzeit in den Scanner-Einstellungen löschen";
 
 /* Anleitung - Einführung */
 "guide_intro_title" = "Willkommen bei Material";
@@ -1169,3 +1186,34 @@
 /* Produktdetail-Sektionsüberschriften */
 "Mon matériel vers les autres" = "Mein Material an andere";
 "Ce que je loue / emprunte" = "Was ich miete / leihe";
+
+/* Benachrichtigungserinnerungen */
+"Rappels automatiques" = "Automatische Erinnerungen";
+"Notifications pour les prêts et emprunts" = "Benachrichtigungen für Ausleihen";
+"Rappels de prêts" = "Ausleih-Erinnerungen";
+"Recevoir un rappel avant la date de retour" = "Erinnerung vor dem Rückgabedatum erhalten";
+"Rappels d'emprunts" = "Leih-Erinnerungen";
+"Recevoir un rappel avant de devoir rendre" = "Erinnerung vor der Rückgabe erhalten";
+"Alertes de retard" = "Verspätungswarnungen";
+"Notification si le retour n'est pas effectué" = "Benachrichtigung wenn die Rückgabe nicht erfolgt";
+"Rappel avant échéance" = "Erinnerung vor Fälligkeit";
+"jour" = "Tag";
+"jours" = "Tage";
+"Recevoir un rappel X jours avant la date de retour prévue" = "Erinnerung X Tage vor dem geplanten Rückgabedatum erhalten";
+"Rappel prêt" = "Ausleih-Erinnerung";
+"Le matériel \"%@\" prêté à %@ doit être retourné dans %d jour(s)" = "Material \"%@\" an %@ verliehen muss in %d Tag(en) zurückgegeben werden";
+"Prêt à échéance" = "Ausleihe fällig";
+"Le matériel \"%@\" prêté à %@ doit être retourné aujourd'hui" = "Material \"%@\" an %@ verliehen muss heute zurückgegeben werden";
+"Prêt en retard" = "Überfällige Ausleihe";
+"Le matériel \"%@\" prêté à %@ n'a pas été retourné à temps !" = "Material \"%@\" an %@ verliehen wurde nicht rechtzeitig zurückgegeben!";
+"Rappel emprunt" = "Leih-Erinnerung";
+"L'objet \"%@\" emprunté à %@ doit être rendu dans %d jour(s)" = "Gegenstand \"%@\" von %@ geliehen muss in %d Tag(en) zurückgegeben werden";
+"Emprunt à échéance" = "Leihe fällig";
+"L'objet \"%@\" emprunté à %@ doit être rendu aujourd'hui" = "Gegenstand \"%@\" von %@ geliehen muss heute zurückgegeben werden";
+"Emprunt en retard" = "Überfällige Leihe";
+"L'objet \"%@\" emprunté à %@ doit être rendu d'urgence !" = "Gegenstand \"%@\" von %@ geliehen muss dringend zurückgegeben werden!";
+"Inconnu" = "Unbekannt";
+"Envoyer un SMS de rappel" = "SMS-Erinnerung senden";
+"Envoyez un SMS de rappel" = "Senden Sie eine SMS-Erinnerung";
+"SMS_rappel_echeance" = "Hallo, ich erinnere Sie daran, dass das Material \"%@\", das ich Ihnen geliehen habe, am %@ zurückgegeben werden muss. Bitte geben Sie es rechtzeitig zurück. Mit freundlichen Grüßen.";
+"SMS_rappel_retard" = "Hallo, das Material \"%@\", das ich Ihnen geliehen habe, sollte am %@ zurückgegeben werden. Es ist %d Tag(e) überfällig. Bitte geben Sie es so schnell wie möglich zurück. Mit freundlichen Grüßen.";

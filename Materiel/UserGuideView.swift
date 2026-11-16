@@ -11,6 +11,7 @@ import SwiftUI
 enum GuideCategory: String, CaseIterable, Identifiable {
     case start = "Démarrage"
     case management = "Gestion"
+    case scannerIA = "Scanner IA"
     case rental = "Location & Commerce"
     case organization = "Organisation"
     case security = "Sécurité & Sauvegarde"
@@ -22,6 +23,7 @@ enum GuideCategory: String, CaseIterable, Identifiable {
         switch self {
         case .start: return "play.circle.fill"
         case .management: return "folder.fill"
+        case .scannerIA: return "sparkles"
         case .rental: return "eurosign.circle.fill"
         case .organization: return "rectangle.3.group.fill"
         case .security: return "shield.fill"
@@ -33,6 +35,7 @@ enum GuideCategory: String, CaseIterable, Identifiable {
         switch self {
         case .start: return .blue
         case .management: return .green
+        case .scannerIA: return .purple
         case .rental: return .orange
         case .organization: return .purple
         case .security: return .red
@@ -44,6 +47,7 @@ enum GuideCategory: String, CaseIterable, Identifiable {
         switch self {
         case .start: return LocalizedStringKey("guide_cat_start")
         case .management: return LocalizedStringKey("guide_cat_management")
+        case .scannerIA: return LocalizedStringKey("guide_cat_scanner_ia")
         case .rental: return LocalizedStringKey("guide_cat_rental")
         case .organization: return LocalizedStringKey("guide_cat_organization")
         case .security: return LocalizedStringKey("guide_cat_security")
@@ -93,6 +97,8 @@ struct UserGuideView: View {
                                 startContent
                             case .management:
                                 managementContent
+                            case .scannerIA:
+                                scannerIAContent
                             case .rental:
                                 rentalContent
                             case .organization:
@@ -409,6 +415,67 @@ struct UserGuideView: View {
                 iconColor: .purple,
                 title: LocalizedStringKey("guide_image_quality_title"),
                 content: LocalizedStringKey("guide_image_quality_content")
+            )
+        }
+    }
+    
+    // MARK: - Scanner IA (OpenAI Vision)
+    private var scannerIAContent: some View {
+        VStack(alignment: .leading, spacing: 20) {
+            // Introduction
+            GuideSection(
+                icon: "sparkles",
+                iconColor: .purple,
+                title: LocalizedStringKey("guide_scanner_intro_title"),
+                content: LocalizedStringKey("guide_scanner_intro_content")
+            )
+            
+            // Clé API
+            GuideSection(
+                icon: "key.fill",
+                iconColor: .orange,
+                title: LocalizedStringKey("guide_scanner_apikey_title"),
+                content: LocalizedStringKey("guide_scanner_apikey_content")
+            )
+            
+            // Coûts
+            GuideSection(
+                icon: "eurosign.circle.fill",
+                iconColor: .green,
+                title: LocalizedStringKey("guide_scanner_cost_title"),
+                content: LocalizedStringKey("guide_scanner_cost_content")
+            )
+            
+            // Fonctionnement
+            GuideSection(
+                icon: "arrow.triangle.2.circlepath",
+                iconColor: .blue,
+                title: LocalizedStringKey("guide_scanner_howto_title"),
+                content: LocalizedStringKey("guide_scanner_howto_content")
+            )
+            
+            // Conseils photo
+            GuideSection(
+                icon: "camera.fill",
+                iconColor: .indigo,
+                title: LocalizedStringKey("guide_scanner_tips_title"),
+                content: LocalizedStringKey("guide_scanner_tips_content")
+            )
+            
+            // Connexion internet
+            GuideSection(
+                icon: "wifi",
+                iconColor: .cyan,
+                title: LocalizedStringKey("guide_scanner_internet_title"),
+                content: LocalizedStringKey("guide_scanner_internet_content")
+            )
+            
+            // Confidentialité
+            GuideSection(
+                icon: "lock.shield.fill",
+                iconColor: .red,
+                title: LocalizedStringKey("guide_scanner_privacy_title"),
+                content: LocalizedStringKey("guide_scanner_privacy_content")
             )
         }
     }

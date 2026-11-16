@@ -37,6 +37,8 @@ struct MaterielListView: View {
     @State private var categorieToRename: String? = nil
     @State private var nouveauNomCategorie = ""
     @State private var showingRenameCategorieAlert = false
+    // Scanner IA
+    @State private var showingScanSheet = false
     @AppStorage("MaterielListView.searchText") private var searchText = ""
     @AppStorage("MaterielListView.selectedCategorie") private var selectedCategorie = "Tous"
     @AppStorage("MaterielListView.selectedLieuKey") private var selectedLieuKey = "Tous"
@@ -196,7 +198,39 @@ struct MaterielListView: View {
                             .shadow(color: .purple.opacity(0.3), radius: 6, x: 0, y: 3)
                         }
                         .buttonStyle(.plain)
-                        .listRowInsets(EdgeInsets(top: 8, leading: 16, bottom: 8, trailing: 16))
+                        .listRowInsets(EdgeInsets(top: 8, leading: 16, bottom: 4, trailing: 16))
+                        .listRowBackground(Color.clear)
+                        
+                        // Bouton Scanner IA (OpenAI Vision)
+                        Button(action: {
+                            if dataManager.peutAjouterMateriel() {
+                                showingScanSheet = true
+                            } else {
+                                showingLimitAlert = true
+                            }
+                        }) {
+                            HStack(spacing: 10) {
+                                Image(systemName: "sparkles")
+                                    .font(.system(size: 20, weight: .semibold))
+                                Text("Scanner avec l'IA")
+                                    .font(.headline)
+                                    .fontWeight(.semibold)
+                            }
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 14)
+                            .background(
+                                LinearGradient(
+                                    colors: [Color.purple, Color.blue],
+                                    startPoint: .leading,
+                                    endPoint: .trailing
+                                )
+                            )
+                            .cornerRadius(12)
+                            .shadow(color: .purple.opacity(0.3), radius: 6, x: 0, y: 3)
+                        }
+                        .buttonStyle(.plain)
+                        .listRowInsets(EdgeInsets(top: 4, leading: 16, bottom: 8, trailing: 16))
                         .listRowBackground(Color.clear)
                     }
                     
@@ -293,6 +327,10 @@ struct MaterielListView: View {
             }
             .sheet(isPresented: $showingAddSheet) {
                 AjouterMaterielView()
+            }
+            // Sheet Scanner IA
+            .sheet(isPresented: $showingScanSheet) {
+                ScanMaterielView()
             }
             // Sheet réglages
             .sheet(isPresented: $showingSettings) { SettingsView() }
@@ -888,6 +926,7 @@ struct EditMaterielView: View {
     @State private var showPDFPicker = false
     @State private var numeroFacture: String
     @State private var vendeur: String
+    @State private var showingAddLieuSheet = false
     
     init(materiel: Materiel) {
         self.original = materiel
@@ -998,6 +1037,19 @@ struct EditMaterielView: View {
                         Text("Aucun").tag(nil as UUID?)
                         ForEach(dataManager.lieuxStockage) { lieu in
                             Text(lieu.batiment.isEmpty ? lieu.nom : "\(lieu.nom): \(lieu.batiment)").tag(lieu.id as UUID?)
+                        }
+                    }
+                    
+                    Button(action: {
+                        if dataManager.peutAjouterLieu() {
+                            showingAddLieuSheet = true
+                        }
+                    }) {
+                        HStack {
+                            Image(systemName: "plus.circle.fill")
+                                .foregroundColor(.blue)
+                            Text(LocalizedStringKey("Créer un nouveau lieu"))
+                                .foregroundColor(.blue)
                         }
                     }
                 }
@@ -1160,6 +1212,11 @@ struct EditMaterielView: View {
                 }
             case .failure(let error):
                 print("Erreur import PDF: \(error)")
+            }
+        }
+        .sheet(isPresented: $showingAddLieuSheet) {
+            AjouterLieuDepuisMaterielView { nouveauLieuId in
+                lieuStockageId = nouveauLieuId
             }
         }
     }

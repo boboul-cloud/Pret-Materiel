@@ -257,10 +257,27 @@
 /* Categorie della guida */
 "guide_cat_start" = "Primi passi";
 "guide_cat_management" = "Gestione";
+"guide_cat_scanner_ia" = "Scanner IA";
 "guide_cat_rental" = "Noleggio e Commercio";
 "guide_cat_organization" = "Organizzazione";
 "guide_cat_security" = "Sicurezza";
 "guide_cat_tips" = "Consigli";
+
+/* Guida - Scanner IA */
+"guide_scanner_intro_title" = "Scanner Intelligente";
+"guide_scanner_intro_content" = "Lo scanner IA utilizza la tecnologia OpenAI Vision (GPT-4o) per identificare automaticamente i tuoi equipaggiamenti da una foto. Riconosce il tipo di oggetto, marca, modello e suggerisce una categoria appropriata.";
+"guide_scanner_apikey_title" = "Chiave API OpenAI Richiesta";
+"guide_scanner_apikey_content" = "Per usare questa funzione, hai bisogno di una chiave API OpenAI:\n\n1. Crea un account su platform.openai.com\n2. Vai su API Keys e crea una nuova chiave\n3. Copia la chiave (inizia con 'sk-')\n4. Incollala nell'app al primo utilizzo dello scanner\n\nLa tua chiave viene memorizzata solo sul tuo dispositivo e non viene mai condivisa.";
+"guide_scanner_cost_title" = "Costi di Utilizzo";
+"guide_scanner_cost_content" = "L'utilizzo dell'API OpenAI è a pagamento:\n\n• Circa €0,003-0,01 per foto analizzata\n• Gli addebiti sono fatturati direttamente sul tuo account OpenAI\n• Puoi impostare limiti di spesa su platform.openai.com\n• Controlla regolarmente il tuo utilizzo nella dashboard OpenAI\n\nL'app non ha accesso alle tue informazioni di pagamento.";
+"guide_scanner_howto_title" = "Come Funziona";
+"guide_scanner_howto_content" = "1. Tocca 'Scansiona con IA' nella lista equipaggiamenti\n2. Scatta una foto o scegli un'immagine esistente\n3. Tocca 'Identifica con IA'\n4. L'immagine viene inviata a OpenAI per l'analisi\n5. I campi vengono precompilati automaticamente\n6. Rivedi e modifica se necessario\n7. Crea l'equipaggiamento";
+"guide_scanner_tips_title" = "Consigli per Risultati Migliori";
+"guide_scanner_tips_content" = "• Scatta la foto in un'area ben illuminata\n• Inquadra l'intero oggetto nell'immagine\n• Se possibile, includi l'etichetta o il logo del marchio\n• Evita foto sfocate o troppo scure\n• Uno sfondo neutro migliora il riconoscimento";
+"guide_scanner_internet_title" = "Connessione Internet Richiesta";
+"guide_scanner_internet_content" = "Lo scanner IA richiede una connessione internet per funzionare. L'immagine viene inviata ai server OpenAI per l'analisi. Senza connessione, puoi comunque aggiungere i tuoi equipaggiamenti manualmente.";
+"guide_scanner_privacy_title" = "Privacy";
+"guide_scanner_privacy_content" = "• La tua chiave API è memorizzata localmente sul tuo dispositivo\n• Le immagini vengono inviate direttamente a OpenAI (nessun server intermedio)\n• Consulta la politica sulla privacy di OpenAI per maggiori informazioni\n• Puoi eliminare la tua chiave in qualsiasi momento nelle impostazioni dello scanner";
 
 /* Guida - Introduzione */
 "guide_intro_title" = "Benvenuto in Materiale";
@@ -1171,3 +1188,34 @@
 /* Intestazioni sezioni scheda prodotto */
 "Mon matériel vers les autres" = "Il mio materiale agli altri";
 "Ce que je loue / emprunte" = "Ciò che noleggio / prendo in prestito";
+
+/* Promemoria di notifica */
+"Rappels automatiques" = "Promemoria automatici";
+"Notifications pour les prêts et emprunts" = "Notifiche per prestiti";
+"Rappels de prêts" = "Promemoria prestiti";
+"Recevoir un rappel avant la date de retour" = "Ricevi un promemoria prima della data di restituzione";
+"Rappels d'emprunts" = "Promemoria prese in prestito";
+"Recevoir un rappel avant de devoir rendre" = "Ricevi un promemoria prima di dover restituire";
+"Alertes de retard" = "Avvisi di ritardo";
+"Notification si le retour n'est pas effectué" = "Notifica se la restituzione non viene effettuata";
+"Rappel avant échéance" = "Promemoria prima della scadenza";
+"jour" = "giorno";
+"jours" = "giorni";
+"Recevoir un rappel X jours avant la date de retour prévue" = "Ricevi un promemoria X giorni prima della data di restituzione prevista";
+"Rappel prêt" = "Promemoria prestito";
+"Le matériel \"%@\" prêté à %@ doit être retourné dans %d jour(s)" = "Il materiale \"%@\" prestato a %@ deve essere restituito tra %d giorno/i";
+"Prêt à échéance" = "Prestito in scadenza";
+"Le matériel \"%@\" prêté à %@ doit être retourné aujourd'hui" = "Il materiale \"%@\" prestato a %@ deve essere restituito oggi";
+"Prêt en retard" = "Prestito in ritardo";
+"Le matériel \"%@\" prêté à %@ n'a pas été retourné à temps !" = "Il materiale \"%@\" prestato a %@ non è stato restituito in tempo!";
+"Rappel emprunt" = "Promemoria presa in prestito";
+"L'objet \"%@\" emprunté à %@ doit être rendu dans %d jour(s)" = "L'oggetto \"%@\" preso in prestito da %@ deve essere restituito tra %d giorno/i";
+"Emprunt à échéance" = "Presa in prestito in scadenza";
+"L'objet \"%@\" emprunté à %@ doit être rendu aujourd'hui" = "L'oggetto \"%@\" preso in prestito da %@ deve essere restituito oggi";
+"Emprunt en retard" = "Presa in prestito in ritardo";
+"L'objet \"%@\" emprunté à %@ doit être rendu d'urgence !" = "L'oggetto \"%@\" preso in prestito da %@ deve essere restituito urgentemente!";
+"Inconnu" = "Sconosciuto";
+"Envoyer un SMS de rappel" = "Invia un SMS di promemoria";
+"Envoyez un SMS de rappel" = "Invia un SMS di promemoria";
+"SMS_rappel_echeance" = "Buongiorno, le ricordo che il materiale \"%@\" che le ho prestato deve essere restituito il %@. La prego di restituirlo in tempo. Cordiali saluti.";
+"SMS_rappel_retard" = "Buongiorno, il materiale \"%@\" che le ho prestato doveva essere restituito il %@. È in ritardo di %d giorno/i. La prego di restituirlo al più presto. Cordiali saluti.";

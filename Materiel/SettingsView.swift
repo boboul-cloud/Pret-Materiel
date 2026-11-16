@@ -4,6 +4,7 @@ import CoreText
 import UniformTypeIdentifiers
 import StoreKit
 import PDFKit
+import UserNotifications
 #if canImport(UIKit)
 import UIKit
 #endif
@@ -80,6 +81,12 @@ struct SettingsView: View {
     @StateObject private var storeManager = StoreManager.shared
     @State private var showSaveConfirmation = false
     @State private var showPremiumSheet = false
+    
+    // Réglages notifications
+    @AppStorage("App.NotificationsPret") private var notificationsPretActivees: Bool = true
+    @AppStorage("App.NotificationsEmprunt") private var notificationsEmpruntActivees: Bool = true
+    @AppStorage("App.RappelsRetard") private var rappelsRetardActives: Bool = true
+    @AppStorage("App.RappelPretDelai") private var rappelPretDelai: Int = 2
     
     // Helper function pour la localisation avec la langue sélectionnée
     private func localizedString(_ key: String) -> String {
@@ -667,6 +674,9 @@ struct SettingsView: View {
                         .background(.ultraThinMaterial)
                         .clipShape(RoundedRectangle(cornerRadius: 12))
                         
+                        // Section Notifications de rappel
+                        notificationsSection
+                        
                         // Section À propos
                         VStack(alignment: .leading, spacing: 12) {
                             Label(LocalizedStringKey("À propos"), systemImage: "info.circle")
@@ -757,6 +767,167 @@ struct SettingsView: View {
         .onChange(of: appLanguage) {
             dismiss()
         }
+    }
+    
+    // MARK: - Notifications Section
+    private var notificationsSection: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            HStack(spacing: 10) {
+                ZStack {
+                    Circle()
+                        .fill(LinearGradient(colors: [.orange, .red], startPoint: .topLeading, endPoint: .bottomTrailing))
+                        .frame(width: 36, height: 36)
+                    Image(systemName: "bell.badge.fill")
+                        .font(.system(size: 16, weight: .semibold))
+                        .foregroundColor(.white)
+                }
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(LocalizedStringKey("Rappels automatiques"))
+                        .font(.headline)
+                        .foregroundColor(.primary)
+                    Text(LocalizedStringKey("Notifications pour les prêts et emprunts"))
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                }
+            }
+            
+            // Toggle notifications prêts
+            HStack {
+                Image(systemName: "arrow.up.forward.circle.fill")
+                    .foregroundColor(.blue)
+                    .font(.system(size: 20))
+                Toggle(isOn: $notificationsPretActivees) {
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(LocalizedStringKey("Rappels de prêts"))
+                            .font(.subheadline)
+                            .fontWeight(.medium)
+                        Text(LocalizedStringKey("Recevoir un rappel avant la date de retour"))
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                    }
+                }
+                .onChange(of: notificationsPretActivees) { _, newValue in
+                    if newValue {
+                        dataManager.replanifierToutesLesNotificationsPret()
+                    } else {
+                        // Annuler toutes les notifications de prêt
+                        UNUserNotificationCenter.current().getPendingNotificationRequests { requests in
+                            let pretIds = requests.filter { $0.identifier.hasPrefix("pret_") }.map { $0.identifier }
+                            UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: pretIds)
+                        }
+                    }
+                }
+            }
+            .padding(.vertical, 4)
+            
+            // Toggle notifications emprunts
+            HStack {
+                Image(systemName: "arrow.down.backward.circle.fill")
+                    .foregroundColor(.orange)
+                    .font(.system(size: 20))
+                Toggle(isOn: $notificationsEmpruntActivees) {
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(LocalizedStringKey("Rappels d'emprunts"))
+                            .font(.subheadline)
+                            .fontWeight(.medium)
+                        Text(LocalizedStringKey("Recevoir un rappel avant de devoir rendre"))
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                    }
+                }
+                .onChange(of: notificationsEmpruntActivees) { _, newValue in
+                    if newValue {
+                        dataManager.replanifierToutesLesNotificationsEmprunt()
+                    } else {
+                        UNUserNotificationCenter.current().getPendingNotificationRequests { requests in
+                            let empruntIds = requests.filter { $0.identifier.hasPrefix("emprunt_") }.map { $0.identifier }
+                            UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: empruntIds)
+                        }
+                    }
+                }
+            }
+            .padding(.vertical, 4)
+            
+            Divider()
+            
+            // Toggle rappels de retard
+            HStack {
+                Image(systemName: "exclamationmark.triangle.fill")
+                    .foregroundColor(.red)
+                    .font(.system(size: 20))
+                Toggle(isOn: $rappelsRetardActives) {
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(LocalizedStringKey("Alertes de retard"))
+                            .font(.subheadline)
+                            .fontWeight(.medium)
+                        Text(LocalizedStringKey("Notification si le retour n'est pas effectué"))
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                    }
+                }
+                .onChange(of: rappelsRetardActives) { _, _ in
+                    dataManager.replanifierToutesLesNotificationsPret()
+                    dataManager.replanifierToutesLesNotificationsEmprunt()
+                }
+            }
+            .padding(.vertical, 4)
+            
+            Divider()
+            
+            // Sélecteur délai de rappel
+            VStack(alignment: .leading, spacing: 8) {
+                HStack {
+                    Image(systemName: "clock.fill")
+                        .foregroundColor(.purple)
+                        .font(.system(size: 20))
+                    Text(LocalizedStringKey("Rappel avant échéance"))
+                        .font(.subheadline)
+                        .fontWeight(.medium)
+                }
+                
+                HStack(spacing: 8) {
+                    ForEach([1, 2, 3, 7], id: \.self) { jours in
+                        Button {
+                            withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
+                                rappelPretDelai = jours
+                            }
+                            // Replanifier avec le nouveau délai
+                            dataManager.replanifierToutesLesNotificationsPret()
+                            dataManager.replanifierToutesLesNotificationsEmprunt()
+                        } label: {
+                            VStack(spacing: 4) {
+                                Text("\(jours)")
+                                    .font(.system(size: 18, weight: .bold))
+                                Text(jours == 1 ? LocalizedStringKey("jour") : LocalizedStringKey("jours"))
+                                    .font(.system(size: 10))
+                            }
+                            .foregroundColor(rappelPretDelai == jours ? .white : .purple)
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 10)
+                            .background(
+                                RoundedRectangle(cornerRadius: 10)
+                                    .fill(rappelPretDelai == jours ?
+                                          AnyShapeStyle(LinearGradient(colors: [.purple, .blue], startPoint: .top, endPoint: .bottom)) :
+                                          AnyShapeStyle(Color.purple.opacity(0.1)))
+                            )
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 10)
+                                    .stroke(rappelPretDelai == jours ? Color.clear : Color.purple.opacity(0.3), lineWidth: 1)
+                            )
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+                
+                Text(LocalizedStringKey("Recevoir un rappel X jours avant la date de retour prévue"))
+                    .font(.caption2)
+                    .foregroundColor(.secondary)
+            }
+        }
+        .padding()
+        .background(.ultraThinMaterial)
+        .clipShape(RoundedRectangle(cornerRadius: 16))
+        .shadow(color: .black.opacity(0.05), radius: 10, x: 0, y: 5)
     }
     
     // MARK: - Premium Section
